@@ -65,7 +65,11 @@ export function initAnimeFx(): () => void {
     // a node React reused with identical text.
     const wordsByEl = new Map<HTMLElement, HTMLElement[]>()
     for (const el of h2s) {
-      const existing = Array.from(el.querySelectorAll('span[data-words]')) as HTMLElement[]
+      // Anime.js splitText marks each generated word with singular data-word
+      // (not data-words). StrictMode runs this setup twice in development;
+      // detect the first split so we reuse its spans instead of nesting a
+      // second split inside the heading and leaving it hidden.
+      const existing = Array.from(el.querySelectorAll('span[data-word]')) as HTMLElement[]
       if (existing.length > 0) {
         // Already split with the CURRENT text (React reused the node and
         // the text did not change) — reuse its word spans; splitting again
