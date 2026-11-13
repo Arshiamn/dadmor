@@ -1,0 +1,421 @@
+{
+  "path": "services/documentation/index.html",
+  "lang": "fa",
+  "title": "مستندسازی محصول، API و تحویل | dadmor",
+  "description": "مستند محصول، مستند API، راهنمای تحویل و دفتر تصمیم ها، هر کدام با مخاطب، قالب و قانون به روزرسانی مشخص.",
+  "canonical": "https://dadmor.netlify.app/services/documentation/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/services/documentation/",
+    "en": "https://dadmor.netlify.app/en/services/documentation/",
+    "x-default": "https://dadmor.netlify.app/services/documentation/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "website",
+    "title": "مستندسازی محصول، API و تحویل | dadmor",
+    "description": "مستند محصول، مستند API، راهنمای تحویل و دفتر تصمیم ها، هر کدام با مخاطب، قالب و قانون به روزرسانی مشخص.",
+    "url": "https://dadmor.netlify.app/services/documentation/",
+    "image": "https://dadmor.netlify.app/og.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "fa_IR",
+    "locale:alternate": "en_US"
+  },
+  "jsonld": [
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "مستندسازی",
+        "description": "مستند محصول، مستند API، راهنمای تحویل و دفتر تصمیم ها، هر کدام با مخاطب، قالب و قانون به روزرسانی مشخص.",
+        "provider": {
+          "@type": "Organization",
+          "name": "dadmor",
+          "url": "https://dadmor.netlify.app/"
+        },
+        "url": "https://dadmor.netlify.app/services/documentation/"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "مستند را کجا نگه می دارید؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "جایی که تیم شما همین حالا کار می کند: مخزن کد، ویکی یا Notion. انتخاب در مرحله ساختار ثبت می شود."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "برای API از استاندارد خاصی استفاده می کنید؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "اگر API شما مشخصات OpenAPI دارد یا می تواند داشته باشد، مرجع را از روی آن می سازیم تا با کد هم گام بماند."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "دفتر تصمیم ها چه فرقی با صورت جلسه دارد؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "صورت جلسه می گوید چه گفته شد. دفتر تصمیم ها می گوید چه تصمیمی گرفته شد، چرا، و کدام گزینه ها رد شد."
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "خانه",
+            "item": "https://dadmor.netlify.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "خدمت ها",
+            "item": "https://dadmor.netlify.app/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "مستندسازی",
+            "item": "https://dadmor.netlify.app/"
+          }
+        ]
+      }
+    ]
+  ],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"مسیر صفحه\"><ol><li><a href=\"/\">خانه</a></li><li><a href=\"/services/\">خدمت ها</a></li><li aria-current=\"page\">مستندسازی</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h1>مستندسازی</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "p",
+          "html": "مستندی که نگهدارنده بعدی بتواند با آن کار کند: مخاطب، قالب و قانون به روزرسانی مشخص."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "مسئله"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "وقتی دانش فنی و تصمیم های مهم فقط در ذهن یک نفر است، رفتن آن نفر یعنی توقف کار. مستندی هم که نوشته شده ولی کسی مسئول به روزرسانی اش نیست، بعد از چند تغییر دیگر قابل اعتماد نیست."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "مناسب برای چه کسی است"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "تیم هایی که محصول یا API دارند و کاربر یا توسعه دهنده بیرونی باید بدون پرسیدن از شما با آن کار کند.",
+            "کسب وکارهایی که پروژه را از یک تیم یا پیمانکار به تیم دیگری منتقل می کنند.",
+            "تیم هایی که می خواهند بدانند چرا یک تصمیم فنی گرفته شده، نه فقط اینکه چه شد."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "مناسب چه کسی نیست"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "اگر سندی می خواهید که فقط در پوشه بماند و کسی آن را نخواند.",
+            "اگر دسترسی به سیستم، کد یا افرادی که آن را می شناسند ممکن نیست. مستند بدون منبع، حدس است.",
+            "اگر متن حقوقی (قرارداد، شرایط استفاده، سیاست حریم خصوصی رسمی) لازم دارید؛ آن کار وکیل است."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "آنچه می نویسیم"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "رویکرد ما"
+        },
+        {
+          "t": "list",
+          "ordered": true,
+          "items": [
+            "بررسی. ورودی: هر مستند موجود، دسترسی به سیستم و گفت وگو با افراد کلیدی. خروجی: فهرست آنچه هست، آنچه کم است و آنچه غلط است. مسئول: dadmor.",
+            "ساختار. ورودی: نتیجه بررسی. خروجی: فهرست مستندها با مخاطب، قالب، قانون به روزرسانی و مسئول هر کدام. مسئول: dadmor؛ تأیید: شما.",
+            "نوشتن. ورودی: ساختار تأییدشده و دسترسی به منبع. خروجی: مستندها، بازبینی شده توسط یک نفر از تیم شما. مسئول: dadmor؛ بازبینی فنی: شما.",
+            "تحویل. ورودی: مستندهای تأییدشده. خروجی: مستندها در جای نهایی، با یک جلسه که نشان می دهد چطور به روزشان کنید. مسئول: dadmor."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "عوامل اسکوپ و زمان بندی"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "چه چیزی اندازه کار را تغییر می دهد: تعداد مستندها، تعداد endpointهای API، دوزبانه بودن، و اینکه منبع (کد، افراد) چقدر در دسترس است.",
+            "آنچه شما فراهم می کنید: دسترسی به سیستم و کد، زمان افراد کلیدی، و یک بازبین فنی.",
+            "آنچه پروژه را عقب می اندازد: فرد کلیدی که وقت گفت وگو ندارد، و سیستمی که هم زمان با نوشتن مستند عوض می شود."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "باند تلاش"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "پیشنهاد ثابت جداگانه برای هر مرحله. بررسی را می توانید جدا سفارش دهید."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "باند، اندازه تقریبی کار است؛ نه قیمت و نه مدت. قیمت ثابت فقط بعد از گفت وگوی اسکوپ و در پیشنهاد کتبی مشخص می شود."
+        },
+        {
+          "t": "p",
+          "html": "باند، برآورد اولیه است؛ گفت وگوی اسکوپ می تواند آن را جابه جا کند."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "محدودیت ها و ریسک ها"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "مستند فقط تا وقتی درست است که قانون به روزرسانی اش اجرا شود. بعد از تحویل، این کار با مسئولی است که در ساختار نام برده ایم.",
+            "ما متن حقوقی نمی نویسیم.",
+            "نمونه مستند را فقط با اجازه شما و به صورت سانسورشده منتشر می کنیم."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "پرسش های این خدمت"
+        },
+        {
+          "t": "group",
+          "class": "faq-list",
+          "blocks": [
+            {
+              "t": "group",
+              "class": "faq-item",
+              "blocks": [
+                {
+                  "t": "heading",
+                  "level": 3,
+                  "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-1-fa\" data-faq-btn=\"None\">مستند را کجا نگه می دارید؟</button>"
+                },
+                {
+                  "t": "group",
+                  "class": "faq-a",
+                  "blocks": [
+                    {
+                      "t": "group",
+                      "class": "",
+                      "blocks": [
+                        {
+                          "t": "p",
+                          "html": "جایی که تیم شما همین حالا کار می کند: مخزن کد، ویکی یا Notion. انتخاب در مرحله ساختار ثبت می شود."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "group",
+              "class": "faq-item",
+              "blocks": [
+                {
+                  "t": "heading",
+                  "level": 3,
+                  "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-2-fa\" data-faq-btn=\"None\">برای API از استاندارد خاصی استفاده می کنید؟</button>"
+                },
+                {
+                  "t": "group",
+                  "class": "faq-a",
+                  "blocks": [
+                    {
+                      "t": "group",
+                      "class": "",
+                      "blocks": [
+                        {
+                          "t": "p",
+                          "html": "اگر API شما مشخصات OpenAPI دارد یا می تواند داشته باشد، مرجع را از روی آن می سازیم تا با کد هم گام بماند."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "group",
+              "class": "faq-item",
+              "blocks": [
+                {
+                  "t": "heading",
+                  "level": 3,
+                  "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-3-fa\" data-faq-btn=\"None\">دفتر تصمیم ها چه فرقی با صورت جلسه دارد؟</button>"
+                },
+                {
+                  "t": "group",
+                  "class": "faq-a",
+                  "blocks": [
+                    {
+                      "t": "group",
+                      "class": "",
+                      "blocks": [
+                        {
+                          "t": "p",
+                          "html": "صورت جلسه می گوید چه گفته شد. دفتر تصمیم ها می گوید چه تصمیمی گرفته شد، چرا، و کدام گزینه ها رد شد."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-cta container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": ""
+        },
+        {
+          "t": "p",
+          "html": ""
+        },
+        {
+          "t": "group",
+          "class": "btn-row",
+          "blocks": [
+            {
+              "t": "cta",
+              "text": "برآورد اسکوپ برای مستندسازی",
+              "href": "/tools/estimator/?service=documentation",
+              "class": "btn btn-primary"
+            },
+            {
+              "t": "cta",
+              "text": "تماس برای گفت وگوی اسکوپ",
+              "href": "/contact/",
+              "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-proof container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "نمونه کار"
+        },
+        {
+          "t": "p",
+          "html": "نمونه سانسورشده — به زودی اینجا اضافه می شود."
+        }
+      ]
+    }
+  ]
+}

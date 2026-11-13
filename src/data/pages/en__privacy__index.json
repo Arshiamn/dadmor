@@ -1,0 +1,153 @@
+{
+  "path": "en/privacy/index.html",
+  "lang": "en",
+  "title": "Privacy: what is collected and what is not | dadmor",
+  "description": "By default this site collects no data and uses no cookies or trackers. The tools run in your browser. The form sends data only when you submit it.",
+  "canonical": "https://dadmor.netlify.app/en/privacy/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/privacy/",
+    "en": "https://dadmor.netlify.app/en/privacy/",
+    "x-default": "https://dadmor.netlify.app/privacy/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "website",
+    "title": "Privacy: what is collected and what is not | dadmor",
+    "description": "By default this site collects no data and uses no cookies or trackers. The tools run in your browser. The form sends data only when you submit it.",
+    "url": "https://dadmor.netlify.app/en/privacy/",
+    "image": "https://dadmor.netlify.app/og.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "en_US",
+    "locale:alternate": "fa_IR"
+  },
+  "jsonld": [],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li aria-current=\"page\">Privacy</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h1>Privacy</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "p",
+          "html": "Short and exact: what this site takes from you, and what it does not."
+        },
+        {
+          "t": "p",
+          "html": "Last updated: November 2026"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "1. Nothing by default"
+        },
+        {
+          "t": "p",
+          "html": "When you only read the pages, this site collects no data about you. There is no account, no newsletter and no hidden form."
+        },
+        {
+          "t": "p",
+          "html": "A hosting service may keep technical server logs (such as IP addresses) for security; dadmor does not use those logs for tracking or marketing, and this site itself has no analytics, cookies or tracking pixels."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "2. The contact form"
+        },
+        {
+          "t": "p",
+          "html": "The form sends data only when you press \"Send message\" yourself. Only the form fields are sent: name, email, service, message and preferred way to reply. We use them only to reply to you and discuss the project, and we do not sell or pass them on."
+        },
+        {
+          "t": "p",
+          "html": "Form destination: the form service of the same host (Netlify Forms); new-message notifications arrive at dadmor's email. Messages are kept only as long as needed to reply and discuss the project, and are never sold or passed on."
+        },
+        {
+          "t": "p",
+          "html": "If the form cannot send (for example before the site is published), a notice appears and you can use WhatsApp instead."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "3. The tools"
+        },
+        {
+          "t": "p",
+          "html": "The project estimator and the security self-check run entirely in your own browser. They do not send or store your answers. If you close the page or press \"Clear all answers\", the answers are gone. Printing and copying happen only when you choose them."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "4. Cookies and trackers"
+        },
+        {
+          "t": "p",
+          "html": ""
+        },
+        {
+          "t": "p",
+          "html": "Only your theme choice (light or dark) is kept in your own browser (localStorage) and is never sent to us. Language changes with the page address and stores nothing. Tool answers are never stored."
+        },
+        {
+          "t": "p",
+          "html": "Fonts are hosted on this site, not loaded from an outside service."
+        },
+        {
+          "t": "p",
+          "html": "If analytics is added later: only a privacy-friendly tool (such as Plausible or Umami), and this page is updated first."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "5. Questions about privacy"
+        },
+        {
+          "t": "p",
+          "html": "For any question, or to have a message you sent deleted, email <a href=\"mailto:hello@dadmor.com\" dir=\"ltr\">hello@dadmor.com</a>, or use the contact form or WhatsApp (<a href=\"https://wa.me/989391400826\" rel=\"noopener\">+98 939 140 0826</a>)."
+        }
+      ]
+    }
+  ]
+}

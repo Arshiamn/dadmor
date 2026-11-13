@@ -1,0 +1,156 @@
+{
+  "path": "process/index.html",
+  "lang": "fa",
+  "title": "فرایند کار: پنج مرحله با ورودی و خروجی | dadmor",
+  "description": "کشف، برنامه ریزی، طراحی، ساخت، لانچ و نگهداری. برای هر مرحله می نویسیم چه چیزی وارد می شود، چه چیزی تحویل می شود و چه چیزی کار را عقب می اندازد.",
+  "canonical": "https://dadmor.netlify.app/process/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/process/",
+    "en": "https://dadmor.netlify.app/en/process/",
+    "x-default": "https://dadmor.netlify.app/process/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "website",
+    "title": "فرایند کار: پنج مرحله با ورودی و خروجی | dadmor",
+    "description": "کشف، برنامه ریزی، طراحی، ساخت، لانچ و نگهداری. برای هر مرحله می نویسیم چه چیزی وارد می شود، چه چیزی تحویل می شود و چه چیزی کار را عقب می اندازد.",
+    "url": "https://dadmor.netlify.app/process/",
+    "image": "https://dadmor.netlify.app/og.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "fa_IR",
+    "locale:alternate": "en_US"
+  },
+  "jsonld": [],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"مسیر صفحه\"><ol><li><a href=\"/\">خانه</a></li><li aria-current=\"page\">فرایند کار</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h1>فرایند کار</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "p",
+          "html": "هر پروژه از همین پنج مرحله می گذرد. هر مرحله یک ورودی و یک خروجی مکتوب دارد، تا همیشه بدانید کار کجاست و قدم بعدی چیست."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "list",
+          "ordered": true,
+          "items": [
+            "<div class=\"step-head\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>ایده</span><h2><span class=\"step-num\">1.</span> کشف</h2></div> <p>هدف، مخاطب و معیار موفقیت را پیش از هر طراحی تعریف می کنیم. اگر هنوز روشن نیست مسئله اصلی چیست، اینجا روشنش می کنیم.</p> <dl class=\"step-io\"> <div><dt>ورودی</dt><dd>گفت وگو با بنیان گذار و هر چیزی که از قبل دارید (سایت فعلی، ارائه، مستند، داده).</dd></div> <div><dt>خروجی</dt><dd>بریف و پیش نویس اسکوپ.</dd></div> </dl>",
+            "<div class=\"step-head\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d1\" aria-hidden=\"true\"></span>بریف اسکوپ شده</span><h2><span class=\"step-num\">2.</span> برنامه ریزی</h2></div> <p>ساختار، صفحه ها یا قابلیت ها و اولویت ها را از ابتدا با هم توافق می کنیم. آنچه در اسکوپ نیست هم نوشته می شود.</p> <dl class=\"step-io\"> <div><dt>ورودی</dt><dd>بریف.</dd></div> <div><dt>خروجی</dt><dd>اسکوپ، جدول خروجی ها و باند تلاش (<span class=\"band-letters\"><span>S</span><span>،</span><span>M</span><span>یا</span><span>L</span></span>)، و سپس پیشنهاد کتبی با قیمت ثابت.</dd></div> </dl>",
+            "<div class=\"step-head\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>در حال ساخت</span><h2><span class=\"step-num\">3.</span> طراحی</h2></div> <p>جهت طراحی را زود می بینید و درباره اش نظر می دهید. نتیجه کار آخر پروژه رونمایی نمی شود.</p> <dl class=\"step-io\"> <div><dt>ورودی</dt><dd>اسکوپ تأییدشده.</dd></div> <div><dt>خروجی</dt><dd>سیستم طراحی و صفحه ها یا صفحه نماهای کلیدی.</dd></div> </dl>",
+            "<div class=\"step-head\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>در حال ساخت</span><h2><span class=\"step-num\">4.</span> ساخت</h2></div> <p>کد تمیز و مبتنی بر کامپوننت، با سرعت و دسترس پذیری از ابتدا. مستند را هم زمان با ساخت می نویسیم، نه بعد از آن.</p> <dl class=\"step-io\"> <div><dt>ورودی</dt><dd>طراحی تأییدشده.</dd></div> <div><dt>خروجی</dt><dd>سایت یا سیستم کارکننده و پیش نویس مستند.</dd></div> </dl>",
+            "<div class=\"step-head\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>بررسی و تحویل شده</span><h2><span class=\"step-num\">5.</span> لانچ و نگهداری</h2></div> <p>انتشار، اندازه گیری آنچه مهم است، جلسه تحویل، و بازتست یا اصلاح طبق قانونی که در اسکوپ همان خدمت نوشته شده است.</p> <dl class=\"step-io\"> <div><dt>ورودی</dt><dd>سایت یا سیستم ساخته شده.</dd></div> <div><dt>خروجی</dt><dd>نسخه منتشرشده، مستند تحویل و برنامه نگهداری یا بازتست.</dd></div> </dl>"
+          ]
+        },
+        {
+          "t": "p",
+          "html": ""
+        },
+        {
+          "t": "group",
+          "class": "process-boxes",
+          "blocks": [
+            {
+              "t": "group",
+              "class": "process-box",
+              "blocks": [
+                {
+                  "t": "heading",
+                  "level": 2,
+                  "html": "آنچه از شما لازم داریم"
+                },
+                {
+                  "t": "list",
+                  "ordered": false,
+                  "items": [
+                    "یک تصمیم گیرنده مشخص که تأییدها را می دهد.",
+                    "محتوا، یا یک تاریخ روشن برای آماده شدن آن.",
+                    "دسترسی های لازم (دامنه، هاست، حساب ها) پیش از مرحله ای که به آن نیاز است.",
+                    "بازخورد در بازه ای که در برنامه با هم توافق کرده ایم."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "group",
+              "class": "process-box",
+              "blocks": [
+                {
+                  "t": "heading",
+                  "level": 2,
+                  "html": "آنچه پروژه ها را عقب می اندازد"
+                },
+                {
+                  "t": "list",
+                  "ordered": false,
+                  "items": [
+                    "محتوایی که آماده نیست. این رایج ترین دلیل است.",
+                    "بازخوردی که دیر می رسد یا از چند نفر با نظرهای متفاوت می آید.",
+                    "تغییر اسکوپ در میانه کار بدون تصمیم درباره اینکه چه چیزی جایش کنار می رود.",
+                    "دسترسی ای که روز لانچ پیدا نمی شود."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "html": "مدت هر پروژه به اسکوپ و آمادگی محتوا بستگی دارد. برنامه زمانی را در پیشنهاد کتبی می نویسیم و آن را برآورد می دانیم، نه تضمین."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-cta container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "از مرحله کشف شروع کنید"
+        },
+        {
+          "t": "p",
+          "html": "برآوردگر پروژه یک بریف اولیه می سازد که می توانید با خودتان به گفت وگوی اسکوپ بیاورید."
+        },
+        {
+          "t": "group",
+          "class": "btn-row",
+          "blocks": [
+            {
+              "t": "cta",
+              "text": "برآوردگر پروژه",
+              "href": "/tools/estimator/",
+              "class": "btn btn-primary"
+            },
+            {
+              "t": "cta",
+              "text": "تماس",
+              "href": "/contact/",
+              "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1295 @@
+/* v5 overrides + new effects. Loaded AFTER legacy.css, so these win.
+   Fixes v4 bugs B1 (glitch), B3/B4 (accents/hovers), B7 (marquee), B8 (stray lines)
+   and adds the v5 display scale, lion breathing and typing. */
+
+/* ---- B8: the stray lines are GONE. The HUD corner brackets (.hud::before /
+   .hud::after) are the L-shaped lines the owner reported (top-start corner
+   sits top-right in RTL, right under the header logo; bottom-end corner sits
+   bottom-left). They are removed entirely — no hud class is rendered. ---- */
+.hud::before,
+.hud::after {
+  display: none !important;
+  content: none !important;
+}
+
+/* ---- B4: the v4 accent system is DELETED. Harmonised section colour. ---- */
+.home-services h2,
+.home-work h2,
+.home-tools h2,
+.home-faq h2,
+.home-contact h2 {
+  color: var(--acc-section);
+}
+.hero-eyebrow {
+  color: var(--color-primary-bright);
+}
+.service-row:hover :is(h2, h3) a,
+.tool-row:hover h3,
+.work-item:hover :is(h2, h3) a {
+  color: var(--color-primary-bright);
+}
+:root[data-theme="light"] .service-row:hover :is(h2, h3) a,
+:root[data-theme="light"] .tool-row:hover h3,
+:root[data-theme="light"] .work-item:hover :is(h2, h3) a {
+  color: var(--color-primary);
+}
+
+/* ---- Display scale: headings are BIG now (v5 §5.4). ---- */
+.hero h1 {
+  font-size: var(--text-display);
+  /* 1.2, not 1.05: a wrapped Persian display line at 1.05 collides. */
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+h1 {
+  font-size: var(--text-h1);
+  line-height: var(--leading-heading);
+}
+h2 {
+  font-size: var(--text-h2);
+  line-height: var(--leading-heading);
+  letter-spacing: -0.01em;
+}
+/* ---- Hover on EVERY button (v5 §5.6). Lift + glow, text never disappears. ---- */
+.btn {
+  transition: transform var(--duration-micro) var(--ease-out),
+    box-shadow var(--duration-micro) var(--ease-out),
+    background-color var(--duration-micro) var(--ease-out),
+    color var(--duration-micro) var(--ease-out);
+}
+.btn:hover {
+  transform: translateY(-2px);
+}
+.btn:active {
+  transform: translateY(0) scale(0.98);
+}
+.btn-primary:hover {
+  box-shadow: var(--shadow-glow-violet);
+}
+.btn-ghost:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary-bright);
+}
+/* The ghost-button sheen must never paint over text: it sits behind it. */
+.btn-ghost {
+  isolation: isolate;
+}
+.btn-ghost::after {
+  z-index: -1;
+}
+/* The FA/EN + moon/sun hover must NOT draw a box-shadow rectangle
+   (owner order 2026-11-06 00:49): no border, no box — only the glyph
+   itself glows, like the other menu buttons (text-shadow, legacy.css). */
+.theme-toggle:hover,
+.lang-switch a:hover {
+  color: var(--color-primary-bright);
+  box-shadow: none;
+  text-shadow: 0 0 12px rgba(140, 128, 255, 0.55);
+}
+.theme-toggle:hover svg {
+  filter: drop-shadow(0 0 6px rgba(140, 128, 255, 0.8));
+}
+
+/* ---- Lion breathing, dark mode only (v5 §5.2). One shared ~3s breath:
+   the whole dot field fades in/out AND the eyes glow with each pulse,
+   like the lion is breathing. Light mode: static indigo, no green.
+   v15 (2026-11-06 06:49, owner order): the face blobs (.lion-face,
+   53 subpaths) never faded, so only SOME dots seemed to pulse — the
+   face now breathes with the dots, ALL of them fade and brighten
+   together. ---- */
+:root[data-theme="dark"] .lion-breathing .lion-dots,
+:root[data-theme="dark"] .lion-breathing .lion-face {
+  animation: lion-breathe var(--duration-breath) ease-in-out infinite;
+}
+:root[data-theme="dark"] .lion-breathing .lion-eyes {
+  animation: lion-eyes-glow var(--duration-breath) ease-in-out infinite;
+}
+@keyframes lion-breathe {
+  /* v17 (2026-11-06 07:12, owner order): the fade was too subtle
+     (trough 0.62) to read as a breath — the WHOLE lion (dots + face)
+     must clearly dim and then brighten, uniformly. Trough is now 0.35. */
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 1; }
+}
+@keyframes lion-eyes-glow {
+  /* v15 (2026-11-06 06:47, owner order): the pulse was barely visible —
+     the eyes must shine MUCH more at the peak. Trough is dimmer and
+     tighter, peak is far brighter with a wide halo (3 stacked
+     drop-shadows). Still glow/brightness only — never a blink, never
+     position/scale. Eyes are Matrix green (#00ff41) now.
+     v17 (2026-11-06 07:12, owner order): the eyes STILL do not shine
+     enough, and the fade must be uniform with the rest of the lion.
+     Trough drops to 0.35 (same as the dots/face, so the whole lion dims
+     together) with a tighter glow; the peak now has a pale hot core
+     (#d6ffe2) plus FOUR stacked green halos out to 170px, so the eyes
+     beam instead of merely glowing. */
+  0%, 100% {
+    opacity: 0.35;
+    filter: drop-shadow(0 0 3px var(--lion-eyes)) drop-shadow(0 0 10px var(--lion-eyes));
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 8px #d6ffe2) drop-shadow(0 0 28px var(--lion-eyes)) drop-shadow(0 0 80px var(--lion-eyes)) drop-shadow(0 0 170px var(--lion-eyes));
+  }
+}
+:root[data-theme="light"] .lion-breathing .lion-dots,
+:root[data-theme="light"] .lion-breathing .lion-face,
+:root[data-theme="light"] .lion-breathing .lion-eyes {
+  animation: none;
+  opacity: 1;
+  filter: none;
+}
+
+/* ---- Glitch, WORKING this time (v5 §4 B1). The .glitchable class is set in
+   JSX at render; the scheduler only toggles .glitching. Stronger than v4's
+   ±2px: slices + dual green/violet split. Never on body copy or inputs. ---- */
+.glitchable.glitching {
+  animation: dadmor-glitch 350ms steps(2, jump-none);
+}
+@keyframes dadmor-glitch {
+  0% { transform: translate(0); clip-path: inset(0 0 0 0); text-shadow: none; }
+  25% {
+    transform: translate(-4px, 2px);
+    clip-path: inset(12% 0 52% 0);
+    text-shadow: -4px 0 var(--color-live), 4px 0 var(--color-primary);
+  }
+  50% {
+    transform: translate(4px, -2px);
+    clip-path: inset(52% 0 12% 0);
+    text-shadow: 4px 0 var(--color-live), -4px 0 var(--color-primary);
+  }
+  75% {
+    transform: translate(-2px, 1px);
+    clip-path: inset(30% 0 30% 0);
+    text-shadow: -3px 0 var(--color-live), 3px 0 var(--color-primary);
+  }
+  100% { transform: translate(0); clip-path: inset(0 0 0 0); text-shadow: none; }
+}
+.glitchable.glitching.lion-glitch {
+  filter: drop-shadow(-4px 0 rgba(0, 230, 118, 0.6)) drop-shadow(4px 0 rgba(140, 128, 255, 0.6));
+}
+
+/* ---- Boot sweep (E2): the .js-anim gate from v4 is dropped — React owns
+   the class now, and the hook adds .run at 700ms. ---- */
+.hero-boot-sweep.run {
+  animation: dadmor-scan 700ms var(--ease-out-signature) both;
+}
+
+/* ---- B7: marquee dot strip — seamless by construction. The legacy
+   ::before/::after layers are disabled; the React DotStream renders two
+   identical tracks and animates translateX(-50%). ---- */
+.dot-divider::before,
+.dot-divider::after {
+  display: none !important;
+  content: none !important;
+  animation: none !important;
+}
+.dot-stream {
+  position: relative;
+  overflow: hidden;
+  height: var(--divider-height);
+  /* Faint violet wash so the strip reads as a band even where no dot
+     happens to be at peak brightness (QA 2026-11-05 23:28: the field
+     read as empty in screenshots — the dots were rendering but too
+     dim/small to see). */
+  background: color-mix(in srgb, var(--color-primary) 8%, transparent);
+}
+:root[data-theme="light"] .dot-stream {
+  background: color-mix(in srgb, var(--color-primary) 6%, transparent);
+}
+/* ---- LIVING MARQUEE (rebuilt 2026-11-05 23:55, owner order) ----
+   v3: the field is STATIC — one fixed row-set, no translating track.
+   v2's track (two identical 2880px tiles, 30s loop) still read as empty
+   for ~20s of each cycle in screenshots, and the cause could not be
+   isolated to the track. A static field can never translate away, so
+   the strip is dense at every moment. The life is the per-dot pulse
+   (size/duration/delay cycles via nth-child, so the field is never in
+   lockstep), the two travelling glow dots, the pointer glow, and scroll
+   velocity speeding the pulse up (--pulse, set by DotStream). */
+.dot-stream-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.marquee-row {
+  display: flex;
+  width: 2880px;
+}
+.marquee-dot {
+  flex: none;
+  width: 40px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.marquee-dot::after {
+  content: "";
+  width: var(--s, 4px);
+  height: var(--s, 4px);
+  border-radius: 50%;
+  background: var(--dot-bg, var(--color-dot));
+  animation: dot-pulse calc(var(--d, 3s) * var(--pulse, 1)) ease-in-out infinite;
+  animation-delay: var(--dl, 0ms);
+}
+/* Size cycle (8) — bigger than the first version: 3-6px dots on
+   near-black read as empty in screenshots; 5-8px read as a field. */
+.marquee-dot:nth-child(8n+1) { --s: 5px; }
+.marquee-dot:nth-child(8n+2) { --s: 6px; }
+.marquee-dot:nth-child(8n+3) { --s: 7px; }
+.marquee-dot:nth-child(8n+4) { --s: 6px; }
+.marquee-dot:nth-child(8n+5) { --s: 8px; }
+.marquee-dot:nth-child(8n+6) { --s: 6px; }
+.marquee-dot:nth-child(8n+7) { --s: 7px; }
+.marquee-dot:nth-child(8n+8) { --s: 5px; }
+.marquee-dot:nth-child(3n+1) { --d: 2s; }
+.marquee-dot:nth-child(3n+2) { --d: 2.6s; }
+.marquee-dot:nth-child(3n+3) { --d: 3.2s; }
+.marquee-dot:nth-child(12n+1) { --dl: 0ms; }
+.marquee-dot:nth-child(12n+2) { --dl: 200ms; }
+.marquee-dot:nth-child(12n+3) { --dl: 400ms; }
+.marquee-dot:nth-child(12n+4) { --dl: 600ms; }
+.marquee-dot:nth-child(12n+5) { --dl: 800ms; }
+.marquee-dot:nth-child(12n+6) { --dl: 1000ms; }
+.marquee-dot:nth-child(12n+7) { --dl: 1200ms; }
+.marquee-dot:nth-child(12n+8) { --dl: 1400ms; }
+.marquee-dot:nth-child(12n+9) { --dl: 1600ms; }
+.marquee-dot:nth-child(12n+10) { --dl: 1800ms; }
+.marquee-dot:nth-child(12n+11) { --dl: 2000ms; }
+.marquee-dot:nth-child(12n+12) { --dl: 2200ms; }
+/* Rows pulse out of phase with each other. */
+.marquee-row:nth-child(2) .marquee-dot::after {
+  animation-delay: calc(var(--dl, 0ms) + 650ms);
+}
+.marquee-row:nth-child(3) .marquee-dot::after {
+  animation-delay: calc(var(--dl, 0ms) + 1300ms);
+}
+/* Live (green) dots, middle row only — the green rule: green is the
+   live/verified signal, never decoration. */
+.marquee-row:nth-child(2) .marquee-dot:nth-child(24n+1) {
+  --dot-bg: var(--color-live);
+}
+.marquee-row:nth-child(2) .marquee-dot:nth-child(24n+1)::after {
+  box-shadow: 0 0 12px 3px rgba(0, 230, 118, 0.7);
+}
+/* Pointer glow: a soft light follows the cursor across the strip. */
+.marquee-glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 400ms var(--ease-out);
+  background: radial-gradient(
+    240px circle at var(--mx, 50%) var(--my, 50%),
+    rgba(140, 128, 255, 0.28),
+    transparent 70%
+  );
+}
+.dot-stream:hover .marquee-glow {
+  opacity: 1;
+}
+:root[data-theme="light"] .marquee-glow {
+  background: radial-gradient(
+    240px circle at var(--mx, 50%) var(--my, 50%),
+    rgba(58, 53, 135, 0.16),
+    transparent 70%
+  );
+}
+@keyframes dot-pulse {
+  /* Trough 0.65, not 0.3: at 0.3 the dots fell below the visible
+     threshold in screenshots and the strip read as empty. */
+  0%, 100% { opacity: 0.65; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.15); }
+}
+
+/* v32 (2026-11-06): the theme wave is BACK (see legacy.css). The
+   dangling `::view-transition-old(root),` selector left by the v27
+   deletion stays removed — it had silently merged with the
+   :focus-visible rule below. The wave rules themselves live only in
+   legacy.css (single source of truth, 1400ms, origin from --wave-x /
+   --wave-y set by App.tsx from the toggle button). */
+
+/* ---- Focus: the 3px ring is never replaced by glow. ---- */
+:focus-visible {
+  outline: var(--focus-width) solid var(--color-ring);
+  outline-offset: var(--focus-offset);
+}
+
+/* ---- v5.1 QA fixes (2026-11-05) ----
+   (a) Header CTA text: .nav-links a (0,1,1) beats .btn-primary (0,1,0),
+       so in light mode the CTA text took --color-foreground (near-black)
+       on an indigo background — invisible. This override restores the
+       button's own foreground colour in both themes and states. */
+.nav-links a.btn-primary,
+.nav-links a.btn-primary:hover {
+  color: var(--color-primary-foreground);
+}
+
+/* ---- Finder result cards + security band verdict (QA: results read as
+   plain text). Cards get a real surface; the band sentence is the verdict
+   and is set apart. ---- */
+.find-card {
+  border: var(--border-width) solid var(--color-border-control);
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-soft);
+  padding: var(--space-4) var(--space-5);
+  margin-block: var(--space-3);
+}
+.find-card h3 {
+  margin: 0 0 var(--space-2);
+}
+.band-line {
+  font-size: var(--text-lead);
+  font-weight: var(--weight-emphasis);
+  color: var(--color-foreground);
+}
+
+/* ---- DotStream comet: one bright dot travels the strip so the drift is
+   unmistakable (the periodic dot field alone reads as static in a still).
+   Violet in both themes; the green one only in dark mode. ---- */
+.dot-stream-comet {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  border-radius: 50%;
+  background: var(--color-primary-bright);
+  box-shadow: 0 0 12px 3px rgba(140, 128, 255, 0.7);
+  animation: dot-stream-comet 24s linear infinite;
+  pointer-events: none;
+}
+.dot-stream-comet.green {
+  width: 7px;
+  height: 7px;
+  margin-top: -3.5px;
+  background: var(--color-live);
+  box-shadow: 0 0 10px 3px rgba(0, 230, 118, 0.7);
+  animation-duration: 31s;
+  animation-direction: reverse;
+}
+:root[data-theme="light"] .dot-stream-comet.green {
+  display: none;
+}
+@keyframes dot-stream-comet {
+  from { transform: translateX(-20px); }
+  to { transform: translateX(calc(100vw + 20px)); }
+}
+[dir="rtl"] .dot-stream-comet {
+  animation-direction: reverse;
+}
+[dir="rtl"] .dot-stream-comet.green {
+  animation-direction: normal;
+}
+@media (prefers-reduced-motion: reduce) {
+  .dot-stream-comet {
+    animation: none !important;
+  }
+}
+
+/* ---- Reduced motion: all v5 motion off, static end states. ---- */
+@media (prefers-reduced-motion: reduce) {
+  .lion-breathing .lion-dots,
+  .lion-breathing .lion-face,
+  .lion-breathing .lion-eyes,
+  .glitchable.glitching,
+  .marquee-dot::after,
+  .hero-text > *,
+  .hero-lion {
+    animation: none !important;
+  }
+  .lion-breathing .lion-eyes {
+    opacity: 1;
+    filter: none;
+  }
+}
+
+/* ================================================================
+   Owner bug list, 2026-11-05 21:37 — every item addressed here.
+   ================================================================ */
+
+/* ---- (1) HERO LION — the containing-block trap. Legacy put a glow
+   filter on .hero-lion-svg, which in v5 is a <span> wrapping the inline
+   <svg>. A filter makes the span the containing block for its absolute
+   child — but the span had no size (its only child is absolute), so the
+   svg resolved against a 0x0 box and the lion rendered invisible. The
+   span now fills its sized parent (.lion-stack, position:relative, 312px),
+   so the filter is harmless and the E2 glow stays. ---- */
+.hero-lion-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ---- (2) HERO TEXT READABILITY. The white text blended into the aurora
+   wave behind it. A soft radial scrim sits behind the hero text (dark
+   in dark mode, light in light mode) and the headline/sub carry a
+   shadow, so the text reads at any scroll position. ---- */
+.hero-text::before {
+  content: "";
+  position: absolute;
+  inset: -24px -32px;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(ellipse 90% 80% at 50% 40%, rgba(11, 10, 20, 0.72), rgba(11, 10, 20, 0) 70%);
+}
+:root[data-theme="light"] .hero-text::before {
+  background: radial-gradient(ellipse 90% 80% at 50% 40%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
+}
+.hero h1 {
+  text-shadow: 0 2px 24px rgba(11, 10, 20, 0.55), 0 0 2px rgba(11, 10, 20, 0.4);
+}
+.hero-text p {
+  text-shadow: 0 1px 12px rgba(11, 10, 20, 0.6);
+}
+:root[data-theme="light"] .hero h1 {
+  text-shadow: 0 2px 24px rgba(255, 255, 255, 0.65), 0 0 2px rgba(255, 255, 255, 0.5);
+}
+:root[data-theme="light"] .hero-text p {
+  text-shadow: 0 1px 12px rgba(255, 255, 255, 0.7);
+}
+
+/* ---- (3) BRAND LOCKUP — one lion + the correct wordmark. LionWord used
+   to inline the FULL logo SVG (lion + wordmark) into the wordmark's wide
+   box, so the header showed TWO lions and the wordmark squashed to
+   "dadn r". The brand now uses LionWordmark (the wordmark-only SVG,
+   301x78) next to the icon. ---- */
+.brand .lion-word,
+.footer-lockup .lion-word {
+  flex: none;
+}
+
+/* ---- (4) LINKS — a special style with its own animation, not plain text.
+   Service/about links become pills: bold, soft background, border, and on
+   hover they grow (scale 1.05), fill violet and glow, with a
+   direction-aware arrow. In-text links get a bold 2px underline and a
+   tinted background on hover. Footer links get a bolder weight and grow
+   slightly on hover. ---- */
+.service-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-weight: 700;
+  font-size: 0.95em;
+  line-height: 1.4;
+  color: var(--color-primary-bright);
+  background: var(--color-primary-soft);
+  border: var(--border-width) solid var(--color-border-control);
+  border-radius: 999px;
+  padding: 0.45em 1em;
+  text-decoration: none;
+  transition: transform 200ms var(--ease-out), background-color 200ms var(--ease-out),
+    color 200ms var(--ease-out), box-shadow 200ms var(--ease-out);
+}
+.service-link::after {
+  content: "←";
+  font-weight: 400;
+  transition: transform 200ms var(--ease-out);
+}
+[dir="ltr"] .service-link::after {
+  content: "→";
+}
+.service-link:hover {
+  transform: scale(1.05);
+  background: var(--color-primary);
+  color: var(--color-primary-foreground);
+  box-shadow: var(--shadow-glow-violet);
+}
+.service-link:hover::after {
+  transform: translateX(-3px);
+}
+[dir="ltr"] .service-link:hover::after {
+  transform: translateX(3px);
+}
+:root[data-theme="light"] .service-link {
+  color: var(--color-primary);
+}
+:root[data-theme="light"] .service-link:hover {
+  color: #ffffff;
+}
+main p a:not(.btn):not(.service-link):not(.channel-pill),
+main li a:not(.btn):not(.service-link):not(.channel-pill) {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  border-radius: 4px;
+  transition: background-color 150ms var(--ease-out), color 150ms var(--ease-out);
+}
+main p a:not(.btn):not(.service-link):not(.channel-pill):hover,
+main li a:not(.btn):not(.service-link):not(.channel-pill):hover {
+  background: color-mix(in srgb, var(--color-primary) 14%, transparent);
+}
+.footer a:not(.btn):not(.channel-pill) {
+  font-weight: 600;
+  display: inline-block;
+  transition: transform 200ms var(--ease-out), color 200ms var(--ease-out);
+}
+.footer a:not(.btn):not(.channel-pill):hover {
+  transform: scale(1.05);
+  color: var(--color-primary-bright);
+}
+
+/* ---- (5) CHANNEL PILLS — Telegram / WhatsApp / Email with their designed
+   icons, used in the footer AND on the contact page AND under the home
+   contact strip (not footer-only). ---- */
+.channel-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+.channel-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  font-weight: 700;
+  font-size: var(--text-small);
+  color: var(--color-foreground);
+  background: var(--color-primary-soft);
+  border: var(--border-width) solid var(--color-border-control);
+  border-radius: 999px;
+  padding: 0.55em 1.1em;
+  text-decoration: none;
+  transition: transform 200ms var(--ease-out), background-color 200ms var(--ease-out),
+    color 200ms var(--ease-out), box-shadow 200ms var(--ease-out);
+}
+.channel-pill svg {
+  width: 20px;
+  height: 20px;
+  flex: none;
+}
+.channel-pill:hover {
+  transform: scale(1.05);
+  background: var(--color-primary);
+  color: var(--color-primary-foreground);
+  box-shadow: var(--shadow-glow-violet);
+}
+:root[data-theme="light"] .channel-pill:hover {
+  color: #ffffff;
+}
+.contact-side .channel-row {
+  margin-block: var(--space-3) var(--space-5);
+}
+.home-channels {
+  width: min(var(--container), 100% - 2 * var(--gutter));
+  margin-inline: auto;
+  margin-block: var(--space-4) var(--space-8);
+}
+
+/* Band letters (S/M/L) in RTL — the correct rendering.
+   An inline-flex row lays its items out right-to-left in DOM order, so a
+   Persian reader reads S first (S is rightmost) while the source stays in
+   logical S, M, L order (good for screen readers and for the data).
+   Do NOT "fix" this with a dir="ltr" span: that renders S leftmost,
+   which an RTL reader reads as L first (owner report 2026-11-06 — the
+   v21/v22 dir="ltr" wrap was exactly that mistake). Verified by bidi
+   screenshot test (bidi-rtl-test3.png): flex renders S rightmost. */
+.band-letters {
+  display: inline-flex;
+  gap: 0.15em;
+}
+
+/* Per-button channel captions (home strip, v25): each pill carries its
+   purpose text directly underneath it. The item is a column so the
+   caption sits under its own pill; align-items keeps the pill at its
+   natural width instead of stretching. */
+.channel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-2);
+}
+.channel-caption {
+  font-size: var(--text-small);
+  color: var(--color-muted-foreground);
+}
+
+/* ---- (6) MORE ICONS. Nav links carry a small icon each; service and tool
+   rows carry a 40px icon chip (replacing the plain bullets); the menu
+   button is icon-only (three lines, no text). ---- */
+.nav-links a {
+  gap: 0.45em;
+}
+.nav-ico {
+  display: inline-flex;
+  flex: none;
+}
+.nav-ico svg {
+  width: 17px;
+  height: 17px;
+  display: block;
+}
+.row-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  flex: none;
+  border-radius: 12px;
+  background: var(--color-primary-soft);
+  border: var(--border-width) solid var(--color-border-control);
+  color: var(--color-primary-bright);
+}
+.row-icon svg {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+:root[data-theme="light"] .row-icon {
+  color: var(--color-primary);
+}
+/* Service rows: the chip sits at the inline-start, aligned with the h3.
+   The first row (and the first two in the 2-column field) has no top
+   padding, so its chip sits at the top. Scoped by :has(> .row-icon), so
+   it covers the home list AND the services index list (both got icons). */
+.service-row:has(> .row-icon) {
+  position: relative;
+  padding-inline-start: 56px;
+}
+.service-row:has(> .row-icon) > .row-icon {
+  position: absolute;
+  inset-inline-start: 0;
+  top: var(--space-5);
+}
+.service-row:first-child:has(> .row-icon) > .row-icon {
+  top: 0;
+}
+@media (min-width: 900px) {
+  .home-services .service-row:nth-child(-n+2) .row-icon {
+    top: 0;
+  }
+}
+/* Tool rows are flex: the chip is a flex item, vertically centred. */
+.tool-row .row-icon {
+  position: static;
+}
+.menu-btn {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 379.98px) {
+  .menu-btn {
+    width: 40px;
+    height: 40px;
+  }
+}
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---- (11) BREATHING ROOM. Legacy set margin: 0 on most paragraphs and
+   list items; with the taller line-heights the page still read as stuffed.
+   These add air only where no specific rule already sets the margin. ---- */
+main p {
+  margin-block-end: var(--space-4);
+}
+main li + li {
+  margin-block-start: var(--space-2);
+}
+main section > p:last-child,
+main section > div:last-child > p:last-child {
+  margin-block-end: 0;
+}
+
+/* ---- (8) MOTION HARMONY — one shared easing, one orchestrated entrance.
+   The hero text children stagger in (0.6s, expo-out curve) and the lion
+   fades/scales in once (0.9s), both with fill backwards so they never
+   fight the GSAP scroll scale. Calmer canvas + rarer glitch live in
+   HeroCanvas / glitch.ts. ---- */
+@media (prefers-reduced-motion: no-preference) {
+  .hero-text > * {
+    animation: hero-enter 0.5s var(--ease-out) backwards;
+  }
+  .hero-text > *:nth-child(1) { animation-delay: 0.02s; }
+  .hero-text > *:nth-child(2) { animation-delay: 0.08s; }
+  .hero-text > *:nth-child(3) { animation-delay: 0.16s; }
+  .hero-text > *:nth-child(4) { animation-delay: 0.24s; }
+  .hero-text > *:nth-child(5) { animation-delay: 0.32s; }
+  .hero-text > *:nth-child(6) { animation-delay: 0.4s; }
+  .hero-lion {
+    animation: hero-lion-in 0.6s var(--ease-out) 0.15s backwards;
+  }
+}
+@keyframes hero-enter {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes hero-lion-in {
+  from { opacity: 0; transform: scale(0.92) translateY(12px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+/* ---- (12) SCROLL FADE-IN (owner order 2026-11-05 22:32). Every section,
+   text and block fades in as it enters the viewport. The .reveal class is
+   added by JS only (scroll-story.ts, IntersectionObserver) — without JS
+   the content is simply visible. h2s are excluded (GSAP reveals them);
+   hero descendants are excluded (the hero has its own entrance). ---- */
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition: opacity 0.35s var(--ease-out), transform 0.35s var(--ease-out);
+}
+.reveal.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* ---- (13) MOBILE HORIZONTAL OVERFLOW (QA 2026-11-05 23:28: a 60-70px
+   horizontal scrollbar at 390/360px, none at 768/1440). overflow-x: clip
+   (not hidden) keeps the sticky header and the fixed scroll rail working.
+   Tool rows wrap instead of forcing their width. ---- */
+html, body {
+  overflow-x: clip;
+}
+.tool-row {
+  flex-wrap: wrap;
+}
+
+/* ---- (14) v8 — TAGLINE ACCENT, HOLOGRAPHIC FOIL, INSTANT HERO BACKDROP
+   (owner orders 2026-11-06). ---- */
+
+/* Tagline accent: the LAST word of the hero tagline («می ماند» /
+   "lasts.") is violet; the middle word («که» / "that") is NOT. This
+   overrides the v4 nth-child(odd/even) alternation in legacy.css, which
+   coloured every even word (so «که» was purple). The .w-accent class is
+   set on the last word in Hero.tsx; the nth-child rules below neutralise
+   the alternation for all words. Dark accent is violet-bright 9.28:1.
+   v17 (2026-11-06 07:02, v15 QA): the light accent WAS indigo #3A3587 —
+   but the light-mode foreground IS #3A3587, so base and accent were
+   identical and the accent was invisible in light mode. The light
+   accent is now vivid violet #7C4DFF (4.81:1 on white, AA; 2.14:1
+   against the indigo base, clearly distinguishable).
+   v19 (2026-11-06 07:33, owner order): the light #7C4DFF was garish
+   (زننده) and did not harmonise with the other light-mode headings.
+   The light accent is now the SAME refined violet as the service
+   headings — #7C3AED (hue 262°, 5.70:1 on white, AA; 1.81:1 against
+   the indigo base) — so the tagline and the headings harmonise. */
+.hero h1 .w:nth-child(odd),
+.hero h1 .w:nth-child(even) { color: #FFFFFF; }
+:root[data-theme="light"] .hero h1 .w:nth-child(odd),
+:root[data-theme="light"] .hero h1 .w:nth-child(even) { color: var(--color-foreground); }
+.hero h1 .w.w-accent { color: var(--violet-bright); }
+:root[data-theme="light"] .hero h1 .w.w-accent { color: #7C3AED; }
+
+/* Holographic foil: an iridescent gradient whose position follows the
+   element's 3D tilt (--fx/--fy set from the pointer), so the material
+   reads as holographic foil when it turns. On the hero lion it is a
+   .foil layer (Hero.tsx, driven by the lion tilt there); on work cards
+   it is the ::before sheen, shown on hover and driven by the E6 tilt
+   handler in scroll-story.ts.
+   v12 (owner order 2026-11-06 01:04: spend more time on it, stronger +
+   faster mouse response, more detail): THREE layers, all driven by
+   --fx/--fy. (a) The base rainbow gradient, now a bigger 300% sweep so
+   a pointer move shifts the colours further. (b) A fine diffraction
+   grating (::before) — thin rainbow bands; a small position shift is
+   very visible in a fine repeating pattern, so the foil reacts
+   strongly to the mouse. (c) A specular glint (::after) — a bright
+   spot that follows the pointer 1:1. The foil also brightens on hover. */
+/* Holographic foil on the hero lion — 3 layers (v8 base, v12 grating +
+   glint, v13 visibility fix). v13 root cause (2026-11-06, from the v12
+   QA + a live Playwright measurement): the old .foil carried
+   opacity: 0.32, which MULTIPLIED the ::before (0.28) and ::after (0.5)
+   opacities, so the grating rendered at 0.09 and the glint at 0.16 —
+   too faint to see — and the base's background-size: 300% showed only
+   ~2 gradient stops at once, so the foil read as a smooth two-stop
+   gradient whose hue rotates instead of a simultaneous rainbow. Fix:
+   NO opacity on .foil itself (each layer carries its own strength via
+   its gradient alpha + its own opacity), and the base gradient now
+   holds the rainbow TWICE over 200%, so the visible window always
+   shows a full rainbow while still shifting with the pointer. */
+.foil {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  /* v17 (2026-11-06 07:12, owner order): the desktop foil must be more
+     subtle ("a bit more invisible") and its edge must not be a sharp
+     square — the foil is a rounded card (32px corners) on all three
+     layers. Parent opacity 0.6 dims every layer together. */
+  opacity: 0.6;
+  border-radius: 32px;
+  background: linear-gradient(115deg,
+    rgba(255, 0, 128, 0.55) 0%, rgba(255, 140, 0, 0.55) 9%, rgba(255, 238, 0, 0.55) 16%,
+    rgba(0, 230, 118, 0.55) 24%, rgba(0, 207, 255, 0.55) 32%, rgba(140, 128, 255, 0.55) 40%,
+    rgba(255, 0, 128, 0.55) 50%, rgba(255, 140, 0, 0.55) 59%, rgba(255, 238, 0, 0.55) 66%,
+    rgba(0, 230, 118, 0.55) 74%, rgba(0, 207, 255, 0.55) 82%, rgba(140, 128, 255, 0.55) 90%,
+    rgba(255, 0, 128, 0.55) 100%);
+  background-size: 200% 200%;
+  background-position: var(--fx, 50%) var(--fy, 50%);
+  mix-blend-mode: screen;
+}
+.foil::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(115deg, rgba(255, 0, 128, 0.8) 0 2px, rgba(255, 140, 0, 0.8) 2px 4px, rgba(255, 238, 0, 0.8) 4px 6px, rgba(0, 230, 118, 0.8) 6px 8px, rgba(0, 207, 255, 0.8) 8px 10px, rgba(140, 128, 255, 0.8) 10px 12px);
+  background-size: 200% 200%;
+  background-position: var(--fx, 50%) var(--fy, 50%);
+  mix-blend-mode: screen;
+  opacity: 0.55;
+  border-radius: 32px;
+  transition: opacity 150ms ease;
+}
+.foil::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at var(--fx, 50%) var(--fy, 50%), rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.4) 18%, transparent 45%);
+  mix-blend-mode: screen;
+  opacity: 0.85;
+  border-radius: 32px;
+  transition: opacity 150ms ease;
+}
+.lion-stack:hover .foil::before {
+  opacity: 0.75;
+}
+.lion-stack:hover .foil::after {
+  opacity: 1;
+}
+:root[data-theme="light"] .foil {
+  mix-blend-mode: multiply;
+  background: linear-gradient(115deg,
+    rgba(255, 0, 128, 0.3) 0%, rgba(255, 140, 0, 0.3) 9%, rgba(255, 238, 0, 0.3) 16%,
+    rgba(0, 230, 118, 0.3) 24%, rgba(0, 207, 255, 0.3) 32%, rgba(140, 128, 255, 0.3) 40%,
+    rgba(255, 0, 128, 0.3) 50%, rgba(255, 140, 0, 0.3) 59%, rgba(255, 238, 0, 0.3) 66%,
+    rgba(0, 230, 118, 0.3) 74%, rgba(0, 207, 255, 0.3) 82%, rgba(140, 128, 255, 0.3) 90%,
+    rgba(255, 0, 128, 0.3) 100%);
+}
+:root[data-theme="light"] .foil::before {
+  mix-blend-mode: multiply;
+  opacity: 0.35;
+}
+:root[data-theme="light"] .foil::after {
+  mix-blend-mode: screen;
+  opacity: 0.6;
+}
+:root[data-theme="light"] .lion-stack:hover .foil::before {
+  opacity: 0.5;
+}
+:root[data-theme="light"] .lion-stack:hover .foil::after {
+  opacity: 0.8;
+}
+.work-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(115deg, #ff0080 0%, #ff8c00 18%, #ffee00 32%, #00e676 48%, #00cfff 64%, #8c80ff 80%, #ff0080 100%);
+  background-size: 250% 250%;
+  background-position: var(--fx, 50%) var(--fy, 50%);
+  mix-blend-mode: screen;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.work-item:hover::before { opacity: 0.28; }
+:root[data-theme="light"] .work-item::before { mix-blend-mode: multiply; }
+:root[data-theme="light"] .work-item:hover::before { opacity: 0.18; }
+
+/* Instant hero backdrop: a violet glow + dot field that paints on the
+   very first frame, so the animated canvas (lazy-loaded) never appears
+   late or leaves the hero empty. The canvas fades in over it
+   (.hero-canvas). The dot layers drift very slowly — alive, not busy. */
+.hero-backdrop {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(60% 50% at 50% 30%, color-mix(in srgb, var(--violet) 22%, transparent), transparent 70%),
+    radial-gradient(2px 2px at 20% 40%, color-mix(in srgb, var(--violet) 55%, transparent), transparent),
+    radial-gradient(2px 2px at 70% 25%, color-mix(in srgb, var(--violet) 45%, transparent), transparent),
+    radial-gradient(2px 2px at 85% 60%, color-mix(in srgb, var(--live) 50%, transparent), transparent);
+  background-size: auto, 72px 72px, 96px 96px, 120px 120px;
+  animation: backdrop-drift 14s ease-in-out infinite alternate;
+}
+@keyframes backdrop-drift {
+  from { background-position: 0 0, 0 0, 0 0, 0 0; opacity: 0.85; }
+  to { background-position: 0 0, 24px 12px, -16px 20px, 12px -8px; opacity: 1; }
+}
+/* v28 (2026-11-06): the hero canvas fade is a TRANSITION gated on the
+   first rendered frame, not an animation. The old `canvas-in` /
+   `hero-canvas-in` animations started the 800ms fade the moment the
+   <canvas> element mounted — but on mobile the first WebGL frame can
+   land AFTER the animation already finished, so the dot field popped in
+   at full opacity. HeroCanvas now adds .is-ready after its first
+   useFrame, so the fade is of real content.
+   v31 (2026-11-06): the theme wave is GONE (see App.tsx) — the toggle
+   is an instant swap, so there is no View Transition snapshot and no
+   preserveDrawingBuffer anymore. The canvas fades in once on first
+   frame (is-ready) and then stays put. */
+.hero .hero-canvas {
+  opacity: 0;
+  transition: opacity 800ms ease-out;
+}
+.hero .hero-canvas.is-ready {
+  opacity: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-backdrop {
+    animation: none !important;
+  }
+  .hero .hero-canvas {
+    opacity: 1;
+    transition: none;
+  }
+}
+
+/* ---- (15) v9 — WORK SCREENSHOT (owner order 2026-11-06). The featured
+   work item (ghazalalidoost.art) shows a screenshot of the site's home
+   page (dark mode, English) OPPOSITE the address and description: on
+   wide screens the text and the shot sit side by side (DOM order text
+   then figure, so in RTL the text is right and the shot left, in LTR
+   the reverse); below 768px they stack, text first. ---- */
+.work-item-featured.work-item-media {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: var(--space-5);
+  align-items: start;
+}
+.work-item-shot {
+  margin: 0;
+}
+.work-item-shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+@media (max-width: 767.98px) {
+  .work-item-featured.work-item-media {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================
+   (16) Owner bug list, 2026-11-06 00:49 — v11.
+   ============================================================ */
+
+/* (3) v12 (2026-11-06 01:02, owner order): the foil is NOT silver —
+   the dark-mode silver override from v11 is REMOVED, so the foil is
+   back to the rainbow gradient in both themes. (The v11 silver build
+   was deployed, but the owner changed his mind before seeing it live;
+   v12 restores rainbow.) */
+
+/* (3b) No lion foil on mobile — the logo stays clean on small screens.
+   v15 (2026-11-06 06:43, owner order): the .hero-backdrop's radial
+   violet glow reads as a square-ish frame around the lion on mobile
+   (like the foil) — hide it on mobile too. The R3F canvas still
+   supplies the live dot field, and the lion/text are in the HTML, so
+   the hero is never empty. Desktop keeps the backdrop glow.
+   v16 (2026-11-06 07:00) briefly brought the foil back on mobile as a
+   faint 0.2 shimmer — v17 REVERTS it (owner order 2026-11-06 07:12):
+   the mobile lion must have NO background and NO frame at all; the
+   subtle foil was a mistake. Both layers stay hidden on mobile. */
+@media (max-width: 767.98px) {
+  .foil {
+    display: none;
+  }
+  /* v28 (2026-11-06): the mobile hero keeps a static dot field — the
+     backdrop WITHOUT its radial glow. The glow is what read as a square
+     frame around the lion (v15), so it stays off, but the dots stay:
+     before v28 the backdrop was hidden entirely on mobile, so the hero
+     had NO background until the R3F chunk downloaded and the canvas
+     mounted — the dot field then appeared late and the whole hero looked
+     refreshed / flickered. Now the dots are there from the first paint
+     and the canvas fades in over them.
+     v29 (2026-11-06, owner report: the background still loads very late
+     on a real phone): the v28 dots were far too sparse (72/96/120px
+     spacing — a handful of dots that did not read as a background at
+     all). The tile is now much denser (28/36/48px), so the hero clearly
+     shows a dot field from the first paint; the canvas arriving later is
+     an enhancement (it comes alive), not a rescue of an empty hero. */
+  .hero-backdrop {
+    background:
+      radial-gradient(2px 2px at 20% 40%, color-mix(in srgb, var(--violet) 55%, transparent), transparent),
+      radial-gradient(2px 2px at 70% 25%, color-mix(in srgb, var(--violet) 45%, transparent), transparent),
+      radial-gradient(2px 2px at 85% 60%, color-mix(in srgb, var(--live) 50%, transparent), transparent);
+    background-size: 28px 28px, 36px 36px, 48px 48px;
+  }
+}
+
+/* (4) Hero stats labels («پروژه تحویل شده»…) and the name-story
+   brandline («دادمور بازی با نام…») were barely visible in dark mode
+   (muted colour). Dark mode only: bold + a bright, readable colour. */
+:root[data-theme="dark"] .hero-stats .stat {
+  font-weight: 700;
+  color: var(--color-foreground);
+}
+:root[data-theme="dark"] .hero-brandline {
+  font-weight: 700;
+  color: var(--violet-bright);
+}
+
+/* (5) Tool icons (project estimator + security self-check) were too
+   small on desktop. Enlarge the tool-row chip at desktop widths.
+   v12 (2026-11-06 01:03, owner: "still small"): 56px -> 64px. */
+@media (min-width: 768px) {
+  .tool-row .row-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+  }
+  .tool-row .row-icon svg {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+/* (10) The first dot-stream sits directly after the hero; it was too
+   close to the hero animation/background. Push it down a little. */
+.hero + .dot-stream {
+  margin-block-start: var(--space-6);
+}
+
+/* ============================================================
+   (17) Owner orders, 2026-11-06 01:02–01:04 — v12.
+   ============================================================ */
+
+/* Bigger hero lion + foil (owner: "اندازه لوگو و فویل هولوگرامیش رو
+   بزرگتر کن"). The foil is inset 0 in .lion-stack, so it grows with
+   the lion. Desktop 312px -> 360px (38vw cap keeps it inside the
+   0.8fr lion column at tablet widths); mobile 220px -> 260px. */
+.lion-stack {
+  width: min(360px, 38vw);
+}
+@media (max-width: 767.98px) {
+  .lion-stack {
+    width: min(260px, 68vw);
+  }
+}
+
+/* (18) Tool rows on mobile — vertical card (v14, owner order 2026-11-06
+   01:33). Root cause: on a 390px screen the .tool-row flex row kept
+   [icon 40px] [text flex:1] [button ~200px] on ONE line, so the button
+   hogged the width and the text column shrank to 42–91px — the title and
+   description fragmented into one-word lines and the card grew to
+   438px / 1083px tall (live Playwright measurement). Fix: on mobile the
+   row becomes a grid — icon + text on row 1 (the text gets the full
+   remaining width), the button full-width on row 2. The service rows
+   were never affected (they use the absolute-icon + padding layout). */
+@media (max-width: 767.98px) {
+  .tool-row {
+    display: grid;
+    grid-template-columns: 48px minmax(0, 1fr);
+    column-gap: var(--space-3);
+    row-gap: var(--space-3);
+    align-items: start;
+    padding-block: var(--space-4);
+  }
+  .tool-row > .row-icon {
+    grid-column: 1;
+    grid-row: 1;
+    position: static;
+    width: 48px;
+    height: 48px;
+    margin: 0;
+  }
+  .tool-row > .row-icon svg {
+    width: 26px;
+    height: 26px;
+  }
+  .tool-row > div {
+    grid-column: 2;
+    grid-row: 1;
+    min-width: 0;
+  }
+  .tool-row > a {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-self: stretch;
+    text-align: center;
+  }
+  /* Estimator tables: a touch smaller on mobile so the band formula
+     («S ≤ ۲ · M ۳ تا ۵ · L ≥ ۶») wraps cleanly instead of splitting
+     mid-range. The formula's range is also non-breaking in the data.
+     v17 (2026-11-06 07:16, owner order): tables are still cramped on
+     mobile — tighten the cell padding too (8px/12px → 4px/8px) so the
+     five band columns get room, and the formula is now three short
+     bidi-safe lines (S, then M, then L) instead of one jumbled line. */
+  table th,
+  table td {
+    font-size: 0.9rem;
+    padding: var(--space-1) var(--space-2);
+  }
+}
+
+/* Tool rows: the icon + text were spread apart by the row's
+   justify-content: space-between (icon at the far edge, text in the
+   middle) — that is why the icon read as "not centred" and "far from
+   the text" (owner order 2026-11-06 01:03). Group them: the icon sits
+   next to the text, the text takes the space, the button goes to the
+   far end. The 16px gap replaces the old 24px. */
+.tool-row {
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--space-4);
+}
+.tool-row > div {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ===== (19) Hero CTA spacing + service headings (owner order 2026-11-06 07:07) ===== */
+/* Hero CTAs: the two buttons sat too close under the hero paragraph
+   (only the paragraph's 24px bottom margin separated them). One extra
+   16px above the button row gives the hero breathing room and a better
+   proportion — 40px total. Applies to both buttons on mobile + desktop. */
+.hero-ctas {
+  margin-block-start: var(--space-4);
+}
+/* Service headings: the heading was itself a hyperlink (underlined on
+   hover/tap) even though every service row already ends in a
+   .service-link button («درباره … ←»), so the heading link was
+   redundant. The <a> is removed from the data; the heading is now plain
+   text, violet, bolder and one size bigger (was 1.25rem / weight 600).
+   Dark: violet-bright. Light: vivid violet #7C4DFF (same as the tagline
+   accent — the light foreground is indigo #3A3587, so indigo would be
+   invisible as an accent). */
+.service-row-main :is(h2, h3) {
+  color: var(--violet-bright);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+:root[data-theme="light"] .service-row-main :is(h2, h3) {
+  /* v18 (2026-11-06 07:26, owner order): the light violet #7C4DFF was
+     "not good" — too bright/neon (value 100) and too close in hue to the
+     indigo base (256° vs 244°), so it read as a brighter indigo. The new
+     light violet #7C3AED is a refined, clearly purple violet (hue 262°,
+     5.70:1 on white, AA; 1.81:1 against the indigo base). */
+  color: #7C3AED;
+}
+
+/* ============ v27 (2026-11-06, owner orders) ============ */
+
+/* --- (a) Button font: Lalezar for ALL buttons. Lalezar is a display
+   face not used in any body text, so buttons have their own voice.
+   Single weight 400 (already bold in character). Applies to .btn
+   (hero CTAs, nav CTA, tool buttons, form submit), .channel-pill
+   (contact pills) and .service-link (the "درباره … ←" links). The FAQ
+   accordion buttons are headings, not action buttons — they keep the
+   body font. */
+.btn,
+.channel-pill,
+.service-link {
+  font-family: var(--font-button);
+  font-weight: 400;
+}
+
+/* --- (b) Home contact strip: three clear sections. The pills +
+   captions were cramped and disproportionate (owner report). The strip
+   is now three sections with real breathing room:
+   1. message — heading + intro + reply-time
+   2. form CTA — the "رفتن به فرم تماس" button, on its own
+   3. channels — the three pills, each with its caption underneath.
+   Section 1 -> 2 and 2 -> 3 are separated by a full gap; the pill
+   items are spread further apart and each caption sits further below
+   its own pill. */
+/* Section 1 -> 2: a full gap above the form CTA. */
+.home-contact .btn {
+  margin-block-start: var(--space-6);
+}
+/* Section 2 -> 3: a full gap above the channels row. */
+.home-channels {
+  margin-block-start: var(--space-6);
+}
+/* Within section 3: the three pill items are spread apart... */
+.home-channels .channel-row {
+  gap: var(--space-6);
+}
+/* ...and each caption sits further below its own pill. */
+.home-channels .channel-item {
+  gap: var(--space-4);
+}
+
+/* --- (c) Channel column (contact page): the three channel items stack
+   vertically — Email, then Telegram, then WhatsApp — each with its
+   caption underneath. The row becomes a column; the per-item gap is
+   generous so the three vertical items read as three separate rows. */
+.channel-column {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-5);
+}
+
+/* --- (d) Hero load flicker (v27, owner order 2026-11-06). On refresh the
+   whole hero flickered several times in the first seconds — and even the
+   background. Three causes, three fixes:
+   1. The h1 typing started the client at shown=0 while the server
+      rendered all words, so hydration ERASED the title and typed it back
+      (Hero.tsx now hides the words before first paint via useLayoutEffect
+      instead). The h1 ALSO had the CSS hero-enter fade on top of the word
+      typing — a double fade. The h1 is excluded from hero-enter now; its
+      entrance is the typing alone.
+   2. The lazy R3F canvas popped in abruptly when its chunk arrived (the
+      background flicker). It now fades in over 800ms — v28 SUPERSEDES
+      the animation here: the fade is a transition gated on the first
+      rendered frame (.hero .hero-canvas.is-ready, see the backdrop
+      section above), because on mobile the first WebGL frame can land
+      after the animation already finished and the dots pop in at full
+      opacity. */
+.hero-text > h1 {
+  animation: none;
+}
+
+/* --- (e) H1 typing is CSS-only now (v27, hero flicker fix). The words
+   are always rendered visible in the HTML (SEO / no-JS) and the
+   staggered fade-in is a CSS animation with `backwards` fill, so each
+   word starts hidden during its delay and fades in on schedule. No
+   React state, no hydration mismatch, no flash. Same rhythm as the old
+   state typing: first word at 200ms, then 300ms per word. */
+.hero h1 .w {
+  animation: hero-word-in 300ms ease-out backwards;
+}
+.hero h1 .w:nth-child(1) { animation-delay: 0.2s; }
+.hero h1 .w:nth-child(2) { animation-delay: 0.5s; }
+.hero h1 .w:nth-child(3) { animation-delay: 0.8s; }
+.hero h1 .w:nth-child(4) { animation-delay: 1.1s; }
+.hero h1 .w:nth-child(5) { animation-delay: 1.4s; }
+.hero h1 .w:nth-child(6) { animation-delay: 1.7s; }
+@keyframes hero-word-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero h1 .w {
+    animation: none;
+  }
+}
+
+/* v33: the estimator "other" text input now has a visible label (R-39),
+   stacked above the field — it used to carry only an aria-label. */
+.other-field {
+  display: block;
+  margin-top: var(--space-2);
+}
+.other-field > span {
+  display: block;
+  margin-bottom: var(--space-1);
+  font-size: var(--text-small);
+}

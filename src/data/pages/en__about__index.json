@@ -1,0 +1,149 @@
+{
+  "path": "en/about/index.html",
+  "lang": "en",
+  "title": "About dadmor: an independent, technical studio | dadmor",
+  "description": "dadmor is an independent, technical studio for founders who want their work scoped clearly, built precisely and maintained honestly.",
+  "canonical": "https://dadmor.netlify.app/en/about/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/about/",
+    "en": "https://dadmor.netlify.app/en/about/",
+    "x-default": "https://dadmor.netlify.app/about/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "website",
+    "title": "About dadmor: an independent, technical studio | dadmor",
+    "description": "dadmor is an independent, technical studio for founders who want their work scoped clearly, built precisely and maintained honestly.",
+    "url": "https://dadmor.netlify.app/en/about/",
+    "image": "https://dadmor.netlify.app/og.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "en_US",
+    "locale:alternate": "fa_IR"
+  },
+  "jsonld": [],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li aria-current=\"page\">About</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h1>About</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "p",
+          "html": "dadmor is an independent, technical studio for founders who need a website, product, business model, document, security test, or content system that is scoped clearly, built precisely, and maintained honestly, not just delivered beautifully."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Three principles every project is built on"
+        },
+        {
+          "t": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Clarity before build</strong>: scope, deliverables, exclusions, what we need from you and ownership are written down before design.",
+            "<strong>Technical precision to handover</strong>: accessible, fast, secure by default, documented and maintainable.",
+            "<strong>Honesty after launch</strong>: limits are stated, work samples carry a role label, and retest or revision rules are in writing."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Team"
+        },
+        {
+          "t": "p",
+          "html": "dadmor works as one studio: the people who scope your project stay with it to handover. We take a limited number of projects at a time, so scope, build and handover stay with the same people."
+        },
+        {
+          "t": "p",
+          "html": "Design and build (websites, UI, documentation) · Strategy and security (business model, penetration testing) · Content (marketing, copy, SEO)"
+        },
+        {
+          "t": "group",
+          "class": "team-visual",
+          "blocks": [
+            {
+              "t": "raw",
+              "html": "<span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>Idea</span>",
+              "class": "dot-tag",
+              "tag": "span"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "The name"
+        },
+        {
+          "t": "p",
+          "html": "dadmor plays on mordad. Dad means both justice and gift, and we read those two meanings this way: be fair to the client, and hand over work that stays useful after we leave."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "How we work"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "<a href=\"/en/process/\">Process: five steps with inputs and outputs</a>",
+            "<a href=\"/en/work/\">Work you can check</a>",
+            "<a href=\"/en/tools/estimator/\">Project estimator</a>",
+            "<a href=\"/en/tools/security-check/\">Security self-check</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-cta container",
+      "blocks": [
+        {
+          "t": "cta",
+          "text": "Contact us for a scoping conversation",
+          "href": "/en/contact/",
+          "class": "btn btn-primary"
+        }
+      ]
+    }
+  ]
+}

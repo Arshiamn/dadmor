@@ -1,0 +1,296 @@
+{
+ "path": "en/index.html",
+ "lang": "en",
+ "title": "dadmor | A small technical studio for websites, products and security",
+ "description": "Website building, UI/UX design, business models, documentation, penetration testing and content, with a written scope before work starts and handover documents when it ends.",
+ "canonical": "https://dadmor.netlify.app/en/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/",
+  "en": "https://dadmor.netlify.app/en/",
+  "x-default": "https://dadmor.netlify.app/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "dadmor | A small technical studio for websites, products and security",
+  "description": "Website building, UI/UX design, business models, documentation, penetration testing and content, with a written scope before work starts and handover documents when it ends.",
+  "url": "https://dadmor.netlify.app/en/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "en_US",
+  "locale:alternate": "fa_IR"
+ },
+ "jsonld": [
+  [
+   {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "dadmor",
+    "url": "https://dadmor.netlify.app/",
+    "logo": "https://dadmor.netlify.app/assets/img/dadmor-halftone-logo.svg"
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "dadmor",
+    "url": "https://dadmor.netlify.app/",
+    "inLanguage": [
+     "fa",
+     "en"
+    ]
+   }
+  ]
+ ],
+ "hero": {
+  "t": "hero",
+  "html": "<span class=\"hero-boot-sweep\" aria-hidden=\"true\"></span> <div class=\"hero-text\"> <p class=\"hero-eyebrow\">An independent, technical design-and-build studio</p> <h1><span class=\"w\">A</span> <span class=\"w\">structure</span> <span class=\"w\">that</span> <span class=\"w\">lasts.</span></h1> <p class=\"hero-sub\">For founders who need a website, product, business model, document, security test, or content system that is scoped clearly, works precisely, and can still be maintained after launch.</p> <div class=\"hero-ctas\"> <a class=\"btn btn-primary\" href=\"/en/tools/estimator/\">Scope your project</a> <a class=\"btn btn-ghost\" href=\"/en/services/\">See the services</a> </div> <p class=\"hero-stats\"><span class=\"stat\"><strong>20+</strong> Projects delivered</span><span class=\"stat\"><strong>5+</strong> Years of work</span><span class=\"stat\"><strong>6</strong> Services</span></p> <p class=\"hero-brandline\">dadmor plays on mordad; dad means both justice and gift.</p> </div> <div class=\"hero-lion\"> <span class=\"lion-stack\" aria-hidden=\"true\"> <svg class=\"hero-lion-svg\" viewbox=\"123 74 312 356\" focusable=\"false\"><use data-lion-use=\"None\" href=\"/assets/img/hero-lion-d3.svg#lion-root\"></use></svg> <svg class=\"hero-eyes-svg\" viewbox=\"123 74 312 356\" focusable=\"false\"><use class=\"eyes-use\" data-lion-eyes=\"None\" href=\"/assets/img/hero-lion-d3.svg#eyes\"></use></svg> </span> </div>",
+  "eyebrow": "An independent, technical design-and-build studio",
+  "h1_html": "<span class=\"w\">A</span> <span class=\"w\">structure</span> <span class=\"w\">that</span> <span class=\"w\">lasts.</span>",
+  "h1_text": "A structure that lasts.",
+  "paragraphs": [
+   "An independent, technical design-and-build studio",
+   "For founders who need a website, product, business model, document, security test, or content system that is scoped clearly, works precisely, and can still be maintained after launch.",
+   "<span class=\"stat\"><strong>20+</strong> Projects delivered</span><span class=\"stat\"><strong>5+</strong> Years of work</span><span class=\"stat\"><strong>6</strong> Services</span>",
+   "dadmor plays on mordad; dad means both justice and gift."
+  ],
+  "ctas": [
+   {
+    "text": "Scope your project",
+    "href": "/en/tools/estimator/",
+    "class": "btn btn-primary"
+   },
+   {
+    "text": "See the services",
+    "href": "/en/services/",
+    "class": "btn btn-ghost"
+   }
+  ],
+  "lion_html": "<span class=\"lion-stack\" aria-hidden=\"true\"> <svg class=\"hero-lion-svg\" viewbox=\"123 74 312 356\" focusable=\"false\"><use data-lion-use=\"None\" href=\"/assets/img/hero-lion-d3.svg#lion-root\"></use></svg> <svg class=\"hero-eyes-svg\" viewbox=\"123 74 312 356\" focusable=\"false\"><use class=\"eyes-use\" data-lion-eyes=\"None\" href=\"/assets/img/hero-lion-d3.svg#eyes\"></use></svg> </span>"
+ },
+ "blocks": [
+  {
+   "t": "divider"
+  },
+  {
+   "t": "group",
+   "class": "home-services container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Six services, each with a written scope"
+    },
+    {
+     "t": "p",
+     "html": "Every project starts with a scope document: what is delivered, what is not, and what you need to supply. If you are unsure where to start, the <a href=\"/en/services/#finder\">service finder</a> suggests one in six questions."
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "<div class=\"service-row-main\"> <h3><a href=\"/en/services/website-building/\">Website building</a></h3> <p>A website with structure: modeled, built, and handed over with documentation, so it keeps working after launch day.</p> </div> <p class=\"service-notfor\">Not a fit if you only want a ready-made template in your brand colours.</p> <a class=\"service-link\" href=\"/en/services/website-building/\">About website building</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/en/services/ui-ux-design/\">UI/UX design</a></h3> <p>Interfaces decided by user tasks and evidence, delivered as a system developers can actually build from.</p> </div> <p class=\"service-notfor\">Not a fit if you only need a few screens to show investors.</p> <a class=\"service-link\" href=\"/en/services/ui-ux-design/\">About UI/UX design</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/en/services/business-model/\">Business model design</a></h3> <p>A model you can test: assumptions, revenue logic, and kill/continue criteria, not just a convincing pitch deck.</p> </div> <p class=\"service-notfor\">Not a fit if you need a financial forecast or investment advice.</p> <a class=\"service-link\" href=\"/en/services/business-model/\">About business model design</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/en/services/documentation/\">Documentation</a></h3> <p>Documents the next maintainer can use, with a named audience, format, and update rule.</p> </div> <p class=\"service-notfor\">Not a fit if the document only needs to exist in a folder.</p> <a class=\"service-link\" href=\"/en/services/documentation/\">About documentation</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/en/services/penetration-testing/\">Penetration testing</a></h3> <p>A manual, scoped test with a CVSS-scored report and a retest: proof of what was tested, and what was not.</p> </div> <p class=\"service-notfor\">Not a fit without written authorisation from the system owner, or if you want a \"fully secure\" certificate.</p> <a class=\"service-link\" href=\"/en/services/penetration-testing/\">About penetration testing</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/en/services/marketing-content/\">Marketing and content</a></h3> <p>Video, text, and SEO built from the same structure as the product, so content explains the work instead of decorating it.</p> </div> <p class=\"service-notfor\">Not a fit if you want a promised Google ranking.</p> <a class=\"service-link\" href=\"/en/services/marketing-content/\">About marketing and content</a>"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "divider"
+  },
+  {
+   "t": "group",
+   "class": "home-how container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Five steps, each with a named input and output"
+    },
+    {
+     "t": "list",
+     "ordered": true,
+     "items": [
+      "<strong>Discover</strong>: goal, audience, and success are defined before any design starts.",
+      "<strong>Plan</strong>: structure, pages or features, and priorities are agreed up front.",
+      "<strong>Design</strong>: a direction you see and react to early, not a finished site revealed at the end.",
+      "<strong>Build</strong>: clean, component-based code, with performance and accessibility from the start and documentation as we go.",
+      "<strong>Launch and care</strong>: release, a handover walkthrough, and a retest or revision under that service's rule."
+     ]
+    },
+    {
+     "t": "raw",
+     "html": "<a class=\"service-link\" href=\"/en/process/\">See the input and output of each step</a>",
+     "class": "service-link",
+     "tag": "a"
+    }
+   ]
+  },
+  {
+   "t": "divider"
+  },
+  {
+   "t": "group",
+   "class": "home-work container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Work you can check"
+    },
+    {
+     "t": "p",
+     "html": "We only show work whose link opens and where our role is stated."
+    },
+    {
+     "t": "raw",
+     "html": "<article class=\"work-item work-item-featured\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>Verified and handed over</span> <h3><a href=\"https://ghazalalidoost.art\" rel=\"noopener\">ghazalalidoost.art</a></h3> <p class=\"work-label\">Client work · Ghazal Alidoust's portfolio website · Our role: Design and build</p> <a class=\"service-link\" href=\"https://ghazalalidoost.art\" rel=\"noopener\">Visit ghazalalidoost.art (opens a new tab)</a> </article>",
+     "class": "work-item work-item-featured",
+     "tag": "article"
+    },
+    {
+     "t": "p",
+     "html": "More selected work will be added as it is published."
+    },
+    {
+     "t": "raw",
+     "html": "<a class=\"service-link\" href=\"/en/work/\">All work</a>",
+     "class": "service-link",
+     "tag": "a"
+    }
+   ]
+  },
+  {
+   "t": "divider"
+  },
+  {
+   "t": "group",
+   "class": "home-tools container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Two free tools that run in your own browser"
+    },
+    {
+     "t": "cards",
+     "kind": "tool",
+     "items": [
+      {
+       "title": "Project estimator",
+       "href": "/en/tools/estimator/",
+       "html": "<div class=\"tool-row\"> <div><h3>Project estimator</h3><p>a few questions about your project, and a printable scoped brief with an S, M or L effort band and the reason for it. It gives no price and no delivery date.</p></div> <a class=\"btn btn-ghost\" href=\"/en/tools/estimator/\">Open the project estimator</a> </div>"
+      }
+     ]
+    },
+    {
+     "t": "cards",
+     "kind": "tool",
+     "items": [
+      {
+       "title": "Security self-check",
+       "href": "/en/tools/security-check/",
+       "html": "<div class=\"tool-row\"> <div><h3>Security self-check</h3><p>twelve plain questions about your security habits, with a transparent score and next actions in order. It does not test your system and does not replace a penetration test.</p></div> <a class=\"btn btn-ghost\" href=\"/en/tools/security-check/\">Start the security self-check</a> </div>"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "Neither tool sends your answers anywhere."
+    }
+   ]
+  },
+  {
+   "t": "divider"
+  },
+  {
+   "t": "group",
+   "class": "home-faq container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Questions asked before starting"
+    },
+    {
+     "t": "group",
+     "class": "home-faq-grid",
+     "blocks": [
+      {
+       "t": "faq-item",
+       "q": "How is price decided?",
+       "a_html": "<h3>How is price decided?</h3><p>Before any price, we have a scoping conversation. After it, we send a written proposal with a fixed price for a defined scope.</p>"
+      },
+      {
+       "t": "faq-item",
+       "q": "How long does it take?",
+       "a_html": "<h3>How long does it take?</h3><p>It depends on the scope and on content readiness. We write the schedule into the proposal as an estimate, not a guarantee.</p>"
+      },
+      {
+       "t": "faq-item",
+       "q": "What if my content is not ready?",
+       "a_html": "<h3>What if my content is not ready?</h3><p>That is fine, as long as we know from the start. Content readiness is one of the effort-band factors and is written into the scope.</p>"
+      },
+      {
+       "t": "faq-item",
+       "q": "What happens after delivery?",
+       "a_html": "<h3>What happens after delivery?</h3><p>We hold a handover walkthrough and give you the handover documentation, so you or the next team can maintain the work. Each service's revision or retest rule is written into that service's scope.</p>"
+      },
+      {
+       "t": "faq-item",
+       "q": "Who owns the site, code, domain, and content?",
+       "a_html": "<h3>Who owns the site, code, domain, and content?</h3><p>You do. The source code, domain, hosting account and content are handed over in your name.</p>"
+      },
+      {
+       "t": "faq-item",
+       "q": "Can you guarantee SEO rankings?",
+       "a_html": "<h3>Can you guarantee SEO rankings?</h3><p>No. Nobody can honestly guarantee a specific Google ranking. What we can promise is structure, speed and content readiness for search.</p>"
+      }
+     ]
+    },
+    {
+     "t": "raw",
+     "html": "<a class=\"service-link\" href=\"/en/faq/\">All twelve questions</a>",
+     "class": "service-link",
+     "tag": "a"
+    }
+   ]
+  },
+  {
+   "t": "divider"
+  },
+  {
+   "t": "group",
+   "class": "home-contact container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Describe your project in a few lines"
+    },
+    {
+     "t": "p",
+     "html": "Tell us what you need and by when. Before any price, we have a scoping conversation."
+    },
+    {
+     "t": "p",
+     "html": "We reply within one working day."
+    },
+    {
+     "t": "cta",
+     "text": "Go to the contact form",
+     "href": "/en/contact/",
+     "class": "btn btn-primary"
+    },
+    {
+     "t": "p",
+     "html": "Email <a href=\"mailto:hello@dadmor.com\" dir=\"ltr\">hello@dadmor.com</a> for briefs and files · WhatsApp <a href=\"https://wa.me/989391400826\" rel=\"noopener\">+98 939 140 0826</a> for short questions · Telegram <a href=\"https://t.me/dadmor_ai\" rel=\"noopener\" dir=\"ltr\">@dadmor_ai</a> for short questions."
+    }
+   ]
+  }
+ ]
+}

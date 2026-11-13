@@ -1,0 +1,422 @@
+{
+  "path": "services/ui-ux-design/index.html",
+  "lang": "fa",
+  "title": "طراحی رابط و تجربه کاربری بر اساس وظیفه کاربر | dadmor",
+  "description": "طراحی رابط از روی وظیفه کاربر و شواهد، تحویل به صورت سیستم طراحی و مشخصات قابل ساخت برای توسعه دهنده.",
+  "canonical": "https://dadmor.netlify.app/services/ui-ux-design/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/services/ui-ux-design/",
+    "en": "https://dadmor.netlify.app/en/services/ui-ux-design/",
+    "x-default": "https://dadmor.netlify.app/services/ui-ux-design/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "website",
+    "title": "طراحی رابط و تجربه کاربری بر اساس وظیفه کاربر | dadmor",
+    "description": "طراحی رابط از روی وظیفه کاربر و شواهد، تحویل به صورت سیستم طراحی و مشخصات قابل ساخت برای توسعه دهنده.",
+    "url": "https://dadmor.netlify.app/services/ui-ux-design/",
+    "image": "https://dadmor.netlify.app/og.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "fa_IR",
+    "locale:alternate": "en_US"
+  },
+  "jsonld": [
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "طراحی رابط و تجربه کاربری",
+        "description": "طراحی رابط از روی وظیفه کاربر و شواهد، تحویل به صورت سیستم طراحی و مشخصات قابل ساخت برای توسعه دهنده.",
+        "provider": {
+          "@type": "Organization",
+          "name": "dadmor",
+          "url": "https://dadmor.netlify.app/"
+        },
+        "url": "https://dadmor.netlify.app/services/ui-ux-design/"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "فایل های طراحی متعلق به چه کسی است؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "به شما. فایل ها و توکن ها در پایان پروژه تحویل می شود."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "می توانید روی برند فعلی ما طراحی کنید؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "بله. سیستم طراحی از رنگ و فونت فعلی شما شروع می شود و فقط جاهایی را تغییر می دهیم که مشکل خوانایی یا دسترس پذیری دارند، با دلیل."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "دسترس پذیری را چطور بررسی می کنید؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "کنتراست رنگ، مسیر صفحه کلید، حالت فوکوس و برچسب فرم ها را بر اساس WCAG 2.2 سطح AA بررسی و نتیجه را در مشخصات تحویل ثبت می کنیم."
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "خانه",
+            "item": "https://dadmor.netlify.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "خدمت ها",
+            "item": "https://dadmor.netlify.app/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "طراحی رابط و تجربه کاربری",
+            "item": "https://dadmor.netlify.app/"
+          }
+        ]
+      }
+    ]
+  ],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"مسیر صفحه\"><ol><li><a href=\"/\">خانه</a></li><li><a href=\"/services/\">خدمت ها</a></li><li aria-current=\"page\">طراحی رابط و تجربه کاربری</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h1>طراحی رابط و تجربه کاربری</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "p",
+          "html": "رابطی که از روی وظیفه کاربر و شواهد تصمیم گرفته شده، به صورت سیستمی که توسعه دهنده واقعاً بتواند بسازد."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "مسئله"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "طرحی که در فایل طراحی زیباست ولی کسی نمی داند در حالت خطا، خالی یا روی موبایل چه شکلی دارد، در ساخت عوض می شود. توسعه دهنده حدس می زند، کاربر جای دکمه را پیدا نمی کند، و هر صفحه جدید از صفر طراحی می شود."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "مناسب برای چه کسی است"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "تیم هایی که محصول یا اپ وب دارند و کاربران در یک کار مشخص (ثبت نام، خرید، گزارش گیری) گیر می کنند.",
+            "استارتاپ هایی که پیش از ساخت، جریان های اصلی را می خواهند با کاربر واقعی بسنجند.",
+            "تیم های توسعه ای که یک سیستم طراحی قابل ساخت لازم دارند، نه مجموعه ای از تصویرهای جدا."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "مناسب چه کسی نیست"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "اگر فقط چند تصویر برای ارائه به سرمایه گذار لازم دارید.",
+            "اگر می خواهید طراحی بدون هیچ دسترسی به کاربر یا داده انجام شود و نتیجه «قطعی» اعلام شود. بدون شواهد هم کار می کنیم، ولی در خروجی می نویسیم کدام تصمیم بر چه فرضی است.",
+            "اگر طراحی یک اپ بومی iOS یا اندروید با راهنمای اختصاصی پلتفرم را می خواهید."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "رویکرد ما"
+        },
+        {
+          "t": "list",
+          "ordered": true,
+          "items": [
+            "وظیفه ها. ورودی: گفت وگو با شما و هر داده موجود (پشتیبانی، آنالیتیکس). خروجی: فهرست وظیفه های اصلی کاربر به ترتیب اهمیت. مسئول: dadmor با شما.",
+            "جریان ها. ورودی: فهرست وظیفه ها. خروجی: نقشه جریان و وایرفریم جریان های کلیدی. مسئول: dadmor؛ تأیید: شما.",
+            "سیستم. ورودی: وایرفریم تأییدشده. خروجی: سیستم طراحی (توکن ها و کامپوننت ها با همه حالت ها) و صفحه های کلیدی. مسئول: dadmor.",
+            "آزمون. ورودی: نمونه اولیه قابل کلیک. خروجی: یادداشت آزمون با کاربر و فهرست اصلاحات. مسئول: dadmor؛ معرفی کاربران آزمون: شما.",
+            "تحویل. ورودی: طراحی اصلاح شده. خروجی: مشخصات تحویل به توسعه دهنده. مسئول: dadmor."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "خروجی ها"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "عوامل اسکوپ و زمان بندی"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "چه چیزی کار را از <span class=\"band-letters\"><span>S</span><span>به</span><span>M</span><span>و</span><span>L</span></span> می برد: تعداد جریان ها و صفحه های کلیدی، تعداد نقش کاربری، دوزبانه بودن، و اینکه آزمون کاربر در اسکوپ هست یا نه.",
+            "آنچه شما فراهم می کنید: دسترسی به محصول فعلی، هر داده کاربری که دارید، و معرفی کاربران آزمون.",
+            "آنچه پروژه را عقب می اندازد: کاربران آزمونی که پیدا نمی شوند، و تغییر اولویت قابلیت ها وسط طراحی."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "باند تلاش"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "باند <span class=\"band-letters\"><span>S</span><span>،</span><span>M</span><span>یا</span><span>L</span></span> بر اساس تعداد جریان ها و صفحه های کلیدی. قیمت ثابت را بعد از گفت وگوی اسکوپ و در پیشنهاد کتبی می دهیم."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "باند، اندازه تقریبی کار است؛ نه قیمت و نه مدت. قیمت ثابت فقط بعد از گفت وگوی اسکوپ و در پیشنهاد کتبی مشخص می شود."
+        },
+        {
+          "t": "p",
+          "html": "باند، برآورد اولیه است؛ گفت وگوی اسکوپ می تواند آن را جابه جا کند."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "محدودیت ها و ریسک ها"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "آزمون با چند کاربر مشکل های بزرگ را نشان می دهد، ولی نتیجه آماری نیست و آن را این طور معرفی نمی کنیم.",
+            "ساخت طراحی جزو این خدمت نیست؛ اگر ساخت را هم می خواهید، خدمت ساخت وب سایت را کنارش اسکوپ می کنیم.",
+            "اگر کاربران آزمون را شما معرفی نکنید، آزمون با کاربرانی انجام می شود که شبیه مخاطب شما هستند و این را در یادداشت آزمون می نویسیم."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "پرسش های این خدمت"
+        },
+        {
+          "t": "group",
+          "class": "faq-list",
+          "blocks": [
+            {
+              "t": "group",
+              "class": "faq-item",
+              "blocks": [
+                {
+                  "t": "heading",
+                  "level": 3,
+                  "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-1-fa\" data-faq-btn=\"None\">فایل های طراحی متعلق به چه کسی است؟</button>"
+                },
+                {
+                  "t": "group",
+                  "class": "faq-a",
+                  "blocks": [
+                    {
+                      "t": "group",
+                      "class": "",
+                      "blocks": [
+                        {
+                          "t": "p",
+                          "html": "به شما. فایل ها و توکن ها در پایان پروژه تحویل می شود."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "group",
+              "class": "faq-item",
+              "blocks": [
+                {
+                  "t": "heading",
+                  "level": 3,
+                  "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-2-fa\" data-faq-btn=\"None\">می توانید روی برند فعلی ما طراحی کنید؟</button>"
+                },
+                {
+                  "t": "group",
+                  "class": "faq-a",
+                  "blocks": [
+                    {
+                      "t": "group",
+                      "class": "",
+                      "blocks": [
+                        {
+                          "t": "p",
+                          "html": "بله. سیستم طراحی از رنگ و فونت فعلی شما شروع می شود و فقط جاهایی را تغییر می دهیم که مشکل خوانایی یا دسترس پذیری دارند، با دلیل."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "group",
+              "class": "faq-item",
+              "blocks": [
+                {
+                  "t": "heading",
+                  "level": 3,
+                  "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-3-fa\" data-faq-btn=\"None\">دسترس پذیری را چطور بررسی می کنید؟</button>"
+                },
+                {
+                  "t": "group",
+                  "class": "faq-a",
+                  "blocks": [
+                    {
+                      "t": "group",
+                      "class": "",
+                      "blocks": [
+                        {
+                          "t": "p",
+                          "html": "کنتراست رنگ، مسیر صفحه کلید، حالت فوکوس و برچسب فرم ها را بر اساس WCAG 2.2 سطح AA بررسی و نتیجه را در مشخصات تحویل ثبت می کنیم."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-cta container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": ""
+        },
+        {
+          "t": "p",
+          "html": ""
+        },
+        {
+          "t": "group",
+          "class": "btn-row",
+          "blocks": [
+            {
+              "t": "cta",
+              "text": "برآورد اسکوپ برای طراحی رابط",
+              "href": "/tools/estimator/?service=ui-ux-design",
+              "class": "btn btn-primary"
+            },
+            {
+              "t": "cta",
+              "text": "تماس برای گفت وگوی اسکوپ",
+              "href": "/contact/",
+              "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-proof container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "نمونه کار"
+        },
+        {
+          "t": "p",
+          "html": "نمونه سانسورشده، در گفت وگوی اسکوپ و با اجازه مالک، قابل مشاهده است."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Netlify headers — v30 (2026-11-06, owner order: speed up the site).
+# Hashed assets (JS/CSS/fonts in /assets) are content-addressed: a new
+# build gets a new filename, so the old file is never reused. Cache them
+# immutably for a year — repeat visits load them from disk, not the
+# network. HTML pages are NOT hashed, so they revalidate every time
+# (visitors always see the latest version with a single ordinary refresh
+# — the standing caching rule). Fonts and images are versioned by the
+# build (they change rarely); cache them for a year but revalidate, so
+# an updated file is picked up without a hard refresh.
+# Note: Netlify already applies immutable caching to fingerprinted
+# assets by default; these headers make it explicit and cover the
+# fonts/img directories too.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+/fonts/*
+  Cache-Control: public, max-age=31536000, must-revalidate
+/img/*
+  Cache-Control: public, max-age=31536000, must-revalidate
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+/
+  Cache-Control: public, max-age=0, must-revalidate

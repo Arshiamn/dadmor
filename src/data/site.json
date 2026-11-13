@@ -1,0 +1,259 @@
+{
+  "pages": [
+    {
+      "path": "404.html",
+      "lang": "fa",
+      "title": "صفحه پیدا نشد · Page not found | dadmor",
+      "blocks": 3,
+      "hero": false
+    },
+    {
+      "path": "about/index.html",
+      "lang": "fa",
+      "title": "درباره dadmor: استودیوی مستقل و فنی | dadmor",
+      "blocks": 7,
+      "hero": false
+    },
+    {
+      "path": "contact/index.html",
+      "lang": "fa",
+      "title": "تماس: پروژه تان را در چند خط بنویسید | dadmor",
+      "blocks": 3,
+      "hero": false
+    },
+    {
+      "path": "en/about/index.html",
+      "lang": "en",
+      "title": "About dadmor: an independent, technical studio | dadmor",
+      "blocks": 7,
+      "hero": false
+    },
+    {
+      "path": "en/contact/index.html",
+      "lang": "en",
+      "title": "Contact: describe your project in a few lines | dadmor",
+      "blocks": 3,
+      "hero": false
+    },
+    {
+      "path": "en/faq/index.html",
+      "lang": "en",
+      "title": "FAQ: price, time, ownership and security | dadmor",
+      "blocks": 4,
+      "hero": false
+    },
+    {
+      "path": "en/index.html",
+      "lang": "en",
+      "title": "dadmor | A small technical studio for websites, products and security",
+      "blocks": 12,
+      "hero": true
+    },
+    {
+      "path": "en/journal/index.html",
+      "lang": "en",
+      "title": "Journal: scope, build, security and content | dadmor",
+      "blocks": 3,
+      "hero": false
+    },
+    {
+      "path": "en/privacy/index.html",
+      "lang": "en",
+      "title": "Privacy: what is collected and what is not | dadmor",
+      "blocks": 7,
+      "hero": false
+    },
+    {
+      "path": "en/process/index.html",
+      "lang": "en",
+      "title": "Process: five steps with inputs and outputs | dadmor",
+      "blocks": 4,
+      "hero": false
+    },
+    {
+      "path": "en/services/business-model/index.html",
+      "lang": "en",
+      "title": "Business model design you can test | dadmor",
+      "blocks": 13,
+      "hero": false
+    },
+    {
+      "path": "en/services/documentation/index.html",
+      "lang": "en",
+      "title": "Product, API and handover documentation | dadmor",
+      "blocks": 13,
+      "hero": false
+    },
+    {
+      "path": "en/services/index.html",
+      "lang": "en",
+      "title": "Services | dadmor",
+      "blocks": 4,
+      "hero": false
+    },
+    {
+      "path": "en/services/marketing-content/index.html",
+      "lang": "en",
+      "title": "Content, video and SEO built from your product's structure | dadmor",
+      "blocks": 13,
+      "hero": false
+    },
+    {
+      "path": "en/services/penetration-testing/index.html",
+      "lang": "en",
+      "title": "Manual penetration testing with a signed scope and retest | dadmor",
+      "blocks": 14,
+      "hero": false
+    },
+    {
+      "path": "en/services/ui-ux-design/index.html",
+      "lang": "en",
+      "title": "UI/UX design based on user tasks | dadmor",
+      "blocks": 13,
+      "hero": false
+    },
+    {
+      "path": "en/services/website-building/index.html",
+      "lang": "en",
+      "title": "Website building with a written scope and handover | dadmor",
+      "blocks": 13,
+      "hero": false
+    },
+    {
+      "path": "en/tools/estimator/index.html",
+      "lang": "en",
+      "title": "Project estimator: a scoped brief with an S, M or L band | dadmor",
+      "blocks": 5,
+      "hero": false
+    },
+    {
+      "path": "en/tools/security-check/index.html",
+      "lang": "en",
+      "title": "Security self-check: twelve plain questions | dadmor",
+      "blocks": 4,
+      "hero": false
+    },
+    {
+      "path": "en/work/index.html",
+      "lang": "en",
+      "title": "Work you can check | dadmor",
+      "blocks": 4,
+      "hero": false
+    },
+    {
+      "path": "faq/index.html",
+      "lang": "fa",
+      "title": "پرسش های رایج: قیمت، زمان، مالکیت و امنیت | dadmor",
+      "blocks": 4,
+      "hero": false
+    },
+    {
+      "path": "index.html",
+      "lang": "fa",
+      "title": "dadmor | استودیوی کوچک و فنی برای وب سایت، محصول و امنیت",
+      "blocks": 12,
+      "hero": true
+    },
+    {
+      "path": "journal/index.html",
+      "lang": "fa",
+      "title": "یادداشت ها: اسکوپ، ساخت، امنیت و محتوا | dadmor",
+      "blocks": 3,
+      "hero": false
+    },
+    {
+      "path": "privacy/index.html",
+      "lang": "fa",
+      "title": "حریم خصوصی: چه چیزی جمع می شود و چه چیزی نه | dadmor",
+      "blocks": 7,
+      "hero": false
+    },
+    {
+      "path": "process/index.html",
+      "lang": "fa",
+      "title": "فرایند کار: پنج مرحله با ورودی و خروجی | dadmor",
+      "blocks": 4,
+      "hero": false
+    },
+    {
+      "path": "services/business-model/index.html",
+      "lang": "fa",
+      "title": "طراحی و آزمایش مدل کسب وکار | dadmor",
+      "blocks": 13,
+      "hero": false
+    },
+    {
+      "path": "services/documentation/index.html",
+      "lang": "fa",
+      "title": "مستندسازی محصول، API و تحویل | dadmor",
+      "blocks": 13,
+      "hero": false
+    },
+    {
+      "path": "services/index.html",
+      "lang": "fa",
+      "title": "خدمت ها | dadmor",
+      "blocks": 4,
+      "hero": false
+    },
+    {
+      "path": "services/marketing-content/index.html",
+      "lang": "fa",
+      "title": "تولید محتوا، ویدیو و سئو از روی ساختار محصول | dadmor",
+      "blocks": 13,
+      "hero": false
+    },
+    {
+      "path": "services/penetration-testing/index.html",
+      "lang": "fa",
+      "title": "تست نفوذ دستی با اسکوپ امضاشده و بازتست | dadmor",
+      "blocks": 14,
+      "hero": false
+    },
+    {
+      "path": "services/ui-ux-design/index.html",
+      "lang": "fa",
+      "title": "طراحی رابط و تجربه کاربری بر اساس وظیفه کاربر | dadmor",
+      "blocks": 13,
+      "hero": false
+    },
+    {
+      "path": "services/website-building/index.html",
+      "lang": "fa",
+      "title": "ساخت وب سایت با اسکوپ و مستند تحویل | dadmor",
+      "blocks": 13,
+      "hero": false
+    },
+    {
+      "path": "tools/estimator/index.html",
+      "lang": "fa",
+      "title": "برآوردگر پروژه: بریف اسکوپ با باند L/M/S | dadmor",
+      "blocks": 5,
+      "hero": false
+    },
+    {
+      "path": "tools/security-check/index.html",
+      "lang": "fa",
+      "title": "خودارزیابی امنیت: دوازده سؤال ساده | dadmor",
+      "blocks": 4,
+      "hero": false
+    },
+    {
+      "path": "work/index.html",
+      "lang": "fa",
+      "title": "نمونه کار: کارهایی که می توانید ببینید | dadmor",
+      "blocks": 4,
+      "hero": false
+    }
+  ],
+  "chrome": {
+    "en": {
+      "header_html": "<nav class=\"nav container\" aria-label=\"Main menu\"> <a class=\"brand\" href=\"/en/\" aria-label=\"dadmor, home\"> <span class=\"lion-inline lion-icon\" aria-hidden=\"true\"><svg viewbox=\"123 74 312 356\" focusable=\"false\"><use href=\"/assets/img/dadmor-halftone-icon.svg#lion-root\"></use></svg><svg viewbox=\"123 74 312 356\" focusable=\"false\"><use class=\"eyes-use\" href=\"/assets/img/dadmor-halftone-icon.svg#eyes\"></use></svg></span> <span class=\"lion-inline lion-word\" aria-hidden=\"true\"><svg viewbox=\"139 435 301 78\" focusable=\"false\"><use href=\"/assets/img/dadmor-halftone-logo.svg#wordmark\"></use></svg></span> </a> <ul class=\"nav-links\" id=\"nav-links\"> <li><a href=\"/en/services/\">Services</a></li><li><a href=\"/en/process/\">Process</a></li><li><a href=\"/en/work/\">Work</a></li><li><a href=\"/en/about/\">About</a></li><li><a href=\"/en/faq/\">FAQ</a></li><li><a href=\"/en/contact/\">Contact</a></li> <li class=\"nav-cta-item\"><a class=\"btn btn-primary btn-small\" href=\"/en/tools/estimator/\">Project estimator</a></li> </ul> <div class=\"nav-actions\"> <nav class=\"lang-switch\" aria-label=\"Language\"> <a href=\"/\" hreflang=\"fa\" lang=\"fa\" data-lang-toggle=\"None\">FA</a><span class=\"lang-sep\" aria-hidden=\"true\"></span><a href=\"/en/\" hreflang=\"en\" lang=\"en\" data-lang-toggle=\"None\" aria-current=\"true\">EN</a> </nav> <button type=\"button\" class=\"theme-toggle\" data-theme-toggle=\"None\" aria-label=\"Switch to dark mode\" data-to-dark-label=\"Switch to dark mode\" data-to-light-label=\"Switch to light mode\"> <svg class=\"icon-moon\" viewbox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M20.4 14.2A8.3 8.3 0 0 1 9.8 3.6a8.3 8.3 0 1 0 10.6 10.6z\"></path></svg> <svg class=\"icon-sun\" viewbox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"></circle><path d=\"M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4\"></path></svg> </button> <button type=\"button\" class=\"menu-btn\" data-menu-btn=\"None\" aria-expanded=\"false\" aria-controls=\"nav-links\" data-open-label=\"Open menu\" data-close-label=\"Close menu\"><span data-menu-label=\"None\">Open menu</span></button> </div> </nav>",
+      "footer_html": "<div class=\"container\"> <div class=\"footer-brand\"> <span class=\"footer-lockup\"> <span class=\"lion-inline lion-icon\" aria-hidden=\"true\"><svg viewbox=\"123 74 312 356\" focusable=\"false\"><use href=\"/assets/img/dadmor-halftone-icon.svg#lion-root\"></use></svg><svg viewbox=\"123 74 312 356\" focusable=\"false\"><use class=\"eyes-use\" href=\"/assets/img/dadmor-halftone-icon.svg#eyes\"></use></svg></span> <span class=\"lion-inline lion-word\" aria-hidden=\"true\"><svg viewbox=\"139 435 301 78\" focusable=\"false\"><use href=\"/assets/img/dadmor-halftone-logo.svg#wordmark\"></use></svg></span> </span> <p class=\"tagline\">A structure that lasts.</p> </div> <div class=\"footer-cols\"> <div> <h2 class=\"footer-h\">Services</h2> <ul><li><a href=\"/en/services/website-building/\">Website building</a></li><li><a href=\"/en/services/ui-ux-design/\">UI/UX design</a></li><li><a href=\"/en/services/business-model/\">Business model design</a></li><li><a href=\"/en/services/documentation/\">Documentation</a></li><li><a href=\"/en/services/penetration-testing/\">Penetration testing</a></li><li><a href=\"/en/services/marketing-content/\">Marketing and content</a></li></ul> </div> <div> <h2 class=\"footer-h\">Tools</h2> <ul> <li><a href=\"/en/tools/estimator/\">Project estimator</a></li> <li><a href=\"/en/tools/security-check/\">Security self-check</a></li> </ul> </div> <div> <h2 class=\"footer-h\">Studio</h2> <ul> <li><a href=\"/en/process/\">Process</a></li> <li><a href=\"/en/work/\">Work</a></li> <li><a href=\"/en/about/\">About</a></li> <li><a href=\"/en/journal/\">Journal</a></li> <li><a href=\"/en/faq/\">FAQ</a></li> <li><a href=\"/en/contact/\">Contact</a></li> <li><a href=\"mailto:hello@dadmor.com\" dir=\"ltr\">hello@dadmor.com</a></li> <li><a href=\"https://t.me/dadmor_ai\" rel=\"noopener\" dir=\"ltr\">Telegram @dadmor_ai</a></li> <li><a href=\"https://wa.me/989391400826\" rel=\"noopener\">WhatsApp +98 939 140 0826</a></li> </ul> </div> </div> <div class=\"footer-meta\"> <p class=\"footer-privacy\">By default this site collects no data about you and uses no cookies or trackers. <a href=\"/en/privacy/\">Privacy</a></p> <p class=\"footer-copy\">© dadmor <span data-year=\"None\">2026</span></p> </div> </div>"
+    },
+    "fa": {
+      "header_html": "<nav class=\"nav container\" aria-label=\"منوی اصلی\"> <a class=\"brand\" href=\"/\" aria-label=\"dadmor، صفحه اصلی\"> <span class=\"lion-inline lion-icon\" aria-hidden=\"true\"><svg viewbox=\"123 74 312 356\" focusable=\"false\"><use href=\"/assets/img/dadmor-halftone-icon.svg#lion-root\"></use></svg><svg viewbox=\"123 74 312 356\" focusable=\"false\"><use class=\"eyes-use\" href=\"/assets/img/dadmor-halftone-icon.svg#eyes\"></use></svg></span> <span class=\"lion-inline lion-word\" aria-hidden=\"true\"><svg viewbox=\"139 435 301 78\" focusable=\"false\"><use href=\"/assets/img/dadmor-halftone-logo.svg#wordmark\"></use></svg></span> </a> <ul class=\"nav-links\" id=\"nav-links\"> <li><a href=\"/services/\">خدمت ها</a></li><li><a href=\"/process/\">فرایند کار</a></li><li><a href=\"/work/\">نمونه کار</a></li><li><a href=\"/about/\">درباره ما</a></li><li><a href=\"/faq/\">پرسش ها</a></li><li><a href=\"/contact/\">تماس</a></li> <li class=\"nav-cta-item\"><a class=\"btn btn-primary btn-small\" href=\"/tools/estimator/\">برآوردگر پروژه</a></li> </ul> <div class=\"nav-actions\"> <nav class=\"lang-switch\" aria-label=\"زبان\"> <a href=\"/\" hreflang=\"fa\" lang=\"fa\" data-lang-toggle=\"None\" aria-current=\"true\">FA</a><span class=\"lang-sep\" aria-hidden=\"true\"></span><a href=\"/en/\" hreflang=\"en\" lang=\"en\" data-lang-toggle=\"None\">EN</a> </nav> <button type=\"button\" class=\"theme-toggle\" data-theme-toggle=\"None\" aria-label=\"تغییر به حالت تاریک\" data-to-dark-label=\"تغییر به حالت تاریک\" data-to-light-label=\"تغییر به حالت روشن\"> <svg class=\"icon-moon\" viewbox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M20.4 14.2A8.3 8.3 0 0 1 9.8 3.6a8.3 8.3 0 1 0 10.6 10.6z\"></path></svg> <svg class=\"icon-sun\" viewbox=\"0 0 24 24\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"4\"></circle><path d=\"M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4\"></path></svg> </button> <button type=\"button\" class=\"menu-btn\" data-menu-btn=\"None\" aria-expanded=\"false\" aria-controls=\"nav-links\" data-open-label=\"باز کردن منو\" data-close-label=\"بستن منو\"><span data-menu-label=\"None\">باز کردن منو</span></button> </div> </nav>",
+      "footer_html": "<div class=\"container\"> <div class=\"footer-brand\"> <span class=\"footer-lockup\"> <span class=\"lion-inline lion-icon\" aria-hidden=\"true\"><svg viewbox=\"123 74 312 356\" focusable=\"false\"><use href=\"/assets/img/dadmor-halftone-icon.svg#lion-root\"></use></svg><svg viewbox=\"123 74 312 356\" focusable=\"false\"><use class=\"eyes-use\" href=\"/assets/img/dadmor-halftone-icon.svg#eyes\"></use></svg></span> <span class=\"lion-inline lion-word\" aria-hidden=\"true\"><svg viewbox=\"139 435 301 78\" focusable=\"false\"><use href=\"/assets/img/dadmor-halftone-logo.svg#wordmark\"></use></svg></span> </span> <p class=\"tagline\">ساختاری که می ماند</p> </div> <div class=\"footer-cols\"> <div> <h2 class=\"footer-h\">خدمت ها</h2> <ul><li><a href=\"/services/website-building/\">ساخت وب سایت</a></li><li><a href=\"/services/ui-ux-design/\">طراحی رابط و تجربه کاربری</a></li><li><a href=\"/services/business-model/\">طراحی مدل کسب وکار</a></li><li><a href=\"/services/documentation/\">مستندسازی</a></li><li><a href=\"/services/penetration-testing/\">تست نفوذ</a></li><li><a href=\"/services/marketing-content/\">بازاریابی و تولید محتوا</a></li></ul> </div> <div> <h2 class=\"footer-h\">ابزارها</h2> <ul> <li><a href=\"/tools/estimator/\">برآوردگر پروژه</a></li> <li><a href=\"/tools/security-check/\">خودارزیابی امنیت</a></li> </ul> </div> <div> <h2 class=\"footer-h\">استودیو</h2> <ul> <li><a href=\"/process/\">فرایند کار</a></li> <li><a href=\"/work/\">نمونه کار</a></li> <li><a href=\"/about/\">درباره ما</a></li> <li><a href=\"/journal/\">یادداشت ها</a></li> <li><a href=\"/faq/\">پرسش ها</a></li> <li><a href=\"/contact/\">تماس</a></li> <li><a href=\"mailto:hello@dadmor.com\" dir=\"ltr\">hello@dadmor.com</a></li> <li><a href=\"https://t.me/dadmor_ai\" rel=\"noopener\" dir=\"ltr\">Telegram @dadmor_ai</a></li> <li><a href=\"https://wa.me/989391400826\" rel=\"noopener\">WhatsApp +98 939 140 0826</a></li> </ul> </div> </div> <div class=\"footer-meta\"> <p class=\"footer-privacy\">این سایت به طور پیش فرض هیچ داده ای از شما جمع نمی کند و کوکی یا ردیاب ندارد. <a href=\"/privacy/\">حریم خصوصی</a></p> <p class=\"footer-copy\">© dadmor <span data-year=\"None\">2026</span></p> </div> </div>"
+    }
+  }
+}

@@ -1,0 +1,446 @@
+{
+ "path": "en/services/marketing-content/index.html",
+ "lang": "en",
+ "title": "Content, video and SEO built from your product's structure | dadmor",
+ "description": "Persian and English video, text and SEO built from your product's structure, with a monthly plan and a report of what was published and measured.",
+ "canonical": "https://dadmor.netlify.app/en/services/marketing-content/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/services/marketing-content/",
+  "en": "https://dadmor.netlify.app/en/services/marketing-content/",
+  "x-default": "https://dadmor.netlify.app/services/marketing-content/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "Content, video and SEO built from your product's structure | dadmor",
+  "description": "Persian and English video, text and SEO built from your product's structure, with a monthly plan and a report of what was published and measured.",
+  "url": "https://dadmor.netlify.app/en/services/marketing-content/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "en_US",
+  "locale:alternate": "fa_IR"
+ },
+ "jsonld": [
+  [
+   {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Marketing and content",
+    "description": "Persian and English video, text and SEO built from your product's structure, with a monthly plan and a report of what was published and measured.",
+    "provider": {
+     "@type": "Organization",
+     "name": "dadmor",
+     "url": "https://dadmor.netlify.app/"
+    },
+    "url": "https://dadmor.netlify.app/en/services/marketing-content/"
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "سئوی فارسی چه فرقی دارد؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "نیم‌فاصله، شکل اعداد و نوشتار متفاوت یک کلمه روی جستجو اثر دارد. محتوا را با املای یکدست و بر اساس عبارتی که مخاطب واقعاً جستجو می‌کند می‌نویسیم."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is different about Persian SEO?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Half-spaces, digit forms and variant spellings of the same word affect search. We write with consistent spelling, based on the phrase your audience actually searches for."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "محتوا را با هوش مصنوعی تولید می‌کنید؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "هر متن منتشرشده را یک نفر از ما می‌نویسد یا بازنویسی و بررسی می‌کند و مسئولیتش را می‌پذیرد. مقاله پرکننده تولید نمی‌کنیم. هر متنی که منتشر می‌شود را dadmor می‌نویسد، یا بازنویسی و بررسی می‌کند و مسئولیتش را می‌پذیرد. ابزارهای هوش مصنوعی ممکن است در پیش‌نویس کمک کنند؛ هیچ متنی بررسی‌نشده منتشر نمی‌شود. مقاله پرکننده تولید نمی‌کنیم."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Do you produce content with AI?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Every published text is written, or rewritten and checked, by one of us, who takes responsibility for it. We do not produce filler articles. Every published text is written, or rewritten and checked, by dadmor, who takes responsibility for it. AI tools may help drafting; they never publish unchecked. No filler articles."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "قرارداد ماهانه را می‌شود متوقف کرد؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "شرایط توقف در پیشنهاد کتبی می‌آید. برای توقف قرارداد ماهانه، اطلاع کتبی ۳۰ روز پیش از پایان ماه کافی است. شرایط کامل در پیشنهاد کتبی می‌آید."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can the monthly agreement be stopped?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Stopping terms are in the written proposal. To stop a monthly agreement, 30 days written notice before the end of the month. Full terms are in the written proposal."
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://dadmor.netlify.app/en/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Services",
+      "item": "https://dadmor.netlify.app/en/services/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Marketing and content",
+      "item": "https://dadmor.netlify.app/en/"
+     }
+    ]
+   }
+  ]
+ ],
+ "hero": null,
+ "blocks": [
+  {
+   "t": "raw",
+   "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li><a href=\"/en/services/\">Services</a></li><li aria-current=\"page\">Marketing and content</li></ol></nav>",
+   "class": "breadcrumb container",
+   "tag": "nav"
+  },
+  {
+   "t": "group",
+   "class": "page-head container",
+   "blocks": [
+    {
+     "t": "raw",
+     "html": "<h1>Marketing and content</h1>",
+     "class": "",
+     "tag": "h1"
+    },
+    {
+     "t": "p",
+     "html": "Video, text, and SEO built from the same structure as the product, so content explains the work instead of decorating it."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Problem"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "Content made separately from the product tends to talk about everything except what the customer wants to know. Posts go out, and nobody knows which one answered a real customer question."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Who it is for"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "Businesses with a clear product that nobody finds in search.",
+      "Teams that want correctly written Persian content: half-spaces, digits and search intent.",
+      "Founders who need video or short text that explains the product, not general advertising."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Who it is not for"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "If you want a promised Google ranking. Nobody can honestly promise that.",
+      "If you want bought followers, fake engagement, or mass-produced filler articles.",
+      "If the product itself is not clear yet; in that case start with Business model design or UI/UX design."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Approach"
+    },
+    {
+     "t": "list",
+     "ordered": true,
+     "items": [
+      "Structure. Input: the product, its customers and their real questions. Output: a search intent map (which question is answered by which content, on which page). Owner: dadmor with you.",
+      "Plan. Input: the intent map. Output: a monthly content plan with channels. Owner: dadmor; approval: you.",
+      "Produce. Input: the approved plan and access to the product or people. Output: content pieces (text, video), each approved before publishing. Owner: dadmor; approval: you.",
+      "Technical SEO. Input: your site. Output: a list of technical fixes (page titles and descriptions, structured data, speed, half-spaces and digits in Persian content). Owner: dadmor.",
+      "Report. Input: what was published and your analytics data. Output: a monthly report of what was published and what was measured. Owner: dadmor."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Deliverables"
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Scope and timeline factors"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "What changes the monthly band: pieces per month, type of piece (video takes the most work), number of channels, number of languages, and the amount of technical SEO work.",
+      "What you supply: access to the product and the people who know it, quick approval of drafts, and analytics access if you have it.",
+      "What delays the work: approvals that arrive late, and the product message changing mid-month."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Effort band"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "A monthly S, M or L band by pieces, channels and SEO work. We give a fixed monthly price after the scoping conversation, in a written proposal."
+     ]
+    },
+    {
+     "t": "p",
+     "html": "A band is the rough size of the work, not a price and not a duration. A fixed price is set only after a scoping conversation, in a written proposal."
+    },
+    {
+     "t": "p",
+     "html": "The band is a starting estimate; the scoping conversation may move it."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Limits and risks"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "We do not promise Google rankings. We deliver relevant content, correct structure and technical readiness; search results also depend on factors outside our control.",
+      "If you have no analytics, the monthly report can only say what was published, not what effect it had. We recommend privacy-friendly analytics.",
+      "Every piece needs your approval before publishing; we do not publish without it."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "FAQs"
+    },
+    {
+     "t": "group",
+     "class": "faq-list",
+     "blocks": [
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-1-en\" data-faq-btn=\"None\">What is different about Persian SEO?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "Half-spaces, digit forms and variant spellings of the same word affect search. We write with consistent spelling, based on the phrase your audience actually searches for."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-2-en\" data-faq-btn=\"None\">Do you produce content with AI?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "Every published text is written, or rewritten and checked, by one of us, who takes responsibility for it. We do not produce filler articles. Every published text is written, or rewritten and checked, by dadmor, who takes responsibility for it. AI tools may help drafting; they never publish unchecked. No filler articles."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-3-en\" data-faq-btn=\"None\">Can the monthly agreement be stopped?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "Stopping terms are in the written proposal. To stop a monthly agreement, 30 days written notice before the end of the month. Full terms are in the written proposal."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-cta container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": ""
+    },
+    {
+     "t": "p",
+     "html": ""
+    },
+    {
+     "t": "group",
+     "class": "btn-row",
+     "blocks": [
+      {
+       "t": "cta",
+       "text": "Scope a content and SEO plan",
+       "href": "/en/tools/estimator/?service=marketing-content",
+       "class": "btn btn-primary"
+      },
+      {
+       "t": "cta",
+       "text": "Contact us for a scoping conversation",
+       "href": "/en/contact/",
+       "class": "btn btn-ghost"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-proof container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Proof"
+    },
+    {
+     "t": "p",
+     "html": "A redacted sample can be shown in the scoping conversation, with the owner's permission."
+    }
+   ]
+  }
+ ]
+}

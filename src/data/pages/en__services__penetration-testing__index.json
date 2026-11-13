@@ -1,0 +1,487 @@
+{
+  "path": "en/services/penetration-testing/index.html",
+  "lang": "en",
+  "title": "Manual penetration testing with a signed scope and retest | dadmor",
+  "description": "Manual web and API penetration testing using PTES and OWASP WSTG, a CVSS-scored report and one retest. Only with a written scope, signed authorisation and an NDA.",
+  "canonical": "https://dadmor.netlify.app/en/services/penetration-testing/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/services/penetration-testing/",
+    "en": "https://dadmor.netlify.app/en/services/penetration-testing/",
+    "x-default": "https://dadmor.netlify.app/services/penetration-testing/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "website",
+    "title": "Manual penetration testing with a signed scope and retest | dadmor",
+    "description": "Manual web and API penetration testing using PTES and OWASP WSTG, a CVSS-scored report and one retest. Only with a written scope, signed authorisation and an NDA.",
+    "url": "https://dadmor.netlify.app/en/services/penetration-testing/",
+    "image": "https://dadmor.netlify.app/og.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "en_US",
+    "locale:alternate": "fa_IR"
+  },
+  "jsonld": [
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Penetration testing",
+        "description": "Manual web and API penetration testing using PTES and OWASP WSTG, a CVSS-scored report and one retest. Only with a written scope, signed authorisation and an NDA.",
+        "provider": {
+          "@type": "Organization",
+          "name": "dadmor",
+          "url": "https://dadmor.netlify.app/"
+        },
+        "url": "https://dadmor.netlify.app/en/services/penetration-testing/"
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How is a penetration test different from a security scan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An automated scan looks for known patterns. A manual penetration test checks which findings are actually exploitable and also tests the app's own logic (such as permissions and payments). We use automated tools during testing too, but we do not hand over their raw output."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is CVSS?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A public standard for scoring vulnerability severity, from 0 to 10. It helps your team decide what to fix first."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does the retest cover?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Once, we test the findings we reported again to see whether they are fixed. New parts or other changes to the system need a new test."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can we share the report with our customer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The executive report is written for that. The technical report contains exploit details and should stay within your team."
+            }
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://dadmor.netlify.app/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://dadmor.netlify.app/en/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Penetration testing",
+            "item": "https://dadmor.netlify.app/en/"
+          }
+        ]
+      }
+    ]
+  ],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li><a href=\"/en/services/\">Services</a></li><li aria-current=\"page\">Penetration testing</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "group",
+          "class": "notice-box",
+          "blocks": [
+            {
+              "t": "heading",
+              "level": 2,
+              "html": "Before any testing, three documents are signed"
+            },
+            {
+              "t": "list",
+              "ordered": false,
+              "items": [
+                "Written scope: exactly which domains, apps, APIs and accounts are tested and which are not, in what time window and with which methods.",
+                "Letter of Authorisation: the legal owner of the system grants permission to test, in writing.",
+                "Non-disclosure agreement (NDA): findings and any data seen during testing stay confidential."
+              ]
+            },
+            {
+              "t": "p",
+              "html": "Without all three, we do not test anything, not even a short trial."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "page-head container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h1>Penetration testing</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "p",
+          "html": "A manual, scoped test with a CVSS-scored report and a retest: proof of what was tested, and what was not."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Problem"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "An automated scan produces a long list of warnings but does not say which are actually exploitable and which do not matter. And a report that does not state what was out of scope creates the impression that everything was checked."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Who it is for"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "Teams with a web app or API that handles user data, payments or sensitive information.",
+            "Startups whose customers or partners ask for a security test report before signing.",
+            "Teams that want a sensitive feature (login, payments, admin panel) tested before launch."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Who it is not for"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "If you do not own the system and do not have the owner's written authorisation.",
+            "If you want a \"fully secure\" or \"zero vulnerabilities\" certificate. No test proves that, and we do not write it.",
+            "If you only want an automated scanner run and its raw output handed over.",
+            "If you need social engineering, physical, or internal network infrastructure testing."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Approach"
+        },
+        {
+          "t": "list",
+          "ordered": true,
+          "items": [
+            "Scope. Input: a conversation about the system and its risks. Output: signed written scope, Letter of Authorisation and NDA. Owner: you and dadmor.",
+            "Test. Input: the signed scope and test accounts. Output: findings with evidence. Method: PTES for structure, OWASP WSTG for web testing, and the OWASP Top 10 and API Security Top 10 where relevant. Owner: dadmor.",
+            "Report. Input: the findings. Output: an executive report and a technical report; each finding with a CVSS score, evidence, impact and remediation. Owner: dadmor.",
+            "Fix. Input: the report. Output: fixes in your system. Owner: your team.",
+            "Retest. Input: the fixes you report. Output: one retest of the reported findings and an updated status report. Owner: dadmor, within the window written in the scope."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Deliverables"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Scope and timeline factors"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "What changes the size of the work: number of apps, APIs and endpoints, number of user roles (guest, user, admin), and business logic that must be tested (payments, permissions).",
+            "What you supply: a test environment or permission to test production, test accounts for each role, one technical contact, and the three signed documents.",
+            "What delays projects: authorisation signed late, test accounts that do not work, and an environment that changes mid-test."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Effort band"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "A fixed-scope proposal after the scoping conversation only. One retest of the reported findings is included."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Limits and risks"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "A penetration test checks what was in scope, at a point in time. Anything outside the scope, and any change after the test, was not checked, and the report says so.",
+            "Not finding a vulnerability means this test did not find it, not that none exists.",
+            "Testing production can risk downtime or data changes; high-risk techniques run only with written approval and at an agreed time.",
+            "Fixing the vulnerabilities is your team's work unless it is scoped separately."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "FAQs"
+        },
+        {
+          "t": "group",
+          "class": "faq-list",
+          "blocks": [
+            {
+              "t": "group",
+              "class": "faq-item",
+              "blocks": [
+                {
+                  "t": "heading",
+                  "level": 3,
+                  "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-1-en\" data-faq-btn=\"None\">How is a penetration test different from a security scan?</button>"
+                },
+                {
+                  "t": "group",
+                  "class": "faq-a",
+                  "blocks": [
+                    {
+                      "t": "group",
+                      "class": "",
+                      "blocks": [
+                        {
+                          "t": "p",
+                          "html": "An automated scan looks for known patterns. A manual penetration test checks which findings are actually exploitable and also tests the app's own logic (such as permissions and payments). We use automated tools during testing too, but we do not hand over their raw output."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "group",
+              "class": "faq-item",
+              "blocks": [
+                {
+                  "t": "heading",
+                  "level": 3,
+                  "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-2-en\" data-faq-btn=\"None\">What is CVSS?</button>"
+                },
+                {
+                  "t": "group",
+                  "class": "faq-a",
+                  "blocks": [
+                    {
+                      "t": "group",
+                      "class": "",
+                      "blocks": [
+                        {
+                          "t": "p",
+                          "html": "A public standard for scoring vulnerability severity, from 0 to 10. It helps your team decide what to fix first."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "group",
+              "class": "faq-item",
+              "blocks": [
+                {
+                  "t": "heading",
+                  "level": 3,
+                  "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-3-en\" data-faq-btn=\"None\">What does the retest cover?</button>"
+                },
+                {
+                  "t": "group",
+                  "class": "faq-a",
+                  "blocks": [
+                    {
+                      "t": "group",
+                      "class": "",
+                      "blocks": [
+                        {
+                          "t": "p",
+                          "html": "Once, we test the findings we reported again to see whether they are fixed. New parts or other changes to the system need a new test."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "group",
+              "class": "faq-item",
+              "blocks": [
+                {
+                  "t": "heading",
+                  "level": 3,
+                  "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-4-en\" data-faq-btn=\"None\">Can we share the report with our customer?</button>"
+                },
+                {
+                  "t": "group",
+                  "class": "faq-a",
+                  "blocks": [
+                    {
+                      "t": "group",
+                      "class": "",
+                      "blocks": [
+                        {
+                          "t": "p",
+                          "html": "The executive report is written for that. The technical report contains exploit details and should stay within your team."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-cta container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": ""
+        },
+        {
+          "t": "p",
+          "html": ""
+        },
+        {
+          "t": "group",
+          "class": "btn-row",
+          "blocks": [
+            {
+              "t": "cta",
+              "text": "Scope a penetration test",
+              "href": "/en/tools/estimator/?service=penetration-testing",
+              "class": "btn btn-primary"
+            },
+            {
+              "t": "cta",
+              "text": "Start with the security self-check",
+              "href": "/en/tools/security-check/",
+              "class": "btn btn-ghost"
+            },
+            {
+              "t": "cta",
+              "text": "Contact us for a scoping conversation",
+              "href": "/en/contact/",
+              "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-proof container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Proof"
+        },
+        {
+          "t": "p",
+          "html": "A redacted sample can be shown in the scoping conversation, with the owner's permission."
+        }
+      ]
+    }
+  ]
+}

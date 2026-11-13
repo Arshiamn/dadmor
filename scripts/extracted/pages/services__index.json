@@ -1,0 +1,159 @@
+{
+ "path": "services/index.html",
+ "lang": "fa",
+ "title": "خدمت‌ها | dadmor",
+ "description": "شش خدمت دادمور با یک قالب مشترک: مسئله، مخاطب، خروجی‌ها، عوامل اسکوپ و محدودیت‌ها. با یابنده خدمت، از شش سؤال به یک پیشنهاد اصلی و یک پیشنهاد دوم برسید.",
+ "canonical": "https://dadmor.netlify.app/services/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/services/",
+  "en": "https://dadmor.netlify.app/en/services/",
+  "x-default": "https://dadmor.netlify.app/services/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "خدمت‌ها | dadmor",
+  "description": "شش خدمت دادمور با یک قالب مشترک: مسئله، مخاطب، خروجی‌ها، عوامل اسکوپ و محدودیت‌ها. با یابنده خدمت، از شش سؤال به یک پیشنهاد اصلی و یک پیشنهاد دوم برسید.",
+  "url": "https://dadmor.netlify.app/services/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "fa_IR",
+  "locale:alternate": "en_US"
+ },
+ "jsonld": [
+  [
+   {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "خدمت‌ها",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "ساخت وب‌سایت",
+      "url": "https://dadmor.netlify.app/services/website-building/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "طراحی رابط و تجربه کاربری",
+      "url": "https://dadmor.netlify.app/services/ui-ux-design/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "طراحی مدل کسب‌وکار",
+      "url": "https://dadmor.netlify.app/services/business-model/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "مستندسازی",
+      "url": "https://dadmor.netlify.app/services/documentation/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "تست نفوذ",
+      "url": "https://dadmor.netlify.app/services/penetration-testing/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 6,
+      "name": "بازاریابی و تولید محتوا",
+      "url": "https://dadmor.netlify.app/services/marketing-content/"
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "خانه",
+      "item": "https://dadmor.netlify.app/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "خدمت‌ها",
+      "item": "https://dadmor.netlify.app/"
+     }
+    ]
+   }
+  ]
+ ],
+ "hero": null,
+ "blocks": [
+  {
+   "t": "raw",
+   "html": "<nav class=\"breadcrumb container\" aria-label=\"مسیر صفحه\"><ol><li><a href=\"/\">خانه</a></li><li aria-current=\"page\">خدمت‌ها</li></ol></nav>",
+   "class": "breadcrumb container",
+   "tag": "nav"
+  },
+  {
+   "t": "group",
+   "class": "page-head container",
+   "blocks": [
+    {
+     "t": "raw",
+     "html": "<h1>خدمت‌ها</h1>",
+     "class": "",
+     "tag": "h1"
+    },
+    {
+     "t": "p",
+     "html": "هر شش خدمت یک قالب دارند: مسئله‌ای که حل می‌کنند، برای چه کسی هستند و برای چه کسی نه، چه چیزی تحویل می‌شود، و چه چیزی اندازه کار را تغییر می‌دهد. قیمت ثابت را بعد از گفت‌وگوی اسکوپ و در پیشنهاد کتبی می‌دهیم."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "home-services container",
+   "blocks": [
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "<div class=\"service-row-main\"> <h3><a href=\"/services/website-building/\">ساخت وب‌سایت</a></h3> <p>وب‌سایتی که ساختار دارد: مدل‌سازی، ساخت و تحویل با مستند، تا بعد از روز لانچ هم کار کند.</p> <p class=\"service-notfor\">مناسب نیست اگر فقط یک قالب آماده با رنگ برندتان می‌خواهید.</p> </div> <p class=\"pricing-shape\">باند S تا L بر اساس تعداد صفحه، قابلیت، اتصال‌ها و آمادگی محتوا</p> <a class=\"service-link\" href=\"/services/website-building/\">درباره ساخت وب‌سایت</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/services/ui-ux-design/\">طراحی رابط و تجربه کاربری</a></h3> <p>رابطی که از روی وظیفه کاربر و شواهد تصمیم گرفته شده، به‌صورت سیستمی که توسعه‌دهنده واقعاً بتواند بسازد.</p> <p class=\"service-notfor\">مناسب نیست اگر فقط چند تصویر برای ارائه به سرمایه‌گذار لازم دارید.</p> </div> <p class=\"pricing-shape\">باند S تا L بر اساس تعداد جریان‌ها و صفحه‌های کلیدی</p> <a class=\"service-link\" href=\"/services/ui-ux-design/\">درباره طراحی رابط و تجربه کاربری</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/services/business-model/\">طراحی مدل کسب‌وکار</a></h3> <p>مدلی که می‌شود آزمایشش کرد: فرضیات، منطق درآمد و معیار ادامه یا توقف، نه فقط یک پیچ‌دک قانع‌کننده.</p> <p class=\"service-notfor\">مناسب نیست اگر پیش‌بینی مالی یا مشاوره سرمایه‌گذاری می‌خواهید.</p> </div> <p class=\"pricing-shape\">پیشنهاد ثابت برای هر مرحله</p> <a class=\"service-link\" href=\"/services/business-model/\">درباره طراحی مدل کسب‌وکار</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/services/documentation/\">مستندسازی</a></h3> <p>مستندی که نگهدارنده بعدی بتواند با آن کار کند: مخاطب، قالب و قانون به‌روزرسانی مشخص.</p> <p class=\"service-notfor\">مناسب نیست اگر سندی می‌خواهید که فقط در پوشه بماند.</p> </div> <p class=\"pricing-shape\">پیشنهاد ثابت برای هر مرحله</p> <a class=\"service-link\" href=\"/services/documentation/\">درباره مستندسازی</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/services/penetration-testing/\">تست نفوذ</a></h3> <p>تست دستی با اسکوپ امضاشده، گزارش امتیازدهی‌شده با CVSS و بازتست؛ اثبات اینکه چه چیزی تست شد و چه چیزی نشد.</p> <p class=\"service-notfor\">مناسب نیست اگر بدون مجوز کتبی مالک سیستم یا برای «تأیید امنیت کامل» می‌خواهید.</p> </div> <p class=\"pricing-shape\">فقط پیشنهاد ثابت بعد از اسکوپ؛ یک بازتست ضمیمه است</p> <a class=\"service-link\" href=\"/services/penetration-testing/\">درباره تست نفوذ</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/services/marketing-content/\">بازاریابی و تولید محتوا</a></h3> <p>ویدیو، متن و سئو که از همان ساختار محصول ساخته شده‌اند، تا کار را توضیح دهند نه اینکه فقط تزئینش کنند.</p> <p class=\"service-notfor\">مناسب نیست اگر قول رتبه مشخص در گوگل می‌خواهید.</p> </div> <p class=\"pricing-shape\">باند ماهانه بر اساس تعداد قطعه، کانال و کار سئو</p> <a class=\"service-link\" href=\"/services/marketing-content/\">درباره بازاریابی و تولید محتوا</a>"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "finder container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": ""
+    },
+    {
+     "t": "p",
+     "html": ""
+    },
+    {
+     "t": "raw",
+     "html": "<script type=\"application/json\" data-finder-data=\"None\">{\"lang\": \"fa\", \"questions\": [{\"q\": [\"الان بیشتر از همه به چه چیزی نیاز دارید؟\", \"What do you need most right now?\"], \"options\": [[\"سایت جدید\", \"A new website\"], [\"بهتر کردن سایت یا محصول فعلی\", \"A better existing site or product\"], [\"مدل کسب‌وکار روشن‌تر\", \"A clearer business model\"], [\"مستند بهتر\", \"Better documentation\"], [\"بررسی امنیت\", \"A security check\"], [\"مشتری یا محتوای بیشتر\", \"More customers or content\"]], \"multi\": false}, {\"q\": [\"سایت یا محصولی دارید؟\", \"Do you already have a site or product?\"], \"options\": [[\"نه، هنوز نه\", \"Not yet\"], [\"بله، در حال کار\", \"Yes, it is live\"], [\"بله، ولی قدیمی یا ناقص است\", \"Yes, but it is outdated or unfinished\"]], \"multi\": false}, {\"q\": [\"برای چه کسی است؟\", \"Who is it for?\"], \"options\": [[\"مشتری‌های نهایی\", \"End customers\"], [\"کسب‌وکارهای دیگر\", \"Other businesses\"], [\"تیم داخلی\", \"An internal team\"], [\"سرمایه‌گذار یا شریک\", \"Investors or partners\"]], \"multi\": false}, {\"q\": [\"مشکل اصلی امروز چیست؟\", \"What is the main problem today?\"], \"options\": [[\"کسی نمی‌فهمد چه کار می‌کنیم\", \"People do not understand what we do\"], [\"سایت کند، خراب یا سخت به‌روزرسانی است\", \"The site is slow, broken or hard to update\"], [\"نمی‌دانیم مدل درآمد جواب می‌دهد یا نه\", \"We do not know if the revenue model works\"], [\"دانش فقط در ذهن یک نفر است\", \"Knowledge lives in one person's head\"], [\"نگران نفوذ یا نشت داده هستیم\", \"We worry about a breach or data leak\"], [\"کسی ما را پیدا نمی‌کند\", \"Nobody finds us\"]], \"multi\": false}, {\"q\": [\"چه چیزی باید روز لانچ آماده باشد و چه چیزی بعداً؟ (چند انتخاب)\", \"What must exist at launch, and what can wait? (choose any)\"], \"options\": [[\"صفحه‌های اصلی\", \"Core pages\"], [\"پرداخت یا رزرو\", \"Payment or booking\"], [\"مستند تحویل\", \"Handover documents\"], [\"گزارش امنیت\", \"A security report\"], [\"برنامه محتوا\", \"A content plan\"], [\"هنوز نمی‌دانم\", \"Not sure yet\"]], \"multi\": true}, {\"q\": [\"شکل زمان و بودجه‌تان کدام است؟ (باند، نه عدد)\", \"What is the shape of your timeline and budget? (a band, not a number)\"], \"options\": [[\"زمان منعطف، بودجه محدود\", \"Flexible time, tight budget\"], [\"تاریخ مشخص، بودجه منعطف\", \"Fixed date, flexible budget\"], [\"هر دو محدود\", \"Both tight\"], [\"هنوز نمی‌دانم\", \"Not sure yet\"]], \"multi\": false}], \"services\": {\"website-building\": \"ساخت وب‌سایت\", \"ui-ux-design\": \"طراحی رابط و تجربه کاربری\", \"business-model\": \"طراحی مدل کسب‌وکار\", \"documentation\": \"مستندسازی\", \"penetration-testing\": \"تست نفوذ\", \"marketing-content\": \"بازاریابی و تولید محتوا\"}, \"urls\": {\"website-building\": \"/services/website-building/\", \"ui-ux-design\": \"/services/ui-ux-design/\", \"business-model\": \"/services/business-model/\", \"documentation\": \"/services/documentation/\", \"penetration-testing\": \"/services/penetration-testing/\", \"marketing-content\": \"/services/marketing-content/\"}, \"estimatorUrl\": \"/tools/estimator/\", \"securityUrl\": \"/tools/security-check/\", \"aboutCta\": \"درباره {service}\", \"scopeCta\": \"برآورد اسکوپ با همین خدمت\", \"securityCta\": \"خودارزیابی امنیت را شروع کنید\", \"securityName\": \"خودارزیابی امنیت\", \"back\": \"قبلی\", \"nextLabel\": \"بعدی\", \"why\": \"دلیل\", \"result\": {\"h3\": [\"پیشنهاد اصلی\", \"پیشنهاد دوم\"], \"contradiction\": \"پاسخ‌هایتان به دو مسیر متفاوت اشاره می‌کند، پس هر دو را با وزن برابر نشان می‌دهیم. در گفت‌وگوی اسکوپ روشن می‌کنیم کدام اول بیاید.\", \"footer\": \"این پیشنهاد از یک درخت تصمیم ساده می‌آید، نه از تحلیل پروژه شما. برای تصمیم نهایی، گفت‌وگوی اسکوپ لازم است.\", \"restart\": \"از اول\"}, \"reasons\": {\"need\": \"گفتید بیشتر از همه به {need} نیاز دارید.\", \"security\": \"برای نگرانی امنیتی، اول خودارزیابی رایگان را پیشنهاد می‌کنیم؛ اگر سیستم حساس است، تست نفوذ با اسکوپ امضاشده قدم بعدی است.\", \"docs\": \"وقتی دانش فقط در ذهن یک نفر است، اولین خروجی مفید یک مستند تحویل با قانون به‌روزرسانی است.\", \"found\": \"مشکل اصلی را پیدا نشدن گفتید؛ محتوا و سئو از روی ساختار محصول همین را هدف می‌گیرد.\", \"noProduct\": \"هنوز محصولی ندارید و درباره مدل درآمد مطمئن نیستید؛ اگر مدل پیش از ساخت آزمایش شود، چیزی ساخته نمی‌شود که مدل از آن پشتیبانی نکند.\", \"payment\": \"پرداخت یا رزرو در روز لانچ یعنی اتصال و تست، که بخشی از ساخت وب‌سایت است.\", \"fixedDate\": \"تاریخ ثابت دارید؛ در گفت‌وگوی اسکوپ اول مشخص می‌کنیم چه چیزی تا آن تاریخ شدنی است.\"}}</script>",
+     "class": "",
+     "tag": "script"
+    },
+    {
+     "t": "raw",
+     "html": "<noscript><p>این ابزار برای کار کردن به جاوااسکریپت نیاز دارد. محتوای صفحه بدون آن هم خواناست؛ برای برآورد، از صفحه تماس استفاده کنید.</p></noscript>",
+     "class": "",
+     "tag": "noscript"
+    }
+   ]
+  }
+ ]
+}

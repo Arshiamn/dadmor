@@ -1,0 +1,156 @@
+{
+  "path": "en/process/index.html",
+  "lang": "en",
+  "title": "Process: five steps with inputs and outputs | dadmor",
+  "description": "Discover, Plan, Design, Build, Launch and care. For each step we write what goes in, what comes out, and what tends to delay the work.",
+  "canonical": "https://dadmor.netlify.app/en/process/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/process/",
+    "en": "https://dadmor.netlify.app/en/process/",
+    "x-default": "https://dadmor.netlify.app/process/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "website",
+    "title": "Process: five steps with inputs and outputs | dadmor",
+    "description": "Discover, Plan, Design, Build, Launch and care. For each step we write what goes in, what comes out, and what tends to delay the work.",
+    "url": "https://dadmor.netlify.app/en/process/",
+    "image": "https://dadmor.netlify.app/og.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "en_US",
+    "locale:alternate": "fa_IR"
+  },
+  "jsonld": [],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li aria-current=\"page\">Process</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h1>Process</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "p",
+          "html": "Every project goes through the same five steps. Each step has a written input and a written output, so you always know where the work is and what comes next."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "list",
+          "ordered": true,
+          "items": [
+            "<div class=\"step-head\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>Idea</span><h2><span class=\"step-num\">1.</span> Discover</h2></div> <p>We define the goal, the audience, and what success means before any design starts. If the main problem is still unclear, this is where it gets clear.</p> <dl class=\"step-io\"> <div><dt>Input</dt><dd>a conversation with the founder and anything you already have (current site, deck, documents, data).</dd></div> <div><dt>Output</dt><dd>a brief and a draft scope.</dd></div> </dl>",
+            "<div class=\"step-head\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d1\" aria-hidden=\"true\"></span>Scoped brief</span><h2><span class=\"step-num\">2.</span> Plan</h2></div> <p>We agree the structure, the pages or features, and the priorities up front. What is out of scope is written down too.</p> <dl class=\"step-io\"> <div><dt>Input</dt><dd>the brief.</dd></div> <div><dt>Output</dt><dd>the scope, a deliverables table and an effort band (S, M or L), followed by a written fixed-scope proposal.</dd></div> </dl>",
+            "<div class=\"step-head\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>In build</span><h2><span class=\"step-num\">3.</span> Design</h2></div> <p>You see the design direction early and react to it. The result is not revealed as a surprise at the end.</p> <dl class=\"step-io\"> <div><dt>Input</dt><dd>the approved scope.</dd></div> <div><dt>Output</dt><dd>a design system and the key pages or screens.</dd></div> </dl>",
+            "<div class=\"step-head\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>In build</span><h2><span class=\"step-num\">4.</span> Build</h2></div> <p>Clean, component-based code, with performance and accessibility from the start. We write the documentation while we build, not afterwards.</p> <dl class=\"step-io\"> <div><dt>Input</dt><dd>the approved design.</dd></div> <div><dt>Output</dt><dd>a working site or system and a draft of the documentation.</dd></div> </dl>",
+            "<div class=\"step-head\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>Verified and handed over</span><h2><span class=\"step-num\">5.</span> Launch and care</h2></div> <p>Release, measuring what matters, a handover walkthrough, and a retest or revision under the rule written in that service's scope.</p> <dl class=\"step-io\"> <div><dt>Input</dt><dd>the built site or system.</dd></div> <div><dt>Output</dt><dd>the live version, handover documentation and a care or retest plan.</dd></div> </dl>"
+          ]
+        },
+        {
+          "t": "p",
+          "html": ""
+        },
+        {
+          "t": "group",
+          "class": "process-boxes",
+          "blocks": [
+            {
+              "t": "group",
+              "class": "process-box",
+              "blocks": [
+                {
+                  "t": "heading",
+                  "level": 2,
+                  "html": "What we need from you"
+                },
+                {
+                  "t": "list",
+                  "ordered": false,
+                  "items": [
+                    "One named decision-maker who gives approvals.",
+                    "The content, or a clear date for when it will be ready.",
+                    "The access we need (domain, hosting, accounts) before the step that needs it.",
+                    "Feedback within the window we agreed in the plan."
+                  ]
+                }
+              ]
+            },
+            {
+              "t": "group",
+              "class": "process-box",
+              "blocks": [
+                {
+                  "t": "heading",
+                  "level": 2,
+                  "html": "What delays projects"
+                },
+                {
+                  "t": "list",
+                  "ordered": false,
+                  "items": [
+                    "Content that is not ready. This is the most common reason.",
+                    "Feedback that arrives late, or from several people who disagree.",
+                    "Scope changes mid-project without deciding what moves out to make room.",
+                    "Access that cannot be found on launch day."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "html": "How long a project takes depends on the scope and on content readiness. We write the schedule into the proposal as an estimate, not a guarantee."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-cta container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Start with Discover"
+        },
+        {
+          "t": "p",
+          "html": "The project estimator builds a first brief you can bring to the scoping conversation."
+        },
+        {
+          "t": "group",
+          "class": "btn-row",
+          "blocks": [
+            {
+              "t": "cta",
+              "text": "Project estimator",
+              "href": "/en/tools/estimator/",
+              "class": "btn btn-primary"
+            },
+            {
+              "t": "cta",
+              "text": "Contact",
+              "href": "/en/contact/",
+              "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

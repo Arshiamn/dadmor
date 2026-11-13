@@ -1,0 +1,566 @@
+{
+ "path": "en/faq/index.html",
+ "lang": "en",
+ "title": "FAQ: price, time, ownership and security | dadmor",
+ "description": "Plain answers to twelve questions asked before starting: how price is set, how long it takes, who owns what, what a penetration test is, and why we do not guarantee SEO.",
+ "canonical": "https://dadmor.netlify.app/en/faq/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/faq/",
+  "en": "https://dadmor.netlify.app/en/faq/",
+  "x-default": "https://dadmor.netlify.app/faq/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "FAQ: price, time, ownership and security | dadmor",
+  "description": "Plain answers to twelve questions asked before starting: how price is set, how long it takes, who owns what, what a penetration test is, and why we do not guarantee SEO.",
+  "url": "https://dadmor.netlify.app/en/faq/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "en_US",
+  "locale:alternate": "fa_IR"
+ },
+ "jsonld": [
+  [
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Who is dadmor?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "dadmor is an independent, technical studio that builds websites, UI design, business models, documentation, penetration tests and content for founders. We take a limited number of projects at a time, so the people who write the scope also do the work."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How is price decided?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Before any price, we have a scoping conversation. After it, we send a written proposal with a fixed price for a defined scope."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How long does it take?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It depends on the scope and on content readiness. We write the schedule into the proposal as an estimate, not a guarantee."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What if my content is not ready?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "That is fine, as long as we know from the start. Content readiness is one of the effort-band factors and is written into the scope."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What happens after delivery?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "We hold a handover walkthrough and give you the handover documentation, so you or the next team can maintain the work. Each service's revision or retest rule is written into that service's scope."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Who owns the site, code, domain, and content?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "You do. The source code, domain, hosting account and content are handed over in your name."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What exactly is a penetration test, and what is it not?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "A penetration test means a person examines your system manually, with your written authorisation, the way an attacker would, within a defined scope. We use PTES and OWASP WSTG, and findings are scored with CVSS, in an executive report and a technical report, with one retest."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can you guarantee SEO rankings?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No. Nobody can honestly guarantee a specific Google ranking. What we can promise is structure, speed and content readiness for search."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do we start?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "With the project estimator or the contact form. The estimator builds a printable scoped brief you can send us."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What if I change my mind mid-project?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It happens, and the path is clear: we write the change down and decide together what is added to the scope and what moves out."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Do you work with other teams?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes. We work with your developers, designer or marketing team, and the scope states who is responsible for which part."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How is privacy handled for forms and tools?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "By default this site collects no data about you and uses no cookies or trackers. The estimator and the security self-check run entirely in your own browser and send your answers nowhere."
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://dadmor.netlify.app/en/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "FAQ",
+      "item": "https://dadmor.netlify.app/en/"
+     }
+    ]
+   }
+  ]
+ ],
+ "hero": null,
+ "blocks": [
+  {
+   "t": "raw",
+   "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li aria-current=\"page\">FAQ</li></ol></nav>",
+   "class": "breadcrumb container",
+   "tag": "nav"
+  },
+  {
+   "t": "group",
+   "class": "page-head container",
+   "blocks": [
+    {
+     "t": "raw",
+     "html": "<h1>Frequently asked questions</h1>",
+     "class": "",
+     "tag": "h1"
+    },
+    {
+     "t": "p",
+     "html": "If your question is not answered here, ask through the contact page."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "container",
+   "blocks": [
+    {
+     "t": "group",
+     "class": "faq-list",
+     "blocks": [
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-1-en\" data-faq-btn=\"None\">Who is dadmor?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "list",
+             "ordered": false,
+             "items": [
+              "dadmor is an independent, technical studio that builds websites, UI design, business models, documentation, penetration tests and content for founders. We take a limited number of projects at a time, so the people who write the scope also do the work."
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-2-en\" data-faq-btn=\"None\">How is price decided?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "list",
+             "ordered": false,
+             "items": [
+              "Before any price, we have a scoping conversation. After it, we send a written proposal with a fixed price for a defined scope.",
+              "The project estimator shows only an effort band (S, M or L), not a price. The main factors are the number of pages or features, integrations, content readiness and project type. For the monthly marketing service, the price is a fixed monthly amount, set in the same written proposal."
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-3-en\" data-faq-btn=\"None\">How long does it take?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "list",
+             "ordered": false,
+             "items": [
+              "It depends on the scope and on content readiness. We write the schedule into the proposal as an estimate, not a guarantee.",
+              "The most common cause of delay is content that is not ready; after that, late feedback and access that cannot be found. If you have a fixed date, say so in the estimator; it goes into the brief as a risk, so we discuss it from the start."
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-4-en\" data-faq-btn=\"None\">What if my content is not ready?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "list",
+             "ordered": false,
+             "items": [
+              "That is fine, as long as we know from the start. Content readiness is one of the effort-band factors and is written into the scope.",
+              "You have two options: prepare the content yourself by a set date, or add writing to the scope (the Marketing and content service). Either way, we build the structure and content model early, so you know exactly which text is needed, where, and how long."
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-5-en\" data-faq-btn=\"None\">What happens after delivery?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "list",
+             "ordered": false,
+             "items": [
+              "We hold a handover walkthrough and give you the handover documentation, so you or the next team can maintain the work. Each service's revision or retest rule is written into that service's scope.",
+              "Support after the handover period is by written agreement only. Default handover rule: websites and UI/UX, fixes for issues reported in the first 14 days after launch; documentation, one revision round within 14 days; penetration testing, one retest of reported findings within 60 days.. For penetration testing, one retest of the reported findings is included in the price."
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-6-en\" data-faq-btn=\"None\">Who owns the site, code, domain, and content?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "list",
+             "ordered": false,
+             "items": [
+              "You do. The source code, domain, hosting account and content are handed over in your name.",
+              "Domain, hosting and third-party service costs are yours too, and accounts are created in your name from the start, not ours. If a library or font with its own licence is used, its licence is listed in the handover documentation."
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-7-en\" data-faq-btn=\"None\">What exactly is a penetration test, and what is it not?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "list",
+             "ordered": false,
+             "items": [
+              "A penetration test means a person examines your system manually, with your written authorisation, the way an attacker would, within a defined scope. We use PTES and OWASP WSTG, and findings are scored with CVSS, in an executive report and a technical report, with one retest.",
+              "It is not an automated scan, and it does not prove a system is \"secure\"; it shows what was found in that scope at that time, and what was not tested. A written scope, signed authorisation and an NDA are required before any testing. The security self-check on this site is not a penetration test either."
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-8-en\" data-faq-btn=\"None\">Can you guarantee SEO rankings?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "list",
+             "ordered": false,
+             "items": [
+              "No. Nobody can honestly guarantee a specific Google ranking. What we can promise is structure, speed and content readiness for search.",
+              "That means pages with correct heading structure, metadata and a sitemap, good load speed, Persian and English versions with correct language tags, and content that answers real search intent. Ranking also depends on competitors, time and factors outside our control."
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-9-en\" data-faq-btn=\"None\">How do we start?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "list",
+             "ordered": false,
+             "items": [
+              "With the project estimator or the contact form. The estimator builds a printable scoped brief you can send us.",
+              "Next, we have a scoping conversation (the Discover step), followed by a written proposal with the scope, deliverables and a fixed price. Work starts only after you approve the proposal."
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-10-en\" data-faq-btn=\"None\">What if I change my mind mid-project?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "list",
+             "ordered": false,
+             "items": [
+              "It happens, and the path is clear: we write the change down and decide together what is added to the scope and what moves out.",
+              "If the change makes the scope bigger, we send a written addendum with its effect on cost and schedule before doing it. Small changes during the Design step, which exists so you see the direction early, are part of normal work."
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-11-en\" data-faq-btn=\"None\">Do you work with other teams?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "list",
+             "ordered": false,
+             "items": [
+              "Yes. We work with your developers, designer or marketing team, and the scope states who is responsible for which part.",
+              "We hand over outputs so another team can continue: documented code, design handover specs, and reports a developer can follow without us. No outside contractor works on your project without being named in your scope. If a specialist is needed, their role is written into the scope before work starts."
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-12-en\" data-faq-btn=\"None\">How is privacy handled for forms and tools?</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "list",
+             "ordered": false,
+             "items": [
+              "By default this site collects no data about you and uses no cookies or trackers. The estimator and the security self-check run entirely in your own browser and send your answers nowhere.",
+              "The contact form sends data only when you submit it. See the privacy page for details. <a href=\"/en/privacy/\">Privacy page</a>"
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-cta container",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "<a class=\"btn btn-primary\" href=\"/en/contact/\">Ask through the contact page</a>"
+    }
+   ]
+  }
+ ]
+}

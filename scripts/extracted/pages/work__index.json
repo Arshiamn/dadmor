@@ -1,0 +1,121 @@
+{
+ "path": "work/index.html",
+ "lang": "fa",
+ "title": "نمونه‌کار: کارهایی که می‌توانید ببینید | dadmor",
+ "description": "فقط کاری را نشان می‌دهیم که لینکش باز می‌شود و نقش ما در آن روشن است. جای خالی‌ها تا رسیدن اجازه انتشار خالی می‌ماند.",
+ "canonical": "https://dadmor.netlify.app/work/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/work/",
+  "en": "https://dadmor.netlify.app/en/work/",
+  "x-default": "https://dadmor.netlify.app/work/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "نمونه‌کار: کارهایی که می‌توانید ببینید | dadmor",
+  "description": "فقط کاری را نشان می‌دهیم که لینکش باز می‌شود و نقش ما در آن روشن است. جای خالی‌ها تا رسیدن اجازه انتشار خالی می‌ماند.",
+  "url": "https://dadmor.netlify.app/work/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "fa_IR",
+  "locale:alternate": "en_US"
+ },
+ "jsonld": [],
+ "hero": null,
+ "blocks": [
+  {
+   "t": "raw",
+   "html": "<nav class=\"breadcrumb container\" aria-label=\"مسیر صفحه\"><ol><li><a href=\"/\">خانه</a></li><li aria-current=\"page\">نمونه‌کار</li></ol></nav>",
+   "class": "breadcrumb container",
+   "tag": "nav"
+  },
+  {
+   "t": "group",
+   "class": "page-head container",
+   "blocks": [
+    {
+     "t": "raw",
+     "html": "<h1>کارهایی که می‌توانید ببینید</h1>",
+     "class": "",
+     "tag": "h1"
+    },
+    {
+     "t": "p",
+     "html": "برای هر نمونه می‌نویسیم چه کاری را ما انجام دادیم و چه کاری را نه. مشتری، نظر مشتری یا آماری را که وجود ندارد نشان نمی‌دهیم."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "container",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "نشانه نقطه‌ای کنار هر مورد وضعیت آن را نشان می‌دهد و همیشه برچسب متنی دارد: «بررسی و تحویل‌شده» برای کار منتشرشده، «ایده» برای جای خالی."
+    },
+    {
+     "t": "raw",
+     "html": "<article class=\"work-item work-item-featured\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>بررسی و تحویل‌شده</span> <h3><a href=\"https://ghazalalidoost.art\" rel=\"noopener\">ghazalalidoost.art</a></h3> <p class=\"work-label\">کار مشتری · وب‌سایت نمونه‌کار غزل علی‌دوست</p> <p class=\"work-label\">نقش ما: طراحی و ساخت</p> <a class=\"service-link\" href=\"https://ghazalalidoost.art\" rel=\"noopener\">دیدن ghazalalidoost.art (پنجره جدید)</a> </article>",
+     "class": "work-item work-item-featured",
+     "tag": "article"
+    },
+    {
+     "t": "raw",
+     "html": "<article class=\"work-item work-placeholder\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>ایده</span> <h3>نمونه‌کار بیشتر</h3> <p class=\"work-label\">اینجا اضافه می‌شود.</p> </article>",
+     "class": "work-item work-placeholder",
+     "tag": "article"
+    },
+    {
+     "t": "raw",
+     "html": "<article class=\"work-item work-placeholder\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>ایده</span> <h3>نمونه‌کار بیشتر</h3> <p class=\"work-label\">اینجا اضافه می‌شود.</p> </article>",
+     "class": "work-item work-placeholder",
+     "tag": "article"
+    },
+    {
+     "t": "raw",
+     "html": "<article class=\"work-item work-placeholder\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>ایده</span> <h3>نمونه‌کار بیشتر</h3> <p class=\"work-label\">اینجا اضافه می‌شود.</p> </article>",
+     "class": "work-item work-placeholder",
+     "tag": "article"
+    },
+    {
+     "t": "p",
+     "html": "بعضی کارها، مثل تست نفوذ و مستند داخلی، به‌طور پیش‌فرض محرمانه‌اند. آن‌ها را فقط به‌صورت سانسورشده و با اجازه کتبی مالک منتشر می‌کنیم."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-cta container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "کار شما می‌تواند مورد بعدی باشد"
+    },
+    {
+     "t": "p",
+     "html": "اول اسکوپ را روشن کنیم."
+    },
+    {
+     "t": "group",
+     "class": "btn-row",
+     "blocks": [
+      {
+       "t": "cta",
+       "text": "برآوردگر پروژه",
+       "href": "/tools/estimator/",
+       "class": "btn btn-primary"
+      },
+      {
+       "t": "cta",
+       "text": "تماس",
+       "href": "/contact/",
+       "class": "btn btn-ghost"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

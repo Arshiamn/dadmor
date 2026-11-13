@@ -1,0 +1,494 @@
+{
+ "path": "services/website-building/index.html",
+ "lang": "fa",
+ "title": "ساخت وب‌سایت با اسکوپ و مستند تحویل | dadmor",
+ "description": "وب‌سایتی که مدل‌سازی، ساخته و با مستند تحویل داده می‌شود: خروجی‌ها، عوامل اسکوپ، باند تلاش و محدودیت‌ها، پیش از شروع روشن است.",
+ "canonical": "https://dadmor.netlify.app/services/website-building/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/services/website-building/",
+  "en": "https://dadmor.netlify.app/en/services/website-building/",
+  "x-default": "https://dadmor.netlify.app/services/website-building/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "ساخت وب‌سایت با اسکوپ و مستند تحویل | dadmor",
+  "description": "وب‌سایتی که مدل‌سازی، ساخته و با مستند تحویل داده می‌شود: خروجی‌ها، عوامل اسکوپ، باند تلاش و محدودیت‌ها، پیش از شروع روشن است.",
+  "url": "https://dadmor.netlify.app/services/website-building/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "fa_IR",
+  "locale:alternate": "en_US"
+ },
+ "jsonld": [
+  [
+   {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "ساخت وب‌سایت",
+    "description": "وب‌سایتی که مدل‌سازی، ساخته و با مستند تحویل داده می‌شود: خروجی‌ها، عوامل اسکوپ، باند تلاش و محدودیت‌ها، پیش از شروع روشن است.",
+    "provider": {
+     "@type": "Organization",
+     "name": "dadmor",
+     "url": "https://dadmor.netlify.app/"
+    },
+    "url": "https://dadmor.netlify.app/services/website-building/"
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "آیا بعد از تحویل می‌توانم خودم محتوا را تغییر دهم؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "بله. مدل محتوا و مستند تحویل برای همین است: هر بخشی که شما باید به‌روزش کنید، در مستند با مسیر دقیقش آمده است."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can I change the content myself after handover?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes. That is what the content model and handover document are for: every section you are expected to update is listed with exactly where to change it."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "کد و دامنه متعلق به چه کسی است؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "به شما. کد منبع، دامنه و حساب هاست به نام شما تحویل می‌شود."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Who owns the code and domain?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "You do. The source code, domain and hosting account are handed over in your name."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "سایت فعلی‌مان را بازطراحی می‌کنید یا از صفر می‌سازید؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "هر دو ممکن است. در مرحله کشف بررسی می‌کنیم کدام بخش سایت فعلی قابل نگه‌داشتن است و نتیجه را در اسکوپ می‌نویسیم."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Do you redesign our current site or start from scratch?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Either. In Discover we check which parts of the current site are worth keeping and write the result into the scope."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "از کدام سیستم مدیریت محتوا استفاده می‌کنید؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "بستگی به این دارد که چه کسی و چند وقت یک بار محتوا را تغییر می‌دهد. انتخاب و دلیلش در اسکوپ می‌آید."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Which content management system do you use?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "It depends on who changes content and how often. The choice and the reason go into the scope."
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "خانه",
+      "item": "https://dadmor.netlify.app/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "خدمت‌ها",
+      "item": "https://dadmor.netlify.app/services/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "ساخت وب‌سایت",
+      "item": "https://dadmor.netlify.app/"
+     }
+    ]
+   }
+  ]
+ ],
+ "hero": null,
+ "blocks": [
+  {
+   "t": "raw",
+   "html": "<nav class=\"breadcrumb container\" aria-label=\"مسیر صفحه\"><ol><li><a href=\"/\">خانه</a></li><li><a href=\"/services/\">خدمت‌ها</a></li><li aria-current=\"page\">ساخت وب‌سایت</li></ol></nav>",
+   "class": "breadcrumb container",
+   "tag": "nav"
+  },
+  {
+   "t": "group",
+   "class": "page-head container",
+   "blocks": [
+    {
+     "t": "raw",
+     "html": "<h1>ساخت وب‌سایت</h1>",
+     "class": "",
+     "tag": "h1"
+    },
+    {
+     "t": "p",
+     "html": "وب‌سایتی که ساختار دارد: مدل‌سازی، ساخت و تحویل با مستند، تا بعد از روز لانچ هم کار کند."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "مسئله"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "سایتی که بدون ساختار و بدون مستند ساخته شود، روز لانچ کامل به نظر می‌رسد و بعد سخت می‌شود نگهش داشت. شما نمی‌دانید محتوا را کجا عوض کنید، هر تغییر کوچک به همان کسی وابسته است که سایت را ساخته، و صفحه‌ای که برای فروش مهم بود کند بارگذاری می‌شود."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "مناسب برای چه کسی است"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "بنیان‌گذارانی که اولین سایت جدی‌شان را می‌سازند و می‌خواهند بعداً خودشان محتوا را به‌روز کنند.",
+      "تیم‌هایی که سایت فعلی‌شان کند است یا کسی جز سازنده قبلی نمی‌تواند تغییرش دهد.",
+      "کسب‌وکارهایی که سایت دوزبانه فارسی و انگلیسی لازم دارند و می‌خواهند هر دو نسخه درست کار کند."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "مناسب چه کسی نیست"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "اگر یک قالب آماده با رنگ برندتان کافی است؛ این کار با ابزارهای سایت‌ساز ارزان‌تر انجام می‌شود.",
+      "اگر باید ظرف چند روز آنلاین باشید و فرصت تعریف اسکوپ ندارید.",
+      "اگر می‌خواهید ساخت را بدون محتوا شروع کنیم و محتوا «بعداً» برسد، بدون اینکه این ریسک را در اسکوپ بپذیرید."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "رویکرد ما"
+    },
+    {
+     "t": "list",
+     "ordered": true,
+     "items": [
+      "کشف. ورودی: گفت‌وگو با شما و هر محتوای موجود. خروجی: بریف و پیش‌نویس اسکوپ. مسئول: dadmor با پاسخ‌های شما.",
+      "مدل‌سازی. ورودی: بریف. خروجی: نقشه سایت و مدل محتوا (هر صفحه چه بخش‌هایی دارد و چه کسی آن را به‌روز می‌کند). مسئول: dadmor؛ تأیید: شما.",
+      "طراحی. ورودی: نقشه سایت تأییدشده. خروجی: سیستم طراحی و صفحه‌های کلیدی. مسئول: dadmor؛ بازخورد: شما.",
+      "ساخت. ورودی: طراحی تأییدشده و محتوای نهایی. خروجی: سایت کارکننده روی محیط آزمایشی و پیش‌نویس مستند تحویل. مسئول: dadmor.",
+      "لانچ و تحویل. ورودی: سایت تأییدشده. خروجی: سایت منتشرشده، جلسه تحویل، مستند تحویل نهایی. مسئول: dadmor؛ دسترسی دامنه و هاست: شما."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "خروجی‌ها"
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "عوامل اسکوپ و زمان‌بندی"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "چه چیزی کار را از S به M و L می‌برد: تعداد صفحه‌ها، قابلیت‌ها (فرم، جستجو، چندزبانه)، اتصال‌ها (پرداخت، رزرو، سیستم مدیریت محتوا)، و آمادگی محتوا.",
+      "دوزبانه بودن یعنی دو نسخه محتوا و بررسی راست‌به‌چپ و چپ‌به‌راست در هر صفحه؛ این را در اسکوپ جدا حساب می‌کنیم.",
+      "آنچه شما فراهم می‌کنید: محتوای متنی و تصویری، لوگو و هویت برند، دسترسی دامنه و هاست، و یک تصمیم‌گیرنده مشخص برای تأییدها.",
+      "آنچه معمولاً پروژه را عقب می‌اندازد: محتوای آماده‌نشده (اول از همه)، بازخوردی که دیر می‌رسد، و دسترسی‌ای که در روز لانچ پیدا نمی‌شود."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "باند تلاش"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "باند S، M یا L، بر اساس جدول قانون برآوردگر. قیمت ثابت را بعد از گفت‌وگوی اسکوپ و در پیشنهاد کتبی می‌دهیم."
+     ]
+    },
+    {
+     "t": "p",
+     "html": "باند، اندازه تقریبی کار است؛ نه قیمت و نه مدت. قیمت ثابت فقط بعد از گفت‌وگوی اسکوپ و در پیشنهاد کتبی مشخص می‌شود."
+    },
+    {
+     "t": "p",
+     "html": "باند، برآورد اولیه است؛ گفت‌وگوی اسکوپ می‌تواند آن را جابه‌جا کند."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "محدودیت‌ها و ریسک‌ها"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "رتبه مشخصی در گوگل را قول نمی‌دهیم. آنچه می‌دهیم ساختار، سرعت و آمادگی فنی برای جستجوست.",
+      "نوشتن محتوا جزو این خدمت نیست، مگر در اسکوپ آمده باشد؛ برای آن خدمت بازاریابی و تولید محتوا را ببینید.",
+      "هزینه دامنه، هاست و سرویس‌های شخص ثالث با شماست و مالکیت حساب‌ها هم با شما می‌ماند.",
+      "سرویس‌های شخص ثالث (درگاه پرداخت، رزرو) ممکن است بعد از لانچ تغییر کنند؛ پشتیبانی بعد از دوره تحویل فقط با توافق کتبی است.",
+      "ما یک استودیو هستیم و هم‌زمان تعداد محدودی پروژه می‌گیریم؛ تاریخ شروع به ظرفیت آن زمان بستگی دارد."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "پرسش‌های این خدمت"
+    },
+    {
+     "t": "group",
+     "class": "faq-list",
+     "blocks": [
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-1-fa\" data-faq-btn=\"None\">آیا بعد از تحویل می‌توانم خودم محتوا را تغییر دهم؟</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "بله. مدل محتوا و مستند تحویل برای همین است: هر بخشی که شما باید به‌روزش کنید، در مستند با مسیر دقیقش آمده است."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-2-fa\" data-faq-btn=\"None\">کد و دامنه متعلق به چه کسی است؟</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "به شما. کد منبع، دامنه و حساب هاست به نام شما تحویل می‌شود."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-3-fa\" data-faq-btn=\"None\">سایت فعلی‌مان را بازطراحی می‌کنید یا از صفر می‌سازید؟</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "هر دو ممکن است. در مرحله کشف بررسی می‌کنیم کدام بخش سایت فعلی قابل نگه‌داشتن است و نتیجه را در اسکوپ می‌نویسیم."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-4-fa\" data-faq-btn=\"None\">از کدام سیستم مدیریت محتوا استفاده می‌کنید؟</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "بستگی به این دارد که چه کسی و چند وقت یک بار محتوا را تغییر می‌دهد. انتخاب و دلیلش در اسکوپ می‌آید."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-cta container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "اسکوپ سایت‌تان را بسنجید"
+    },
+    {
+     "t": "p",
+     "html": "برآوردگر با همین خدمت باز می‌شود و یک بریف قابل چاپ می‌دهد."
+    },
+    {
+     "t": "group",
+     "class": "btn-row",
+     "blocks": [
+      {
+       "t": "cta",
+       "text": "برآورد اسکوپ برای ساخت وب‌سایت",
+       "href": "/tools/estimator/?service=website-building",
+       "class": "btn btn-primary"
+      },
+      {
+       "t": "cta",
+       "text": "تماس برای گفت‌وگوی اسکوپ",
+       "href": "/contact/",
+       "class": "btn btn-ghost"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-proof container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "نمونه کار"
+    },
+    {
+     "t": "raw",
+     "html": "<article class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>بررسی و تحویل‌شده</span> <p><a href=\"https://ghazalalidoost.art\" rel=\"noopener\">ghazalalidoost.art</a> · کار مشتری · طراحی و ساخت</p> </article>",
+     "class": "work-item",
+     "tag": "article"
+    }
+   ]
+  }
+ ]
+}

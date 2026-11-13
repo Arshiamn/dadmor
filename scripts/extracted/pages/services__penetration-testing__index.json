@@ -1,0 +1,519 @@
+{
+ "path": "services/penetration-testing/index.html",
+ "lang": "fa",
+ "title": "تست نفوذ دستی با اسکوپ امضاشده و بازتست | dadmor",
+ "description": "تست نفوذ دستی وب و API با روش PTES و OWASP WSTG، گزارش امتیازدهی‌شده با CVSS و یک بازتست. فقط با اسکوپ کتبی، مجوز امضاشده و قرارداد محرمانگی.",
+ "canonical": "https://dadmor.netlify.app/services/penetration-testing/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/services/penetration-testing/",
+  "en": "https://dadmor.netlify.app/en/services/penetration-testing/",
+  "x-default": "https://dadmor.netlify.app/services/penetration-testing/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "تست نفوذ دستی با اسکوپ امضاشده و بازتست | dadmor",
+  "description": "تست نفوذ دستی وب و API با روش PTES و OWASP WSTG، گزارش امتیازدهی‌شده با CVSS و یک بازتست. فقط با اسکوپ کتبی، مجوز امضاشده و قرارداد محرمانگی.",
+  "url": "https://dadmor.netlify.app/services/penetration-testing/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "fa_IR",
+  "locale:alternate": "en_US"
+ },
+ "jsonld": [
+  [
+   {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "تست نفوذ",
+    "description": "تست نفوذ دستی وب و API با روش PTES و OWASP WSTG، گزارش امتیازدهی‌شده با CVSS و یک بازتست. فقط با اسکوپ کتبی، مجوز امضاشده و قرارداد محرمانگی.",
+    "provider": {
+     "@type": "Organization",
+     "name": "dadmor",
+     "url": "https://dadmor.netlify.app/"
+    },
+    "url": "https://dadmor.netlify.app/services/penetration-testing/"
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "تست نفوذ با اسکن امنیتی چه فرقی دارد؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "اسکن خودکار الگوهای شناخته‌شده را جستجو می‌کند. تست نفوذ دستی بررسی می‌کند کدام یافته واقعاً قابل سوءاستفاده است و منطق خود اپ (مثل دسترسی‌ها و پرداخت) را هم تست می‌کند. ما در تست از ابزار خودکار هم استفاده می‌کنیم، ولی خروجی خامش را تحویل نمی‌دهیم."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How is a penetration test different from a security scan?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "An automated scan looks for known patterns. A manual penetration test checks which findings are actually exploitable and also tests the app's own logic (such as permissions and payments). We use automated tools during testing too, but we do not hand over their raw output."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "CVSS چیست؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "یک استاندارد عمومی برای امتیاز دادن به شدت آسیب‌پذیری، از ۰ تا ۱۰. کمک می‌کند تیم شما بداند اول کدام را اصلاح کند."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is CVSS?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "A public standard for scoring vulnerability severity, from 0 to 10. It helps your team decide what to fix first."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "بازتست چه چیزی را شامل می‌شود؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "یک بار، همان یافته‌هایی را که گزارش کرده‌ایم دوباره تست می‌کنیم تا ببینیم اصلاح شده‌اند. بخش‌های جدید یا تغییرات دیگر سیستم، تست جدید لازم دارند."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What does the retest cover?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Once, we test the findings we reported again to see whether they are fixed. New parts or other changes to the system need a new test."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "گزارش را می‌توانیم به مشتری‌مان بدهیم؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "گزارش مدیریتی برای همین نوشته می‌شود. گزارش فنی جزئیات سوءاستفاده دارد و بهتر است فقط داخل تیم بماند."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can we share the report with our customer?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "The executive report is written for that. The technical report contains exploit details and should stay within your team."
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "خانه",
+      "item": "https://dadmor.netlify.app/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "خدمت‌ها",
+      "item": "https://dadmor.netlify.app/services/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "تست نفوذ",
+      "item": "https://dadmor.netlify.app/"
+     }
+    ]
+   }
+  ]
+ ],
+ "hero": null,
+ "blocks": [
+  {
+   "t": "raw",
+   "html": "<nav class=\"breadcrumb container\" aria-label=\"مسیر صفحه\"><ol><li><a href=\"/\">خانه</a></li><li><a href=\"/services/\">خدمت‌ها</a></li><li aria-current=\"page\">تست نفوذ</li></ol></nav>",
+   "class": "breadcrumb container",
+   "tag": "nav"
+  },
+  {
+   "t": "group",
+   "class": "container",
+   "blocks": [
+    {
+     "t": "group",
+     "class": "notice-box",
+     "blocks": [
+      {
+       "t": "heading",
+       "level": 2,
+       "html": "پیش از هر تست، این سه سند امضا می‌شود"
+      },
+      {
+       "t": "list",
+       "ordered": false,
+       "items": [
+        "اسکوپ کتبی: دقیقاً کدام دامنه‌ها، اپ‌ها، APIها و حساب‌ها تست می‌شوند و کدام نه، در چه بازه زمانی و با چه روش‌هایی.",
+        "نامه مجوز (Letter of Authorisation): مالک قانونی سیستم، به‌صورت کتبی، اجازه تست را می‌دهد.",
+        "قرارداد محرمانگی (NDA): یافته‌ها و داده‌هایی که در حین تست دیده می‌شود، محرمانه می‌ماند."
+       ]
+      },
+      {
+       "t": "p",
+       "html": "بدون هر سه سند، هیچ تستی انجام نمی‌دهیم، حتی آزمایشی کوتاه."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "page-head container",
+   "blocks": [
+    {
+     "t": "raw",
+     "html": "<h1>تست نفوذ</h1>",
+     "class": "",
+     "tag": "h1"
+    },
+    {
+     "t": "p",
+     "html": "تست دستی با اسکوپ امضاشده، گزارش امتیازدهی‌شده با CVSS و بازتست؛ اثبات اینکه چه چیزی تست شد و چه چیزی نشد."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "مسئله"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "یک اسکن خودکار فهرست بلندی از هشدار می‌دهد، ولی نمی‌گوید کدام واقعاً قابل سوءاستفاده است و کدام مهم نیست. از آن طرف، گزارشی که نمی‌گوید چه چیزی خارج از اسکوپ بود، این تصور را می‌سازد که همه‌چیز بررسی شده است."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "مناسب برای چه کسی است"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "تیم‌هایی که وب‌اپ یا API دارند و داده کاربر، پرداخت یا اطلاعات حساس را پردازش می‌کنند.",
+      "استارتاپ‌هایی که مشتری یا شریک‌شان پیش از قرارداد گزارش تست امنیتی می‌خواهد.",
+      "تیم‌هایی که پیش از لانچ یک قابلیت حساس (ورود، پرداخت، پنل مدیریت) می‌خواهند آن را تست کنند."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "مناسب چه کسی نیست"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "اگر مالک سیستم نیستید و مجوز کتبی مالک را ندارید.",
+      "اگر گواهی «امنیت کامل» یا «بدون آسیب‌پذیری» می‌خواهید. هیچ تستی چنین چیزی را اثبات نمی‌کند و ما آن را نمی‌نویسیم.",
+      "اگر فقط اجرای یک اسکنر خودکار و تحویل خروجی خامش را می‌خواهید.",
+      "اگر تست مهندسی اجتماعی، تست فیزیکی یا تست زیرساخت شبکه داخلی لازم دارید."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "رویکرد ما"
+    },
+    {
+     "t": "list",
+     "ordered": true,
+     "items": [
+      "اسکوپ. ورودی: گفت‌وگو درباره سیستم و ریسک‌های آن. خروجی: اسکوپ کتبی، نامه مجوز و NDA امضاشده. مسئول: شما و dadmor.",
+      "تست. ورودی: اسکوپ امضاشده و حساب‌های تست. خروجی: یافته‌ها با شواهد. روش: PTES برای ساختار کار، OWASP WSTG برای تست وب، و OWASP Top 10 و API Security Top 10 هر جا مرتبط باشد. مسئول: dadmor.",
+      "گزارش. ورودی: یافته‌ها. خروجی: گزارش مدیریتی و گزارش فنی؛ هر یافته با امتیاز CVSS، شواهد، اثر و راه اصلاح. مسئول: dadmor.",
+      "اصلاح. ورودی: گزارش. خروجی: اصلاحات در سیستم شما. مسئول: تیم شما.",
+      "بازتست. ورودی: اصلاحات اعلام‌شده. خروجی: یک بازتست یافته‌های گزارش‌شده و گزارش وضعیت به‌روز. مسئول: dadmor، در بازه‌ای که در اسکوپ نوشته شده است."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "خروجی‌ها"
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "عوامل اسکوپ و زمان‌بندی"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "چه چیزی اندازه کار را تغییر می‌دهد: تعداد اپ، API و endpoint، تعداد نقش کاربری (مهمان، کاربر، مدیر)، و منطق کسب‌وکاری که باید تست شود (پرداخت، دسترسی‌ها).",
+      "آنچه شما فراهم می‌کنید: محیط تست یا اجازه تست روی محیط اصلی، حساب‌های تست برای هر نقش، یک نفر رابط فنی، و امضای سه سند.",
+      "آنچه پروژه را عقب می‌اندازد: مجوزی که دیر امضا می‌شود، حساب تستی که کار نمی‌کند، و محیطی که وسط تست تغییر می‌کند."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "باند تلاش"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "فقط پیشنهاد ثابت بعد از گفت‌وگوی اسکوپ. یک بازتست یافته‌های گزارش‌شده در قیمت آمده است."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "محدودیت‌ها و ریسک‌ها"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "تست نفوذ آنچه را در اسکوپ بوده، در یک بازه زمانی مشخص بررسی می‌کند. هر چیزی خارج از اسکوپ، و هر تغییری بعد از تست، بررسی نشده است و این در گزارش نوشته می‌شود.",
+      "پیدا نشدن یک آسیب‌پذیری یعنی در این تست پیدا نشد، نه اینکه وجود ندارد.",
+      "تست روی محیط اصلی می‌تواند ریسک قطعی یا تغییر داده داشته باشد؛ روش‌های پرخطر فقط با تأیید کتبی و در زمان توافق‌شده اجرا می‌شوند.",
+      "اصلاح آسیب‌پذیری‌ها کار تیم شماست، مگر جداگانه اسکوپ شود."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "پرسش‌های این خدمت"
+    },
+    {
+     "t": "group",
+     "class": "faq-list",
+     "blocks": [
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-1-fa\" data-faq-btn=\"None\">تست نفوذ با اسکن امنیتی چه فرقی دارد؟</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "اسکن خودکار الگوهای شناخته‌شده را جستجو می‌کند. تست نفوذ دستی بررسی می‌کند کدام یافته واقعاً قابل سوءاستفاده است و منطق خود اپ (مثل دسترسی‌ها و پرداخت) را هم تست می‌کند. ما در تست از ابزار خودکار هم استفاده می‌کنیم، ولی خروجی خامش را تحویل نمی‌دهیم."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-2-fa\" data-faq-btn=\"None\">CVSS چیست؟</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "یک استاندارد عمومی برای امتیاز دادن به شدت آسیب‌پذیری، از ۰ تا ۱۰. کمک می‌کند تیم شما بداند اول کدام را اصلاح کند."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-3-fa\" data-faq-btn=\"None\">بازتست چه چیزی را شامل می‌شود؟</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "یک بار، همان یافته‌هایی را که گزارش کرده‌ایم دوباره تست می‌کنیم تا ببینیم اصلاح شده‌اند. بخش‌های جدید یا تغییرات دیگر سیستم، تست جدید لازم دارند."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-4-fa\" data-faq-btn=\"None\">گزارش را می‌توانیم به مشتری‌مان بدهیم؟</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "گزارش مدیریتی برای همین نوشته می‌شود. گزارش فنی جزئیات سوءاستفاده دارد و بهتر است فقط داخل تیم بماند."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-cta container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": ""
+    },
+    {
+     "t": "p",
+     "html": ""
+    },
+    {
+     "t": "group",
+     "class": "btn-row",
+     "blocks": [
+      {
+       "t": "cta",
+       "text": "برآورد اسکوپ برای تست نفوذ",
+       "href": "/tools/estimator/?service=penetration-testing",
+       "class": "btn btn-primary"
+      },
+      {
+       "t": "cta",
+       "text": "اول خودارزیابی امنیت را انجام دهید",
+       "href": "/tools/security-check/",
+       "class": "btn btn-ghost"
+      },
+      {
+       "t": "cta",
+       "text": "تماس برای گفت‌وگوی اسکوپ",
+       "href": "/contact/",
+       "class": "btn btn-ghost"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-proof container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "نمونه کار"
+    },
+    {
+     "t": "p",
+     "html": "نمونه سانسورشده، در گفت‌وگوی اسکوپ و با اجازه مالک، قابل مشاهده است."
+    }
+   ]
+  }
+ ]
+}

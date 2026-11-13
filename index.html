@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fa" dir="rtl" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ساخت وب سایت، طراحی رابط کاربری، مدل کسب وکار، مستندسازی، تست نفوذ و تولید محتوا، با اسکوپ کتبی پیش از شروع و مستند تحویل بعد از پایان." />
+    <link rel="preload" href="/fonts/vazirmatn-arabic-var.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/inter-latin-var.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/lalezar-arabic.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/lalezar-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <!-- v33: JetBrains Mono was the only font not preloaded (112KB); it
+         started ~0.6–0.8s after the others, so hero eyebrow/stats/kickers
+         rendered in fallback then swapped. -->
+    <link rel="preload" href="/fonts/jetbrains-mono-var.woff2" as="font" type="font/woff2" crossorigin />
+    <meta property="og:site_name" content="dadmor" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://dadmor.netlify.app/og.png" />
+    <meta name="theme-color" content="#0b0a14" />
+    <title>dadmor | استودیوی کوچک و فنی برای وب‌سایت، محصول و امنیت</title>
+    <script>
+      /* Theme pre-paint: dark-first (NEON FIELD). Saved choice wins;
+         otherwise dark. Runs before paint so there is no flash. */
+      (function () {
+        try {
+          var t = localStorage.getItem("dadmor-theme");
+          if (t !== "light" && t !== "dark") t = "dark";
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,148 @@
+{
+ "path": "en/contact/index.html",
+ "lang": "en",
+ "title": "Contact: describe your project in a few lines | dadmor",
+ "description": "A short form, email, WhatsApp or Telegram. Before any price, we have a scoping conversation.",
+ "canonical": "https://dadmor.netlify.app/en/contact/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/contact/",
+  "en": "https://dadmor.netlify.app/en/contact/",
+  "x-default": "https://dadmor.netlify.app/contact/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "Contact: describe your project in a few lines | dadmor",
+  "description": "A short form, email, WhatsApp or Telegram. Before any price, we have a scoping conversation.",
+  "url": "https://dadmor.netlify.app/en/contact/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "en_US",
+  "locale:alternate": "fa_IR"
+ },
+ "jsonld": [],
+ "hero": null,
+ "blocks": [
+  {
+   "t": "raw",
+   "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li aria-current=\"page\">Contact</li></ol></nav>",
+   "class": "breadcrumb container",
+   "tag": "nav"
+  },
+  {
+   "t": "group",
+   "class": "page-head container",
+   "blocks": [
+    {
+     "t": "raw",
+     "html": "<h1>Contact</h1>",
+     "class": "",
+     "tag": "h1"
+    },
+    {
+     "t": "p",
+     "html": "Tell us what you need and by when. If you have a brief from the estimator, paste it into the message."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "container contact-grid",
+   "blocks": [
+    {
+     "t": "group",
+     "class": "contact-form-col",
+     "blocks": [
+      {
+       "t": "group",
+       "class": "notice-box form-fallback",
+       "blocks": [
+        {
+         "t": "p",
+         "html": "The form is not connected here; your text is still in the form. Use email or WhatsApp, or copy your message."
+        },
+        {
+         "t": "p",
+         "html": "Email: <a href=\"mailto:hello@dadmor.com\" dir=\"ltr\">hello@dadmor.com</a> · WhatsApp: <a href=\"https://wa.me/989391400826\" rel=\"noopener\">+98 939 140 0826</a>"
+        },
+        {
+         "t": "raw",
+         "html": "<button type=\"button\" class=\"btn btn-ghost btn-small\" data-copy-form=\"None\">Copy text</button>",
+         "class": "btn btn-ghost btn-small",
+         "tag": "button"
+        }
+       ]
+      },
+      {
+       "t": "raw",
+       "html": "<form name=\"contact\" method=\"POST\" action=\"/contact/\" data-netlify=\"true\" netlify-honeypot=\"bot-field\" data-contact-form=\"None\" data-error-service=\"Choose a service, or \" not=\"None\" sure=\"None\" yet\".\"=\"None\" data-copy-label=\"Copy text\" novalidate=\"None\"> <input type=\"hidden\" name=\"form-name\" value=\"contact\"> <p hidden=\"None\" aria-hidden=\"true\"><label>Bots only: <input name=\"bot-field\" tabindex=\"-1\" autocomplete=\"off\"></label></p> <div class=\"form-errors\" data-form-summary=\"None\" role=\"alert\" hidden=\"None\"><p>Please fix the following:</p><ul></ul></div> <div class=\"field\"> <label for=\"cf-name\">Name (required)</label> <input id=\"cf-name\" name=\"name\" type=\"text\" autocomplete=\"name\" required=\"None\" data-error-name=\"Please enter your name.\"> <p class=\"field-error\" data-error-for=\"name\" hidden=\"None\"></p> </div> <div class=\"field\"> <label for=\"cf-email\">Email (required)</label> <input id=\"cf-email\" name=\"email\" type=\"email\" dir=\"ltr\" autocomplete=\"email\" required=\"None\" data-error-email=\"Enter a valid email address, like name@example.com\"> <p class=\"field-hint\">We reply to this address.</p> <p class=\"field-error\" data-error-for=\"email\" hidden=\"None\"></p> </div> <div class=\"field\"> <label for=\"cf-service\">Service (required)</label> <select id=\"cf-service\" name=\"service\" required=\"None\"> <option value=\"\"> </option> <option value=\"Website building\">Website building</option><option value=\"UI/UX design\">UI/UX design</option><option value=\"Business model design\">Business model design</option><option value=\"Documentation\">Documentation</option><option value=\"Penetration testing\">Penetration testing</option><option value=\"Marketing and content\">Marketing and content</option><option value=\"Not sure yet\">Not sure yet</option> </select> <p class=\"field-error\" data-error-for=\"service\" hidden=\"None\"></p> </div> <div class=\"field\"> <label for=\"cf-message\">Message (required)</label> <textarea id=\"cf-message\" name=\"message\" rows=\"6\" required=\"None\" data-error-message=\"Please write your message.\"></textarea> <p class=\"field-hint\">What you need, for whom, and by when. Do not include passwords or login details.</p> <p class=\"field-error\" data-error-for=\"message\" hidden=\"None\"></p> </div> <fieldset class=\"field\"> <legend>Preferred way to reply (optional)</legend> <label class=\"radio\"><input type=\"radio\" name=\"channel\" value=\"Email\"> <span>Email</span></label> <label class=\"radio\"><input type=\"radio\" name=\"channel\" value=\"WhatsApp\"> <span>WhatsApp</span></label> <label class=\"radio\"><input type=\"radio\" name=\"channel\" value=\"Telegram\"> <span>Telegram</span></label> </fieldset> <button class=\"btn btn-primary\" type=\"submit\" data-submit=\"None\">Send message</button> <p class=\"field-hint\"><a href=\"/en/privacy/\">We send only these fields and use them only to reply to you. Details on the privacy page.</a></p> </form>",
+       "class": "",
+       "tag": "form"
+      },
+      {
+       "t": "group",
+       "class": "form-success",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 2,
+         "html": "Your request has arrived."
+        },
+        {
+         "t": "p",
+         "html": "We reply within one working day."
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "t": "group",
+     "class": "contact-side",
+     "blocks": [
+      {
+       "t": "heading",
+       "level": 2,
+       "html": "Other ways to reach us"
+      },
+      {
+       "t": "p",
+       "html": "<strong>Email:</strong> <a href=\"mailto:hello@dadmor.com\" dir=\"ltr\">hello@dadmor.com</a> · For briefs, files and anything that should stay in writing."
+      },
+      {
+       "t": "p",
+       "html": "<strong>WhatsApp:</strong> <a href=\"https://wa.me/989391400826\" rel=\"noopener\">+98 939 140 0826</a> · For short questions and scheduling a conversation."
+      },
+      {
+       "t": "p",
+       "html": "<strong>تلگرام:</strong> <a href=\"https://t.me/dadmor_ai\" rel=\"noopener\" dir=\"ltr\">@dadmor_ai</a> · For short questions."
+      },
+      {
+       "t": "p",
+       "html": "For penetration testing, do not send technical system details or login details through any of these channels. We write the scope together first."
+      },
+      {
+       "t": "heading",
+       "level": 2,
+       "html": "What happens next"
+      },
+      {
+       "t": "p",
+       "html": "We reply within one working day."
+      },
+      {
+       "t": "list",
+       "ordered": true,
+       "items": [
+        "We read your message.",
+        "We set a time for a scoping conversation.",
+        "We send a written proposal with the scope, deliverables and a fixed price."
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

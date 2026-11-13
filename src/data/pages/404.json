@@ -1,0 +1,57 @@
+{
+  "path": "404.html",
+  "lang": "fa",
+  "title": "صفحه پیدا نشد · Page not found | dadmor",
+  "description": "",
+  "canonical": "https://dadmor.netlify.app/404.html",
+  "hreflang": {},
+  "og": {},
+  "jsonld": [],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "p",
+      "html": "<span class=\"dot-ring dot-d4\" aria-hidden=\"true\"></span>لانچ · Launch"
+    },
+    {
+      "t": "group",
+      "class": "p404-lang p404-fa",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h1>این صفحه هنوز ساختاری ندارد.</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "p",
+          "html": "نشانی ای که باز کردید اینجا صفحه ای ندارد. شاید جابه جا شده یا نشانی کامل نیست."
+        },
+        {
+          "t": "p",
+          "html": "<a class=\"btn btn-primary\" href=\"/\">صفحه اصلی</a><a class=\"btn btn-ghost\" href=\"/services/\">خدمت ها</a><a class=\"btn btn-ghost\" href=\"/contact/\">تماس</a>"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "p404-lang p404-en",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h1>This page has no structure yet.</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "p",
+          "html": "The address you opened has no page here. It may have moved, or the address may be incomplete."
+        },
+        {
+          "t": "p",
+          "html": "<a class=\"btn btn-primary\" href=\"/en/\">Home</a><a class=\"btn btn-ghost\" href=\"/en/services/\">Services</a><a class=\"btn btn-ghost\" href=\"/en/contact/\">Contact</a>"
+        }
+      ]
+    }
+  ]
+}

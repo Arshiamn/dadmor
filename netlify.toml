@@ -1,0 +1,9 @@
+# Netlify build settings for the dadmor site (v33+).
+# The site is deployed from GitHub: every push to the default branch
+# triggers a production deploy. Build = Vite + SSR + prerender (35 pages).
+[build]
+  command = "npm run build:all"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "24"

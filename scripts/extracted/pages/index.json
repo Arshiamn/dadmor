@@ -1,0 +1,296 @@
+{
+ "path": "index.html",
+ "lang": "fa",
+ "title": "dadmor | استودیوی کوچک و فنی برای وب‌سایت، محصول و امنیت",
+ "description": "ساخت وب‌سایت، طراحی رابط کاربری، مدل کسب‌وکار، مستندسازی، تست نفوذ و تولید محتوا، با اسکوپ کتبی پیش از شروع و مستند تحویل بعد از پایان.",
+ "canonical": "https://dadmor.netlify.app/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/",
+  "en": "https://dadmor.netlify.app/en/",
+  "x-default": "https://dadmor.netlify.app/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "dadmor | استودیوی کوچک و فنی برای وب‌سایت، محصول و امنیت",
+  "description": "ساخت وب‌سایت، طراحی رابط کاربری، مدل کسب‌وکار، مستندسازی، تست نفوذ و تولید محتوا، با اسکوپ کتبی پیش از شروع و مستند تحویل بعد از پایان.",
+  "url": "https://dadmor.netlify.app/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "fa_IR",
+  "locale:alternate": "en_US"
+ },
+ "jsonld": [
+  [
+   {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "dadmor",
+    "url": "https://dadmor.netlify.app/",
+    "logo": "https://dadmor.netlify.app/assets/img/dadmor-halftone-logo.svg"
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "dadmor",
+    "url": "https://dadmor.netlify.app/",
+    "inLanguage": [
+     "fa",
+     "en"
+    ]
+   }
+  ]
+ ],
+ "hero": {
+  "t": "hero",
+  "html": "<span class=\"hero-boot-sweep\" aria-hidden=\"true\"></span> <div class=\"hero-text\"> <p class=\"hero-eyebrow\">استودیوی مستقل و فنی طراحی و ساخت دیجیتال</p> <h1><span class=\"w\">ساختاری</span> <span class=\"w\">که</span> <span class=\"w\">می‌ماند</span></h1> <p class=\"hero-sub\">برای بنیان‌گذارانی که می‌خواهند وب‌سایت، محصول، مدل کسب‌وکار، مستند، تست امنیتی یا سیستم محتوایی‌شان با اسکوپ روشن ساخته شود، دقیق کار کند و بعد از تحویل هم قابل نگهداری بماند.</p> <div class=\"hero-ctas\"> <a class=\"btn btn-primary\" href=\"/tools/estimator/\">برآورد اسکوپ بگیرید</a> <a class=\"btn btn-ghost\" href=\"/services/\">خدمت‌ها را ببینید</a> </div> <p class=\"hero-stats\"><span class=\"stat\"><strong>۲۰+</strong> پروژه تحویل‌شده</span><span class=\"stat\"><strong>۵+</strong> سال تجربه</span><span class=\"stat\"><strong>۶</strong> خدمت تخصصی</span></p> <p class=\"hero-brandline\">دادمور بازی با نام مرداد است؛ داد هم یعنی عدالت و هم یعنی هدیه.</p> </div> <div class=\"hero-lion\"> <span class=\"lion-stack\" aria-hidden=\"true\"> <svg class=\"hero-lion-svg\" viewbox=\"123 74 312 356\" focusable=\"false\"><use data-lion-use=\"None\" href=\"/assets/img/hero-lion-d3.svg#lion-root\"></use></svg> <svg class=\"hero-eyes-svg\" viewbox=\"123 74 312 356\" focusable=\"false\"><use class=\"eyes-use\" data-lion-eyes=\"None\" href=\"/assets/img/hero-lion-d3.svg#eyes\"></use></svg> </span> </div>",
+  "eyebrow": "استودیوی مستقل و فنی طراحی و ساخت دیجیتال",
+  "h1_html": "<span class=\"w\">ساختاری</span> <span class=\"w\">که</span> <span class=\"w\">می‌ماند</span>",
+  "h1_text": "ساختاری که می‌ماند",
+  "paragraphs": [
+   "استودیوی مستقل و فنی طراحی و ساخت دیجیتال",
+   "برای بنیان‌گذارانی که می‌خواهند وب‌سایت، محصول، مدل کسب‌وکار، مستند، تست امنیتی یا سیستم محتوایی‌شان با اسکوپ روشن ساخته شود، دقیق کار کند و بعد از تحویل هم قابل نگهداری بماند.",
+   "<span class=\"stat\"><strong>۲۰+</strong> پروژه تحویل‌شده</span><span class=\"stat\"><strong>۵+</strong> سال تجربه</span><span class=\"stat\"><strong>۶</strong> خدمت تخصصی</span>",
+   "دادمور بازی با نام مرداد است؛ داد هم یعنی عدالت و هم یعنی هدیه."
+  ],
+  "ctas": [
+   {
+    "text": "برآورد اسکوپ بگیرید",
+    "href": "/tools/estimator/",
+    "class": "btn btn-primary"
+   },
+   {
+    "text": "خدمت‌ها را ببینید",
+    "href": "/services/",
+    "class": "btn btn-ghost"
+   }
+  ],
+  "lion_html": "<span class=\"lion-stack\" aria-hidden=\"true\"> <svg class=\"hero-lion-svg\" viewbox=\"123 74 312 356\" focusable=\"false\"><use data-lion-use=\"None\" href=\"/assets/img/hero-lion-d3.svg#lion-root\"></use></svg> <svg class=\"hero-eyes-svg\" viewbox=\"123 74 312 356\" focusable=\"false\"><use class=\"eyes-use\" data-lion-eyes=\"None\" href=\"/assets/img/hero-lion-d3.svg#eyes\"></use></svg> </span>"
+ },
+ "blocks": [
+  {
+   "t": "divider"
+  },
+  {
+   "t": "group",
+   "class": "home-services container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "شش خدمت، با اسکوپ کتبی برای هر کدام"
+    },
+    {
+     "t": "p",
+     "html": "هر پروژه با یک سند اسکوپ شروع می‌شود: چه چیزی تحویل می‌شود، چه چیزی نه، و چه چیزی را باید شما فراهم کنید. اگر نمی‌دانید از کدام شروع کنید، <a href=\"/services/#finder\">یابنده خدمت</a> با شش سؤال پیشنهاد می‌دهد."
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "<div class=\"service-row-main\"> <h3><a href=\"/services/website-building/\">ساخت وب‌سایت</a></h3> <p>وب‌سایتی که ساختار دارد: مدل‌سازی، ساخت و تحویل با مستند، تا بعد از روز لانچ هم کار کند.</p> </div> <p class=\"service-notfor\">مناسب نیست اگر فقط یک قالب آماده با رنگ برندتان می‌خواهید.</p> <a class=\"service-link\" href=\"/services/website-building/\">درباره ساخت وب‌سایت</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/services/ui-ux-design/\">طراحی رابط و تجربه کاربری</a></h3> <p>رابطی که از روی وظیفه کاربر و شواهد تصمیم گرفته شده، به‌صورت سیستمی که توسعه‌دهنده واقعاً بتواند بسازد.</p> </div> <p class=\"service-notfor\">مناسب نیست اگر فقط چند تصویر برای ارائه به سرمایه‌گذار لازم دارید.</p> <a class=\"service-link\" href=\"/services/ui-ux-design/\">درباره طراحی رابط و تجربه کاربری</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/services/business-model/\">طراحی مدل کسب‌وکار</a></h3> <p>مدلی که می‌شود آزمایشش کرد: فرضیات، منطق درآمد و معیار ادامه یا توقف، نه فقط یک پیچ‌دک قانع‌کننده.</p> </div> <p class=\"service-notfor\">مناسب نیست اگر پیش‌بینی مالی یا مشاوره سرمایه‌گذاری می‌خواهید.</p> <a class=\"service-link\" href=\"/services/business-model/\">درباره طراحی مدل کسب‌وکار</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/services/documentation/\">مستندسازی</a></h3> <p>مستندی که نگهدارنده بعدی بتواند با آن کار کند: مخاطب، قالب و قانون به‌روزرسانی مشخص.</p> </div> <p class=\"service-notfor\">مناسب نیست اگر سندی می‌خواهید که فقط در پوشه بماند.</p> <a class=\"service-link\" href=\"/services/documentation/\">درباره مستندسازی</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/services/penetration-testing/\">تست نفوذ</a></h3> <p>تست دستی با اسکوپ امضاشده، گزارش امتیازدهی‌شده با CVSS و بازتست؛ اثبات اینکه چه چیزی تست شد و چه چیزی نشد.</p> </div> <p class=\"service-notfor\">مناسب نیست اگر بدون مجوز کتبی مالک سیستم یا برای «تأیید امنیت کامل» می‌خواهید.</p> <a class=\"service-link\" href=\"/services/penetration-testing/\">درباره تست نفوذ</a>",
+      "<div class=\"service-row-main\"> <h3><a href=\"/services/marketing-content/\">بازاریابی و تولید محتوا</a></h3> <p>ویدیو، متن و سئو که از همان ساختار محصول ساخته شده‌اند، تا کار را توضیح دهند نه اینکه فقط تزئینش کنند.</p> </div> <p class=\"service-notfor\">مناسب نیست اگر قول رتبه مشخص در گوگل می‌خواهید.</p> <a class=\"service-link\" href=\"/services/marketing-content/\">درباره بازاریابی و تولید محتوا</a>"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "divider"
+  },
+  {
+   "t": "group",
+   "class": "home-how container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "پنج مرحله، هر کدام با ورودی و خروجی مشخص"
+    },
+    {
+     "t": "list",
+     "ordered": true,
+     "items": [
+      "<strong>کشف</strong>: هدف، مخاطب و معیار موفقیت پیش از هر طراحی تعریف می‌شود.",
+      "<strong>برنامه‌ریزی</strong>: ساختار، صفحه‌ها یا قابلیت‌ها و اولویت‌ها از ابتدا توافق می‌شود.",
+      "<strong>طراحی</strong>: جهتی که زود می‌بینید و درباره‌اش نظر می‌دهید، نه یک سایت تمام‌شده که آخر کار رونمایی شود.",
+      "<strong>ساخت</strong>: کد تمیز و مبتنی بر کامپوننت، با سرعت و دسترس‌پذیری از ابتدا و مستند هم‌زمان.",
+      "<strong>لانچ و نگهداری</strong>: انتشار، جلسه تحویل، و بازتست یا اصلاح طبق قانون همان خدمت."
+     ]
+    },
+    {
+     "t": "raw",
+     "html": "<a class=\"service-link\" href=\"/process/\">ورودی و خروجی هر مرحله را ببینید</a>",
+     "class": "service-link",
+     "tag": "a"
+    }
+   ]
+  },
+  {
+   "t": "divider"
+  },
+  {
+   "t": "group",
+   "class": "home-work container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "کارهایی که می‌توانید ببینید"
+    },
+    {
+     "t": "p",
+     "html": "اینجا فقط کاری را نشان می‌دهیم که لینکش باز می‌شود و نقش ما در آن روشن است."
+    },
+    {
+     "t": "raw",
+     "html": "<article class=\"work-item work-item-featured\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>بررسی و تحویل‌شده</span> <h3><a href=\"https://ghazalalidoost.art\" rel=\"noopener\">ghazalalidoost.art</a></h3> <p class=\"work-label\">کار مشتری · وب‌سایت نمونه‌کار غزل علی‌دوست · نقش ما: طراحی و ساخت</p> <a class=\"service-link\" href=\"https://ghazalalidoost.art\" rel=\"noopener\">دیدن ghazalalidoost.art (پنجره جدید)</a> </article>",
+     "class": "work-item work-item-featured",
+     "tag": "article"
+    },
+    {
+     "t": "p",
+     "html": "نمونه‌های بیشتر، با انتشار هر کار، اینجا اضافه می‌شود."
+    },
+    {
+     "t": "raw",
+     "html": "<a class=\"service-link\" href=\"/work/\">همه نمونه‌کارها</a>",
+     "class": "service-link",
+     "tag": "a"
+    }
+   ]
+  },
+  {
+   "t": "divider"
+  },
+  {
+   "t": "group",
+   "class": "home-tools container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "دو ابزار رایگان که در مرورگر خودتان کار می‌کنند"
+    },
+    {
+     "t": "cards",
+     "kind": "tool",
+     "items": [
+      {
+       "title": "برآوردگر پروژه",
+       "href": "/tools/estimator/",
+       "html": "<div class=\"tool-row\"> <div><h3>برآوردگر پروژه</h3><p>چند سؤال درباره پروژه، و یک بریف اسکوپ قابل چاپ با باند تلاش S، M یا L و دلیلش. قیمت و تاریخ تحویل نمی‌دهد.</p></div> <a class=\"btn btn-ghost\" href=\"/tools/estimator/\">برآوردگر پروژه را باز کنید</a> </div>"
+      }
+     ]
+    },
+    {
+     "t": "cards",
+     "kind": "tool",
+     "items": [
+      {
+       "title": "خودارزیابی امنیت",
+       "href": "/tools/security-check/",
+       "html": "<div class=\"tool-row\"> <div><h3>خودارزیابی امنیت</h3><p>دوازده سؤال ساده درباره عادت‌های امنیتی، با امتیاز شفاف و کارهای بعدی به ترتیب. سیستم شما را تست نمی‌کند و جای تست نفوذ را نمی‌گیرد.</p></div> <a class=\"btn btn-ghost\" href=\"/tools/security-check/\">خودارزیابی امنیت را شروع کنید</a> </div>"
+      }
+     ]
+    },
+    {
+     "t": "p",
+     "html": "هیچ‌کدام از این دو ابزار پاسخ‌های شما را جایی نمی‌فرستد."
+    }
+   ]
+  },
+  {
+   "t": "divider"
+  },
+  {
+   "t": "group",
+   "class": "home-faq container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "پرسش‌هایی که پیش از شروع می‌پرسند"
+    },
+    {
+     "t": "group",
+     "class": "home-faq-grid",
+     "blocks": [
+      {
+       "t": "faq-item",
+       "q": "قیمت چطور مشخص می‌شود؟",
+       "a_html": "<h3>قیمت چطور مشخص می‌شود؟</h3><p>پیش از هر قیمت، یک گفت‌وگوی اسکوپ داریم. بعد از آن، یک پیشنهاد کتبی با قیمت ثابت برای اسکوپ مشخص می‌فرستیم.</p>"
+      },
+      {
+       "t": "faq-item",
+       "q": "چقدر طول می‌کشد؟",
+       "a_html": "<h3>چقدر طول می‌کشد؟</h3><p>به اسکوپ و آمادگی محتوا بستگی دارد. برنامه زمانی را در پیشنهاد کتبی می‌نویسیم و آن را برآورد می‌دانیم، نه تضمین.</p>"
+      },
+      {
+       "t": "faq-item",
+       "q": "اگر محتوای من آماده نباشد چه؟",
+       "a_html": "<h3>اگر محتوای من آماده نباشد چه؟</h3><p>مشکلی نیست، به شرط اینکه از اول بدانیم. آمادگی محتوا یکی از عوامل باند تلاش است و در اسکوپ نوشته می‌شود.</p>"
+      },
+      {
+       "t": "faq-item",
+       "q": "بعد از تحویل چه اتفاقی می‌افتد؟",
+       "a_html": "<h3>بعد از تحویل چه اتفاقی می‌افتد؟</h3><p>یک جلسه تحویل داریم و مستند تحویل را می‌دهیم، تا شما یا تیم بعدی بتوانید کار را نگه دارید. قانون اصلاح یا بازتست هر خدمت در اسکوپ همان خدمت نوشته شده است.</p>"
+      },
+      {
+       "t": "faq-item",
+       "q": "مالکیت سایت، کد، دامنه و محتوا با کیست؟",
+       "a_html": "<h3>مالکیت سایت، کد، دامنه و محتوا با کیست؟</h3><p>با شما. کد منبع، دامنه، حساب هاست و محتوا به نام شما تحویل می‌شود.</p>"
+      },
+      {
+       "t": "faq-item",
+       "q": "آیا می‌توانید سئو را تضمین کنید؟",
+       "a_html": "<h3>آیا می‌توانید سئو را تضمین کنید؟</h3><p>نه. هیچ‌کس نمی‌تواند رتبه مشخصی در گوگل را صادقانه تضمین کند. آنچه قول می‌دهیم ساختار، سرعت و آمادگی محتوا برای جستجوست.</p>"
+      }
+     ]
+    },
+    {
+     "t": "raw",
+     "html": "<a class=\"service-link\" href=\"/faq/\">همه دوازده پرسش</a>",
+     "class": "service-link",
+     "tag": "a"
+    }
+   ]
+  },
+  {
+   "t": "divider"
+  },
+  {
+   "t": "group",
+   "class": "home-contact container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "پروژه‌تان را در چند خط بنویسید"
+    },
+    {
+     "t": "p",
+     "html": "بگویید چه چیزی لازم دارید و تا کی. پیش از هر پیشنهاد قیمت، یک گفت‌وگوی اسکوپ داریم."
+    },
+    {
+     "t": "p",
+     "html": "در یک روز کاری پاسخ می‌دهیم."
+    },
+    {
+     "t": "cta",
+     "text": "رفتن به فرم تماس",
+     "href": "/contact/",
+     "class": "btn btn-primary"
+    },
+    {
+     "t": "p",
+     "html": "ایمیل <a href=\"mailto:hello@dadmor.com\" dir=\"ltr\">hello@dadmor.com</a> برای بریف و فایل · واتس‌اپ <a href=\"https://wa.me/989391400826\" rel=\"noopener\">+98 939 140 0826</a> برای پرسش کوتاه · تلگرام <a href=\"https://t.me/dadmor_ai\" rel=\"noopener\" dir=\"ltr\">@dadmor_ai</a> برای پرسش کوتاه."
+    }
+   ]
+  }
+ ]
+}

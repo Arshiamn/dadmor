@@ -1,0 +1,149 @@
+{
+ "path": "about/index.html",
+ "lang": "fa",
+ "title": "درباره dadmor: استودیوی مستقل و فنی | dadmor",
+ "description": "دادمور یک استودیوی مستقل و فنی است برای بنیان‌گذارانی که می‌خواهند کارشان با اسکوپ روشن، دقیق ساخته و صادقانه نگهداری شود.",
+ "canonical": "https://dadmor.netlify.app/about/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/about/",
+  "en": "https://dadmor.netlify.app/en/about/",
+  "x-default": "https://dadmor.netlify.app/about/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "درباره dadmor: استودیوی مستقل و فنی | dadmor",
+  "description": "دادمور یک استودیوی مستقل و فنی است برای بنیان‌گذارانی که می‌خواهند کارشان با اسکوپ روشن، دقیق ساخته و صادقانه نگهداری شود.",
+  "url": "https://dadmor.netlify.app/about/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "fa_IR",
+  "locale:alternate": "en_US"
+ },
+ "jsonld": [],
+ "hero": null,
+ "blocks": [
+  {
+   "t": "raw",
+   "html": "<nav class=\"breadcrumb container\" aria-label=\"مسیر صفحه\"><ol><li><a href=\"/\">خانه</a></li><li aria-current=\"page\">درباره ما</li></ol></nav>",
+   "class": "breadcrumb container",
+   "tag": "nav"
+  },
+  {
+   "t": "group",
+   "class": "page-head container",
+   "blocks": [
+    {
+     "t": "raw",
+     "html": "<h1>درباره ما</h1>",
+     "class": "",
+     "tag": "h1"
+    },
+    {
+     "t": "p",
+     "html": "دادمور یک استودیوی مستقل و فنی است برای بنیان‌گذارانی که می‌خواهند وب‌سایت، محصول، مدل کسب‌وکار، مستند، تست امنیتی یا سیستم محتوایی‌شان با اسکوپ روشن، دقیق ساخته و صادقانه نگهداری شود، نه فقط زیبا تحویل داده شود."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "سه اصلی که هر پروژه بر آن ساخته می‌شود"
+    },
+    {
+     "t": "list",
+     "ordered": true,
+     "items": [
+      "<strong>روشنی پیش از ساخت</strong>: اسکوپ، خروجی‌ها، موارد خارج از اسکوپ، آنچه از شما لازم است و مالکیت، پیش از طراحی نوشته می‌شود.",
+      "<strong>دقت فنی تا روز تحویل</strong>: دسترس‌پذیر، سریع، امن به‌طور پیش‌فرض، مستند و قابل نگهداری.",
+      "<strong>صداقت بعد از لانچ</strong>: محدودیت‌ها گفته می‌شود، نمونه‌کار برچسب نقش دارد و قانون بازتست یا اصلاح کتبی است."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "تیم"
+    },
+    {
+     "t": "p",
+     "html": "dadmor به‌عنوان یک استودیو کار می‌کند: همان کسانی که اسکوپ پروژه شما را می‌نویسند، تا تحویل با آن می‌مانند. هم‌زمان تعداد محدودی پروژه می‌گیریم تا اسکوپ، ساخت و تحویل با همان افراد بماند."
+    },
+    {
+     "t": "p",
+     "html": "طراحی و ساخت (وب‌سایت، رابط کاربری، مستند) · استراتژی و امنیت (مدل کسب‌وکار، تست نفوذ) · محتوا (بازاریابی، متن، سئو)"
+    },
+    {
+     "t": "group",
+     "class": "team-visual",
+     "blocks": [
+      {
+       "t": "raw",
+       "html": "<span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>ایده</span>",
+       "class": "dot-tag",
+       "tag": "span"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "نام"
+    },
+    {
+     "t": "p",
+     "html": "دادمور بازی با نام مرداد است. داد هم یعنی عدالت و هم یعنی هدیه، و ما این دو معنا را این‌طور می‌فهمیم: با مشتری منصف باشیم، و کاری تحویل دهیم که بعد از ما هم به کار بیاید."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "چطور کار می‌کنیم"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"/process/\">فرایند کار: پنج مرحله با ورودی و خروجی</a>",
+      "<a href=\"/work/\">کارهایی که می‌توانید ببینید</a>",
+      "<a href=\"/tools/estimator/\">برآوردگر پروژه</a>",
+      "<a href=\"/tools/security-check/\">خودارزیابی امنیت</a>"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-cta container",
+   "blocks": [
+    {
+     "t": "cta",
+     "text": "تماس برای گفت‌وگوی اسکوپ",
+     "href": "/contact/",
+     "class": "btn btn-primary"
+    }
+   ]
+  }
+ ]
+}

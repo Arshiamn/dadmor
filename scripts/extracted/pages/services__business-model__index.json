@@ -1,0 +1,444 @@
+{
+ "path": "services/business-model/index.html",
+ "lang": "fa",
+ "title": "طراحی و آزمایش مدل کسب‌وکار | dadmor",
+ "description": "سه مرحله تشخیص، بازطراحی و اعتبارسنجی، هر کدام با خروجی مشخص: فرضیات، منطق درآمد و معیار ادامه یا توقف. نه پیچ‌دک، نه پیش‌بینی مالی.",
+ "canonical": "https://dadmor.netlify.app/services/business-model/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/services/business-model/",
+  "en": "https://dadmor.netlify.app/en/services/business-model/",
+  "x-default": "https://dadmor.netlify.app/services/business-model/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "طراحی و آزمایش مدل کسب‌وکار | dadmor",
+  "description": "سه مرحله تشخیص، بازطراحی و اعتبارسنجی، هر کدام با خروجی مشخص: فرضیات، منطق درآمد و معیار ادامه یا توقف. نه پیچ‌دک، نه پیش‌بینی مالی.",
+  "url": "https://dadmor.netlify.app/services/business-model/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "fa_IR",
+  "locale:alternate": "en_US"
+ },
+ "jsonld": [
+  [
+   {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "طراحی مدل کسب‌وکار",
+    "description": "سه مرحله تشخیص، بازطراحی و اعتبارسنجی، هر کدام با خروجی مشخص: فرضیات، منطق درآمد و معیار ادامه یا توقف. نه پیچ‌دک، نه پیش‌بینی مالی.",
+    "provider": {
+     "@type": "Organization",
+     "name": "dadmor",
+     "url": "https://dadmor.netlify.app/"
+    },
+    "url": "https://dadmor.netlify.app/services/business-model/"
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "این همان بوم مدل کسب‌وکار است؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "می‌توانیم از بوم برای نمایش استفاده کنیم، ولی خروجی اصلی نقشه فرضیات و معیار ادامه یا توقف است، چون بوم به‌تنهایی نمی‌گوید چه چیزی را آزمایش کنید."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is this the Business Model Canvas?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "We can use the canvas to present it, but the main output is the assumption map and the kill/continue criteria, because a canvas alone does not tell you what to test."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "داده زیادی نداریم؛ باز هم ممکن است؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "بله. کمبود داده خودش یک یافته است: فرض‌های بدون داده بالای نقشه ریسک می‌نشینند و اول آزمایش می‌شوند."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "We have little data; is it still possible?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes. Missing data is a finding in itself: assumptions without data go to the top of the risk map and are tested first."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "آیا خروجی را می‌توانیم به سرمایه‌گذار نشان دهیم؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "بله، مال شماست. فقط آن را پیش‌بینی معرفی نکنید؛ فرض‌ها کنار عددها نوشته شده‌اند."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can we show the output to investors?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes, it is yours. Just do not present it as a forecast; the assumptions are written next to the numbers."
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "خانه",
+      "item": "https://dadmor.netlify.app/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "خدمت‌ها",
+      "item": "https://dadmor.netlify.app/services/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "طراحی مدل کسب‌وکار",
+      "item": "https://dadmor.netlify.app/"
+     }
+    ]
+   }
+  ]
+ ],
+ "hero": null,
+ "blocks": [
+  {
+   "t": "raw",
+   "html": "<nav class=\"breadcrumb container\" aria-label=\"مسیر صفحه\"><ol><li><a href=\"/\">خانه</a></li><li><a href=\"/services/\">خدمت‌ها</a></li><li aria-current=\"page\">طراحی مدل کسب‌وکار</li></ol></nav>",
+   "class": "breadcrumb container",
+   "tag": "nav"
+  },
+  {
+   "t": "group",
+   "class": "page-head container",
+   "blocks": [
+    {
+     "t": "raw",
+     "html": "<h1>طراحی مدل کسب‌وکار</h1>",
+     "class": "",
+     "tag": "h1"
+    },
+    {
+     "t": "p",
+     "html": "مدلی که می‌شود آزمایشش کرد: فرضیات، منطق درآمد و معیار ادامه یا توقف، نه فقط یک پیچ‌دک قانع‌کننده."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "مسئله"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "یک مدل کسب‌وکار می‌تواند روی اسلاید قانع‌کننده باشد، در حالی که هیچ‌کس نمی‌داند کدام فرض اگر غلط باشد، کل مدل را می‌خواباند. وقتی فرض‌ها نوشته نشوند، آزمایش هم نمی‌شوند و تصمیم ادامه یا توقف به حس سپرده می‌شود."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "مناسب برای چه کسی است"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "بنیان‌گذارانی که پیش از ساخت محصول می‌خواهند بدانند مدل درآمدشان روی چه فرض‌هایی ایستاده است.",
+      "کسب‌وکارهایی که درآمد دارند ولی نمی‌دانند کدام بخش سود می‌دهد و کدام نه.",
+      "تیم‌هایی که یک تغییر بزرگ (قیمت‌گذاری جدید، بازار جدید) را در نظر دارند و می‌خواهند آن را کوچک آزمایش کنند."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "مناسب چه کسی نیست"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "اگر پیچ‌دک برای جذب سرمایه می‌خواهید. خروجی این خدمت می‌تواند ورودی پیچ‌دک باشد، ولی خودش پیچ‌دک نیست.",
+      "اگر پیش‌بینی مالی می‌خواهید که به‌عنوان پیش‌گویی ارائه شود. ما محاسبه را با ورودی‌های شما و فرض‌های نوشته‌شده می‌سازیم، نه عددی که آینده را قول بدهد.",
+      "اگر مشاوره سرمایه‌گذاری، حقوقی یا مالیاتی لازم دارید. این خدمت هیچ‌کدام از این‌ها نیست."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "رویکرد ما"
+    },
+    {
+     "t": "list",
+     "ordered": true,
+     "items": [
+      "تشخیص. ورودی: گفت‌وگو با بنیان‌گذاران و هر داده فروش و هزینه‌ای که دارید. خروجی: نقشه فرضیات، مرتب‌شده بر اساس ریسک (کدام فرض اگر غلط باشد، بیشترین آسیب را می‌زند). مسئول: dadmor با شما.",
+      "بازطراحی. ورودی: نقشه فرضیات تأییدشده. خروجی: مدل بازطراحی‌شده با منطق درآمد و یک صفحه‌گسترده که هر عدد آن به یک فرض نوشته‌شده وصل است. مسئول: dadmor؛ تأیید: شما.",
+      "اعتبارسنجی. ورودی: مدل بازطراحی‌شده. خروجی: برنامه آزمایش برای سه فرض پرریسک، با معیار ادامه یا توقف که پیش از آزمایش نوشته می‌شود، و دفتر نتایج. مسئول اجرای آزمایش: شما؛ طراحی و تحلیل: dadmor."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "خروجی‌ها"
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "عوامل اسکوپ و زمان‌بندی"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "چه چیزی اندازه هر مرحله را تغییر می‌دهد: تعداد محصول یا بخش درآمدی، تعداد بازار، و اینکه چه مقدار داده واقعی وجود دارد.",
+      "آنچه شما فراهم می‌کنید: دسترسی به داده فروش و هزینه (هر قدر که هست)، زمان بنیان‌گذاران برای گفت‌وگو، و اجرای آزمایش‌ها.",
+      "آنچه پروژه را عقب می‌اندازد: داده‌ای که پیدا نمی‌شود، و آزمایشی که بدون معیار از پیش نوشته شروع شود."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "باند تلاش"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "پیشنهاد ثابت جداگانه برای هر مرحله. می‌توانید فقط با تشخیص شروع کنید و بعد تصمیم بگیرید."
+     ]
+    },
+    {
+     "t": "p",
+     "html": "باند، اندازه تقریبی کار است؛ نه قیمت و نه مدت. قیمت ثابت فقط بعد از گفت‌وگوی اسکوپ و در پیشنهاد کتبی مشخص می‌شود."
+    },
+    {
+     "t": "p",
+     "html": "باند، برآورد اولیه است؛ گفت‌وگوی اسکوپ می‌تواند آن را جابه‌جا کند."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "محدودیت‌ها و ریسک‌ها"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "آزمایش، ریسک را کم می‌کند ولی موفقیت را تضمین نمی‌کند. ممکن است نتیجه بگوید مدل فعلی جواب نمی‌دهد؛ این هم خروجی مفید است.",
+      "عددهای صفحه‌گسترده محاسبه‌اند، نه پیش‌بینی. هر کدام به اندازه فرضی که پشتش است قابل اعتماد است.",
+      "اجرای آزمایش‌ها با شماست؛ اگر اجرا نشوند، مرحله اعتبارسنجی فقط یک برنامه می‌ماند."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "پرسش‌های این خدمت"
+    },
+    {
+     "t": "group",
+     "class": "faq-list",
+     "blocks": [
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-1-fa\" data-faq-btn=\"None\">این همان بوم مدل کسب‌وکار است؟</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "می‌توانیم از بوم برای نمایش استفاده کنیم، ولی خروجی اصلی نقشه فرضیات و معیار ادامه یا توقف است، چون بوم به‌تنهایی نمی‌گوید چه چیزی را آزمایش کنید."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-2-fa\" data-faq-btn=\"None\">داده زیادی نداریم؛ باز هم ممکن است؟</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "بله. کمبود داده خودش یک یافته است: فرض‌های بدون داده بالای نقشه ریسک می‌نشینند و اول آزمایش می‌شوند."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-3-fa\" data-faq-btn=\"None\">آیا خروجی را می‌توانیم به سرمایه‌گذار نشان دهیم؟</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "بله، مال شماست. فقط آن را پیش‌بینی معرفی نکنید؛ فرض‌ها کنار عددها نوشته شده‌اند."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-cta container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": ""
+    },
+    {
+     "t": "p",
+     "html": ""
+    },
+    {
+     "t": "group",
+     "class": "btn-row",
+     "blocks": [
+      {
+       "t": "cta",
+       "text": "برآورد اسکوپ برای مدل کسب‌وکار",
+       "href": "/tools/estimator/?service=business-model",
+       "class": "btn btn-primary"
+      },
+      {
+       "t": "cta",
+       "text": "تماس برای گفت‌وگوی اسکوپ",
+       "href": "/contact/",
+       "class": "btn btn-ghost"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-proof container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "نمونه کار"
+    },
+    {
+     "t": "p",
+     "html": "نمونه سانسورشده، در گفت‌وگوی اسکوپ و با اجازه مالک، قابل مشاهده است."
+    }
+   ]
+  }
+ ]
+}

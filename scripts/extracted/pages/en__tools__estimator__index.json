@@ -1,0 +1,136 @@
+{
+ "path": "en/tools/estimator/index.html",
+ "lang": "en",
+ "title": "Project estimator: a scoped brief with an S, M or L band | dadmor",
+ "description": "A few questions about your project, and a printable scoped brief with an effort band and the reason for it. No price, no delivery date, and your answers never leave your browser.",
+ "canonical": "https://dadmor.netlify.app/en/tools/estimator/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/tools/estimator/",
+  "en": "https://dadmor.netlify.app/en/tools/estimator/",
+  "x-default": "https://dadmor.netlify.app/tools/estimator/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "Project estimator: a scoped brief with an S, M or L band | dadmor",
+  "description": "A few questions about your project, and a printable scoped brief with an effort band and the reason for it. No price, no delivery date, and your answers never leave your browser.",
+  "url": "https://dadmor.netlify.app/en/tools/estimator/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "en_US",
+  "locale:alternate": "fa_IR"
+ },
+ "jsonld": [],
+ "hero": null,
+ "blocks": [
+  {
+   "t": "raw",
+   "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li aria-current=\"page\">Tools</li><li aria-current=\"page\">Project estimator</li></ol></nav>",
+   "class": "breadcrumb container",
+   "tag": "nav"
+  },
+  {
+   "t": "group",
+   "class": "page-head container",
+   "blocks": [
+    {
+     "t": "raw",
+     "html": "<h1>Project estimator</h1>",
+     "class": "",
+     "tag": "h1"
+    },
+    {
+     "t": "p",
+     "html": "Answer a few questions to build a scoped brief: what you need, the effort band and why, and what we need from you. Only the service is required."
+    },
+    {
+     "t": "p",
+     "html": "This is a scoped brief, not a quote and not a delivery-date promise."
+    },
+    {
+     "t": "p",
+     "html": "Your answers stay in your browser and are not sent anywhere."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "container tool-layout",
+   "blocks": [
+    {
+     "t": "group",
+     "class": "tool-form",
+     "blocks": [
+      {
+       "t": "raw",
+       "html": "<noscript><p class=\"notice-box\">This tool needs JavaScript to work. The page content is readable without it; for an estimate, use the contact page.</p></noscript>",
+       "class": "",
+       "tag": "noscript"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "container rule-table",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "How this band is worked out"
+    },
+    {
+     "t": "group",
+     "class": "table-wrap",
+     "blocks": [
+      {
+       "t": "table",
+       "headers": [
+        "Not sure yet",
+        "1 to 3",
+        "4 to 5",
+        "6 or more",
+        "S ≤ 2 · M 3 to 5 · L ≥ 6"
+       ],
+       "rows": []
+      }
+     ]
+    },
+    {
+     "t": "group",
+     "class": "table-wrap",
+     "blocks": [
+      {
+       "t": "table",
+       "headers": [
+        "Project type",
+        "add a feature",
+        "new or redesign",
+        ""
+       ],
+       "rows": []
+      }
+     ]
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "A question not shown for your service, or left unanswered, scores 0 and appears in the brief as \"Not answered\".",
+      "A fixed date does not make the band larger; it is listed under risks.",
+      "Interest in a penetration test alongside another service does not change the band; penetration testing always gets its own fixed-scope proposal.",
+      "A band is the rough size of the work, not a price and not a duration. A fixed price is set only after a scoping conversation, in a written proposal."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "raw",
+   "html": "<script type=\"application/json\" data-estimator-data=\"None\">{\"lang\": \"en\", \"services\": {\"website-building\": {\"name\": \"Website building\", \"features\": [\"Home page\", \"Service or product pages (each counts as one)\", \"About\", \"Contact with form\", \"Blog or journal\", \"Portfolio\", \"FAQ\", \"Bilingual Persian and English\", \"Site search\", \"User login\"], \"integrations\": true, \"content\": true, \"security\": true, \"band\": [2, 5], \"feat_pts\": [3, 7]}, \"ui-ux-design\": {\"name\": \"UI/UX design\", \"features\": [\"User flow map\", \"Wireframes of key flows\", \"Design system\", \"Clickable prototype\", \"User testing\", \"Developer handover spec\", \"Redesign of an existing flow\"], \"integrations\": true, \"content\": true, \"security\": true, \"band\": [2, 5], \"feat_pts\": [2, 4]}, \"business-model\": {\"name\": \"Business model design\", \"features\": [\"Assumption map\", \"Revenue model\", \"Pricing\", \"Test plan\", \"Review after a test\"], \"integrations\": false, \"content\": true, \"security\": false, \"band\": [1, 3], \"feat_pts\": [2, 4]}, \"documentation\": {\"name\": \"Documentation\", \"features\": [\"User product docs\", \"Technical or API docs\", \"Internal team guide\", \"Project handover docs\", \"Rewrite of existing docs\", \"Bilingual version\"], \"integrations\": false, \"content\": true, \"security\": false, \"band\": [1, 3], \"feat_pts\": [2, 4]}, \"penetration-testing\": {\"name\": \"Penetration testing\", \"features\": [\"Web application\", \"API\", \"Admin panel\", \"Forms and login\", \"Mobile app backend\"], \"integrations\": false, \"content\": false, \"security\": true, \"band\": null, \"feat_pts\": null}, \"marketing-content\": {\"name\": \"Marketing and content\", \"features\": [\"Monthly content plan\", \"Website copy\", \"Articles\", \"Video\", \"Search intent map\", \"Technical SEO fix list\", \"Monthly report\"], \"integrations\": false, \"content\": true, \"security\": false, \"band\": [1, 3], \"feat_pts\": [2, 4]}, \"not-sure\": {\"name\": \"Not sure yet\", \"features\": [\"Website\", \"Interface design\", \"Business model\", \"Documentation\", \"Security review\", \"Content\"], \"integrations\": true, \"content\": true, \"security\": true, \"band\": [2, 5], \"feat_pts\": [3, 5]}}, \"integrations\": [\"Payment gateway\", \"Online booking\", \"Content management system\", \"Analytics\"], \"content\": [\"Ready\", \"Partly ready\", \"Not ready\"], \"types\": [\"New project\", \"Redesign or rebuild of something existing\", \"Add a feature to something existing\"], \"security\": [\"Basic hardening\", \"Interested in a penetration test\", \"Not sure\"], \"deliverables\": {\"website-building\": [], \"ui-ux-design\": [], \"business-model\": [], \"documentation\": [], \"penetration-testing\": [], \"marketing-content\": []}, \"inputs\": {\"website-building\": \"text and image content, logo and brand identity, domain and hosting access, and one named decision-maker for approvals.\", \"ui-ux-design\": \"access to the current product, any user data you have, and test users.\", \"business-model\": \"access to sales and cost data (whatever exists), founders' time for conversations, and running the tests.\", \"documentation\": \"system and code access, key people's time, and one technical reviewer.\", \"penetration-testing\": \"a test environment or permission to test production, test accounts for each role, one technical contact, and the three signed documents.\", \"marketing-content\": \"access to the product and the people who know it, quick approval of drafts, and analytics access if you have it.\"}, \"strings\": {\"empty\": \"You have not selected anything yet. Choose a service to build the brief.\", \"title\": \"Scoped brief\", \"service\": \"Service\", \"scope\": \"What you selected\", \"band\": \"Effort band\", \"why\": \"Why\", \"features\": \"features\", \"integrations\": \"integrations\", \"content\": \"content\", \"type\": \"project type\", \"total\": \"Total\", \"deliverables\": \"Usual deliverables for this service\", \"inputs\": \"What we need from you\", \"risks\": \"Risks\", \"noRisk\": \"No specific risk shows in your answers.\", \"next\": \"Next step\", \"nextText\": \"a scoping conversation, then a written fixed-scope proposal.\", \"disclaimer\": \"This is a scoped brief, not a quote and not a delivery-date promise.\", \"notAnswered\": \"Not answered\", \"other\": \"Other\", \"otherInWords\": \"other items in your words\", \"pages\": \"How many?\", \"fixedScope\": \"No S/M/L band: penetration testing gets a fixed-scope proposal after the scoping conversation only; one retest of the reported findings is included.\", \"serviceTbd\": \"Service: to be decided in the scoping conversation.\", \"riskContent\": \"Content is not ready; this is the most common cause of delay. Set a date for it, or add writing to the scope.\", \"riskPartly\": \"Part of the content is not ready; the scope will say which part and by when.\", \"riskDate\": \"You have a fixed date ({date}). If the scope and the date do not fit together, the scoping conversation will say what can move to after launch.\", \"riskIntegrations\": \"Three or more integrations; each third-party service has its own rules and setup time.\", \"riskPentest\": \"Penetration testing gets its own fixed-scope proposal, and a written scope, signed authorisation and an NDA are required before any testing.\", \"riskSecurity\": \"Security needs are not clear yet; the security self-check can be a starting point.\", \"d1\": \"Scoped brief\", \"d2\": \"In build\", \"d0\": \"Idea\", \"briefOf\": \"Scoped brief: {service}, {type}\", \"legendFeatures\": \"What do you need?\", \"legendIntegrations\": \"Integrations\", \"legendContent\": \"Content readiness\", \"legendType\": \"Project type\", \"legendTimeline\": \"Timeline\", \"legendSecurity\": \"Security needs\", \"flexible\": \"Flexible\", \"fixedDate\": \"I have a fixed date\", \"targetDate\": \"Target date\", \"serviceFinderHint\": \"The service finder on the Services page can help you choose.\", \"clearAll\": \"Clear all answers\", \"cleared\": \"All answers cleared.\", \"copyBtn\": \"Copy text\", \"copied\": \"Copied.\", \"copyFailed\": \"Copy did not work. Select the text and copy it manually.\", \"printBtn\": \"Print\", \"sendBrief\": \"Send this brief from the contact page\", \"contactUrl\": \"/en/contact/\", \"securityUrl\": \"/en/tools/security-check/\"}, \"bandNote\": \"The band is a starting estimate; the scoping conversation may move it.\", \"roughNote\": \"A band is the rough size of the work, not a price and not a duration. A fixed price is set only after a scoping conversation, in a written proposal.\", \"responseLine\": \"We reply within one working day.\"}</script>",
+   "class": "",
+   "tag": "script"
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+  "en": {
+    "columns": [
+      {
+        "heading": "Services",
+        "links": [
+          {
+            "text": "Website building",
+            "href": "/en/services/website-building/"
+          },
+          {
+            "text": "UI/UX design",
+            "href": "/en/services/ui-ux-design/"
+          },
+          {
+            "text": "Business model design",
+            "href": "/en/services/business-model/"
+          },
+          {
+            "text": "Documentation",
+            "href": "/en/services/documentation/"
+          },
+          {
+            "text": "Penetration testing",
+            "href": "/en/services/penetration-testing/"
+          },
+          {
+            "text": "Marketing and content",
+            "href": "/en/services/marketing-content/"
+          }
+        ]
+      },
+      {
+        "heading": "Tools",
+        "links": [
+          {
+            "text": "Project estimator",
+            "href": "/en/tools/estimator/"
+          },
+          {
+            "text": "Security self-check",
+            "href": "/en/tools/security-check/"
+          }
+        ]
+      },
+      {
+        "heading": "Studio",
+        "links": [
+          {
+            "text": "Process",
+            "href": "/en/process/"
+          },
+          {
+            "text": "Work",
+            "href": "/en/work/"
+          },
+          {
+            "text": "About",
+            "href": "/en/about/"
+          },
+          {
+            "text": "Journal",
+            "href": "/en/journal/"
+          },
+          {
+            "text": "FAQ",
+            "href": "/en/faq/"
+          },
+          {
+            "text": "Contact",
+            "href": "/en/contact/"
+          }
+        ]
+      }
+    ],
+    "contacts": [
+      {
+        "text": "hello@dadmor.com",
+        "href": "mailto:hello@dadmor.com"
+      },
+      {
+        "text": "Telegram @dadmor_ai",
+        "href": "https://t.me/dadmor_ai"
+      },
+      {
+        "text": "WhatsApp +98 939 140 0826",
+        "href": "https://wa.me/989391400826"
+      }
+    ],
+    "tagline": "A structure that lasts."
+  },
+  "fa": {
+    "columns": [
+      {
+        "heading": "خدمت ها",
+        "links": [
+          {
+            "text": "ساخت وب سایت",
+            "href": "/services/website-building/"
+          },
+          {
+            "text": "طراحی رابط و تجربه کاربری",
+            "href": "/services/ui-ux-design/"
+          },
+          {
+            "text": "طراحی مدل کسب و کار",
+            "href": "/services/business-model/"
+          },
+          {
+            "text": "مستندسازی",
+            "href": "/services/documentation/"
+          },
+          {
+            "text": "تست نفوذ",
+            "href": "/services/penetration-testing/"
+          },
+          {
+            "text": "بازاریابی و تولید محتوا",
+            "href": "/services/marketing-content/"
+          }
+        ]
+      },
+      {
+        "heading": "ابزارها",
+        "links": [
+          {
+            "text": "برآوردگر پروژه",
+            "href": "/tools/estimator/"
+          },
+          {
+            "text": "خودارزیابی امنیت",
+            "href": "/tools/security-check/"
+          }
+        ]
+      },
+      {
+        "heading": "استودیو",
+        "links": [
+          {
+            "text": "فرایند کار",
+            "href": "/process/"
+          },
+          {
+            "text": "نمونه کار",
+            "href": "/work/"
+          },
+          {
+            "text": "درباره ما",
+            "href": "/about/"
+          },
+          {
+            "text": "یادداشت ها",
+            "href": "/journal/"
+          },
+          {
+            "text": "پرسش ها",
+            "href": "/faq/"
+          },
+          {
+            "text": "تماس",
+            "href": "/contact/"
+          }
+        ]
+      }
+    ],
+    "contacts": [
+      {
+        "text": "hello@dadmor.com",
+        "href": "mailto:hello@dadmor.com"
+      },
+      {
+        "text": "Telegram @dadmor_ai",
+        "href": "https://t.me/dadmor_ai"
+      },
+      {
+        "text": "WhatsApp +98 939 140 0826",
+        "href": "https://wa.me/989391400826"
+      }
+    ],
+    "tagline": "ساختاری که می ماند"
+  }
+}

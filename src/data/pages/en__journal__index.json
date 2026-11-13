@@ -1,0 +1,85 @@
+{
+  "path": "en/journal/index.html",
+  "lang": "en",
+  "title": "Journal: scope, build, security and content | dadmor",
+  "description": "Notes on writing a scope, maintaining a site, penetration testing, documentation and Persian SEO. Nothing is published yet; see the planned topics here.",
+  "canonical": "https://dadmor.netlify.app/en/journal/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/journal/",
+    "en": "https://dadmor.netlify.app/en/journal/",
+    "x-default": "https://dadmor.netlify.app/journal/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "website",
+    "title": "Journal: scope, build, security and content | dadmor",
+    "description": "Notes on writing a scope, maintaining a site, penetration testing, documentation and Persian SEO. Nothing is published yet; see the planned topics here.",
+    "url": "https://dadmor.netlify.app/en/journal/",
+    "image": "https://dadmor.netlify.app/og.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "en_US",
+    "locale:alternate": "fa_IR"
+  },
+  "jsonld": [],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li aria-current=\"page\">Journal</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h1>Journal</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "p",
+          "html": "We write about the work we do every day: scope, build, security, documentation and content."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "cards",
+          "kind": "work",
+          "items": [
+            {
+              "title": "",
+              "href": "",
+              "html": "<div class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>Idea</span><p>No articles are published yet. The topics we have planned are listed below.</p></div>"
+            }
+          ]
+        },
+        {
+          "t": "list",
+          "ordered": true,
+          "items": [
+            "<span class=\"planned-tag\">Planned</span> How to write a website project scope",
+            "<span class=\"planned-tag\">Planned</span> Why small sites break after launch",
+            "<span class=\"planned-tag\">Planned</span> Penetration test or security scan: what is the difference?",
+            "<span class=\"planned-tag\">Planned</span> What good product documentation looks like (with one redacted sample page)",
+            "<span class=\"planned-tag\">Planned</span> How to test a business model, not just present it",
+            "<span class=\"planned-tag\">Planned</span> Persian SEO: half-spaces, numerals and search intent",
+            "<span class=\"planned-tag\">Planned</span> Website accessibility in plain language",
+            "<span class=\"planned-tag\">Planned</span> How to make a site faster without a full redesign",
+            "<span class=\"planned-tag\">Planned</span> From idea to launch: one real project, step by step (only with a real project and permission)",
+            "<span class=\"planned-tag\">Planned</span> Contact form security and user data",
+            "<span class=\"planned-tag\">Planned</span> Content from product structure: video, text and SEO in one system",
+            "<span class=\"planned-tag\">Planned</span> When you do not need a studio (an honest guide)"
+          ]
+        }
+      ]
+    }
+  ]
+}

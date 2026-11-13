@@ -1,0 +1,446 @@
+{
+ "path": "services/marketing-content/index.html",
+ "lang": "fa",
+ "title": "تولید محتوا، ویدیو و سئو از روی ساختار محصول | dadmor",
+ "description": "ویدیو، متن و سئوی فارسی و انگلیسی که از ساختار محصول شما ساخته می‌شود، با برنامه ماهانه و گزارش آنچه منتشر و اندازه‌گیری شد.",
+ "canonical": "https://dadmor.netlify.app/services/marketing-content/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/services/marketing-content/",
+  "en": "https://dadmor.netlify.app/en/services/marketing-content/",
+  "x-default": "https://dadmor.netlify.app/services/marketing-content/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "تولید محتوا، ویدیو و سئو از روی ساختار محصول | dadmor",
+  "description": "ویدیو، متن و سئوی فارسی و انگلیسی که از ساختار محصول شما ساخته می‌شود، با برنامه ماهانه و گزارش آنچه منتشر و اندازه‌گیری شد.",
+  "url": "https://dadmor.netlify.app/services/marketing-content/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "fa_IR",
+  "locale:alternate": "en_US"
+ },
+ "jsonld": [
+  [
+   {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "بازاریابی و تولید محتوا",
+    "description": "ویدیو، متن و سئوی فارسی و انگلیسی که از ساختار محصول شما ساخته می‌شود، با برنامه ماهانه و گزارش آنچه منتشر و اندازه‌گیری شد.",
+    "provider": {
+     "@type": "Organization",
+     "name": "dadmor",
+     "url": "https://dadmor.netlify.app/"
+    },
+    "url": "https://dadmor.netlify.app/services/marketing-content/"
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "سئوی فارسی چه فرقی دارد؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "نیم‌فاصله، شکل اعداد و نوشتار متفاوت یک کلمه روی جستجو اثر دارد. محتوا را با املای یکدست و بر اساس عبارتی که مخاطب واقعاً جستجو می‌کند می‌نویسیم."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is different about Persian SEO?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Half-spaces, digit forms and variant spellings of the same word affect search. We write with consistent spelling, based on the phrase your audience actually searches for."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "محتوا را با هوش مصنوعی تولید می‌کنید؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "هر متن منتشرشده را یک نفر از ما می‌نویسد یا بازنویسی و بررسی می‌کند و مسئولیتش را می‌پذیرد. مقاله پرکننده تولید نمی‌کنیم. هر متنی که منتشر می‌شود را dadmor می‌نویسد، یا بازنویسی و بررسی می‌کند و مسئولیتش را می‌پذیرد. ابزارهای هوش مصنوعی ممکن است در پیش‌نویس کمک کنند؛ هیچ متنی بررسی‌نشده منتشر نمی‌شود. مقاله پرکننده تولید نمی‌کنیم."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Do you produce content with AI?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Every published text is written, or rewritten and checked, by one of us, who takes responsibility for it. We do not produce filler articles. Every published text is written, or rewritten and checked, by dadmor, who takes responsibility for it. AI tools may help drafting; they never publish unchecked. No filler articles."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "قرارداد ماهانه را می‌شود متوقف کرد؟",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "شرایط توقف در پیشنهاد کتبی می‌آید. برای توقف قرارداد ماهانه، اطلاع کتبی ۳۰ روز پیش از پایان ماه کافی است. شرایط کامل در پیشنهاد کتبی می‌آید."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can the monthly agreement be stopped?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Stopping terms are in the written proposal. To stop a monthly agreement, 30 days written notice before the end of the month. Full terms are in the written proposal."
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "خانه",
+      "item": "https://dadmor.netlify.app/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "خدمت‌ها",
+      "item": "https://dadmor.netlify.app/services/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "بازاریابی و تولید محتوا",
+      "item": "https://dadmor.netlify.app/"
+     }
+    ]
+   }
+  ]
+ ],
+ "hero": null,
+ "blocks": [
+  {
+   "t": "raw",
+   "html": "<nav class=\"breadcrumb container\" aria-label=\"مسیر صفحه\"><ol><li><a href=\"/\">خانه</a></li><li><a href=\"/services/\">خدمت‌ها</a></li><li aria-current=\"page\">بازاریابی و تولید محتوا</li></ol></nav>",
+   "class": "breadcrumb container",
+   "tag": "nav"
+  },
+  {
+   "t": "group",
+   "class": "page-head container",
+   "blocks": [
+    {
+     "t": "raw",
+     "html": "<h1>بازاریابی و تولید محتوا</h1>",
+     "class": "",
+     "tag": "h1"
+    },
+    {
+     "t": "p",
+     "html": "ویدیو، متن و سئو که از همان ساختار محصول ساخته شده‌اند، تا کار را توضیح دهند نه اینکه فقط تزئینش کنند."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "مسئله"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "محتوایی که جدا از محصول ساخته شود، معمولاً درباره همه‌چیز حرف می‌زند جز آنچه مشتری می‌خواهد بداند. پست‌ها منتشر می‌شوند، ولی کسی نمی‌داند کدام به سؤال واقعی یک مشتری جواب داد."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "مناسب برای چه کسی است"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "کسب‌وکارهایی که محصول روشنی دارند ولی کسی آن‌ها را در جستجو پیدا نمی‌کند.",
+      "تیم‌هایی که می‌خواهند محتوای فارسی درست بنویسند: نیم‌فاصله، اعداد و قصد جستجو.",
+      "بنیان‌گذارانی که برای توضیح محصول ویدیو یا متن کوتاه لازم دارند، نه تبلیغ کلی."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "مناسب چه کسی نیست"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "اگر قول رتبه مشخص در گوگل می‌خواهید. هیچ‌کس نمی‌تواند آن را صادقانه قول بدهد.",
+      "اگر خرید دنبال‌کننده، تعامل ساختگی یا تولید انبوه مقاله‌های پرکننده می‌خواهید.",
+      "اگر محصول هنوز روشن نیست؛ در این حالت از طراحی مدل کسب‌وکار یا طراحی رابط شروع کنید."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "رویکرد ما"
+    },
+    {
+     "t": "list",
+     "ordered": true,
+     "items": [
+      "ساختار. ورودی: محصول، مشتری‌ها و پرسش‌های واقعی‌شان. خروجی: نقشه قصد جستجو (کدام پرسش، با کدام محتوا و در کدام صفحه جواب می‌گیرد). مسئول: dadmor با شما.",
+      "برنامه. ورودی: نقشه قصد جستجو. خروجی: برنامه ماهانه محتوا با کانال‌ها. مسئول: dadmor؛ تأیید: شما.",
+      "تولید. ورودی: برنامه تأییدشده و دسترسی به محصول یا افراد. خروجی: قطعه‌های محتوا (متن، ویدیو)، هر کدام پیش از انتشار تأیید می‌شود. مسئول: dadmor؛ تأیید: شما.",
+      "سئوی فنی. ورودی: سایت شما. خروجی: فهرست اصلاحات فنی (عنوان و توضیح صفحه، داده ساختاریافته، سرعت، نیم‌فاصله و اعداد در محتوای فارسی). مسئول: dadmor.",
+      "گزارش. ورودی: آنچه منتشر شد و داده آنالیتیکس شما. خروجی: گزارش ماهانه از آنچه منتشر و آنچه اندازه‌گیری شد. مسئول: dadmor."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "خروجی‌ها"
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "عوامل اسکوپ و زمان‌بندی"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "چه چیزی باند ماهانه را تغییر می‌دهد: تعداد قطعه در ماه، نوع قطعه (ویدیو بیشترین کار را دارد)، تعداد کانال، تعداد زبان، و مقدار کار سئوی فنی.",
+      "آنچه شما فراهم می‌کنید: دسترسی به محصول و افرادی که آن را می‌شناسند، تأیید سریع پیش‌نویس‌ها، و دسترسی به آنالیتیکس اگر دارید.",
+      "آنچه کار را عقب می‌اندازد: تأییدی که دیر می‌رسد، و تغییر پیام محصول وسط ماه."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "باند تلاش"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "باند ماهانه S، M یا L بر اساس تعداد قطعه، کانال و کار سئو. قیمت ثابت ماهانه را بعد از گفت‌وگوی اسکوپ و در پیشنهاد کتبی می‌دهیم."
+     ]
+    },
+    {
+     "t": "p",
+     "html": "باند، اندازه تقریبی کار است؛ نه قیمت و نه مدت. قیمت ثابت فقط بعد از گفت‌وگوی اسکوپ و در پیشنهاد کتبی مشخص می‌شود."
+    },
+    {
+     "t": "p",
+     "html": "باند، برآورد اولیه است؛ گفت‌وگوی اسکوپ می‌تواند آن را جابه‌جا کند."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "محدودیت‌ها و ریسک‌ها"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "رتبه گوگل را قول نمی‌دهیم. آنچه می‌دهیم محتوای مرتبط، ساختار درست و آمادگی فنی است؛ نتیجه جستجو به عوامل بیرون از کنترل ما هم بستگی دارد.",
+      "اگر آنالیتیکس ندارید، گزارش ماهانه فقط می‌گوید چه چیزی منتشر شد، نه اینکه چه اثری داشت. پیشنهاد ما آنالیتیکس حافظ حریم خصوصی است.",
+      "هر قطعه پیش از انتشار تأیید شما را لازم دارد؛ بدون تأیید منتشر نمی‌کنیم."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "پرسش‌های این خدمت"
+    },
+    {
+     "t": "group",
+     "class": "faq-list",
+     "blocks": [
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-1-fa\" data-faq-btn=\"None\">سئوی فارسی چه فرقی دارد؟</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "نیم‌فاصله، شکل اعداد و نوشتار متفاوت یک کلمه روی جستجو اثر دارد. محتوا را با املای یکدست و بر اساس عبارتی که مخاطب واقعاً جستجو می‌کند می‌نویسیم."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-2-fa\" data-faq-btn=\"None\">محتوا را با هوش مصنوعی تولید می‌کنید؟</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "هر متن منتشرشده را یک نفر از ما می‌نویسد یا بازنویسی و بررسی می‌کند و مسئولیتش را می‌پذیرد. مقاله پرکننده تولید نمی‌کنیم. هر متنی که منتشر می‌شود را dadmor می‌نویسد، یا بازنویسی و بررسی می‌کند و مسئولیتش را می‌پذیرد. ابزارهای هوش مصنوعی ممکن است در پیش‌نویس کمک کنند؛ هیچ متنی بررسی‌نشده منتشر نمی‌شود. مقاله پرکننده تولید نمی‌کنیم."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "t": "group",
+       "class": "faq-item",
+       "blocks": [
+        {
+         "t": "heading",
+         "level": 3,
+         "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-3-fa\" data-faq-btn=\"None\">قرارداد ماهانه را می‌شود متوقف کرد؟</button>"
+        },
+        {
+         "t": "group",
+         "class": "faq-a",
+         "blocks": [
+          {
+           "t": "group",
+           "class": "",
+           "blocks": [
+            {
+             "t": "p",
+             "html": "شرایط توقف در پیشنهاد کتبی می‌آید. برای توقف قرارداد ماهانه، اطلاع کتبی ۳۰ روز پیش از پایان ماه کافی است. شرایط کامل در پیشنهاد کتبی می‌آید."
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-cta container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": ""
+    },
+    {
+     "t": "p",
+     "html": ""
+    },
+    {
+     "t": "group",
+     "class": "btn-row",
+     "blocks": [
+      {
+       "t": "cta",
+       "text": "برآورد اسکوپ برای محتوا و سئو",
+       "href": "/tools/estimator/?service=marketing-content",
+       "class": "btn btn-primary"
+      },
+      {
+       "t": "cta",
+       "text": "تماس برای گفت‌وگوی اسکوپ",
+       "href": "/contact/",
+       "class": "btn btn-ghost"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-proof container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "نمونه کار"
+    },
+    {
+     "t": "p",
+     "html": "نمونه سانسورشده، در گفت‌وگوی اسکوپ و با اجازه مالک، قابل مشاهده است."
+    }
+   ]
+  }
+ ]
+}

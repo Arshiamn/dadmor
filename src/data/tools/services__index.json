@@ -1,0 +1,218 @@
+{
+  "lang": "fa",
+  "questions": [
+    {
+      "q": [
+        "الان بیشتر از همه به چه چیزی نیاز دارید؟",
+        "What do you need most right now?"
+      ],
+      "options": [
+        [
+          "سایت جدید",
+          "A new website"
+        ],
+        [
+          "بهتر کردن سایت یا محصول فعلی",
+          "A better existing site or product"
+        ],
+        [
+          "مدل کسب وکار روشن تر",
+          "A clearer business model"
+        ],
+        [
+          "مستند بهتر",
+          "Better documentation"
+        ],
+        [
+          "بررسی امنیت",
+          "A security check"
+        ],
+        [
+          "مشتری یا محتوای بیشتر",
+          "More customers or content"
+        ]
+      ],
+      "multi": false
+    },
+    {
+      "q": [
+        "سایت یا محصولی دارید؟",
+        "Do you already have a site or product?"
+      ],
+      "options": [
+        [
+          "نه، هنوز نه",
+          "Not yet"
+        ],
+        [
+          "بله، در حال کار",
+          "Yes, it is live"
+        ],
+        [
+          "بله، ولی قدیمی یا ناقص است",
+          "Yes, but it is outdated or unfinished"
+        ]
+      ],
+      "multi": false
+    },
+    {
+      "q": [
+        "برای چه کسی است؟",
+        "Who is it for?"
+      ],
+      "options": [
+        [
+          "مشتری های نهایی",
+          "End customers"
+        ],
+        [
+          "کسب وکارهای دیگر",
+          "Other businesses"
+        ],
+        [
+          "تیم داخلی",
+          "An internal team"
+        ],
+        [
+          "سرمایه گذار یا شریک",
+          "Investors or partners"
+        ]
+      ],
+      "multi": false
+    },
+    {
+      "q": [
+        "مشکل اصلی امروز چیست؟",
+        "What is the main problem today?"
+      ],
+      "options": [
+        [
+          "کسی نمی فهمد چه کار می کنیم",
+          "People do not understand what we do"
+        ],
+        [
+          "سایت کند، خراب یا سخت به روزرسانی است",
+          "The site is slow, broken or hard to update"
+        ],
+        [
+          "نمی دانیم مدل درآمد جواب می دهد یا نه",
+          "We do not know if the revenue model works"
+        ],
+        [
+          "دانش فقط در ذهن یک نفر است",
+          "Knowledge lives in one person's head"
+        ],
+        [
+          "نگران نفوذ یا نشت داده هستیم",
+          "We worry about a breach or data leak"
+        ],
+        [
+          "کسی ما را پیدا نمی کند",
+          "Nobody finds us"
+        ]
+      ],
+      "multi": false
+    },
+    {
+      "q": [
+        "چه چیزی باید روز لانچ آماده باشد و چه چیزی بعداً؟ (چند انتخاب)",
+        "What must exist at launch, and what can wait? (choose any)"
+      ],
+      "options": [
+        [
+          "صفحه های اصلی",
+          "Core pages"
+        ],
+        [
+          "پرداخت یا رزرو",
+          "Payment or booking"
+        ],
+        [
+          "مستند تحویل",
+          "Handover documents"
+        ],
+        [
+          "گزارش امنیت",
+          "A security report"
+        ],
+        [
+          "برنامه محتوا",
+          "A content plan"
+        ],
+        [
+          "هنوز نمی دانم",
+          "Not sure yet"
+        ]
+      ],
+      "multi": true
+    },
+    {
+      "q": [
+        "شکل زمان و بودجه تان کدام است؟ (باند، نه عدد)",
+        "What is the shape of your timeline and budget? (a band, not a number)"
+      ],
+      "options": [
+        [
+          "زمان منعطف، بودجه محدود",
+          "Flexible time, tight budget"
+        ],
+        [
+          "تاریخ مشخص، بودجه منعطف",
+          "Fixed date, flexible budget"
+        ],
+        [
+          "هر دو محدود",
+          "Both tight"
+        ],
+        [
+          "هنوز نمی دانم",
+          "Not sure yet"
+        ]
+      ],
+      "multi": false
+    }
+  ],
+  "services": {
+    "website-building": "ساخت وب سایت",
+    "ui-ux-design": "طراحی رابط و تجربه کاربری",
+    "business-model": "طراحی مدل کسب وکار",
+    "documentation": "مستندسازی",
+    "penetration-testing": "تست نفوذ",
+    "marketing-content": "بازاریابی و تولید محتوا"
+  },
+  "urls": {
+    "website-building": "/services/website-building/",
+    "ui-ux-design": "/services/ui-ux-design/",
+    "business-model": "/services/business-model/",
+    "documentation": "/services/documentation/",
+    "penetration-testing": "/services/penetration-testing/",
+    "marketing-content": "/services/marketing-content/"
+  },
+  "estimatorUrl": "/tools/estimator/",
+  "securityUrl": "/tools/security-check/",
+  "aboutCta": "درباره {service}",
+  "scopeCta": "برآورد اسکوپ با همین خدمت",
+  "securityCta": "خودارزیابی امنیت را شروع کنید",
+  "securityName": "خودارزیابی امنیت",
+  "back": "قبلی",
+  "nextLabel": "بعدی",
+  "why": "دلیل",
+  "result": {
+    "h3": [
+      "پیشنهاد اصلی",
+      "پیشنهاد دوم"
+    ],
+    "contradiction": "پاسخ هایتان به دو مسیر متفاوت اشاره می کند، پس هر دو را با وزن برابر نشان می دهیم. در گفت وگوی اسکوپ روشن می کنیم کدام اول بیاید.",
+    "footer": "این پیشنهاد از یک درخت تصمیم ساده می آید، نه از تحلیل پروژه شما. برای تصمیم نهایی، گفت وگوی اسکوپ لازم است.",
+    "restart": "از اول"
+  },
+  "reasons": {
+    "need": "گفتید بیشتر از همه به {need} نیاز دارید.",
+    "security": "برای نگرانی امنیتی، اول خودارزیابی رایگان را پیشنهاد می کنیم؛ اگر سیستم حساس است، تست نفوذ با اسکوپ امضاشده قدم بعدی است.",
+    "docs": "وقتی دانش فقط در ذهن یک نفر است، اولین خروجی مفید یک مستند تحویل با قانون به روزرسانی است.",
+    "found": "مشکل اصلی را پیدا نشدن گفتید؛ محتوا و سئو از روی ساختار محصول همین را هدف می گیرد.",
+    "noProduct": "هنوز محصولی ندارید و درباره مدل درآمد مطمئن نیستید؛ اگر مدل پیش از ساخت آزمایش شود، چیزی ساخته نمی شود که مدل از آن پشتیبانی نکند.",
+    "payment": "پرداخت یا رزرو در روز لانچ یعنی اتصال و تست، که بخشی از ساخت وب سایت است.",
+    "fixedDate": "تاریخ ثابت دارید؛ در گفت وگوی اسکوپ اول مشخص می کنیم چه چیزی تا آن تاریخ شدنی است."
+  }
+}
