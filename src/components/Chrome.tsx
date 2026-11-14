@@ -342,6 +342,7 @@ export function Footer({ lang }: { lang: Lang }) {
           ))}
         </div>
         <div className="footer-contact">
+          <h2 className="footer-h">{lang === 'fa' ? 'ارتباط' : 'Contact'}</h2>
           <ChannelLinks />
         </div>
         <p className="footer-note">

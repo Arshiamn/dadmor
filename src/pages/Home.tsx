@@ -2,7 +2,7 @@
 import type { PageData, Lang } from '../lib/site'
 import Hero from '../components/Hero'
 import Blocks from '../components/Blocks'
-import { ChannelLinks, CHANNEL_CAPTIONS } from '../components/Chrome'
+import { CHANNEL_CAPTIONS, ChannelLinks } from '../components/Chrome';
 
 export default function Home({ page, lang, dark }: { page: PageData; lang: Lang; dark: boolean }) {
   return (
