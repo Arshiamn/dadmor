@@ -6,9 +6,26 @@ import { slogan } from '../lib/slogans'
 import DotStream from './DotStream'
 import ContactForm from './ContactForm'
 import { ChannelLinks, CHANNEL_CAPTIONS } from './Chrome'
+import HomeLionContactCta from './HomeLionContactCta'
 
 function stripH3(html: string): string {
   return html.replace(/<h3[^>]*>.*?<\/h3>/s, '').trim()
+}
+
+const SERVICE_ICON_MARKS = [
+  '<path d="M4 5.5c0-.8.7-1.5 1.5-1.5h13c.8 0 1.5.7 1.5 1.5v13c0 .8-.7 1.5-1.5 1.5h-13c-.8 0-1.5-.7-1.5-1.5z"/><path d="M4 8.5h16M7 6.2h.01M9.5 6.2h.01M7.5 12h4v5h-4zM13.5 12h4M13.5 14.5h4M13.5 17h2"/><circle data-mark-accent cx="18" cy="6.2" r="1"/>',
+  '<path d="M3.8 11.8c2.1-3.4 4.7-5.1 8-5.1s5.9 1.7 8.4 5.1c-2.5 3.6-5.3 5.4-8.4 5.4s-5.9-1.8-8-5.4z"/><circle cx="11.8" cy="11.8" r="2.1"/><path d="m15.4 15.8 4.8 4.1-1.1-6.2"/><circle data-mark-accent cx="12" cy="11.8" r=".7"/>',
+  '<path d="M4.5 18.5h15M6.5 15.5l4-3.8 3.2 2.2 4.2-7"/><path d="m14.8 6.9 3.1-.3-.1 3.1M6.5 15.5V9"/><circle cx="6.5" cy="8" r="1.4"/><circle cx="10.5" cy="11.7" r="1.4"/><circle data-mark-accent cx="13.7" cy="13.9" r="1.4"/><circle cx="17.9" cy="6.9" r="1.4"/>',
+  '<path d="M7 4.2h7.2l4.1 4.1v10.9c0 .8-.6 1.4-1.4 1.4H7c-.8 0-1.4-.6-1.4-1.4V5.6c0-.8.6-1.4 1.4-1.4z"/><path d="M14 4.5v4.1h4M8.8 12h7M8.8 15.1h5.2"/><path d="M3.5 8.7v10.7c0 .8.6 1.4 1.4 1.4h8.5"/><path d="m8.8 17.8 1.1.9 2.1-2.2"/><circle data-mark-accent cx="16.2" cy="12" r=".8"/>',
+  '<path d="m12 3.3 7.1 2.9-.2 5.3c-.2 4.3-2.7 7.4-6.9 9.2-4.1-1.8-6.6-4.9-6.8-9.2L5 6.2z"/><path d="M9 11.1v-1a3 3 0 0 1 6 0v1M8.2 11.1h7.6v5.1H8.2z"/><path d="M12 13v1.4"/><circle data-mark-accent cx="12" cy="14.2" r=".55"/>',
+  '<path d="M4.2 7.2c0-.8.7-1.5 1.5-1.5h9.6c.8 0 1.5.7 1.5 1.5v6.1c0 .8-.7 1.5-1.5 1.5H9l-3.8 3v-3.3a1.5 1.5 0 0 1-1-1.4z"/><path d="m9.5 9.1 3.4 1.8-3.4 1.8z"/><path d="m18.2 8.4 1.5-1.5M18.8 11h2M18.2 13.7l1.5 1.5"/><circle data-mark-accent cx="6.4" cy="8.2" r=".7"/>',
+]
+
+function withServiceIcon(html: string, index: number): string {
+  const mark = SERVICE_ICON_MARKS[index]
+  if (!mark) return html
+  const svg = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${mark}</svg>`
+  return html.replace(/(<span class="row-icon"[^>]*>).*?(<\/span>)/s, `$1${svg}$2`)
 }
 
 function FaqItem({ q, aHtml }: { q: string; aHtml: string }) {
@@ -90,7 +107,7 @@ export function renderBlock(b: Block, key: number, lang: Lang): React.ReactNode 
       return (
         <Tag key={key} className={ulClass}>
           {items.map((it, i) => (
-            <li key={i} className={liClass} dangerouslySetInnerHTML={{ __html: it }} />
+            <li key={i} className={liClass} dangerouslySetInnerHTML={{ __html: isServiceList ? withServiceIcon(it, i) : it }} />
           ))}
         </Tag>
       )
@@ -160,7 +177,14 @@ export function renderBlock(b: Block, key: number, lang: Lang): React.ReactNode 
       const side = cls.includes('contact-side') ? (
         <ChannelLinks captions={CHANNEL_CAPTIONS[lang]} layout="vertical" />
       ) : null
-      const rendered = inner.map((ib, i) => renderBlock(ib, i, lang))
+      const isHomeContact = cls.split(' ').includes('home-contact')
+      const rendered = inner.map((ib, i) =>
+        isHomeContact && ib.t === 'cta' ? (
+          <HomeLionContactCta key={i} href={ib.href as string} lang={lang} />
+        ) : (
+          renderBlock(ib, i, lang)
+        ),
+      )
       return (
         <section key={key} className={cls}>
           {rendered[0]}

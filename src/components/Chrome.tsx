@@ -124,30 +124,32 @@ export const CHANNEL_CAPTIONS: Record<Lang, { email: string; telegram: string; w
 export function ChannelLinks({
   captions,
   layout = 'horizontal',
+  iconOnly = false,
 }: {
   captions?: { email: string; telegram: string; whatsapp: string }
   layout?: 'horizontal' | 'vertical'
+  iconOnly?: boolean
 }) {
   const email = (
-    <a className="channel-pill" href={`mailto:${CONTACT.email}`}>
+    <a className="channel-pill" href={`mailto:${CONTACT.email}`} aria-label={iconOnly ? (CONTACT.email) : undefined}>
       <EmailIcon />
-      <span dir="ltr">{CONTACT.email}</span>
+      {!iconOnly && <span dir="ltr">{CONTACT.email}</span>}
     </a>
   )
   const telegram = (
-    <a className="channel-pill" href={CONTACT.telegram} target="_blank" rel="noreferrer">
+    <a className="channel-pill" href={CONTACT.telegram} target="_blank" rel="noreferrer" aria-label={iconOnly ? (CONTACT.telegramHandle) : 'Telegram'}>
       <TelegramIcon />
-      <span dir="ltr">Telegram {CONTACT.telegramHandle}</span>
+      {!iconOnly && <span dir="ltr">Telegram {CONTACT.telegramHandle}</span>}
     </a>
   )
   const whatsapp = (
-    <a className="channel-pill" href={CONTACT.whatsapp} target="_blank" rel="noreferrer">
+    <a className="channel-pill" href={CONTACT.whatsapp} target="_blank" rel="noreferrer" aria-label={iconOnly ? CONTACT.whatsappLabel : 'WhatsApp'}>
       <WhatsAppIcon />
       {/* dir="ltr": the phone number's digit groups are reordered by
           the bidi algorithm in an RTL page ("0826 140 939 98+");
           forcing LTR keeps "+98 939 140 0826" in order. Owner
           report 2026-11-06 01:10. */}
-      <span dir="ltr">WhatsApp {CONTACT.whatsappLabel}</span>
+      {!iconOnly && <span dir="ltr">WhatsApp {CONTACT.whatsappLabel}</span>}
     </a>
   )
   const rowClass = layout === 'vertical' ? 'channel-row channel-column' : 'channel-row'
@@ -343,7 +345,7 @@ export function Footer({ lang }: { lang: Lang }) {
         </div>
         <div className="footer-contact">
           <h2 className="footer-h">{lang === 'fa' ? 'ارتباط' : 'Contact'}</h2>
-          <ChannelLinks />
+          <ChannelLinks iconOnly />
         </div>
         <p className="footer-note">
           © dadmor {new Date().getFullYear()}
