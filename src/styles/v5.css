@@ -2182,3 +2182,48 @@ html, body {
   .contact-lion-cta[dir="rtl"]:hover::after,
   .contact-lion-cta[dir="rtl"]:focus-visible::after { background-position: 200% 50%; }
 }
+
+/* Responsive bounds: prevent flexible content and the hero glow from widening the page. */
+*, *::before, *::after { box-sizing: border-box; }
+html { max-width: 100%; overflow-x: clip; }
+body { max-width: 100%; overflow-x: clip; }
+img, video, svg { max-width: 100%; }
+:is(main, section, article, aside, header, footer, nav, div, form, fieldset) { min-width: 0; }
+:is(h1, h2, h3, h4, p, li, a, button, label) { overflow-wrap: anywhere; }
+pre, code { max-width: 100%; }
+pre { overflow: auto; }
+:focus-visible { scroll-margin-block: var(--scroll-offset, 5rem); }
+
+@media (max-width: 767.98px) {
+  /* Keep the readability glow inside the mobile text column; leave the hologram untouched. */
+  .hero-text::before { inset-inline: -8px; }
+}
+
+/* Keep the original CTA frame and lion untouched; remove only the hover sheen overlay. */
+.contact-lion-cta::after { content: none; }
+
+.contact-lion-cta { transition: color 180ms ease; }
+.contact-lion-cta::before { transition: border-color 180ms ease; }
+.contact-lion-cta:hover,
+.contact-lion-cta:focus-visible {
+  transform: none;
+  box-shadow: none;
+  color: var(--color-primary-bright);
+  transition: color 180ms ease;
+}
+.contact-lion-cta:hover::before,
+.contact-lion-cta:focus-visible::before {
+  border-color: var(--color-primary-bright);
+  filter: none;
+}
+.contact-lion-cta:active {
+  transform: none;
+  box-shadow: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .contact-lion-cta,
+  .contact-lion-cta:hover,
+  .contact-lion-cta:focus-visible,
+  .contact-lion-cta:active,
+  .contact-lion-cta::before { transition: none; }
+}

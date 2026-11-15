@@ -41,6 +41,22 @@ const pageModules = import.meta.glob<any>('../data/pages/*.json', { eager: true 
 
 export const PAGES: PageData[] = Object.values(pageModules).map((m) => m.default as PageData)
 
+// Admin drafts are intentionally local to this browser; production content
+// continues to come from the checked-in JSON files and the normal build.
+if (typeof window !== 'undefined') {
+  try {
+    const drafts = JSON.parse(localStorage.getItem('dadmor-admin-pages-v1') ?? '{}') as Record<string, PageData>
+    for (const page of PAGES) {
+      const draft = drafts[page.path]
+      if (draft && draft.lang === page.lang && Array.isArray(draft.blocks)) Object.assign(page, draft)
+    }
+    const accent = localStorage.getItem('dadmor-accent')
+    if (accent === 'blue' || accent === 'red' || accent === 'violet') document.documentElement.dataset.accent = accent
+  } catch {
+    // Ignore malformed local data and continue with the bundled site content.
+  }
+}
+
 export const PAGES_BY_PATH: Record<string, PageData> = Object.fromEntries(
   PAGES.map((p) => [pagePath(p.path), p]),
 )
