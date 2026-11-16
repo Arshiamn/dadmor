@@ -2327,3 +2327,32 @@ pre { overflow: auto; }
   fill: var(--color-live);
   stroke: none;
 }
+
+/* ==== Micro fixes 2026-11-16 (2): full-site micro audit ====
+   1. The mobile menu button never got the ghost treatment the theme
+      toggle has: it rendered with the browser's default grey button
+      face, off-palette next to every other header control.
+   2. Footer column links were 17px tall: below the 24px minimum
+      target size. Padding grows the target, the negative margin
+      keeps the visual rhythm identical.
+   3. The work-case title (a Latin domain in an h2) wrapped mid-word
+      ("ghazalalidoost.a / rt") in its narrow desktop column because
+      of the global overflow-wrap: anywhere. Slightly smaller and
+      unbreakable, it sits on one line. */
+.menu-btn {
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  font: inherit;
+  cursor: pointer;
+}
+.footer-cols a {
+  display: inline-block;
+  padding-block: 4px;
+  margin-block: -4px;
+}
+.work-item-text h2 a {
+  white-space: nowrap;
+  overflow-wrap: normal;
+  font-size: 0.88em;
+}
