@@ -1946,13 +1946,17 @@ html, body {
   opacity: 0.88;
   transition: transform var(--duration-micro) var(--ease-out), opacity var(--duration-micro) var(--ease-out);
 }
-[dir="ltr"] .contact-lion-arrow { transform: scaleX(-1); }
+/* Aesthetic fix 2026-11-16: the flip was on the wrong direction — the SVG
+   path already points right (→), which is the forward direction in LTR,
+   yet LTR was flipped to ← and RTL kept →. RTL is the one that must flip,
+   and the hover nudge now moves toward the pointing direction in both. */
+[dir="rtl"] .contact-lion-arrow { transform: scaleX(-1); }
 .contact-lion-cta:hover .contact-lion-arrow,
 .contact-lion-cta:focus-visible .contact-lion-arrow { opacity: 1; }
 [dir="rtl"] .contact-lion-cta:hover .contact-lion-arrow,
-[dir="rtl"] .contact-lion-cta:focus-visible .contact-lion-arrow { transform: translateX(3px); }
+[dir="rtl"] .contact-lion-cta:focus-visible .contact-lion-arrow { transform: translateX(-3px) scaleX(-1); }
 [dir="ltr"] .contact-lion-cta:hover .contact-lion-arrow,
-[dir="ltr"] .contact-lion-cta:focus-visible .contact-lion-arrow { transform: translateX(-3px) scaleX(-1); }
+[dir="ltr"] .contact-lion-cta:focus-visible .contact-lion-arrow { transform: translateX(3px); }
 .contact-lion-label {
   position: relative;
   z-index: 1;
@@ -2227,3 +2231,70 @@ pre { overflow: auto; }
   .contact-lion-cta:active,
   .contact-lion-cta::before { transition: none; }
 }
+
+/* ================================================================
+   Aesthetic fixes — 2026-11-16 (prepared by Muse at the owner's
+   request; NOT deployed — owner reviews and ships herself).
+   Scope: spacing rhythm and tool-page composition. The theme
+   wave, the holographic foil, the glitch effect and all copy are
+   untouched, per the standing rules in DELIVERY.md.
+   ================================================================ */
+
+/* (A) Spacing rhythm — adjacent home sections each carried
+   var(--space-8) top AND bottom, so contents sat ~128px + a 48px
+   dot-divider apart and the page read as loose/empty. One shared
+   step down (space-6) tightens the rhythm without crowding. The
+   hero's bottom padding (space-9, 96px) drops to space-6 for the
+   same reason: the hero content ended ~350px above the next
+   section. */
+.hero { padding-block: var(--space-8) var(--space-6); }
+.home-services, .home-how, .home-work, .home-tools, .home-faq {
+  padding-block: var(--space-6);
+}
+.service-section { padding-block: var(--space-5); }
+
+/* (B) Tool pages — .tool-layout was a 7fr/5fr grid but the React
+   tool is a SINGLE child (.tool-app), so the whole tool sat in the
+   first column and the second column stayed empty black on every
+   screen. The layout wrapper is now one column, and .tool-app
+   itself is the two-column grid: questions (.tool-fields) in the
+   wide column, the brief/result (.tool-output) beside them,
+   sticky so it stays in view while answering. Fieldsets get the
+   panel treatment the design already uses elsewhere, with tighter
+   padding so their interiors no longer read as empty boxes. */
+.tool-layout { grid-template-columns: 1fr; }
+.tool-app {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  gap: var(--space-6);
+  align-items: start;
+}
+.tool-fields { min-width: 0; }
+.tool-fields > fieldset {
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+  padding: var(--space-4) var(--space-5) var(--space-5);
+  margin: 0 0 var(--space-4);
+}
+.tool-fields > fieldset > legend {
+  font-weight: var(--weight-emphasis);
+  padding-inline: var(--space-2);
+}
+.tool-output {
+  position: sticky;
+  top: calc(var(--nav-height) + var(--space-4));
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+  padding: var(--space-4) var(--space-5) var(--space-5);
+}
+@media (max-width: 1023.98px) {
+  .tool-app { grid-template-columns: 1fr; }
+  .tool-output { position: static; }
+}
+
+/* (C) Light-mode hero stats — REMOVED 2026-11-16 at the owner's
+   request: she reviewed the screenshot and did not want the chip
+   background behind the light-mode hero stats. The stats keep
+   their original styling. */

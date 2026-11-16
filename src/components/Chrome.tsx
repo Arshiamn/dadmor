@@ -345,7 +345,10 @@ export function Footer({ lang }: { lang: Lang }) {
         </div>
         <div className="footer-contact">
           <h2 className="footer-h">{lang === 'fa' ? 'ارتباط' : 'Contact'}</h2>
-          <ChannelLinks iconOnly />
+          {/* Aesthetic fix 2026-11-16: was iconOnly — three bare icons with
+              no visible address/handle/number, so visitors had to click
+              blind. Show the text labels, stacked vertically. */}
+          <ChannelLinks layout="vertical" />
         </div>
         <p className="footer-note">
           © dadmor {new Date().getFullYear()}

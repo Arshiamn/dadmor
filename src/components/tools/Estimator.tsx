@@ -183,6 +183,11 @@ export default function Estimator({ lang }: { lang: Lang }) {
 
   return (
     <div className="tool-app">
+      {/* Aesthetic fix 2026-11-16: the fieldsets live in their own column
+          (.tool-fields) so the brief (.tool-output) can sit beside them in
+          the second .tool-layout column instead of everything stacking in
+          one narrow column with the other half of the page left empty. */}
+      <div className="tool-fields">
       {fieldset(
         S.title,
         <>
@@ -322,6 +327,7 @@ export default function Estimator({ lang }: { lang: Lang }) {
             )}
         </>
       )}
+      </div>
       <div className="tool-output" aria-live="polite">
         {!st.service && (
           <>

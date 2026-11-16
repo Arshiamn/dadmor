@@ -504,7 +504,10 @@ html.theme-anim::view-transition-new(root) {
 .scroll-progress {
   position: fixed;
   inset-block: var(--space-6);
-  inset-inline-end: 4px;
+  /* Aesthetic fix 2026-11-16: was 4px — the dots sat cropped on the very
+     edge of the screen and read as a rendering artifact. 12px in, the rail
+     reads as a deliberate element. */
+  inset-inline-end: 12px;
   z-index: 30;
   width: 6px;
   display: flex;

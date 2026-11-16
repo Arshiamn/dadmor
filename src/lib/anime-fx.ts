@@ -81,12 +81,14 @@ export function initAnimeFx(): () => void {
       }
       animate(wordsByEl.get(el)!, { rotateX: -90, translateY: '100%', opacity: 0, duration: 0 })
     }
+    const revealed = new Set<HTMLElement>()
     const io = new IntersectionObserver(
       (entries) => {
         for (const e of entries) {
           if (!e.isIntersecting) continue
           const el = e.target as HTMLElement
           io.unobserve(el)
+          revealed.add(el)
           const words = wordsByEl.get(el)
           if (!words) continue
           animate(words, {
@@ -102,8 +104,29 @@ export function initAnimeFx(): () => void {
       { threshold: 0.3 },
     )
     h2s.forEach((h) => io.observe(h))
+    /* Safety net (aesthetic fix 2026-11-16): the words start hidden
+       (opacity 0 / rotateX -90), so if the observer never fires for a
+       heading that IS on screen — a slow device, a threshold edge
+       case, a screenshot mid-load — the heading would stay invisible
+       and the page reads as broken. After 1.8s, any heading already
+       inside the viewport that has not been revealed is snapped to
+       its final state. Below-the-fold headings are untouched and
+       keep their scroll-enter flip exactly as before. */
+    const fallback = setTimeout(() => {
+      for (const el of h2s) {
+        if (revealed.has(el)) continue
+        const r = el.getBoundingClientRect()
+        if (r.bottom < 0 || r.top > window.innerHeight) continue
+        const words = wordsByEl.get(el)
+        if (!words) continue
+        revealed.add(el)
+        io.unobserve(el)
+        animate(words, { rotateX: 0, translateY: '0%', opacity: 1, duration: 0 })
+      }
+    }, 1800)
     cleanups.push(() => {
       io.disconnect()
+      clearTimeout(fallback)
     })
   }
 

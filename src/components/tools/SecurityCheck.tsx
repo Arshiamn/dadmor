@@ -80,6 +80,10 @@ export default function SecurityCheck({ lang }: { lang: Lang }) {
 
   return (
     <div className="tool-app">
+      {/* Aesthetic fix 2026-11-16: questions in their own column
+          (.tool-fields), result (.tool-output) beside them — see
+          Estimator.tsx. */}
+      <div className="tool-fields">
       {SC.questions.map((q) => (
         <fieldset key={q.n}>
           <legend>
@@ -100,6 +104,7 @@ export default function SecurityCheck({ lang }: { lang: Lang }) {
         </fieldset>
       ))}
       <p className="tool-hint">{(T.progress as string).replace('{n}', faDigits(score.answered, lang))}</p>
+      </div>
       <div className="tool-output" aria-live="polite">
         {score.answered < 12 && (
           <p className="brief-empty">{(T.needAll as string).replace('{n}', faDigits(12 - score.answered, lang))}</p>
