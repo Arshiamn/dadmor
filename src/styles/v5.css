@@ -2298,3 +2298,32 @@ pre { overflow: auto; }
    request: she reviewed the screenshot and did not want the chip
    background behind the light-mode hero stats. The stats keep
    their original styling. */
+
+/* Tool-row icons — 2026-11-16 (owner request): the two home tool
+   rows now carry marks drawn in the same family as the six service
+   marks (see SERVICE_ICON_MARKS in Blocks.tsx): stroke 1.55, a
+   detailed composition and one live-green accent dot. The accent
+   fill rule mirrors the service-list one so the dot renders green
+   here too. And per the owner's follow-up, the icons sit BARE like
+   the service marks — no chip, no border, no background — at the
+   same 44px box / 34px mark size. */
+.tool-row .row-icon {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  width: 44px;
+  height: 44px;
+}
+.tool-row .row-icon svg {
+  width: 34px;
+  height: 34px;
+  overflow: visible;
+}
+.home-tools .tool-row > .row-icon {
+  width: 44px;
+  height: 44px;
+}
+.tool-row .row-icon [data-mark-accent] {
+  fill: var(--color-live);
+  stroke: none;
+}

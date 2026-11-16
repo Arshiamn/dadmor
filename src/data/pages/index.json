@@ -183,7 +183,7 @@
             {
               "title": "برآوردگر پروژه",
               "href": "/tools/estimator/",
-              "html": "<div class=\"tool-row\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><path d=\"M8.5 7.5h7\"/><path d=\"M8.5 12h.01M12 12h.01M15.5 12h.01M8.5 15.5h.01M12 15.5h.01M15.5 15.5h.01\"/></svg></span> <div><h3>برآوردگر پروژه</h3><p>چند سؤال درباره پروژه، و یک بریف اسکوپ قابل چاپ با باند تلاش <span class=\"band-letters\"><span>S</span><span>،</span><span>M</span><span>یا</span><span>L</span></span> و دلیلش. قیمت و تاریخ تحویل نمی دهد.</p></div> <a class=\"btn btn-ghost\" href=\"/tools/estimator/\">برآوردگر پروژه را باز کنید</a> </div>"
+              "html": "<div class=\"tool-row\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.55\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4.6 17.2a7.6 7.6 0 1 1 14.8 0\"/><path d=\"M3.6 17.2h16.8\"/><path d=\"M6.3 13.9l1 .6M17.7 13.9l-1 .6M12 10v1.2\"/><path d=\"m12 17.2 4-4.6\"/><circle cx=\"12\" cy=\"17.2\" r=\"1.2\"/><circle data-mark-accent cx=\"16\" cy=\"12.6\" r=\".95\"/></svg></span> <div><h3>برآوردگر پروژه</h3><p>چند سؤال درباره پروژه، و یک بریف اسکوپ قابل چاپ با باند تلاش <span class=\"band-letters\"><span>S</span><span>،</span><span>M</span><span>یا</span><span>L</span></span> و دلیلش. قیمت و تاریخ تحویل نمی دهد.</p></div> <a class=\"btn btn-ghost\" href=\"/tools/estimator/\">برآوردگر پروژه را باز کنید</a> </div>"
             }
           ]
         },
@@ -194,7 +194,7 @@
             {
               "title": "خودارزیابی امنیت",
               "href": "/tools/security-check/",
-              "html": "<div class=\"tool-row\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"8.5\"/><path d=\"m8.5 12.2 2.4 2.4 4.6-4.8\"/></svg></span> <div><h3>خودارزیابی امنیت</h3><p>دوازده سؤال ساده درباره عادت های امنیتی، با امتیاز شفاف و کارهای بعدی به ترتیب. سیستم شما را تست نمی کند و جای تست نفوذ را نمی گیرد.</p></div> <a class=\"btn btn-ghost\" href=\"/tools/security-check/\">خودارزیابی امنیت را شروع کنید</a> </div>"
+              "html": "<div class=\"tool-row\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.55\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m12 3.3 7.1 2.9-.2 5.3c-.2 4.3-2.7 7.4-6.9 9.2-4.1-1.8-6.6-4.9-6.8-9.2L5 6.2z\"/><circle cx=\"11\" cy=\"10.8\" r=\"3.1\"/><path d=\"m13.2 13 2.4 2.4\"/><circle data-mark-accent cx=\"11\" cy=\"10.8\" r=\".7\"/></svg></span> <div><h3>خودارزیابی امنیت</h3><p>دوازده سؤال ساده درباره عادت های امنیتی، با امتیاز شفاف و کارهای بعدی به ترتیب. سیستم شما را تست نمی کند و جای تست نفوذ را نمی گیرد.</p></div> <a class=\"btn btn-ghost\" href=\"/tools/security-check/\">خودارزیابی امنیت را شروع کنید</a> </div>"
             }
           ]
         },
