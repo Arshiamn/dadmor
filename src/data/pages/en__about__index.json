@@ -135,6 +135,45 @@
     },
     {
       "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Why we started dadmor"
+        },
+        {
+          "t": "p",
+          "html": "Every business that wanted to go online had to deal with several different parties. One would write the business model, another would build the website, a third would produce the content, and when something broke, none of them would take responsibility. Everyone pointed at someone else, and in the middle of it all stood the business owner, left with the bill."
+        },
+        {
+          "t": "p",
+          "html": "We could not find a studio that did all of it in one place, with one accountable owner and one consistent standard of quality. The ones that claimed to be complete did work we would not have accepted for our own project. So we decided to build the studio we had been looking for."
+        },
+        {
+          "t": "p",
+          "html": "I am Roxana. Before dadmor, I worked as a programmer at several companies, and alongside that we took on projects and delivered them. In both places, the same scene kept repeating. A project would start with excitement, opinions would change halfway through, a request to just add one more small thing would arrive every week, and at the end, when the result differed from what was first imagined, there was no document showing what had actually been agreed. The argument was never about quality. It was about the fact that nobody had written down their expectations at the start."
+        },
+        {
+          "t": "p",
+          "html": "dadmor grew out of those scenes. That is why every project here starts with a written scope document, before a single line of code or a single design. It states what will be delivered, what will not, and what you need to provide. When everything is on paper from day one, there is no room left for misunderstandings halfway through."
+        },
+        {
+          "t": "p",
+          "html": "We also have a few red lines that no project gets us to cross. We do not start without a written scope. We do not promise Google rankings. And we do not talk about complete security, because rankings are not ours to give and complete security does not exist for anyone to promise. We would rather say these things plainly on the first day than make excuses on the last."
+        },
+        {
+          "t": "p",
+          "html": "dadmor is small, and it is not meant to grow faceless. When you work with us, you know from the first day who you are dealing with and what you are going to receive."
+        },
+        {
+          "t": "p",
+          "html": "Roxana Negaresh"
+        }
+      ]
+    },
+    {
+      "t": "group",
       "class": "service-cta container",
       "blocks": [
         {
