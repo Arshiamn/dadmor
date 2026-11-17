@@ -111,7 +111,7 @@
         },
         {
           "t": "p",
-          "html": "Video, text, and SEO built from the same structure as the product, so content explains the work instead of decorating it."
+          "html": "Content that answers the customer's real question, so people find you in search: writing, video, and technical SEO built from the structure of your own product."
         }
       ]
     },
@@ -125,11 +125,16 @@
           "html": "Problem"
         },
         {
-          "t": "list",
-          "ordered": false,
-          "items": [
-            "Content made separately from the product tends to talk about everything except what the customer wants to know. Posts go out, and nobody knows which one answered a real customer question."
-          ]
+          "t": "p",
+          "html": "Most businesses that come to us have a clear product, but nobody finds them in search. Content gets produced and posts get published, yet nobody knows which piece answered a real customer's question and which was published just so something was published."
+        },
+        {
+          "t": "p",
+          "html": "The reason is usually that the content was made apart from the product: it talks about everything except what the customer needs to know. And when there is no map of which question gets answered by which piece of content, every month starts from zero."
+        },
+        {
+          "t": "p",
+          "html": "We start from a search-intent map: your customers' real questions, and which content answers each one, on which page. Then the monthly plan, production, and technical SEO all sit on that same map. We do not promise Google rankings either; nobody can promise that honestly. What we deliver is relevant content and the right structure."
         }
       ]
     },

@@ -149,7 +149,7 @@
         },
         {
           "t": "p",
-          "html": "A manual, scoped test with a CVSS-scored report and a retest: proof of what was tested, and what was not."
+          "html": "Know where your system is open before an attacker finds it: manual testing under a signed scope, a scored report, and a retest after the fixes."
         }
       ]
     },
@@ -163,11 +163,16 @@
           "html": "Problem"
         },
         {
-          "t": "list",
-          "ordered": false,
-          "items": [
-            "An automated scan produces a long list of warnings but does not say which are actually exploitable and which do not matter. And a report that does not state what was out of scope creates the impression that everything was checked."
-          ]
+          "t": "p",
+          "html": "If you run a web app or an API that processes user data or payments, the question is not whether you have vulnerabilities. The question is which ones are actually exploitable, and what someone reaches if they get through."
+        },
+        {
+          "t": "p",
+          "html": "An automated scan does not answer that: it produces a long list of warnings, half of which do not matter. And on the other side, a report that never says what was out of scope gives false comfort. Teams usually end up either buried under unprioritised warnings, or holding a report that says secure without it being clear what was ever tested."
+        },
+        {
+          "t": "p",
+          "html": "We test manually, under a scope signed before we start, with an authorisation letter and an NDA alongside it. Every finding is reported with a CVSS score, evidence, impact, and a fix, and retesting the findings is included in the price. And we say it plainly from the start: no test proves complete security, and we do not write such certificates."
         }
       ]
     },

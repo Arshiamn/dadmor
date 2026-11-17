@@ -111,7 +111,7 @@
         },
         {
           "t": "p",
-          "html": "Interfaces decided by user tasks and evidence, delivered as a system developers can actually build from."
+          "html": "An interface users do not get lost in, and that a developer can actually build: decisions come from the user's task and from evidence, not from guesses and taste."
         }
       ]
     },
@@ -125,11 +125,16 @@
           "html": "Problem"
         },
         {
-          "t": "list",
-          "ordered": false,
-          "items": [
-            "A design that looks good in the design file but says nothing about error, empty or mobile states changes during build. Developers guess, users cannot find the button, and every new screen is designed from scratch."
-          ]
+          "t": "p",
+          "html": "If your users abandon a specific task halfway, such as signup or checkout, the problem is usually not the product itself. The problem is that the flow was never seen through the user's eyes: the button is not where they look for it, the error and empty states were never designed, and every screen was decided in isolation."
+        },
+        {
+          "t": "p",
+          "html": "You see the result during the build: a design that looks beautiful in the design file but has no answer for mobile, errors, or empty states gets changed mid-build, the developer guesses, and you pay for those guesses."
+        },
+        {
+          "t": "p",
+          "html": "We do not start design with guesses. First we map the user's main tasks in order of importance, then we build the flows and the design system with every state covered, and test them with real users. And where there is no evidence, the deliverable states which decision rests on which assumption, so you know exactly where you are betting on a guess."
         }
       ]
     },

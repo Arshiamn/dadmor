@@ -111,7 +111,7 @@
         },
         {
           "t": "p",
-          "html": "A model you can test: assumptions, revenue logic, and kill/continue criteria, not just a convincing pitch deck."
+          "html": "Before you spend on building the product, find out which assumptions your revenue model stands on, and which one, if wrong, brings the whole thing down."
         }
       ]
     },
@@ -125,11 +125,16 @@
           "html": "Problem"
         },
         {
-          "t": "list",
-          "ordered": false,
-          "items": [
-            "A business model can be convincing on a slide while nobody knows which assumption, if wrong, breaks the whole thing. Assumptions that are not written down are not tested, and the decision to continue or stop is left to feeling."
-          ]
+          "t": "p",
+          "html": "Most founders who come to us start by talking about the website and the product, but after a few questions it becomes clear that it is not yet settled exactly what will be sold, to whom, and at what price."
+        },
+        {
+          "t": "p",
+          "html": "A model without those answers can look convincing on slides, yet in practice nobody knows which assumption, if wrong, collapses the whole model. And because the assumptions are written down nowhere, they are never tested either, and decisions get made by feel."
+        },
+        {
+          "t": "p",
+          "html": "We start by mapping the assumptions and ranking them by risk, then redesign the model around its revenue logic and design tests for the riskiest assumptions, with continue-or-stop criteria written before the test runs. The numbers are calculations, not prophecies: every number is tied to a written assumption."
         }
       ]
     },

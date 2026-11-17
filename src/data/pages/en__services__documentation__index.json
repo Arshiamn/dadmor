@@ -111,7 +111,7 @@
         },
         {
           "t": "p",
-          "html": "Documents the next maintainer can use, with a named audience, format, and update rule."
+          "html": "Documentation that means the work does not stop when the key person leaves: knowledge and the reasons behind decisions are on paper, and one named person is responsible for keeping it current."
         }
       ]
     },
@@ -125,11 +125,16 @@
           "html": "Problem"
         },
         {
-          "t": "list",
-          "ordered": false,
-          "items": [
-            "When technical knowledge and key decisions live in one person's head, that person leaving stops the work. A document that exists but has no one responsible for updating it stops being reliable after a few changes."
-          ]
+          "t": "p",
+          "html": "When technical knowledge and the reasons behind important decisions live only in one person's head, that person leaving means the work stops. And documentation that exists but has no owner for updates stops being trustworthy after a few changes."
+        },
+        {
+          "t": "p",
+          "html": "And when there is no document and something breaks, everyone blames someone else. We have seen a client stuck between several contractors where nobody would take responsibility, because nothing had been written down at the start."
+        },
+        {
+          "t": "p",
+          "html": "We build documentation like a product: first we audit what exists, what is missing, and what is wrong, then we assign each document an audience, a format, an update rule, and an owner, and we hand it over reviewed by your own team. We also do not write documentation without a source, because documentation without a source is a guess."
         }
       ]
     },
