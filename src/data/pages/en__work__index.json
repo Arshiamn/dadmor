@@ -67,18 +67,6 @@
           "tag": "article"
         },
         {
-          "t": "raw",
-          "html": "<article class=\"work-item work-placeholder\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>Idea</span> <h2>More work</h2> <p class=\"work-label\">To be added here.</p> </article>",
-          "class": "work-item work-placeholder",
-          "tag": "article"
-        },
-        {
-          "t": "raw",
-          "html": "<article class=\"work-item work-placeholder\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>Idea</span> <h2>More work</h2> <p class=\"work-label\">To be added here.</p> </article>",
-          "class": "work-item work-placeholder",
-          "tag": "article"
-        },
-        {
           "t": "p",
           "html": "Some work, such as penetration tests and internal documentation, is confidential by default. We publish it only in redacted form and with the owner's written permission."
         }

@@ -247,11 +247,7 @@
         },
         {
           "t": "p",
-          "html": "A band is the rough size of the work, not a price and not a duration. A fixed price is set only after a scoping conversation, in a written proposal."
-        },
-        {
-          "t": "p",
-          "html": "The band is a starting estimate; the scoping conversation may move it."
+          "html": "The band is a starting estimate, not a price. Each phase gets its own fixed price after the scoping conversation, in a written proposal."
         }
       ]
     },
@@ -417,7 +413,7 @@
         },
         {
           "t": "p",
-          "html": "A redacted sample can be shown in the scoping conversation, with the owner's permission."
+          "html": "A business model is the client's confidential document and is not published. In the scoping conversation you can see the structure of a redacted sample."
         }
       ]
     }

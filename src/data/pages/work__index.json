@@ -67,18 +67,6 @@
           "tag": "article"
         },
         {
-          "t": "raw",
-          "html": "<article class=\"work-item work-placeholder\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>ایده</span> <h2>نمونه کار بیشتر</h2> <p class=\"work-label\">اینجا اضافه می شود.</p> </article>",
-          "class": "work-item work-placeholder",
-          "tag": "article"
-        },
-        {
-          "t": "raw",
-          "html": "<article class=\"work-item work-placeholder\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>ایده</span> <h2>نمونه کار بیشتر</h2> <p class=\"work-label\">اینجا اضافه می شود.</p> </article>",
-          "class": "work-item work-placeholder",
-          "tag": "article"
-        },
-        {
           "t": "p",
           "html": "بعضی کارها، مثل تست نفوذ و مستند داخلی، به طور پیش فرض محرمانه اند. آن ها را فقط به صورت سانسورشده و با اجازه کتبی مالک منتشر می کنیم."
         }
