@@ -6,6 +6,7 @@ import { PAGES, pagePath, pageForRoute, type Lang } from './lib/site'
 import { useGlitchScheduler } from './lib/glitch'
 import { useScrollStory, scrollToTopImmediate, lenis } from './lib/scroll-story'
 import { Header, Footer } from './components/Chrome'
+import Cursor from './components/Cursor'
 import Home from './pages/Home'
 import Page, { NotFound } from './pages/Page'
 import { EstimatorPage, SecurityPage, ServicesPage } from './pages/ToolPage'
@@ -128,6 +129,7 @@ function Shell() {
   const p404 = PAGES.find((p) => p.path === '404.html')!
   return (
     <>
+      <Cursor />
       <Header lang={lang} theme={theme} onToggleTheme={toggleTheme} />
       <Routes>
         {PAGES.filter((p) => p.path !== '404.html').map((p) => {

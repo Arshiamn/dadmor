@@ -2357,3 +2357,53 @@ pre { overflow: auto; }
   overflow-wrap: normal;
   font-size: 0.88em;
 }
+
+
+/* ------------------------------------------------- custom desktop cursor */
+/* Cursor.tsx adds .has-custom-cursor to <html> only on fine pointers
+   without reduced motion; only then is the native cursor hidden. */
+html.has-custom-cursor,
+html.has-custom-cursor a,
+html.has-custom-cursor button,
+html.has-custom-cursor input,
+html.has-custom-cursor select,
+html.has-custom-cursor textarea,
+html.has-custom-cursor label,
+html.has-custom-cursor summary {
+  cursor: none;
+}
+.cursor-dot,
+.cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0;
+  border-radius: 999px;
+}
+.cursor-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--lion-eyes);
+}
+.cursor-ring {
+  width: 34px;
+  height: 34px;
+  border: 1.5px solid var(--color-primary);
+  opacity: 0;
+  transition: width 180ms var(--ease-out), height 180ms var(--ease-out),
+    background-color 180ms var(--ease-out), border-color 180ms var(--ease-out);
+}
+.cursor-ring.cursor-ring-hot {
+  width: 52px;
+  height: 52px;
+  background: var(--color-primary-soft);
+}
+.cursor-ring.cursor-ring-text {
+  width: 3px;
+  height: 22px;
+  border-radius: 2px;
+  background: var(--color-primary);
+  border-color: transparent;
+}
