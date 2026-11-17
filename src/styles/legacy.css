@@ -558,7 +558,7 @@ html.theme-anim::view-transition-new(root) {
   vertical-align: baseline;
 }
 [dir="rtl"] .breadcrumb li + li::before { content: "‹"; }
-.breadcrumb a { color: var(--color-muted-foreground); line-height: inherit; }
+.breadcrumb a { color: var(--color-muted-foreground); line-height: inherit; padding-block: 6px; margin-block: -6px; }
 .breadcrumb [aria-current] { color: var(--color-foreground); }
 
 /* ---------------------------------------------------------------- service list (varied rows, not cards) */

@@ -130,20 +130,24 @@
               "t": "table",
               "headers": [
                 "Band",
-                "Total score"
+                "Total score: website building, UI/UX design",
+                "Total score: business model, documentation, marketing and content"
               ],
               "rows": [
                 [
                   "S",
-                  "2 or less"
+                  "2 or less",
+                  "1 or less"
                 ],
                 [
                   "M",
-                  "3 to 5"
+                  "3 to 5",
+                  "2 to 3"
                 ],
                 [
                   "L",
-                  "6 or more"
+                  "6 or more",
+                  "4 or more"
                 ]
               ]
             }

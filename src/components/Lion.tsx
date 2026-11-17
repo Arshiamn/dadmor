@@ -7,15 +7,25 @@
    no green in light mode). The breathing pulse lives in v5.css and runs
    only in dark mode (class lion-breathing on the wrapper). */
 
-import iconSvg from '/img/dadmor-halftone-icon.svg?raw'
-import wordmarkSvg from '/img/dadmor-halftone-wordmark.svg?raw'
+import iconSvgRaw from '/img/dadmor-halftone-icon.svg?raw'
+import wordmarkSvgRaw from '/img/dadmor-halftone-wordmark.svg?raw'
 /* v33: only d3 is ever rendered (Hero + 404 both pass density="d3").
    d0–d2 were imported via ?raw and sat in the main bundle unused
    (~145KB raw / ~46KB gzip). The SVG files stay in public/img/ for
    now; only the bundle imports are dropped. */
-import heroD3 from '/img/hero-lion-d3.svg?raw'
+import heroD3Raw from '/img/hero-lion-d3.svg?raw'
 
-const HERO = { d3: heroD3 } as const
+/* The generated SVGs carry id="eyes|face|lion-root|wordmark" hooks, and the
+   same markup is inlined several times per page (header, footer, hero), so
+   those ids would repeat in one document. Nothing references them (styling
+   and animation are class-based: .lion-eyes, .lion-face, .lion-dots), so
+   strip them at inline time and keep the document valid. */
+const stripIds = (svg: string) =>
+  svg.replace(/ id="(?:eyes|face|lion-root|wordmark)"/g, '')
+const iconSvg = stripIds(iconSvgRaw)
+const wordmarkSvg = stripIds(wordmarkSvgRaw)
+
+const HERO = { d3: stripIds(heroD3Raw) } as const
 
 export function LionIcon({
   breathing = false,
