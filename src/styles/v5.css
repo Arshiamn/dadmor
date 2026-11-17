@@ -2392,7 +2392,12 @@ html.has-custom-cursor summary {
   height: 34px;
   border: 1.5px solid var(--color-primary);
   opacity: 0;
-  transition: width 180ms var(--ease-out), height 180ms var(--ease-out),
+  /* The transform transition is what makes the ring trail: Cursor.tsx
+     writes the target position on every mousemove and the compositor
+     glides the ring toward it, immune to main-thread jank. Keep it
+     short (120ms) so the trail reads as polish, not lag. */
+  transition: transform 120ms cubic-bezier(0.2, 0.6, 0.3, 1),
+    width 180ms var(--ease-out), height 180ms var(--ease-out),
     background-color 180ms var(--ease-out), border-color 180ms var(--ease-out);
 }
 .cursor-ring.cursor-ring-hot {

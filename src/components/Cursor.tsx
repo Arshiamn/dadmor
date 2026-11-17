@@ -22,20 +22,26 @@ export default function Cursor() {
     const root = document.documentElement
     root.classList.add('has-custom-cursor')
 
-    let mx = -100
-    let my = -100
-    let rx = -100
-    let ry = -100
-    let raf = 0
     let shown = false
 
+    /* Positions are written straight in the mousemove handler, no rAF
+       loop: the dot is glued to the pointer and the ring trails it via
+       a compositor-side CSS transform transition (see v5.css), so the
+       cursor stays smooth even when the page's own animations keep the
+       main thread busy. The first version lerped the ring in rAF and
+       felt severely laggy on the live site (owner report, 2026-11-17). */
     const onMove = (e: MouseEvent) => {
-      mx = e.clientX
-      my = e.clientY
+      const pos = `translate3d(${e.clientX}px, ${e.clientY}px, 0) translate(-50%, -50%)`
+      dot.style.transform = pos
+      ring.style.transform = pos
       if (!shown) {
         shown = true
-        rx = mx
-        ry = my
+        /* Snap the ring to the pointer on first show, no glide in
+           from the top-left corner. */
+        ring.style.transition = 'none'
+        ring.style.transform = pos
+        void ring.offsetWidth
+        ring.style.transition = ''
         dot.style.opacity = '1'
         ring.style.opacity = '1'
       }
@@ -50,18 +56,9 @@ export default function Cursor() {
       ring.style.opacity = '0'
       shown = false
     }
-    const loop = () => {
-      rx += (mx - rx) * 0.16
-      ry += (my - ry) * 0.16
-      dot.style.transform = `translate3d(${mx}px, ${my}px, 0) translate(-50%, -50%)`
-      ring.style.transform = `translate3d(${rx}px, ${ry}px, 0) translate(-50%, -50%)`
-      raf = requestAnimationFrame(loop)
-    }
-    raf = requestAnimationFrame(loop)
     window.addEventListener('mousemove', onMove, { passive: true })
     document.documentElement.addEventListener('mouseleave', onLeave)
     return () => {
-      cancelAnimationFrame(raf)
       window.removeEventListener('mousemove', onMove)
       document.documentElement.removeEventListener('mouseleave', onLeave)
       root.classList.remove('has-custom-cursor')
