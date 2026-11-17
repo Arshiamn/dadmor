@@ -119,7 +119,7 @@
         },
         {
           "t": "p",
-          "html": "A website with structure: modeled, built, and handed over with documentation, so it keeps working after launch day."
+          "html": "A website whose price and deliverables are settled on paper before work starts, and that stays in your hands after handover, not the builder's: you update the content yourself and never wait on anyone for a small change."
         }
       ]
     },
@@ -133,11 +133,16 @@
           "html": "Problem"
         },
         {
-          "t": "list",
-          "ordered": false,
-          "items": [
-            "A site built without structure or documentation looks complete on launch day and becomes hard to maintain afterwards. You do not know where to change content, every small edit depends on the person who built it, and the page that matters for sales loads slowly."
-          ]
+          "t": "p",
+          "html": "Most people who come to us are in one of two situations: either they have a site that only its builder can touch, where every small change means waiting and paying again, or they want a site built and hear a different price from every direction, with no clear picture of what they will actually get."
+        },
+        {
+          "t": "p",
+          "html": "The outcome is usually the same: a project meant to take a month takes three, a new \"just add this one thing\" arrives every week, and at the end neither the price nor the person responsible is clear."
+        },
+        {
+          "t": "p",
+          "html": "We have seen this scene up close, which is why we never start a site without a written scope: what will be built, at what price, and on what timeline, all on paper before work begins. You know the fixed price before we start, the code and the domain are yours, and handover documentation comes with it, so the site stays in your hands after launch."
         }
       ]
     },
