@@ -2403,7 +2403,11 @@ html.has-custom-cursor summary {
 .cursor-ring.cursor-ring-hot {
   width: 40px;
   height: 40px;
-  background: var(--color-primary-soft);
+  /* No fill: the ring used to paint a soft disc over button labels and
+     hide their text (owner report, 2026-11-17). Border only, slightly
+     stronger colour carries the hover signal. */
+  background: transparent;
+  border-color: var(--lion-eyes);
 }
 .cursor-ring.cursor-ring-text {
   width: 3px;
