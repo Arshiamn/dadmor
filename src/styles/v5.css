@@ -2440,25 +2440,28 @@ html.has-custom-cursor summary {
   padding-inline: 6px;
 }
 
-/* ---- (8) ARTICLE COMPONENTS v3 (2026-11-21). The مقالات section
-   redesigned a third time after the owner rejected both the v1 card
-   grid and the v2 featured-panel layout («ظاهر و چیدمانش آشغاله»):
-   an editorial magazine layout. No cards, no panels, no glow, no
-   shadows. Mastheads, standfirsts, ruled contents rows with large
-   numerals, a numbered reading column, oversized pull quotes between
-   short rules and a ruled table. Every selector is scoped under .art-
-   classes, so no other page changes. Colours come from the theme
-   tokens only, so the light theme follows for free. */
+/* ---- (8) ARTICLE COMPONENTS v4 (2026-11-21). The مقالات section
+   rebuilt a fourth time on a live competitor study (Websima, Novin,
+   Webramz): image first, one branded cover system, restrained type
+   (hierarchy by weight and colour, not display size), one strict card
+   anatomy with 2-line clamped excerpts, an in-article table of
+   contents, FAQ sections and ruled editorial details kept from v3
+   where they worked (summary list, pull quote, scope document, cost
+   table). Every selector is scoped under .art- classes, so no other
+   page changes. Colours come from the theme tokens only, so the
+   light theme follows for free. The covers themselves stay dark in
+   both themes: they are branded artwork, like a printed magazine
+   cover, so their background is a fixed brand colour, not a token. */
 
-/* ---------------------------------------------------------- index masthead */
+/* ---------------------------------------------------------- index header */
 .art-mast {
-  padding-block: var(--space-8) var(--space-5);
+  padding-block: var(--space-7) var(--space-6);
 }
 .art-kicker {
   display: flex;
   align-items: center;
   gap: var(--space-3);
-  margin: 0 0 var(--space-5);
+  margin: 0 0 var(--space-4);
   font-size: var(--text-small);
   font-weight: var(--weight-emphasis);
   color: var(--color-primary);
@@ -2473,15 +2476,15 @@ html[lang="en"] .art-kicker {
   letter-spacing: 0.14em;
 }
 .art-mast h1 {
-  font-size: clamp(2.5rem, 6.5vw, 4.5rem);
-  line-height: 1.22;
-  margin: 0 0 var(--space-5);
+  font-size: clamp(1.9rem, 1.55rem + 1.6vw, 2.35rem);
+  line-height: 1.35;
+  margin: 0 0 var(--space-4);
 }
 .art-manifesto {
-  font-size: clamp(1.15rem, 1rem + 0.8vw, 1.35rem);
-  line-height: 1.85;
+  font-size: 1.05rem;
+  line-height: 1.9;
   color: var(--color-muted-foreground);
-  max-width: 58ch;
+  max-width: 62ch;
   margin: 0;
 }
 .art-manifesto strong {
@@ -2490,9 +2493,9 @@ html[lang="en"] .art-kicker {
 .art-stats {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-3) var(--space-7);
-  margin-top: var(--space-7);
-  padding-top: var(--space-5);
+  gap: var(--space-2) var(--space-6);
+  margin-top: var(--space-6);
+  padding-top: var(--space-4);
   border-top: var(--border-width) solid var(--color-border);
 }
 .art-stats .stat {
@@ -2501,7 +2504,7 @@ html[lang="en"] .art-kicker {
   gap: var(--space-2);
 }
 .art-stats .stat strong {
-  font-size: 1.375rem;
+  font-size: 1.125rem;
   color: var(--color-primary);
 }
 .art-stats .stat span {
@@ -2509,93 +2512,112 @@ html[lang="en"] .art-kicker {
   font-size: var(--text-small);
 }
 
-/* ---------------------------------------------------------- contents rows */
+/* ---------------------------------------------------------- article cards */
 .art-contents {
-  padding-block: var(--space-4) var(--space-7);
+  padding-block: var(--space-2) var(--space-7);
 }
-.art-row {
+.art-feature {
+  margin-bottom: 28px;
+}
+.art-grid {
   display: grid;
-  grid-template-columns: 4.5rem 10rem minmax(0, 1fr) auto;
-  gap: var(--space-5);
-  align-items: start;
-  padding-block: var(--space-6);
-  padding-inline: var(--space-4);
-  margin-inline: calc(-1 * var(--space-4));
-  border-top: var(--border-width) solid var(--color-border);
-  color: var(--color-foreground);
-  text-decoration: none;
-  transition: background-color 250ms ease;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
 }
-.art-row:last-child {
-  border-bottom: var(--border-width) solid var(--color-border);
-}
-.art-row:hover {
-  text-decoration: none;
-  background: color-mix(in srgb, var(--color-primary) 7%, transparent);
-}
-.art-row-num {
-  font-size: 1.75rem;
-  font-weight: var(--weight-heading);
-  line-height: 1.1;
-  color: var(--color-primary);
-}
-.art-row-first .art-row-num {
-  font-size: 2.75rem;
-}
-.art-row-meta {
+.art-card {
   display: flex;
   flex-direction: column;
-  gap: var(--space-1);
-  padding-top: 0.35rem;
-  font-size: var(--text-small);
-  color: var(--color-muted-foreground);
-}
-.art-row-cat {
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-card-lg);
+  overflow: hidden;
   color: var(--color-foreground);
-  font-weight: var(--weight-emphasis);
+  text-decoration: none;
+  transition: transform 250ms var(--ease-out), border-color 250ms ease,
+    box-shadow 250ms ease;
 }
-.art-row-main {
+.art-card:hover {
+  text-decoration: none;
+  transform: translateY(-4px);
+  border-color: var(--color-border-control);
+  box-shadow: var(--shadow-soft);
+}
+.art-card-media {
   display: block;
-  min-width: 0;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  background: #0b0a14;
 }
-.art-row-title {
-  margin: 0 0 var(--space-2);
-  font-size: 1.5rem;
-  line-height: 1.4;
-  transition: color 200ms ease;
+.art-card-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 450ms var(--ease-out);
 }
-.art-row-first .art-row-title {
-  font-size: clamp(1.8rem, 3.6vw, 2.5rem);
-  line-height: 1.32;
+.art-card:hover .art-card-media img {
+  transform: scale(1.045);
 }
-.art-row:hover .art-row-title {
+.art-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-5);
+  flex: 1;
+}
+.art-card-cat {
+  font-size: var(--text-small);
+  font-weight: var(--weight-emphasis);
   color: var(--color-primary);
 }
-.art-row-hook {
-  display: block;
-  max-width: 62ch;
+.art-card-title {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  transition: color 200ms ease;
+}
+.art-card:hover .art-card-title {
+  color: var(--color-primary);
+}
+.art-card-excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  overflow: hidden;
+  font-size: 0.95rem;
   line-height: 1.8;
   color: var(--color-muted-foreground);
 }
-.art-row-go {
-  padding-top: 0.45rem;
-  font-size: var(--text-small);
-  font-weight: var(--weight-emphasis);
-  white-space: nowrap;
-  color: var(--color-primary);
+.art-card-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: auto;
+  padding-top: var(--space-3);
+  font-size: 0.8125rem;
+  color: var(--color-muted-foreground);
 }
-.art-row-arrow {
-  display: inline-block;
-  transition: transform 200ms ease;
+.art-card-feature {
+  flex-direction: row;
 }
-html[lang="fa"] .art-row:hover .art-row-arrow {
-  transform: translateX(-4px);
+.art-card-feature .art-card-media {
+  flex: 0 0 45%;
+  aspect-ratio: auto;
 }
-html[lang="en"] .art-row:hover .art-row-arrow {
-  transform: translateX(4px);
+.art-card-feature .art-card-body {
+  justify-content: center;
+  padding: var(--space-6);
+}
+.art-card-feature .art-card-title {
+  font-size: clamp(1.45rem, 2.4vw, 1.8rem);
+  line-height: 1.4;
+}
+.art-card-feature .art-card-meta {
+  margin-top: var(--space-3);
 }
 
-/* ---------------------------------------------------------- index path list */
+/* ---------------------------------------------------------- index path cards */
 .art-path {
   padding-block: var(--space-6) var(--space-8);
 }
@@ -2609,20 +2631,21 @@ html[lang="en"] .art-row:hover .art-row-arrow {
   color: var(--color-muted-foreground);
 }
 .art-path-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
   list-style: none;
   margin: var(--space-6) 0 0;
   padding: 0;
 }
 .art-path-row {
-  display: grid;
-  grid-template-columns: 3rem minmax(0, 1fr) auto;
-  gap: var(--space-4);
-  align-items: start;
-  padding-block: var(--space-5);
-  border-top: var(--border-width) solid var(--color-border);
-}
-.art-path-row:last-child {
-  border-bottom: var(--border-width) solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-card-lg);
+  padding: var(--space-5);
 }
 .art-path-num {
   font-size: 1.375rem;
@@ -2640,23 +2663,19 @@ html[lang="en"] .art-row:hover .art-row-arrow {
 }
 .art-path-body p {
   margin: 0;
-  max-width: 58ch;
   line-height: 1.8;
   color: var(--color-muted-foreground);
 }
 .art-path-link {
-  padding-top: 0.3rem;
+  margin-top: auto;
   font-size: var(--text-small);
+  font-weight: var(--weight-emphasis);
   white-space: nowrap;
 }
 
 /* ---------------------------------------------------------- article head */
 .art-head {
   padding-block: var(--space-7) var(--space-5);
-  /* The section counter is reset here, on a preceding sibling of every
-     .art-section, so its scope covers all of them and the h2 numbers
-     run ۱ ۲ ۳ down the article. */
-  counter-reset: art-sec;
 }
 .art-cat {
   display: flex;
@@ -2677,14 +2696,14 @@ html[lang="en"] .art-cat {
   letter-spacing: 0.12em;
 }
 .art-head h1 {
-  font-size: clamp(2.1rem, 5vw, 3.6rem);
-  line-height: 1.3;
+  font-size: clamp(1.85rem, 1.5rem + 1.8vw, 2.3rem);
+  line-height: 1.35;
   margin: 0 0 var(--space-4);
 }
 .art-hook {
-  font-size: clamp(1.15rem, 1.05rem + 0.6vw, 1.35rem);
-  line-height: 1.8;
-  max-width: 56ch;
+  font-size: 1.1rem;
+  line-height: 1.85;
+  max-width: 58ch;
   margin: 0 0 var(--space-6);
   color: var(--color-muted-foreground);
 }
@@ -2704,10 +2723,53 @@ html[lang="en"] .art-cat {
   color: var(--color-muted-foreground);
 }
 
+/* ---------------------------------------------------------- cover + contents box */
+.art-cover {
+  max-width: 44rem;
+  aspect-ratio: 2 / 1;
+  margin: 0 0 var(--space-6);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-card-lg);
+  overflow: hidden;
+  background: #0b0a14;
+}
+.art-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.art-toc {
+  max-width: 44rem;
+  margin-bottom: var(--space-6);
+  padding: var(--space-5) var(--space-6);
+  background: var(--color-primary-soft);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-card-lg);
+}
+.art-toc h2 {
+  font-size: 1.1rem;
+  margin: 0 0 var(--space-3);
+}
+.art-toc ol {
+  margin: 0;
+  padding-inline-start: var(--space-5);
+  line-height: 2;
+  color: var(--color-muted-foreground);
+}
+.art-toc a {
+  color: var(--color-foreground);
+  text-decoration: none;
+}
+.art-toc a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
 /* ---------------------------------------------------------- reading column */
 .art-lede,
 .art-section {
-  max-width: 46rem;
+  max-width: 44rem;
 }
 .art-lede {
   padding-block: var(--space-2) var(--space-4);
@@ -2717,29 +2779,19 @@ html[lang="en"] .art-cat {
   line-height: 1.95;
 }
 .art-lede p:first-of-type {
-  font-size: clamp(1.25rem, 1.1rem + 0.7vw, 1.45rem);
-  line-height: 1.75;
+  font-size: 1.2rem;
+  line-height: 1.8;
   color: var(--color-foreground);
 }
 .art-section {
   padding-block: var(--space-6) var(--space-5);
   border-top: var(--border-width) solid var(--color-border);
 }
-.art-section > h2 {
-  font-size: clamp(1.45rem, 2.6vw, 1.8rem);
+.art-section h2 {
+  font-size: 1.55rem;
+  line-height: 1.4;
   margin: 0 0 var(--space-4);
-}
-.art-section > h2::before {
-  counter-increment: art-sec;
-  content: counter(art-sec, persian);
-  display: block;
-  margin-bottom: var(--space-2);
-  font-size: 1rem;
-  letter-spacing: 0.06em;
-  color: var(--color-primary);
-}
-html[lang="en"] .art-section > h2::before {
-  content: counter(art-sec, decimal-leading-zero);
+  scroll-margin-top: var(--scroll-offset);
 }
 .art-section p {
   font-size: 1.075rem;
@@ -2753,9 +2805,10 @@ html[lang="en"] .art-section > h2::before {
 
 /* ---------------------------------------------------------- summary list */
 .art-summary {
-  max-width: 46rem;
-  margin: var(--space-5) auto var(--space-7);
+  max-width: 44rem;
+  margin: 0 0 var(--space-6);
   border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-card-lg);
   padding: var(--space-5) var(--space-6) var(--space-6);
 }
 .art-summary h2 {
@@ -2896,67 +2949,67 @@ html[lang="en"] .art-summary li::before {
   padding-inline-start: 0;
 }
 
-/* ---------------------------------------------------------- related rows */
+/* ---------------------------------------------------------- article FAQ */
+.art-faq-list {
+  display: grid;
+  gap: var(--space-5);
+}
+.art-faq-item h3 {
+  font-size: 1.15rem;
+  margin: 0 0 var(--space-2);
+}
+.art-faq-item p {
+  margin: 0;
+  color: var(--color-muted-foreground);
+}
+
+/* ---------------------------------------------------------- related cards */
 .art-related {
   padding-block: var(--space-6) var(--space-8);
 }
 .art-related > h2 {
   margin: 0 0 var(--space-5);
 }
+.art-related > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
 
 /* ---------------------------------------------------------- small screens */
 @media (max-width: 767.98px) {
   .art-mast {
-    padding-block: var(--space-7) var(--space-4);
+    padding-block: var(--space-6) var(--space-5);
   }
-  .art-row {
-    grid-template-columns: auto minmax(0, 1fr);
-    grid-template-areas:
-      "num meta"
-      "num main"
-      "num go";
-    column-gap: var(--space-4);
-    padding-block: var(--space-5);
+  .art-mast h1 {
+    font-size: 1.8rem;
   }
-  .art-row-num {
-    grid-area: num;
-    font-size: 1.5rem;
+  .art-head h1 {
+    font-size: 1.7rem;
   }
-  .art-row-first .art-row-num {
-    font-size: 2rem;
+  .art-grid,
+  .art-path-list,
+  .art-related > div {
+    grid-template-columns: 1fr;
   }
-  .art-row-meta {
-    grid-area: meta;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: var(--space-1) var(--space-3);
-    padding-top: 0.15rem;
+  .art-card-feature {
+    flex-direction: column;
   }
-  .art-row-main {
-    grid-area: main;
+  .art-card-feature .art-card-media {
+    flex: none;
+    aspect-ratio: 3 / 2;
   }
-  .art-row-title {
-    font-size: 1.3rem;
+  .art-card-feature .art-card-body {
+    padding: var(--space-5);
   }
-  .art-row-first .art-row-title {
-    font-size: 1.6rem;
+  .art-toc {
+    padding: var(--space-4) var(--space-5);
   }
-  .art-row-go {
-    grid-area: go;
-    padding-top: var(--space-2);
-  }
-  .art-path-row {
-    grid-template-columns: auto minmax(0, 1fr);
-  }
-  .art-path-link {
-    grid-column: 2;
-    padding-top: 0;
+  .art-summary {
+    padding: var(--space-4) var(--space-4) var(--space-5);
   }
   .art-section table {
     display: block;
     overflow-x: auto;
-  }
-  .art-summary {
-    padding: var(--space-4) var(--space-4) var(--space-5);
   }
 }

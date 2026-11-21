@@ -15,7 +15,7 @@
     "title": "What is a project scope? Take dadmor’s real template, free | dadmor",
     "description": "A project scope fixes everything on paper before a website is built. dadmor publishes its real scope template here in full: all ten sections, a filled example for each, and the fight every line prevents, so you can write your project scope tonight.",
     "url": "https://dadmor.netlify.app/en/articles/project-scope/index.html",
-    "image": "https://dadmor.netlify.app/og.png",
+    "image": "https://dadmor.netlify.app/covers/cover-scope.png",
     "image:width": "1200",
     "image:height": "630",
     "locale": "en_US",
@@ -44,6 +44,44 @@
       "dateModified": "2026-11-21",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://dadmor.netlify.app/en/articles/project-scope/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a project scope?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A short document that says what will be built, for whom, with what content, in what time, and by what measure it counts as finished. It is not a legal contract and not a quote; it is the shared picture both sides hold before money and time get spent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the most important part of a scope?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not the feature list. It is the out of scope section: the things that are explicitly not part of the project. Most fights are about work one side assumed was in and the other assumed was out."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many sections does the dadmor template have?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ten: project goal, audience and customer, pages, features, content, connections, out of scope, schedule and delivery points, acceptance criteria, and changes after signing. For most website projects, those ten sections are enough."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens without a scope?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each side builds the project in their own head, and on delivery day two different products are sitting on the table. Its classic fights are familiar: “Just add one page.”, “I thought payment was included.” and “It was supposed to be ready before the holiday.”"
+          }
+        }
+      ]
     }
   ],
   "hero": null,
@@ -90,6 +128,30 @@
       "blocks": [
         {
           "t": "raw",
+          "html": "<figure class=\"art-cover\"><img src=\"/covers/cover-scope.svg\" alt=\"Article cover: a signed document with a seal of approval\" width=\"600\" height=\"400\"></figure>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<nav class=\"art-toc\" aria-label=\"Article sections\"><h2>In this article</h2><ol><li><a href=\"#sec-1\">What a project scope is, and what it is not</a></li><li><a href=\"#sec-2\">The dadmor scope template, section by section</a></li><li><a href=\"#sec-3\">Three classic fights this paper switches off</a></li><li><a href=\"#sec-4\">Tonight, in half an hour, write your own scope</a></li><li><a href=\"#sec-5\">In short</a></li></ol></nav>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
           "html": "<aside class=\"art-summary\"><h2>Summary</h2><ol><li>A scope is the project’s shared memory: anything not written down has a different shape in each side’s head.</li><li>The most important part of a scope is not the feature list. It is the list of things that are NOT part of the project.</li><li>A one page scope that gets read and signed beats a ten page contract nobody reads.</li></ol></aside>",
           "class": "",
           "tag": "div"
@@ -102,7 +164,7 @@
       "blocks": [
         {
           "t": "p",
-          "html": "We publish our scope template here in full; the same document we put on the table and sign before any project starts. If you take this template to our competitor, you will get a better project, and the whole market gets healthier. A good scope does not make the client ours. It saves the project. That is why we do not hide it."
+          "html": "We publish our scope template here in full; the same document we put on the table and sign <a href=\"/en/process/\">before any project starts</a>. If you take this template to our competitor, you will get a better project, and the whole market gets healthier. A good scope does not make the client ours. It saves the project. That is why we do not hide it."
         },
         {
           "t": "p",
@@ -115,9 +177,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "What a project scope is, and what it is not"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-1\">What a project scope is, and what it is not</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -134,9 +197,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "The dadmor scope template, section by section"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-2\">The dadmor scope template, section by section</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -171,9 +235,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "Three classic fights this paper switches off"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-3\">Three classic fights this paper switches off</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -194,9 +259,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "Tonight, in half an hour, write your own scope"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-4\">Tonight, in half an hour, write your own scope</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -215,7 +281,7 @@
         },
         {
           "t": "p",
-          "html": "Now hand this paper to any builder you like. For the first time, the quotes you get against one shared scope are genuinely comparable. And if you want our eyes on your scope too, start from the website building page; a ready scope cuts the conversation in half."
+          "html": "Now hand this paper to any builder you like. For the first time, the quotes you get against one shared scope are genuinely comparable. And if you want our eyes on your scope too, start from the <a href=\"/en/services/website-building/\">website building page</a>; a ready scope cuts the conversation in half."
         }
       ]
     },
@@ -224,9 +290,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "In short"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-5\">In short</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -269,6 +336,23 @@
     },
     {
       "t": "group",
+      "class": "service-section container art-section art-faq",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Frequently asked questions"
+        },
+        {
+          "t": "raw",
+          "html": "<div class=\"art-faq-list\"><div class=\"art-faq-item\"><h3>What is a project scope?</h3><p>A short document that says what will be built, for whom, with what content, in what time, and by what measure it counts as finished. It is not a legal contract and not a quote; it is the shared picture both sides hold before money and time get spent.</p></div><div class=\"art-faq-item\"><h3>What is the most important part of a scope?</h3><p>Not the feature list. It is the out of scope section: the things that are explicitly not part of the project. Most fights are about work one side assumed was in and the other assumed was out.</p></div><div class=\"art-faq-item\"><h3>How many sections does the dadmor template have?</h3><p>Ten: project goal, audience and customer, pages, features, content, connections, out of scope, schedule and delivery points, acceptance criteria, and changes after signing. For most website projects, those ten sections are enough.</p></div><div class=\"art-faq-item\"><h3>What happens without a scope?</h3><p>Each side builds the project in their own head, and on delivery day two different products are sitting on the table. Its classic fights are familiar: “Just add one page.”, “I thought payment was included.” and “It was supposed to be ready before the holiday.”</p></div></div>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
       "class": "container art-related",
       "blocks": [
         {
@@ -283,7 +367,7 @@
             {
               "title": "",
               "href": "",
-              "html": "<a class=\"art-row\" href=\"/en/articles/website-cost/\"><span class=\"art-row-num\" aria-hidden=\"true\">02</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">Cost and pricing</span><span>21 November 2026</span><span>8 min read</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">How much does a website cost? An honest anatomy of the price</h3><span class=\"art-row-hook\">One brief, two quotes: five million and fifty million. Both can be honest. Here we open up, hour by hour, what your money buys and where a cheap quote quietly cuts.</span></span><span class=\"art-row-go\">Read <span class=\"art-row-arrow\" aria-hidden=\"true\">→</span></span></a><a class=\"art-row\" href=\"/en/articles/instagram-vs-website/\"><span class=\"art-row-num\" aria-hidden=\"true\">01</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">Selling online</span><span>21 November 2026</span><span>8 min read</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">Instagram page or website? Why your Instagram shop needs a website of its own</h3><span class=\"art-row-hook\">It is seven in the morning. You open Instagram and your shop page is gone. This article starts on that morning: what a page rents, what a website owns, and when a page alone is enough.</span></span><span class=\"art-row-go\">Read <span class=\"art-row-arrow\" aria-hidden=\"true\">→</span></span></a>"
+              "html": "<a class=\"art-card\" href=\"/en/articles/website-cost/\"><span class=\"art-card-media\"><img src=\"/covers/cover-cost.svg\" alt=\"Article cover: a price tag and coins\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Cost and pricing</span><h3 class=\"art-card-title\">How much does a website cost? An honest anatomy of the price</h3><span class=\"art-card-excerpt\">One brief, two quotes: five million and fifty million. Both can be honest. Here we open up, hour by hour, what your money buys and where a cheap quote quietly cuts.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a><a class=\"art-card\" href=\"/en/articles/instagram-vs-website/\"><span class=\"art-card-media\"><img src=\"/covers/cover-instagram.svg\" alt=\"Article cover: a locked phone beside a house of your own\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h3 class=\"art-card-title\">Instagram page or website? Why your Instagram shop needs a website of its own</h3><span class=\"art-card-excerpt\">It is seven in the morning. You open Instagram and your shop page is gone. This article starts on that morning: what a page rents, what a website owns, and when a page alone is enough.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a>"
             }
           ]
         }

@@ -15,7 +15,7 @@
     "title": "هزینه طراحی سایت چقدر است؟ کالبدشکافی صادقانه قیمت | dadmor",
     "description": "هزینه طراحی سایت از چه ساخته می شود؟ دادمور این جا ساعت به ساعت باز می کند پول شما چه می خرد، چرا پیش فاکتور پنج میلیونی و پنجاه میلیونی هر دو می توانند صادقانه باشند و قیمت ارزان دقیقا از کجا کم می گذارد: اسکوپ، تست و تحویل.",
     "url": "https://dadmor.netlify.app/articles/website-cost/index.html",
-    "image": "https://dadmor.netlify.app/og.png",
+    "image": "https://dadmor.netlify.app/covers/cover-cost.png",
     "image:width": "1200",
     "image:height": "630",
     "locale": "fa_IR",
@@ -44,6 +44,44 @@
       "dateModified": "2026-11-21",
       "inLanguage": "fa-IR",
       "mainEntityOfPage": "https://dadmor.netlify.app/articles/website-cost/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "چرا یک سایت هم پنج میلیون قیمت دارد، هم پنجاه میلیون؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "چون دو طرف معمولا درباره دو چیز متفاوت حرف می زنند: یکی شاید سایت معرفی پنج صفحه ای با قالب آماده باشد و دیگری فروشگاهی با درگاه پرداخت، پیامک سفارش، فاکتور و طراحی اختصاصی. اسم هر دو «سایت» است، اما کارشان یکی نیست."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "قیمت طراحی سایت از چه مرحله هایی ساخته می شود؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "از هفت مرحله: گفت و گو و اسکوپ، ساختار و نقشه صفحه ها، طراحی رابط، ساخت و توسعه، ورود محتوا، تست و تحویل و آموزش. در هر پیش فاکتور، هر مرحله یا با عمق کامل انجام می شود، یا سطحی، یا اصلا نیست."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "پیش فاکتور ارزان معمولا از کجا کم می گذارد؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "از سه جای همیشگی: اسکوپ مکتوب امضا نمی شود، تست خرید واقعی انجام نمی شود و تحویل و مستند کامل نیست. هر سه را بعدا خودتان، گران تر، می پردازید."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "پیش فاکتورها را چطور با هم مقایسه کنم؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "عدد نهایی را مقایسه نکنید؛ فهرست کارها و عمق هر مرحله را مقایسه کنید. از هر سازنده ای همان هفت سؤال چک لیست این مقاله را بپرسید و جواب کتبی بخواهید."
+          }
+        }
+      ]
     }
   ],
   "hero": null,
@@ -90,6 +128,30 @@
       "blocks": [
         {
           "t": "raw",
+          "html": "<figure class=\"art-cover\"><img src=\"/covers/cover-cost.svg\" alt=\"کاور مقاله: برچسب قیمت و سکه ها\" width=\"600\" height=\"400\"></figure>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<nav class=\"art-toc\" aria-label=\"فهرست بخش های مقاله\"><h2>در این مقاله می خوانید</h2><ol><li><a href=\"#sec-1\">پول شما دقیقا چه چیزی می خرد؟</a></li><li><a href=\"#sec-2\">چطور هم پنج میلیون صادقانه است، هم پنجاه میلیون؟</a></li><li><a href=\"#sec-3\">قیمت ارزان دقیقا از کجا کم می گذارد؟</a></li><li><a href=\"#sec-4\">چه چیزهایی قیمت را تکان می دهد؟</a></li><li><a href=\"#sec-5\">چک لیست: هر پیش فاکتور را این طور بسنجید</a></li><li><a href=\"#sec-6\">جمع بندی</a></li></ol></nav>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
           "html": "<aside class=\"art-summary\"><h2>خلاصه</h2><ol><li>قیمت سایت یعنی ساعت کار ضرب در عمق هر مرحله. عدد نهایی را مقایسه نکنید؛ فهرست کارها را مقایسه کنید.</li><li>پیش فاکتور ارزان معمولا از سه جا کم می گذارد: اسکوپ مکتوب، تست پرداخت و تحویل و مستند. هر سه را بعدا خودتان، گران تر، می پردازید.</li><li>پیش فاکتوری که روی کاغذ نمی آورد چه چیزی جزو کار نیست، گران ترین بخش پروژه را قایم کرده است: غافلگیری.</li></ol></aside>",
           "class": "",
           "tag": "div"
@@ -115,9 +177,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "پول شما دقیقا چه چیزی می خرد؟"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-1\">پول شما دقیقا چه چیزی می خرد؟</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -179,9 +242,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "چطور هم پنج میلیون صادقانه است، هم پنجاه میلیون؟"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-2\">چطور هم پنج میلیون صادقانه است، هم پنجاه میلیون؟</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -214,9 +278,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "قیمت ارزان دقیقا از کجا کم می گذارد؟"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-3\">قیمت ارزان دقیقا از کجا کم می گذارد؟</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -242,13 +307,14 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "چه چیزهایی قیمت را تکان می دهد؟"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-4\">چه چیزهایی قیمت را تکان می دهد؟</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
-          "html": "اگر می خواهید قبل از گرفتن پیش فاکتور حدس بهتری بزنید، این ها اهرم های اصلی هزینه طراحی سایت اند:"
+          "html": "اگر می خواهید قبل از گرفتن پیش فاکتور حدس بهتری بزنید، این ها اهرم های اصلی <a href=\"/services/website-building/\">هزینه طراحی سایت</a> اند:"
         },
         {
           "t": "list",
@@ -274,9 +340,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "چک لیست: هر پیش فاکتور را این طور بسنجید"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-5\">چک لیست: هر پیش فاکتور را این طور بسنجید</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -306,9 +373,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "جمع بندی"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-6\">جمع بندی</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -327,7 +395,7 @@
         },
         {
           "t": "p",
-          "html": "برآوردگر پروژه دادمور بر اساس همین اهرم ها کار می کند: قابلیت ها را انتخاب می کنید و یک بریف و بازه تقریبی می گیرید. عدد نهایی را مثل همیشه اسکوپ مکتوب مشخص می کند، نه یک فرم اینترنتی."
+          "html": "<a href=\"/tools/estimator/\">برآوردگر پروژه</a> دادمور بر اساس همین اهرم ها کار می کند: قابلیت ها را انتخاب می کنید و یک بریف و بازه تقریبی می گیرید. عدد نهایی را مثل همیشه اسکوپ مکتوب مشخص می کند، نه یک فرم اینترنتی."
         },
         {
           "t": "group",
@@ -351,6 +419,23 @@
     },
     {
       "t": "group",
+      "class": "service-section container art-section art-faq",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "پرسش های پرتکرار"
+        },
+        {
+          "t": "raw",
+          "html": "<div class=\"art-faq-list\"><div class=\"art-faq-item\"><h3>چرا یک سایت هم پنج میلیون قیمت دارد، هم پنجاه میلیون؟</h3><p>چون دو طرف معمولا درباره دو چیز متفاوت حرف می زنند: یکی شاید سایت معرفی پنج صفحه ای با قالب آماده باشد و دیگری فروشگاهی با درگاه پرداخت، پیامک سفارش، فاکتور و طراحی اختصاصی. اسم هر دو «سایت» است، اما کارشان یکی نیست.</p></div><div class=\"art-faq-item\"><h3>قیمت طراحی سایت از چه مرحله هایی ساخته می شود؟</h3><p>از هفت مرحله: گفت و گو و اسکوپ، ساختار و نقشه صفحه ها، طراحی رابط، ساخت و توسعه، ورود محتوا، تست و تحویل و آموزش. در هر پیش فاکتور، هر مرحله یا با عمق کامل انجام می شود، یا سطحی، یا اصلا نیست.</p></div><div class=\"art-faq-item\"><h3>پیش فاکتور ارزان معمولا از کجا کم می گذارد؟</h3><p>از سه جای همیشگی: اسکوپ مکتوب امضا نمی شود، تست خرید واقعی انجام نمی شود و تحویل و مستند کامل نیست. هر سه را بعدا خودتان، گران تر، می پردازید.</p></div><div class=\"art-faq-item\"><h3>پیش فاکتورها را چطور با هم مقایسه کنم؟</h3><p>عدد نهایی را مقایسه نکنید؛ فهرست کارها و عمق هر مرحله را مقایسه کنید. از هر سازنده ای همان هفت سؤال چک لیست این مقاله را بپرسید و جواب کتبی بخواهید.</p></div></div>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
       "class": "container art-related",
       "blocks": [
         {
@@ -365,7 +450,7 @@
             {
               "title": "",
               "href": "",
-              "html": "<a class=\"art-row\" href=\"/articles/instagram-vs-website/\"><span class=\"art-row-num\" aria-hidden=\"true\">۰۱</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">فروش آنلاین</span><span>۳۰ آبان ۱۴۰۵</span><span>۹ دقیقه خواندن</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">پیج اینستاگرام یا سایت؟ چرا فروشگاه اینستاگرامی شما به سایت خودش نیاز دارد</h3><span class=\"art-row-hook\">ساعت هفت صبح است. اینستاگرام را باز می کنید و پیج فروشگاهتان نیست. این مقاله از همان صبح شروع می شود: پیج چه اجاره می دهد، سایت چه مال شما می کند و چه زمانی پیج به تنهایی کافی است.</span></span><span class=\"art-row-go\">خواندن <span class=\"art-row-arrow\" aria-hidden=\"true\">←</span></span></a><a class=\"art-row\" href=\"/articles/project-scope/\"><span class=\"art-row-num\" aria-hidden=\"true\">۰۳</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">اسکوپ پروژه</span><span>۳۰ آبان ۱۴۰۵</span><span>۸ دقیقه خواندن</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید</h3><span class=\"art-row-hook\">ما قالب اسکوپی را که قبل از هر پروژه امضا می کنیم کامل منتشر کرده ایم: ده بخش، با مثال پرشده و دلیل وجود هر خط. بردارید و امشب اسکوپ پروژه تان را بنویسید.</span></span><span class=\"art-row-go\">خواندن <span class=\"art-row-arrow\" aria-hidden=\"true\">←</span></span></a>"
+              "html": "<a class=\"art-card\" href=\"/articles/instagram-vs-website/\"><span class=\"art-card-media\"><img src=\"/covers/cover-instagram.svg\" alt=\"کاور مقاله: گوشی قفل شده در کنار خانه ای که مال خودتان است\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">فروش آنلاین</span><h3 class=\"art-card-title\">پیج اینستاگرام یا سایت؟ چرا فروشگاه اینستاگرامی شما به سایت خودش نیاز دارد</h3><span class=\"art-card-excerpt\">ساعت هفت صبح است. اینستاگرام را باز می کنید و پیج فروشگاهتان نیست. این مقاله از همان صبح شروع می شود: پیج چه اجاره می دهد، سایت چه مال شما می کند و چه زمانی پیج به تنهایی کافی است.</span><span class=\"art-card-meta\"><span>۳۰ آبان ۱۴۰۵</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>۹ دقیقه خواندن</span></span></span></a><a class=\"art-card\" href=\"/articles/project-scope/\"><span class=\"art-card-media\"><img src=\"/covers/cover-scope.svg\" alt=\"کاور مقاله: سند امضاشده با مهر تایید\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">اسکوپ پروژه</span><h3 class=\"art-card-title\">اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید</h3><span class=\"art-card-excerpt\">ما قالب اسکوپی را که قبل از هر پروژه امضا می کنیم کامل منتشر کرده ایم: ده بخش، با مثال پرشده و دلیل وجود هر خط. بردارید و امشب اسکوپ پروژه تان را بنویسید.</span><span class=\"art-card-meta\"><span>۳۰ آبان ۱۴۰۵</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>۸ دقیقه خواندن</span></span></span></a>"
             }
           ]
         }

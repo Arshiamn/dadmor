@@ -15,7 +15,7 @@
     "title": "How much does a website cost? An honest anatomy of the price | dadmor",
     "description": "What is a website price actually made of? dadmor opens it up hour by hour: what your money buys, why a five million and a fifty million quote can both be honest, and exactly where a cheap quote cuts: the scope, the testing and the handover.",
     "url": "https://dadmor.netlify.app/en/articles/website-cost/index.html",
-    "image": "https://dadmor.netlify.app/og.png",
+    "image": "https://dadmor.netlify.app/covers/cover-cost.png",
     "image:width": "1200",
     "image:height": "630",
     "locale": "en_US",
@@ -44,6 +44,44 @@
       "dateModified": "2026-11-21",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://dadmor.netlify.app/en/articles/website-cost/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does one website cost five million and another fifty million?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because the two sides are usually talking about two different things: one may be a five page brochure site on a ready template, the other a shop with a payment gateway, order SMS, invoicing and fully custom design. Both are called a website, but the work is not the same."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What stages is a website price built from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seven stages: conversation and scope, structure and page map, interface design, build and development, content entry, testing, and handover and training. In any quote, each stage is either done in depth, done thinly, or not there at all."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where does a cheap quote usually cut?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In three usual places: no written scope gets signed, no real purchase test is done, and handover and documentation are incomplete. You pay for all three later, at a higher price."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should I compare quotes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Do not compare the final number; compare the list of work and the depth of each stage. Ask every builder the seven checklist questions in this article and ask for the answers in writing."
+          }
+        }
+      ]
     }
   ],
   "hero": null,
@@ -90,6 +128,30 @@
       "blocks": [
         {
           "t": "raw",
+          "html": "<figure class=\"art-cover\"><img src=\"/covers/cover-cost.svg\" alt=\"Article cover: a price tag and coins\" width=\"600\" height=\"400\"></figure>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<nav class=\"art-toc\" aria-label=\"Article sections\"><h2>In this article</h2><ol><li><a href=\"#sec-1\">What exactly does your money buy?</a></li><li><a href=\"#sec-2\">How can five million and fifty million both be honest?</a></li><li><a href=\"#sec-3\">Where exactly does a cheap quote cut?</a></li><li><a href=\"#sec-4\">What moves the price?</a></li><li><a href=\"#sec-5\">Checklist: judge every quote like this</a></li><li><a href=\"#sec-6\">In short</a></li></ol></nav>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
           "html": "<aside class=\"art-summary\"><h2>Summary</h2><ol><li>A website price is hours of work multiplied by the depth of each stage. Do not compare the final number; compare the list of work.</li><li>A cheap quote usually cuts in three places: a written scope, payment testing, and handover with documentation. You pay for all three later, at a higher price.</li><li>A quote that will not write down what is NOT included is hiding the most expensive part of the project: surprises.</li></ol></aside>",
           "class": "",
           "tag": "div"
@@ -115,9 +177,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "What exactly does your money buy?"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-1\">What exactly does your money buy?</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -179,9 +242,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "How can five million and fifty million both be honest?"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-2\">How can five million and fifty million both be honest?</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -214,9 +278,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "Where exactly does a cheap quote cut?"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-3\">Where exactly does a cheap quote cut?</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -242,13 +307,14 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "What moves the price?"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-4\">What moves the price?</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
-          "html": "If you want a better guess before asking for quotes, these are the main levers of website cost:"
+          "html": "If you want a better guess before asking for quotes, these are the main levers of <a href=\"/en/services/website-building/\">website cost</a>:"
         },
         {
           "t": "list",
@@ -274,9 +340,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "Checklist: judge every quote like this"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-5\">Checklist: judge every quote like this</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -306,9 +373,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "In short"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-6\">In short</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -327,7 +395,7 @@
         },
         {
           "t": "p",
-          "html": "The dadmor project estimator works on these same levers: you pick the features and get a brief and a rough range. The final number, as always, is set by the written scope, not by a web form."
+          "html": "The dadmor <a href=\"/en/tools/estimator/\">project estimator</a> works on these same levers: you pick the features and get a brief and a rough range. The final number, as always, is set by the written scope, not by a web form."
         },
         {
           "t": "group",
@@ -351,6 +419,23 @@
     },
     {
       "t": "group",
+      "class": "service-section container art-section art-faq",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Frequently asked questions"
+        },
+        {
+          "t": "raw",
+          "html": "<div class=\"art-faq-list\"><div class=\"art-faq-item\"><h3>Why does one website cost five million and another fifty million?</h3><p>Because the two sides are usually talking about two different things: one may be a five page brochure site on a ready template, the other a shop with a payment gateway, order SMS, invoicing and fully custom design. Both are called a website, but the work is not the same.</p></div><div class=\"art-faq-item\"><h3>What stages is a website price built from?</h3><p>Seven stages: conversation and scope, structure and page map, interface design, build and development, content entry, testing, and handover and training. In any quote, each stage is either done in depth, done thinly, or not there at all.</p></div><div class=\"art-faq-item\"><h3>Where does a cheap quote usually cut?</h3><p>In three usual places: no written scope gets signed, no real purchase test is done, and handover and documentation are incomplete. You pay for all three later, at a higher price.</p></div><div class=\"art-faq-item\"><h3>How should I compare quotes?</h3><p>Do not compare the final number; compare the list of work and the depth of each stage. Ask every builder the seven checklist questions in this article and ask for the answers in writing.</p></div></div>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
       "class": "container art-related",
       "blocks": [
         {
@@ -365,7 +450,7 @@
             {
               "title": "",
               "href": "",
-              "html": "<a class=\"art-row\" href=\"/en/articles/instagram-vs-website/\"><span class=\"art-row-num\" aria-hidden=\"true\">01</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">Selling online</span><span>21 November 2026</span><span>8 min read</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">Instagram page or website? Why your Instagram shop needs a website of its own</h3><span class=\"art-row-hook\">It is seven in the morning. You open Instagram and your shop page is gone. This article starts on that morning: what a page rents, what a website owns, and when a page alone is enough.</span></span><span class=\"art-row-go\">Read <span class=\"art-row-arrow\" aria-hidden=\"true\">→</span></span></a><a class=\"art-row\" href=\"/en/articles/project-scope/\"><span class=\"art-row-num\" aria-hidden=\"true\">03</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">Project scope</span><span>21 November 2026</span><span>8 min read</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">What is a project scope? Take dadmor’s real template, free</h3><span class=\"art-row-hook\">We publish the exact scope template we sign before every project: ten sections, a filled example and the fight each line prevents. Take it and write your project scope tonight.</span></span><span class=\"art-row-go\">Read <span class=\"art-row-arrow\" aria-hidden=\"true\">→</span></span></a>"
+              "html": "<a class=\"art-card\" href=\"/en/articles/instagram-vs-website/\"><span class=\"art-card-media\"><img src=\"/covers/cover-instagram.svg\" alt=\"Article cover: a locked phone beside a house of your own\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h3 class=\"art-card-title\">Instagram page or website? Why your Instagram shop needs a website of its own</h3><span class=\"art-card-excerpt\">It is seven in the morning. You open Instagram and your shop page is gone. This article starts on that morning: what a page rents, what a website owns, and when a page alone is enough.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a><a class=\"art-card\" href=\"/en/articles/project-scope/\"><span class=\"art-card-media\"><img src=\"/covers/cover-scope.svg\" alt=\"Article cover: a signed document with a seal of approval\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Project scope</span><h3 class=\"art-card-title\">What is a project scope? Take dadmor’s real template, free</h3><span class=\"art-card-excerpt\">We publish the exact scope template we sign before every project: ten sections, a filled example and the fight each line prevents. Take it and write your project scope tonight.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a>"
             }
           ]
         }

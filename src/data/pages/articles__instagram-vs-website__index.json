@@ -15,7 +15,7 @@
     "title": "پیج اینستاگرام یا سایت؟ چرا فروشگاه اینستاگرامی شما به سایت خودش نیاز دارد | dadmor",
     "description": "صبحی که پیج فروشگاهتان نباشد، چه می شود؟ پیج چه چیزی را اجاره می دهد و سایت چه چیزی را مال شما می کند، طراحی سایت برای فروشگاه اینستاگرامی یعنی چه و چه زمانی همان پیج به تنهایی کافی است. راهنمای بی پرده دادمور.",
     "url": "https://dadmor.netlify.app/articles/instagram-vs-website/index.html",
-    "image": "https://dadmor.netlify.app/og.png",
+    "image": "https://dadmor.netlify.app/covers/cover-instagram.png",
     "image:width": "1200",
     "image:height": "630",
     "locale": "fa_IR",
@@ -44,6 +44,44 @@
       "dateModified": "2026-11-21",
       "inLanguage": "fa-IR",
       "mainEntityOfPage": "https://dadmor.netlify.app/articles/instagram-vs-website/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "آیا پیج اینستاگرام به تنهایی برای فروش کافی است؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "تا وقتی فروش آزمایشی و کم حجم است و با دایرکت راحت مدیریت می شود، بله. در همین مقاله گفته ایم در این مرحله ساختن سایت عجله است و پولتان را بهتر است روی محصول و محتوا بگذارید."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "اگر پیج بسته شود، مشتری ها چه می شوند؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "دنبال کننده ها کاربرهای اینستاگرام اند و فهرستشان را نمی شود برداشت و برد. اگر حساب بسته شود، مخاطب هم با آن می رود. مشتری هایی که از سایت خریده اند، با شماره و ایمیلی که خودشان داده اند، دست خودتان می مانند."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "سایت جای پیج را می گیرد؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نه. مدل درست انتخاب یکی از این دو نیست: پیج دیده می شود، حرف می زند و اعتماد می سازد و مشتری را می آورد؛ سایت فروش را با درگاه پرداخت و فاکتور می بندد و مشتری را نگه می دارد."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "از کجا بفهمم وقت ساختن سایت رسیده است؟",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "نشانه هایش معمولا یکی از این هاست: یک سفارش را گم کرده اید، مشتری ای را فقط به خاطر دیر جواب دادن از دست داده اید، جواب دادن به پیام ها ساعت هایی را می خورد که باید صرف محصول و محتوا شود، یا مشتری ها مدام می پرسند سایت ندارید؟"
+          }
+        }
+      ]
     }
   ],
   "hero": null,
@@ -90,6 +128,30 @@
       "blocks": [
         {
           "t": "raw",
+          "html": "<figure class=\"art-cover\"><img src=\"/covers/cover-instagram.svg\" alt=\"کاور مقاله: گوشی قفل شده در کنار خانه ای که مال خودتان است\" width=\"600\" height=\"400\"></figure>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<nav class=\"art-toc\" aria-label=\"فهرست بخش های مقاله\"><h2>در این مقاله می خوانید</h2><ol><li><a href=\"#sec-1\">پیج اجاره ای است؛ این یعنی چه؟</a></li><li><a href=\"#sec-2\">دایرکت از یک جایی به بعد جواب نمی دهد</a></li><li><a href=\"#sec-3\">چه زمانی پیج به تنهایی کافی است؟</a></li><li><a href=\"#sec-4\">مدل درست: پیج برای توجه، سایت برای صندوق</a></li><li><a href=\"#sec-5\">طراحی سایت برای فروشگاه اینستاگرامی یعنی چه؟</a></li><li><a href=\"#sec-6\">جمع بندی</a></li></ol></nav>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
           "html": "<aside class=\"art-summary\"><h2>خلاصه</h2><ol><li>پیج، توجه اجاره ای است: مخاطب، قوانین و راه رسیدن به مشتری مال شما نیست. سایت تنها دارایی دیجیتال است که سندش به نام شماست.</li><li>تا وقتی فروش آزمایشی و کم حجم است، پیج به تنهایی کافی است و ساختن سایت عجله است.</li><li>مدل درست، انتخاب یکی از این دو نیست: پیج مشتری را می آورد، سایت فروش را می بندد و نگهش می دارد.</li></ol></aside>",
           "class": "",
           "tag": "div"
@@ -119,9 +181,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "پیج اجاره ای است؛ این یعنی چه؟"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-1\">پیج اجاره ای است؛ این یعنی چه؟</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -147,9 +210,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "دایرکت از یک جایی به بعد جواب نمی دهد"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-2\">دایرکت از یک جایی به بعد جواب نمی دهد</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -189,9 +253,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "چه زمانی پیج به تنهایی کافی است؟"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-3\">چه زمانی پیج به تنهایی کافی است؟</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -208,9 +273,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "مدل درست: پیج برای توجه، سایت برای صندوق"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-4\">مدل درست: پیج برای توجه، سایت برای صندوق</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -227,13 +293,14 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "طراحی سایت برای فروشگاه اینستاگرامی یعنی چه؟"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-5\">طراحی سایت برای فروشگاه اینستاگرامی یعنی چه؟</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
-          "html": "سایت فروشگاه اینستاگرامی، سایت شرکتی با چند دکمه اضافه نیست. حداقل هایی دارد که از دل همان دردهای دایرکت درمی آید: کاتالوگی مرتب با قیمت و موجودی واقعی، صفحه محصولی که همه سؤال های تکراری دایرکت را همان جا جواب بدهد، درگاه پرداخت و پیگیری سفارش، صفحه قوانین خرید و بازگشت که برای مشتری تازه اعتماد بسازد و اتصال روشن دوطرفه بین پیج و سایت."
+          "html": "<a href=\"/services/website-building/\">سایت فروشگاه اینستاگرامی</a>، سایت شرکتی با چند دکمه اضافه نیست. حداقل هایی دارد که از دل همان دردهای دایرکت درمی آید: کاتالوگی مرتب با قیمت و موجودی واقعی، صفحه محصولی که همه سؤال های تکراری دایرکت را همان جا جواب بدهد، درگاه پرداخت و پیگیری سفارش، صفحه قوانین خرید و بازگشت که برای مشتری تازه اعتماد بسازد و اتصال روشن دوطرفه بین پیج و سایت."
         },
         {
           "t": "p",
@@ -246,9 +313,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "جمع بندی"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-6\">جمع بندی</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -291,6 +359,23 @@
     },
     {
       "t": "group",
+      "class": "service-section container art-section art-faq",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "پرسش های پرتکرار"
+        },
+        {
+          "t": "raw",
+          "html": "<div class=\"art-faq-list\"><div class=\"art-faq-item\"><h3>آیا پیج اینستاگرام به تنهایی برای فروش کافی است؟</h3><p>تا وقتی فروش آزمایشی و کم حجم است و با دایرکت راحت مدیریت می شود، بله. در همین مقاله گفته ایم در این مرحله ساختن سایت عجله است و پولتان را بهتر است روی محصول و محتوا بگذارید.</p></div><div class=\"art-faq-item\"><h3>اگر پیج بسته شود، مشتری ها چه می شوند؟</h3><p>دنبال کننده ها کاربرهای اینستاگرام اند و فهرستشان را نمی شود برداشت و برد. اگر حساب بسته شود، مخاطب هم با آن می رود. مشتری هایی که از سایت خریده اند، با شماره و ایمیلی که خودشان داده اند، دست خودتان می مانند.</p></div><div class=\"art-faq-item\"><h3>سایت جای پیج را می گیرد؟</h3><p>نه. مدل درست انتخاب یکی از این دو نیست: پیج دیده می شود، حرف می زند و اعتماد می سازد و مشتری را می آورد؛ سایت فروش را با درگاه پرداخت و فاکتور می بندد و مشتری را نگه می دارد.</p></div><div class=\"art-faq-item\"><h3>از کجا بفهمم وقت ساختن سایت رسیده است؟</h3><p>نشانه هایش معمولا یکی از این هاست: یک سفارش را گم کرده اید، مشتری ای را فقط به خاطر دیر جواب دادن از دست داده اید، جواب دادن به پیام ها ساعت هایی را می خورد که باید صرف محصول و محتوا شود، یا مشتری ها مدام می پرسند سایت ندارید؟</p></div></div>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
       "class": "container art-related",
       "blocks": [
         {
@@ -305,7 +390,7 @@
             {
               "title": "",
               "href": "",
-              "html": "<a class=\"art-row\" href=\"/articles/website-cost/\"><span class=\"art-row-num\" aria-hidden=\"true\">۰۲</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">هزینه و قیمت</span><span>۳۰ آبان ۱۴۰۵</span><span>۸ دقیقه خواندن</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">هزینه طراحی سایت چقدر است؟ کالبدشکافی صادقانه قیمت</h3><span class=\"art-row-hook\">یک درخواست واحد، دو پیش فاکتور: پنج میلیون و پنجاه میلیون. هر دو می توانند صادقانه باشند. این جا ساعت به ساعت باز می کنیم پول شما چه می خرد و قیمت ارزان از کجا کم می گذارد.</span></span><span class=\"art-row-go\">خواندن <span class=\"art-row-arrow\" aria-hidden=\"true\">←</span></span></a><a class=\"art-row\" href=\"/articles/project-scope/\"><span class=\"art-row-num\" aria-hidden=\"true\">۰۳</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">اسکوپ پروژه</span><span>۳۰ آبان ۱۴۰۵</span><span>۸ دقیقه خواندن</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید</h3><span class=\"art-row-hook\">ما قالب اسکوپی را که قبل از هر پروژه امضا می کنیم کامل منتشر کرده ایم: ده بخش، با مثال پرشده و دلیل وجود هر خط. بردارید و امشب اسکوپ پروژه تان را بنویسید.</span></span><span class=\"art-row-go\">خواندن <span class=\"art-row-arrow\" aria-hidden=\"true\">←</span></span></a>"
+              "html": "<a class=\"art-card\" href=\"/articles/website-cost/\"><span class=\"art-card-media\"><img src=\"/covers/cover-cost.svg\" alt=\"کاور مقاله: برچسب قیمت و سکه ها\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">هزینه و قیمت</span><h3 class=\"art-card-title\">هزینه طراحی سایت چقدر است؟ کالبدشکافی صادقانه قیمت</h3><span class=\"art-card-excerpt\">یک درخواست واحد، دو پیش فاکتور: پنج میلیون و پنجاه میلیون. هر دو می توانند صادقانه باشند. این جا ساعت به ساعت باز می کنیم پول شما چه می خرد و قیمت ارزان از کجا کم می گذارد.</span><span class=\"art-card-meta\"><span>۳۰ آبان ۱۴۰۵</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>۸ دقیقه خواندن</span></span></span></a><a class=\"art-card\" href=\"/articles/project-scope/\"><span class=\"art-card-media\"><img src=\"/covers/cover-scope.svg\" alt=\"کاور مقاله: سند امضاشده با مهر تایید\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">اسکوپ پروژه</span><h3 class=\"art-card-title\">اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید</h3><span class=\"art-card-excerpt\">ما قالب اسکوپی را که قبل از هر پروژه امضا می کنیم کامل منتشر کرده ایم: ده بخش، با مثال پرشده و دلیل وجود هر خط. بردارید و امشب اسکوپ پروژه تان را بنویسید.</span><span class=\"art-card-meta\"><span>۳۰ آبان ۱۴۰۵</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>۸ دقیقه خواندن</span></span></span></a>"
             }
           ]
         }

@@ -15,7 +15,7 @@
     "title": "Instagram page or website? Why your Instagram shop needs a website of its own | dadmor",
     "description": "What happens on the morning your shop page is gone? What a page rents and what a website owns, what a website for an Instagram shop actually means, and when a page alone is honestly enough. A plain spoken guide from dadmor.",
     "url": "https://dadmor.netlify.app/en/articles/instagram-vs-website/index.html",
-    "image": "https://dadmor.netlify.app/og.png",
+    "image": "https://dadmor.netlify.app/covers/cover-instagram.png",
     "image:width": "1200",
     "image:height": "630",
     "locale": "en_US",
@@ -44,6 +44,44 @@
       "dateModified": "2026-11-21",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://dadmor.netlify.app/en/articles/instagram-vs-website/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is an Instagram page alone enough for selling?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While sales are small and experimental and DMs handle them comfortably, yes. As this article says, building a website at that stage is rushing; your money is better spent on product and content."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens to my customers if the page closes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your followers are Instagram’s users, and there is no official way to take their list with you. If the account closes, the audience goes with it. Customers who bought through your website stay in your hands, with the phone numbers and emails they gave you themselves."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a website replace the page?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The right model is not choosing one of the two: the page gets seen, talks and builds trust and brings the customer; the website closes the sale with a payment gateway and an invoice, and keeps the customer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I know it is time to build a website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The signs are usually one of these: you have lost an order, you have lost a customer only because you replied late, answering messages is eating the hours that should go into product and content, or customers keep asking whether you have a website."
+          }
+        }
+      ]
     }
   ],
   "hero": null,
@@ -90,6 +128,30 @@
       "blocks": [
         {
           "t": "raw",
+          "html": "<figure class=\"art-cover\"><img src=\"/covers/cover-instagram.svg\" alt=\"Article cover: a locked phone beside a house of your own\" width=\"600\" height=\"400\"></figure>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<nav class=\"art-toc\" aria-label=\"Article sections\"><h2>In this article</h2><ol><li><a href=\"#sec-1\">A page is rented. Here is what that means</a></li><li><a href=\"#sec-2\">Where DMs stop working</a></li><li><a href=\"#sec-3\">When is a page honestly enough?</a></li><li><a href=\"#sec-4\">The right model: page for attention, website for the till</a></li><li><a href=\"#sec-5\">What a website for an Instagram shop actually means</a></li><li><a href=\"#sec-6\">In short</a></li></ol></nav>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
           "html": "<aside class=\"art-summary\"><h2>Summary</h2><ol><li>A page is rented attention: the audience, the rules and the road to your customer are not yours. A website is the one digital asset with your name on the deed.</li><li>While sales are small and experimental, a page alone is honestly enough, and building a website is rushing.</li><li>The right model is not choosing one: the page brings the customer, the website closes the sale and keeps it.</li></ol></aside>",
           "class": "",
           "tag": "div"
@@ -119,9 +181,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "A page is rented. Here is what that means"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-1\">A page is rented. Here is what that means</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -147,9 +210,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "Where DMs stop working"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-2\">Where DMs stop working</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -189,9 +253,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "When is a page honestly enough?"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-3\">When is a page honestly enough?</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -208,9 +273,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "The right model: page for attention, website for the till"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-4\">The right model: page for attention, website for the till</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -227,13 +293,14 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "What a website for an Instagram shop actually means"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-5\">What a website for an Instagram shop actually means</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
-          "html": "A website for an Instagram shop is not a corporate site with a few extra buttons. It has minimums that come straight out of those DM pains: a tidy catalogue with real prices and stock, a product page that answers every repeated DM question on the spot, a payment gateway and order tracking, a buying and returns policy page that builds trust with new customers, and a clear two way connection between page and site."
+          "html": "<a href=\"/en/services/website-building/\">A website for an Instagram shop</a> is not a corporate site with a few extra buttons. It has minimums that come straight out of those DM pains: a tidy catalogue with real prices and stock, a product page that answers every repeated DM question on the spot, a payment gateway and order tracking, a buying and returns policy page that builds trust with new customers, and a clear two way connection between page and site."
         },
         {
           "t": "p",
@@ -246,9 +313,10 @@
       "class": "service-section container art-section",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "In short"
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-6\">In short</h2>",
+          "class": "",
+          "tag": "h2"
         },
         {
           "t": "p",
@@ -291,6 +359,23 @@
     },
     {
       "t": "group",
+      "class": "service-section container art-section art-faq",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Frequently asked questions"
+        },
+        {
+          "t": "raw",
+          "html": "<div class=\"art-faq-list\"><div class=\"art-faq-item\"><h3>Is an Instagram page alone enough for selling?</h3><p>While sales are small and experimental and DMs handle them comfortably, yes. As this article says, building a website at that stage is rushing; your money is better spent on product and content.</p></div><div class=\"art-faq-item\"><h3>What happens to my customers if the page closes?</h3><p>Your followers are Instagram’s users, and there is no official way to take their list with you. If the account closes, the audience goes with it. Customers who bought through your website stay in your hands, with the phone numbers and emails they gave you themselves.</p></div><div class=\"art-faq-item\"><h3>Does a website replace the page?</h3><p>No. The right model is not choosing one of the two: the page gets seen, talks and builds trust and brings the customer; the website closes the sale with a payment gateway and an invoice, and keeps the customer.</p></div><div class=\"art-faq-item\"><h3>How do I know it is time to build a website?</h3><p>The signs are usually one of these: you have lost an order, you have lost a customer only because you replied late, answering messages is eating the hours that should go into product and content, or customers keep asking whether you have a website.</p></div></div>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
       "class": "container art-related",
       "blocks": [
         {
@@ -305,7 +390,7 @@
             {
               "title": "",
               "href": "",
-              "html": "<a class=\"art-row\" href=\"/en/articles/website-cost/\"><span class=\"art-row-num\" aria-hidden=\"true\">02</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">Cost and pricing</span><span>21 November 2026</span><span>8 min read</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">How much does a website cost? An honest anatomy of the price</h3><span class=\"art-row-hook\">One brief, two quotes: five million and fifty million. Both can be honest. Here we open up, hour by hour, what your money buys and where a cheap quote quietly cuts.</span></span><span class=\"art-row-go\">Read <span class=\"art-row-arrow\" aria-hidden=\"true\">→</span></span></a><a class=\"art-row\" href=\"/en/articles/project-scope/\"><span class=\"art-row-num\" aria-hidden=\"true\">03</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">Project scope</span><span>21 November 2026</span><span>8 min read</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">What is a project scope? Take dadmor’s real template, free</h3><span class=\"art-row-hook\">We publish the exact scope template we sign before every project: ten sections, a filled example and the fight each line prevents. Take it and write your project scope tonight.</span></span><span class=\"art-row-go\">Read <span class=\"art-row-arrow\" aria-hidden=\"true\">→</span></span></a>"
+              "html": "<a class=\"art-card\" href=\"/en/articles/website-cost/\"><span class=\"art-card-media\"><img src=\"/covers/cover-cost.svg\" alt=\"Article cover: a price tag and coins\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Cost and pricing</span><h3 class=\"art-card-title\">How much does a website cost? An honest anatomy of the price</h3><span class=\"art-card-excerpt\">One brief, two quotes: five million and fifty million. Both can be honest. Here we open up, hour by hour, what your money buys and where a cheap quote quietly cuts.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a><a class=\"art-card\" href=\"/en/articles/project-scope/\"><span class=\"art-card-media\"><img src=\"/covers/cover-scope.svg\" alt=\"Article cover: a signed document with a seal of approval\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Project scope</span><h3 class=\"art-card-title\">What is a project scope? Take dadmor’s real template, free</h3><span class=\"art-card-excerpt\">We publish the exact scope template we sign before every project: ten sections, a filled example and the fight each line prevents. Take it and write your project scope tonight.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a>"
             }
           ]
         }
