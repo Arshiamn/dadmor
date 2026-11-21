@@ -274,6 +274,27 @@
       "hero": false
     },
     {
+      "path": "articles/shop-builder-vs-own-site/index.html",
+      "lang": "fa",
+      "title": "فروشگاه ساز یا سایت خودت؟ فرق غرفه اجاره ای با مغازه خودت | dadmor",
+      "blocks": 16,
+      "hero": false
+    },
+    {
+      "path": "articles/instagram-hacked/index.html",
+      "lang": "fa",
+      "title": "پیج فروشگاهت هک شد؟ اول این کارها را بکن | dadmor",
+      "blocks": 16,
+      "hero": false
+    },
+    {
+      "path": "articles/traffic-but-no-sales/index.html",
+      "lang": "fa",
+      "title": "بازدید داری، فروش نداری؟ این هفت جا را به ترتیب چک کن | dadmor",
+      "blocks": 19,
+      "hero": false
+    },
+    {
       "path": "en/articles/index.html",
       "lang": "en",
       "title": "Articles | dadmor",
@@ -299,6 +320,27 @@
       "lang": "en",
       "title": "What is a website project scope, and how do you write one properly? | dadmor",
       "blocks": 9,
+      "hero": false
+    },
+    {
+      "path": "en/articles/shop-builder-vs-own-site/index.html",
+      "lang": "en",
+      "title": "Shop builder or your own website, and where the switching point is | dadmor",
+      "blocks": 16,
+      "hero": false
+    },
+    {
+      "path": "en/articles/instagram-hacked/index.html",
+      "lang": "en",
+      "title": "Your shop page got hacked? Do these things first | dadmor",
+      "blocks": 16,
+      "hero": false
+    },
+    {
+      "path": "en/articles/traffic-but-no-sales/index.html",
+      "lang": "en",
+      "title": "Traffic but no sales? Check these seven places | dadmor",
+      "blocks": 19,
       "hero": false
     }
   ],

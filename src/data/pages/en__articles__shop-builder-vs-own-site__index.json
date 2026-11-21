@@ -1,0 +1,423 @@
+{
+  "path": "en/articles/shop-builder-vs-own-site/index.html",
+  "lang": "en",
+  "title": "Shop builder or your own website? A stall in someone else’s mall, or a shop with your name on it | dadmor",
+  "description": "Shop builder or your own website? Monthly rent and the mall’s rules against a one time cost and full ownership: what a shop builder actually sells you, what the rent adds up to by year three, when it is the right choice, and where the switching point is. A plain spoken guide from dadmor.",
+  "canonical": "https://dadmor.netlify.app/en/articles/shop-builder-vs-own-site/index.html",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/index.html",
+    "en": "https://dadmor.netlify.app/en/articles/shop-builder-vs-own-site/index.html",
+    "x-default": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/index.html"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "article",
+    "title": "Shop builder or your own website? A stall in someone else’s mall, or a shop with your name on it | dadmor",
+    "description": "Shop builder or your own website? Monthly rent and the mall’s rules against a one time cost and full ownership: what a shop builder actually sells you, what the rent adds up to by year three, when it is the right choice, and where the switching point is. A plain spoken guide from dadmor.",
+    "url": "https://dadmor.netlify.app/en/articles/shop-builder-vs-own-site/index.html",
+    "image": "https://dadmor.netlify.app/covers/cover-builder.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "en_US",
+    "locale:alternate": "fa_IR"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Shop builder or your own website? A stall in someone else’s mall, or a shop with your name on it",
+      "description": "Shop builder or your own website? Monthly rent and the mall’s rules against a one time cost and full ownership: what a shop builder actually sells you, what the rent adds up to by year three, when it is the right choice, and where the switching point is. A plain spoken guide from dadmor.",
+      "author": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "url": "https://dadmor.netlify.app/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dadmor.netlify.app/img/dadmor-halftone-logo.svg"
+        }
+      },
+      "datePublished": "2026-11-21",
+      "dateModified": "2026-11-21",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://dadmor.netlify.app/en/articles/shop-builder-vs-own-site/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a shop builder bad for starting out?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. For testing an idea and the first months it is often the best choice: it starts cheap, it is ready within a day, and it keeps your risk low. This article is about the stage after sales are proven, not about day one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "If I move to my own website, what happens to my Google rankings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your shop was on the platform’s domain or subdomain, the standing of those pages stayed on the platform’s address, and in most cases it cannot be moved in full. That is why moving earlier is cheaper and lighter than moving late."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I take my customer data with me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the platform, and on most of them exporting is limited or incomplete. Test it today: take a full export of your customers and orders from your panel and see what you actually get. The answer to that test is half of your decision."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the cost of my own website compare with the subscription?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A website has a one time building cost, and after that only yearly hosting and domain, which is a small figure. A shop builder subscription runs for as long as the shop is open and rises with the plans. For most shops, two to three years of rent passes the cost of ownership."
+          }
+        }
+      ]
+    }
+  ],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li><a href=\"/en/articles/\">Articles</a></li><li aria-current=\"page\">Shop builder or your own website?</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container art-head",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<p class=\"art-cat\">Selling online</p>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<h1>Shop builder or your own website? A stall in someone else’s mall, or a shop with your name on it</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "raw",
+          "html": "<p class=\"art-hook\">A shop builder means opening your shop inside someone else’s mall: <strong>it starts fast and cheap</strong>, but the mall is not yours, and the rent never ends.</p>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<p class=\"art-meta-row\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span><span aria-hidden=\"true\">·</span><span>The dadmor team</span></p>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<figure class=\"art-cover\"><img src=\"/covers/cover-builder.svg\" alt=\"Article cover: a market stall with a striped awning beside your own shop with a green door\" width=\"600\" height=\"400\"></figure>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<nav class=\"art-toc\" aria-label=\"Article sections\"><h2>In this article</h2><ol><li><a href=\"#sec-1\">What does a shop builder actually sell you?</a></li><li><a href=\"#sec-2\">Rent that never ends: what does it add up to by year three?</a></li><li><a href=\"#sec-3\">In someone else’s mall, what is not in your hands?</a></li><li><a href=\"#sec-4\">So when is a shop builder the right choice?</a></li><li><a href=\"#sec-5\">Where is the switching point?</a></li><li><a href=\"#sec-6\">In short</a></li></ol></nav>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<aside class=\"art-summary\"><h2>Summary</h2><ol><li>A shop builder is renting a ready made stall: hosting, gateway and template come in one monthly payment, and in return the rules, your customer data and your search value sit on their domain.</li><li>For testing an idea and the first months, the rented stall is the right choice, and building your own website at that stage is rushing.</li><li>The switching point is when a few years of rent costs more than ownership, and your brand is real enough that moving hurts; and the later you move, the more it hurts.</li></ol></aside>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container art-lede",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Two years ago she opened her shop for a few hundred thousand tomans a month. No hosting to buy, no designer to meet, not one line of code. She picked a template, arranged the products and sold something in the first week. That day, the shop builder was the best decision of her working life."
+        },
+        {
+          "t": "p",
+          "html": "Today the same shop pays several times that first rent, buys one more paid add-on for every new feature, and last month, when she wanted to leave the platform, she found she could not take her address with her, nor the standing she had built in Google, nor even her full customer list in the shape she needs it. The shop is hers. The land under it is not."
+        },
+        {
+          "t": "p",
+          "html": "This article is not here to say shop builders are bad. For starting out, they are very often the best possible choice. It is here to say exactly what you are renting, where that rent lands by year three and year five, and from which point your own shop is both cheaper and safer."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-1\">What does a shop builder actually sell you?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "A shop builder is a ready made package, and honestly, a good one:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Speed of starting:</strong> you have a shop within a day. Hosting, domain, payment gateway and template are already connected, and you do not have to find anyone to put them together.",
+            "<strong>A starting cost near zero:</strong> instead of a one time building cost, you pay a monthly subscription, and with that small money you test your idea in the real market.",
+            "<strong>One place for support:</strong> every breakdown has one clear owner, and you are not passed between the hosting company, the designer and the gateway."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "For someone who still does not know whether their product sells, this package means less risk and a faster answer. We do not sell a website instead of this package to anyone whose sales are not proven yet; it is the same thing we said in the <a href=\"/en/articles/instagram-vs-website/\">Instagram page or website</a> article."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-2\">Rent that never ends: what does it add up to by year three?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "A monthly subscription is invisible while it is small. The problem starts when you put the numbers side by side:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "<strong>The subscription itself:</strong> a figure that is a few hundred thousand tomans a month today becomes tens of millions over three years, and plans usually get more expensive each year, not cheaper.",
+            "<strong>The add-ons:</strong> connecting an SMS panel, official invoices, selling tools and reporting each want their own payment, or push you up to a higher plan.",
+            "<strong>Sales commission:</strong> on some plans a percentage of every sale is taken too, which means the more successful you get, the heavier your rent becomes."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "Now set that beside your own website: one building cost, once, and after it only yearly hosting and domain, a figure that is trivial next to a monthly subscription. In the <a href=\"/en/articles/website-cost/\">website cost article</a> we opened up exactly what that one time cost buys. The rough maths for most shops is this: two to three years of shop builder rent passes the cost of building your own site, and from then on, every month you pay for something that could have been yours."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<blockquote class=\"art-quote\">The first month’s rent is cheap. Rent has to be counted in <span>year three</span>, where the stall becomes more expensive than your own shop, and leaving gets harder too.</blockquote>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-3\">In someone else’s mall, what is not in your hands?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "<strong>The rules:</strong> prices, allowed templates and even whether your shop may keep operating are tied to the platform’s decisions and terms. In shop builders too, accounts are sometimes suspended for a while over a system error or a misread rule.",
+            "<strong>Customer data:</strong> exporting your customer and order lists is limited or incomplete on most platforms. Data you cannot take with you in full is, in practice, not yours.",
+            "<strong>Address and search:</strong> if you work on the platform’s domain or subdomain, the standing you build in Google sits on their address. On moving day, that standing cannot be picked up and carried away like a shop sign.",
+            "<strong>The feature ceiling:</strong> a feature the platform does not have, you do not have either, however much your customer wants it and is ready to pay for it."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "None of this means a shop builder is a scam. It means its contract is clear from day one: today’s comfort in exchange for tomorrow’s ownership. Just sign it with your eyes open."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-4\">So when is a shop builder the right choice?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "In these three cases, without hesitation:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "You are just finding out whether your product has customers, and you need that answer cheap and fast.",
+            "Your monthly sales are not yet at a level where the subscription and add-ons count as real money.",
+            "There is no technical person around you, and you prefer to spend all your time on product and selling."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "At this stage the rented stall is a testing tool, and it does its job well. The mistake starts where the test is over and the sales are real, but you are still working with the testing tool."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-5\">Where is the switching point?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "You do not have to wait for a disaster. These signs mean moving time has arrived:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "One year of your subscription and add-ons together is getting close to the cost of building your own website.",
+            "Customers ask for your permanent address, and your brand is now a real name in their minds.",
+            "You need a feature the platform does not have, and support’s answer has become “it is on the future roadmap”.",
+            "You want customers from Google search, and you do not want that standing to collect on someone else’s address."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "And one bitter truth about moving day: the later you move, the heavier it is. More products, more customers and more pages in Google mean a harder, costlier move. The best day to <a href=\"/en/services/website-building/\">build your own website</a> is when sales are proven but still small, not the day you are forced to leave."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-6\">In short</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "A shop builder and your own website are not enemies; they are two stages of one road. Start with the rented stall to learn what sells, and when the sales are real, before a few years of rent passes the cost of ownership, move into your own home. Just do not leave that move to a day when the platform decides for you."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-cta container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "See the number for your own shop"
+        },
+        {
+          "t": "p",
+          "html": "The project estimator gives you a rough range based on the features you pick. On the website building page you can also see how a shop website is scoped and built, and what is yours from day one."
+        },
+        {
+          "t": "group",
+          "class": "btn-row",
+          "blocks": [
+            {
+              "t": "cta",
+              "text": "Project estimator",
+              "href": "/en/tools/estimator/",
+              "class": "btn btn-primary"
+            },
+            {
+              "t": "cta",
+              "text": "Website building service",
+              "href": "/en/services/website-building/",
+              "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section art-faq",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Frequently asked questions"
+        },
+        {
+          "t": "raw",
+          "html": "<div class=\"art-faq-list\"><div class=\"art-faq-item\"><h3>Is a shop builder bad for starting out?</h3><p>No. For testing an idea and the first months it is often the best choice: it starts cheap, it is ready within a day, and it keeps your risk low. This article is about the stage after sales are proven, not about day one.</p></div><div class=\"art-faq-item\"><h3>If I move to my own website, what happens to my Google rankings?</h3><p>If your shop was on the platform’s domain or subdomain, the standing of those pages stayed on the platform’s address, and in most cases it cannot be moved in full. That is why moving earlier is cheaper and lighter than moving late.</p></div><div class=\"art-faq-item\"><h3>Can I take my customer data with me?</h3><p>It depends on the platform, and on most of them exporting is limited or incomplete. Test it today: take a full export of your customers and orders from your panel and see what you actually get. The answer to that test is half of your decision.</p></div><div class=\"art-faq-item\"><h3>How does the cost of my own website compare with the subscription?</h3><p>A website has a one time building cost, and after that only yearly hosting and domain, which is a small figure. A shop builder subscription runs for as long as the shop is open and rises with the plans. For most shops, two to three years of rent passes the cost of ownership.</p></div></div>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container art-related",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "More articles"
+        },
+        {
+          "t": "cards",
+          "kind": "work",
+          "items": [
+            {
+              "title": "",
+              "href": "",
+              "html": "<a class=\"art-card\" href=\"/en/articles/instagram-vs-website/\"><span class=\"art-card-media\"><img src=\"/covers/cover-instagram.svg\" alt=\"Article cover: a locked phone beside a house of your own\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h3 class=\"art-card-title\">Instagram page or website? Why your Instagram shop needs a website of its own</h3><span class=\"art-card-excerpt\">It is seven in the morning. You open Instagram and your shop page is gone. This article starts on that morning: what a page rents, what a website owns, and when a page alone is enough.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a><a class=\"art-card\" href=\"/en/articles/website-cost/\"><span class=\"art-card-media\"><img src=\"/covers/cover-cost.svg\" alt=\"Article cover: a price tag and coins\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Cost and pricing</span><h3 class=\"art-card-title\">How much does a website cost? An honest anatomy of the price</h3><span class=\"art-card-excerpt\">One brief, two quotes: five million and fifty million. Both can be honest. Here we open up, hour by hour, what your money buys and where a cheap quote quietly cuts.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
