@@ -50,6 +50,7 @@ export default function Cursor() {
       const hot = t?.closest('a, button, select, label, [role="button"], summary')
       ring.classList.toggle('cursor-ring-text', !!text)
       ring.classList.toggle('cursor-ring-hot', !text && !!hot)
+      dot.classList.toggle('cursor-dot-hot', !text && !!hot)
     }
     const onLeave = () => {
       dot.style.opacity = '0'

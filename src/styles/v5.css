@@ -2386,6 +2386,13 @@ html.has-custom-cursor summary {
   width: 5px;
   height: 5px;
   background: var(--lion-eyes);
+  transition: background-color 180ms var(--ease-out);
+}
+/* Colour swap on hover (owner order, 2026-11-21): resting state is a
+   violet ring around a green dot; over interactive elements the ring
+   turns green (see .cursor-ring-hot) and the dot turns violet. */
+.cursor-dot.cursor-dot-hot {
+  background: var(--color-primary);
 }
 .cursor-ring {
   width: 26px;
