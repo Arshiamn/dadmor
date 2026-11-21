@@ -60,7 +60,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>Selling online</span>",
+          "html": "<p class=\"art-cat\">Selling online</p>",
           "class": "",
           "tag": "div"
         },
@@ -90,7 +90,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<aside class=\"art-takeaways\"><h2>At a glance</h2><ul><li>A page is rented attention: the audience, the rules and the road to your customer are not yours. A website is the one digital asset with your name on the deed.</li><li>While sales are small and experimental, a page alone is honestly enough, and building a website is rushing.</li><li>The right model is not choosing one: the page brings the customer, the website closes the sale and keeps it.</li></ul></aside>",
+          "html": "<aside class=\"art-summary\"><h2>Summary</h2><ol><li>A page is rented attention: the audience, the rules and the road to your customer are not yours. A website is the one digital asset with your name on the deed.</li><li>While sales are small and experimental, a page alone is honestly enough, and building a website is rushing.</li><li>The right model is not choosing one: the page brings the customer, the website closes the sale and keeps it.</li></ol></aside>",
           "class": "",
           "tag": "div"
         }
@@ -305,7 +305,7 @@
             {
               "title": "",
               "href": "",
-              "html": "<div class=\"art-grid\"><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3.5 3.5H11L20.5 13a2.12 2.12 0 0 1 0 3l-4.7 4.7a2.12 2.12 0 0 1-3 0L3.5 11z\"/><circle cx=\"8\" cy=\"8\" r=\"1.6\"/></svg></span><span class=\"art-tag\">Cost and pricing</span></div><h3><a href=\"/en/articles/website-cost/\">How much does a website cost? An honest anatomy of the price</a></h3><p>One brief, two quotes: five million and fifty million. Both can be honest. Here we open up, hour by hour, what your money buys and where a cheap quote quietly cuts.</p><p class=\"art-meta\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span></p><a class=\"art-more\" href=\"/en/articles/website-cost/\">Read the article →</a></article><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 2.5h8L19 8v13.5H6V2.5z\"/><path d=\"M13.5 2.5V8H19\"/><path d=\"M9 12.5h6M9 16h6\"/></svg></span><span class=\"art-tag\">Project scope</span></div><h3><a href=\"/en/articles/project-scope/\">What is a project scope? Take dadmor’s real template, free</a></h3><p>We publish the exact scope template we sign before every project: ten sections, a filled example and the fight each line prevents. Take it and write your project scope tonight.</p><p class=\"art-meta\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span></p><a class=\"art-more\" href=\"/en/articles/project-scope/\">Read the article →</a></article></div>"
+              "html": "<a class=\"art-row\" href=\"/en/articles/website-cost/\"><span class=\"art-row-num\" aria-hidden=\"true\">02</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">Cost and pricing</span><span>21 November 2026</span><span>8 min read</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">How much does a website cost? An honest anatomy of the price</h3><span class=\"art-row-hook\">One brief, two quotes: five million and fifty million. Both can be honest. Here we open up, hour by hour, what your money buys and where a cheap quote quietly cuts.</span></span><span class=\"art-row-go\">Read <span class=\"art-row-arrow\" aria-hidden=\"true\">→</span></span></a><a class=\"art-row\" href=\"/en/articles/project-scope/\"><span class=\"art-row-num\" aria-hidden=\"true\">03</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">Project scope</span><span>21 November 2026</span><span>8 min read</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">What is a project scope? Take dadmor’s real template, free</h3><span class=\"art-row-hook\">We publish the exact scope template we sign before every project: ten sections, a filled example and the fight each line prevents. Take it and write your project scope tonight.</span></span><span class=\"art-row-go\">Read <span class=\"art-row-arrow\" aria-hidden=\"true\">→</span></span></a>"
             }
           ]
         }

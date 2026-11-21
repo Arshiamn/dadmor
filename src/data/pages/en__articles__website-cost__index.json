@@ -60,7 +60,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>Cost and pricing</span>",
+          "html": "<p class=\"art-cat\">Cost and pricing</p>",
           "class": "",
           "tag": "div"
         },
@@ -90,7 +90,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<aside class=\"art-takeaways\"><h2>At a glance</h2><ul><li>A website price is hours of work multiplied by the depth of each stage. Do not compare the final number; compare the list of work.</li><li>A cheap quote usually cuts in three places: a written scope, payment testing, and handover with documentation. You pay for all three later, at a higher price.</li><li>A quote that will not write down what is NOT included is hiding the most expensive part of the project: surprises.</li></ul></aside>",
+          "html": "<aside class=\"art-summary\"><h2>Summary</h2><ol><li>A website price is hours of work multiplied by the depth of each stage. Do not compare the final number; compare the list of work.</li><li>A cheap quote usually cuts in three places: a written scope, payment testing, and handover with documentation. You pay for all three later, at a higher price.</li><li>A quote that will not write down what is NOT included is hiding the most expensive part of the project: surprises.</li></ol></aside>",
           "class": "",
           "tag": "div"
         }
@@ -365,7 +365,7 @@
             {
               "title": "",
               "href": "",
-              "html": "<div class=\"art-grid\"><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 7.5 5.6 3.5h12.8L20 7.5\"/><path d=\"M4 7.5h16V10a2.6 2.6 0 0 1-5.2 0 2.6 2.6 0 0 1-5.6 0A2.6 2.6 0 0 1 4 10V7.5z\"/><path d=\"M5.5 12.5V20h13v-7.5\"/><path d=\"M9.5 20v-4.5h5V20\"/></svg></span><span class=\"art-tag\">Selling online</span></div><h3><a href=\"/en/articles/instagram-vs-website/\">Instagram page or website? Why your Instagram shop needs a website of its own</a></h3><p>It is seven in the morning. You open Instagram and your shop page is gone. This article starts on that morning: what a page rents, what a website owns, and when a page alone is enough.</p><p class=\"art-meta\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span></p><a class=\"art-more\" href=\"/en/articles/instagram-vs-website/\">Read the article →</a></article><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 2.5h8L19 8v13.5H6V2.5z\"/><path d=\"M13.5 2.5V8H19\"/><path d=\"M9 12.5h6M9 16h6\"/></svg></span><span class=\"art-tag\">Project scope</span></div><h3><a href=\"/en/articles/project-scope/\">What is a project scope? Take dadmor’s real template, free</a></h3><p>We publish the exact scope template we sign before every project: ten sections, a filled example and the fight each line prevents. Take it and write your project scope tonight.</p><p class=\"art-meta\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span></p><a class=\"art-more\" href=\"/en/articles/project-scope/\">Read the article →</a></article></div>"
+              "html": "<a class=\"art-row\" href=\"/en/articles/instagram-vs-website/\"><span class=\"art-row-num\" aria-hidden=\"true\">01</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">Selling online</span><span>21 November 2026</span><span>8 min read</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">Instagram page or website? Why your Instagram shop needs a website of its own</h3><span class=\"art-row-hook\">It is seven in the morning. You open Instagram and your shop page is gone. This article starts on that morning: what a page rents, what a website owns, and when a page alone is enough.</span></span><span class=\"art-row-go\">Read <span class=\"art-row-arrow\" aria-hidden=\"true\">→</span></span></a><a class=\"art-row\" href=\"/en/articles/project-scope/\"><span class=\"art-row-num\" aria-hidden=\"true\">03</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">Project scope</span><span>21 November 2026</span><span>8 min read</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">What is a project scope? Take dadmor’s real template, free</h3><span class=\"art-row-hook\">We publish the exact scope template we sign before every project: ten sections, a filled example and the fight each line prevents. Take it and write your project scope tonight.</span></span><span class=\"art-row-go\">Read <span class=\"art-row-arrow\" aria-hidden=\"true\">→</span></span></a>"
             }
           ]
         }

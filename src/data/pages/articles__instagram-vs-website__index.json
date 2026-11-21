@@ -60,7 +60,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>فروش آنلاین</span>",
+          "html": "<p class=\"art-cat\">فروش آنلاین</p>",
           "class": "",
           "tag": "div"
         },
@@ -90,7 +90,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<aside class=\"art-takeaways\"><h2>در یک نگاه</h2><ul><li>پیج، توجه اجاره ای است: مخاطب، قوانین و راه رسیدن به مشتری مال شما نیست. سایت تنها دارایی دیجیتال است که سندش به نام شماست.</li><li>تا وقتی فروش آزمایشی و کم حجم است، پیج به تنهایی کافی است و ساختن سایت عجله است.</li><li>مدل درست، انتخاب یکی از این دو نیست: پیج مشتری را می آورد، سایت فروش را می بندد و نگهش می دارد.</li></ul></aside>",
+          "html": "<aside class=\"art-summary\"><h2>خلاصه</h2><ol><li>پیج، توجه اجاره ای است: مخاطب، قوانین و راه رسیدن به مشتری مال شما نیست. سایت تنها دارایی دیجیتال است که سندش به نام شماست.</li><li>تا وقتی فروش آزمایشی و کم حجم است، پیج به تنهایی کافی است و ساختن سایت عجله است.</li><li>مدل درست، انتخاب یکی از این دو نیست: پیج مشتری را می آورد، سایت فروش را می بندد و نگهش می دارد.</li></ol></aside>",
           "class": "",
           "tag": "div"
         }
@@ -305,7 +305,7 @@
             {
               "title": "",
               "href": "",
-              "html": "<div class=\"art-grid\"><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3.5 3.5H11L20.5 13a2.12 2.12 0 0 1 0 3l-4.7 4.7a2.12 2.12 0 0 1-3 0L3.5 11z\"/><circle cx=\"8\" cy=\"8\" r=\"1.6\"/></svg></span><span class=\"art-tag\">هزینه و قیمت</span></div><h3><a href=\"/articles/website-cost/\">هزینه طراحی سایت چقدر است؟ کالبدشکافی صادقانه قیمت</a></h3><p>یک درخواست واحد، دو پیش فاکتور: پنج میلیون و پنجاه میلیون. هر دو می توانند صادقانه باشند. این جا ساعت به ساعت باز می کنیم پول شما چه می خرد و قیمت ارزان از کجا کم می گذارد.</p><p class=\"art-meta\"><span>۳۰ آبان ۱۴۰۵</span><span aria-hidden=\"true\">·</span><span>۸ دقیقه خواندن</span></p><a class=\"art-more\" href=\"/articles/website-cost/\">خواندن مقاله ←</a></article><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 2.5h8L19 8v13.5H6V2.5z\"/><path d=\"M13.5 2.5V8H19\"/><path d=\"M9 12.5h6M9 16h6\"/></svg></span><span class=\"art-tag\">اسکوپ پروژه</span></div><h3><a href=\"/articles/project-scope/\">اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید</a></h3><p>ما قالب اسکوپی را که قبل از هر پروژه امضا می کنیم کامل منتشر کرده ایم: ده بخش، با مثال پرشده و دلیل وجود هر خط. بردارید و امشب اسکوپ پروژه تان را بنویسید.</p><p class=\"art-meta\"><span>۳۰ آبان ۱۴۰۵</span><span aria-hidden=\"true\">·</span><span>۸ دقیقه خواندن</span></p><a class=\"art-more\" href=\"/articles/project-scope/\">خواندن مقاله ←</a></article></div>"
+              "html": "<a class=\"art-row\" href=\"/articles/website-cost/\"><span class=\"art-row-num\" aria-hidden=\"true\">۰۲</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">هزینه و قیمت</span><span>۳۰ آبان ۱۴۰۵</span><span>۸ دقیقه خواندن</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">هزینه طراحی سایت چقدر است؟ کالبدشکافی صادقانه قیمت</h3><span class=\"art-row-hook\">یک درخواست واحد، دو پیش فاکتور: پنج میلیون و پنجاه میلیون. هر دو می توانند صادقانه باشند. این جا ساعت به ساعت باز می کنیم پول شما چه می خرد و قیمت ارزان از کجا کم می گذارد.</span></span><span class=\"art-row-go\">خواندن <span class=\"art-row-arrow\" aria-hidden=\"true\">←</span></span></a><a class=\"art-row\" href=\"/articles/project-scope/\"><span class=\"art-row-num\" aria-hidden=\"true\">۰۳</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">اسکوپ پروژه</span><span>۳۰ آبان ۱۴۰۵</span><span>۸ دقیقه خواندن</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید</h3><span class=\"art-row-hook\">ما قالب اسکوپی را که قبل از هر پروژه امضا می کنیم کامل منتشر کرده ایم: ده بخش، با مثال پرشده و دلیل وجود هر خط. بردارید و امشب اسکوپ پروژه تان را بنویسید.</span></span><span class=\"art-row-go\">خواندن <span class=\"art-row-arrow\" aria-hidden=\"true\">←</span></span></a>"
             }
           ]
         }

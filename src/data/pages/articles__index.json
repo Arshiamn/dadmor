@@ -58,11 +58,11 @@
     },
     {
       "t": "group",
-      "class": "art-hero container",
+      "class": "art-mast container",
       "blocks": [
         {
           "t": "raw",
-          "html": "<span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>مقالات دادمور</span>",
+          "html": "<p class=\"art-kicker\">مقالات دادمور</p>",
           "class": "",
           "tag": "div"
         },
@@ -88,40 +88,15 @@
     },
     {
       "t": "group",
-      "class": "container",
+      "class": "container art-contents",
       "blocks": [
         {
-          "t": "cards",
-          "kind": "work",
-          "items": [
-            {
-              "title": "",
-              "href": "",
-              "html": "<article class=\"art-featured\"><div class=\"art-visual\" aria-hidden=\"true\"><span class=\"dot-ring dot-d4 dv dv1\"></span><span class=\"dot-ring dot-d2 dv dv2\"></span><span class=\"dot-ring dot-d3 dv dv3\"></span><div class=\"art-visual-icon\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 7.5 5.6 3.5h12.8L20 7.5\"/><path d=\"M4 7.5h16V10a2.6 2.6 0 0 1-5.2 0 2.6 2.6 0 0 1-5.6 0A2.6 2.6 0 0 1 4 10V7.5z\"/><path d=\"M5.5 12.5V20h13v-7.5\"/><path d=\"M9.5 20v-4.5h5V20\"/></svg></div></div><div class=\"art-featured-main\"><span class=\"art-tag\">مقاله برگزیده · فروش آنلاین</span><h2><a href=\"/articles/instagram-vs-website/\">پیج اینستاگرام یا سایت؟ چرا فروشگاه اینستاگرامی شما به سایت خودش نیاز دارد</a></h2><p>ساعت هفت صبح است. اینستاگرام را باز می کنید و پیج فروشگاهتان نیست: سه سال محتوا، چند هزار مشتری و همه سفارش های باز، داخل حسابی که دست شما نیست. این مقاله از همان صبح شروع می شود و به یک سؤال جواب می دهد: کدام بخش کسب و کارتان روی زمین خودتان ایستاده است؟</p><p class=\"art-meta\"><span>۳۰ آبان ۱۴۰۵</span><span aria-hidden=\"true\">·</span><span>۹ دقیقه خواندن</span></p><a class=\"art-more\" href=\"/articles/instagram-vs-website/\">خواندن مقاله ←</a></div></article>"
-            }
-          ]
+          "t": "raw",
+          "html": "<a class=\"art-row art-row-first\" href=\"/articles/instagram-vs-website/\"><span class=\"art-row-num\" aria-hidden=\"true\">۰۱</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">فروش آنلاین</span><span>۳۰ آبان ۱۴۰۵</span><span>۹ دقیقه خواندن</span></span><span class=\"art-row-main\"><h2 class=\"art-row-title\">پیج اینستاگرام یا سایت؟ چرا فروشگاه اینستاگرامی شما به سایت خودش نیاز دارد</h2><span class=\"art-row-hook\">ساعت هفت صبح است. اینستاگرام را باز می کنید و پیج فروشگاهتان نیست: سه سال محتوا، چند هزار مشتری و همه سفارش های باز، داخل حسابی که دست شما نیست. این مقاله از همان صبح شروع می شود و به یک سؤال جواب می دهد: کدام بخش کسب و کارتان روی زمین خودتان ایستاده است؟</span></span><span class=\"art-row-go\">خواندن <span class=\"art-row-arrow\" aria-hidden=\"true\">←</span></span></a><a class=\"art-row\" href=\"/articles/website-cost/\"><span class=\"art-row-num\" aria-hidden=\"true\">۰۲</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">هزینه و قیمت</span><span>۳۰ آبان ۱۴۰۵</span><span>۸ دقیقه خواندن</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">هزینه طراحی سایت چقدر است؟ کالبدشکافی صادقانه قیمت</h3><span class=\"art-row-hook\">یک درخواست واحد، دو پیش فاکتور: پنج میلیون و پنجاه میلیون. هر دو می توانند صادقانه باشند. این جا ساعت به ساعت باز می کنیم پول شما چه می خرد و قیمت ارزان از کجا کم می گذارد.</span></span><span class=\"art-row-go\">خواندن <span class=\"art-row-arrow\" aria-hidden=\"true\">←</span></span></a><a class=\"art-row\" href=\"/articles/project-scope/\"><span class=\"art-row-num\" aria-hidden=\"true\">۰۳</span><span class=\"art-row-meta\"><span class=\"art-row-cat\">اسکوپ پروژه</span><span>۳۰ آبان ۱۴۰۵</span><span>۸ دقیقه خواندن</span></span><span class=\"art-row-main\"><h3 class=\"art-row-title\">اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید</h3><span class=\"art-row-hook\">ما قالب اسکوپی را که قبل از هر پروژه امضا می کنیم کامل منتشر کرده ایم: ده بخش، با مثال پرشده و دلیل وجود هر خط. بردارید و امشب اسکوپ پروژه تان را بنویسید.</span></span><span class=\"art-row-go\">خواندن <span class=\"art-row-arrow\" aria-hidden=\"true\">←</span></span></a>",
+          "class": "",
+          "tag": "div"
         }
       ]
-    },
-    {
-      "t": "group",
-      "class": "container",
-      "blocks": [
-        {
-          "t": "cards",
-          "kind": "work",
-          "items": [
-            {
-              "title": "",
-              "href": "",
-              "html": "<div class=\"art-grid\"><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3.5 3.5H11L20.5 13a2.12 2.12 0 0 1 0 3l-4.7 4.7a2.12 2.12 0 0 1-3 0L3.5 11z\"/><circle cx=\"8\" cy=\"8\" r=\"1.6\"/></svg></span><span class=\"art-tag\">هزینه و قیمت</span></div><h3><a href=\"/articles/website-cost/\">هزینه طراحی سایت چقدر است؟ کالبدشکافی صادقانه قیمت</a></h3><p>یک درخواست واحد، دو پیش فاکتور: پنج میلیون و پنجاه میلیون. هر دو می توانند صادقانه باشند. این جا ساعت به ساعت باز می کنیم پول شما چه می خرد و قیمت ارزان از کجا کم می گذارد.</p><p class=\"art-meta\"><span>۳۰ آبان ۱۴۰۵</span><span aria-hidden=\"true\">·</span><span>۸ دقیقه خواندن</span></p><a class=\"art-more\" href=\"/articles/website-cost/\">خواندن مقاله ←</a></article><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 2.5h8L19 8v13.5H6V2.5z\"/><path d=\"M13.5 2.5V8H19\"/><path d=\"M9 12.5h6M9 16h6\"/></svg></span><span class=\"art-tag\">اسکوپ پروژه</span></div><h3><a href=\"/articles/project-scope/\">اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید</a></h3><p>ما قالب اسکوپی را که قبل از هر پروژه امضا می کنیم کامل منتشر کرده ایم: ده بخش، با مثال پرشده و دلیل وجود هر خط. بردارید و امشب اسکوپ پروژه تان را بنویسید.</p><p class=\"art-meta\"><span>۳۰ آبان ۱۴۰۵</span><span aria-hidden=\"true\">·</span><span>۸ دقیقه خواندن</span></p><a class=\"art-more\" href=\"/articles/project-scope/\">خواندن مقاله ←</a></article></div>"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "t": "divider"
     },
     {
       "t": "group",
@@ -129,7 +104,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<h2>از کجا شروع کنم؟</h2><p>اگر هنوز نمی دانید قدم اولتان چیست، این ترتیب را بروید. هر سه قدم رایگان اند و هیچ کدامشان شما را مشتری ما نمی کند.</p><div class=\"art-path-steps\"><div class=\"art-path-step\"><span class=\"art-path-num\">۱</span><h3>اسکوپ را بنویسید</h3><p>با قالب مقاله سوم، پروژه تان را روی یک صفحه کاغذ ثابت کنید؛ حتی اگر قرار نیست با ما کار کنید.</p><a class=\"art-more\" href=\"/articles/project-scope/\">خواندن قالب اسکوپ ←</a></div><div class=\"art-path-step\"><span class=\"art-path-num\">۲</span><h3>عدد بگیرید</h3><p>برآوردگر پروژه بر اساس قابلیت هایی که انتخاب می کنید، در چند دقیقه یک بریف و یک بازه تقریبی می دهد.</p><a class=\"art-more\" href=\"/tools/estimator/\">برآوردگر پروژه ←</a></div><div class=\"art-path-step\"><span class=\"art-path-num\">۳</span><h3>امنیت را بسنجید</h3><p>خودارزیابی امنیت رایگان نشان می دهد سایت یا سامانه فعلی تان کجاها آسیب پذیر است، قبل از این که دیر شود.</p><a class=\"art-more\" href=\"/tools/security-check/\">شروع خودارزیابی ←</a></div></div>",
+          "html": "<h2>از کجا شروع کنم؟</h2><p>اگر هنوز نمی دانید قدم اولتان چیست، این ترتیب را بروید. هر سه قدم رایگان اند و هیچ کدامشان شما را مشتری ما نمی کند.</p><ol class=\"art-path-list\"><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">۱</span><span class=\"art-path-body\"><h3>اسکوپ را بنویسید</h3><p>با قالب مقاله سوم، پروژه تان را روی یک صفحه کاغذ ثابت کنید؛ حتی اگر قرار نیست با ما کار کنید.</p></span><a class=\"art-path-link\" href=\"/articles/project-scope/\">خواندن قالب اسکوپ ←</a></li><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">۲</span><span class=\"art-path-body\"><h3>عدد بگیرید</h3><p>برآوردگر پروژه بر اساس قابلیت هایی که انتخاب می کنید، در چند دقیقه یک بریف و یک بازه تقریبی می دهد.</p></span><a class=\"art-path-link\" href=\"/tools/estimator/\">برآوردگر پروژه ←</a></li><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">۳</span><span class=\"art-path-body\"><h3>امنیت را بسنجید</h3><p>خودارزیابی امنیت رایگان نشان می دهد سایت یا سامانه فعلی تان کجاها آسیب پذیر است، قبل از این که دیر شود.</p></span><a class=\"art-path-link\" href=\"/tools/security-check/\">شروع خودارزیابی ←</a></li></ol>",
           "class": "",
           "tag": "div"
         }
