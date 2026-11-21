@@ -1,20 +1,20 @@
 {
   "path": "en/articles/instagram-vs-website/index.html",
   "lang": "en",
-  "title": "Instagram page or website? Why your Instagram shop needs a website | dadmor",
-  "description": "How far selling through DMs goes, what happens if the page is gone, what a website adds to your sales, and when a page alone is honestly enough. A straight guide for Instagram shops.",
-  "canonical": "https://dadmor.netlify.app/en/articles/instagram-vs-website/",
+  "title": "Instagram page or website? Why your Instagram shop needs a website of its own | dadmor",
+  "description": "What happens on the morning your shop page is gone? What a page rents and what a website owns, what a website for an Instagram shop actually means, and when a page alone is honestly enough. A plain spoken guide from dadmor.",
+  "canonical": "https://dadmor.netlify.app/en/articles/instagram-vs-website/index.html",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/instagram-vs-website/",
-    "en": "https://dadmor.netlify.app/en/articles/instagram-vs-website/",
-    "x-default": "https://dadmor.netlify.app/articles/instagram-vs-website/"
+    "fa": "https://dadmor.netlify.app/articles/instagram-vs-website/index.html",
+    "en": "https://dadmor.netlify.app/en/articles/instagram-vs-website/index.html",
+    "x-default": "https://dadmor.netlify.app/articles/instagram-vs-website/index.html"
   },
   "og": {
     "site_name": "dadmor",
     "type": "article",
-    "title": "Instagram page or website? Why your Instagram shop needs a website | dadmor",
-    "description": "How far selling through DMs goes, what happens if the page is gone, what a website adds to your sales, and when a page alone is honestly enough. A straight guide for Instagram shops.",
-    "url": "https://dadmor.netlify.app/en/articles/instagram-vs-website/",
+    "title": "Instagram page or website? Why your Instagram shop needs a website of its own | dadmor",
+    "description": "What happens on the morning your shop page is gone? What a page rents and what a website owns, what a website for an Instagram shop actually means, and when a page alone is honestly enough. A plain spoken guide from dadmor.",
+    "url": "https://dadmor.netlify.app/en/articles/instagram-vs-website/index.html",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
     "image:height": "630",
@@ -25,8 +25,8 @@
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "headline": "Instagram page or website? Why your Instagram shop needs a website",
-      "description": "How far selling through DMs goes, what happens if the page is gone, what a website adds to your sales, and when a page alone is honestly enough. A straight guide for Instagram shops.",
+      "headline": "Instagram page or website? Why your Instagram shop needs a website of its own",
+      "description": "What happens on the morning your shop page is gone? What a page rents and what a website owns, what a website for an Instagram shop actually means, and when a page alone is honestly enough. A plain spoken guide from dadmor.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -41,6 +41,7 @@
         }
       },
       "datePublished": "2026-11-21",
+      "dateModified": "2026-11-21",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://dadmor.netlify.app/en/articles/instagram-vs-website/"
     }
@@ -55,17 +56,31 @@
     },
     {
       "t": "group",
-      "class": "page-head container",
+      "class": "page-head container art-head",
       "blocks": [
         {
           "t": "raw",
-          "html": "<h1>Instagram page or website? Why your Instagram shop needs a website</h1>",
+          "html": "<span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>Selling online</span>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<h1>Instagram page or website? Why your Instagram shop needs a website of its own</h1>",
           "class": "",
           "tag": "h1"
         },
         {
-          "t": "p",
-          "html": "21 November 2026 · 6 min read · By dadmor"
+          "t": "raw",
+          "html": "<p class=\"art-hook\">A shop that only has a page is built on <strong>rented land</strong>. This article is about the morning the lease ends.</p>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<p class=\"art-meta-row\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span><span aria-hidden=\"true\">·</span><span>The dadmor team</span></p>",
+          "class": "",
+          "tag": "div"
         }
       ]
     },
@@ -74,124 +89,170 @@
       "class": "container",
       "blocks": [
         {
-          "t": "p",
-          "html": "Most Instagram shops start with a page, and that is a good start. A page takes minutes to open, your customers are already there, and the first sales arrive through DMs. But almost every seller whose shop grows hits the same wall: the messages pass a point where selling stops being an opportunity and becomes a daily mess."
-        },
-        {
-          "t": "p",
-          "html": "This article is written for that point. We will not tell you to abandon your page, and we will not tell you every page needs a website today. We will show where a page falls short, what exactly a website changes, and when a page alone is honestly enough. The final decision belongs to your business numbers, not to our taste."
+          "t": "raw",
+          "html": "<aside class=\"art-takeaways\"><h2>At a glance</h2><ul><li>A page is rented attention: the audience, the rules and the road to your customer are not yours. A website is the one digital asset with your name on the deed.</li><li>While sales are small and experimental, a page alone is honestly enough, and building a website is rushing.</li><li>The right model is not choosing one: the page brings the customer, the website closes the sale and keeps it.</li></ul></aside>",
+          "class": "",
+          "tag": "div"
         }
       ]
     },
     {
       "t": "group",
-      "class": "service-section container",
+      "class": "container art-lede",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "It is seven in the morning. You pick up your phone to answer last night’s orders. You open Instagram and instead of your shop page you see a message: this account is not available."
+        },
+        {
+          "t": "p",
+          "html": "Three years of posts and stories, a few thousand followers, hundreds of customers whose only address is a username, and every open order sitting inside the DMs. None of it is in your hands. You have no customer list, no phone numbers, not even a note of who ordered what last night and whether they paid."
+        },
+        {
+          "t": "p",
+          "html": "We are not telling this story to scare you, and it does not end with “so buy a website today”. This happens to real shops every week: sometimes a hack, sometimes a mistaken report, sometimes the owner’s own slip against a platform rule, sometimes no explanation at all. Some pages come back. Some do not. The point of this article is one sentence: know which part of your business stands on your own land and which part stands on rented land, then decide for yourself."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
       "blocks": [
         {
           "t": "heading",
           "level": 2,
-          "html": "Selling through DMs: how far does it go?"
+          "html": "A page is rented. Here is what that means"
         },
         {
           "t": "p",
-          "html": "DMs are great at the start: free, direct, personal. The problems begin when volume grows:"
+          "html": "Rent is not always paid in money. On Instagram you rent three things, and you pay for them in dependence:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Reach:</strong> how many people see your post is not your call. The algorithm loves one content format today and drops it tomorrow, and your sales ride along with its taste.",
+            "<strong>Audience:</strong> your followers are Instagram’s users, not your customers. There is no official way to take their list with you. If the account closes, the audience goes with it.",
+            "<strong>Rules:</strong> DM limits, link limits, ad formats, even which products may be sold, are set by the landlord and can change whenever the landlord likes."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "A website is the reverse of all three. The domain is registered in your name. The pages and content are yours. Your customer list, with the phone numbers and emails customers gave you themselves, stays in your hands. If you dislike your hosting, you pick the site up and move it, and no customer gets lost on the way. The difference between a page and a website is not more buttons. It is ownership."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Where DMs stop working"
+        },
+        {
+          "t": "p",
+          "html": "Even if the page never disappears, selling through DMs has a ceiling, and most sellers hit it exactly when business gets good:"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
             "Orders get lost between dozens of chats, and tracking each one depends on your memory.",
-            "You repeat the same price and stock answers many times a day.",
-            "A customer who messages at midnight buys from another page if the reply comes late.",
-            "There is no tidy invoice or purchase history, so a wrong shipment leaves no paper trail.",
-            "Discounts and campaigns cannot run in an orderly, automatic way."
+            "One repeated question, price and availability, gets answered by hand dozens of times a day.",
+            "A customer is ready to buy at 2 a.m. and you are asleep. By morning they bought from another page.",
+            "There are no orderly invoices or purchase history. If a parcel goes wrong, there is no record to settle the dispute.",
+            "Discounts, gift codes and sales cannot run in an orderly way, because there is no basket and no till."
           ]
         },
         {
           "t": "p",
-          "html": "None of this means the page is bad. It means your sales tool has become too small for your volume."
+          "html": "None of this means the page is bad. It means your selling tool has become too small for your volume. DMs were built for starting, not for staying."
         }
       ]
     },
     {
       "t": "group",
-      "class": "service-section container",
+      "class": "container",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "If the page is gone, what happens?"
-        },
-        {
-          "t": "p",
-          "html": "Your page is Instagram's property, not yours. Accounts get locked out for many reasons: hacking, mistaken reports, a rule you did not know, or a simple login error. Sometimes they come back. Sometimes they do not."
-        },
-        {
-          "t": "p",
-          "html": "When every customer, every sample of your work and your only contact channel live inside one account, losing it means starting from zero. A website does not make this risk zero, but it moves your sales centre to something you own: a domain in your name, content under your control, and a customer list you can reach again."
+          "t": "raw",
+          "html": "<blockquote class=\"art-quote\">A customer you only have in your DMs is <span>not your customer</span>. They are the platform’s customer, and the platform can close your road to them whenever it wants.</blockquote>",
+          "class": "",
+          "tag": "div"
         }
       ]
     },
     {
       "t": "group",
-      "class": "service-section container",
+      "class": "service-section container art-section",
       "blocks": [
         {
           "t": "heading",
           "level": 2,
-          "html": "What a website changes"
+          "html": "When is a page honestly enough?"
         },
         {
           "t": "p",
-          "html": "A website is not a replacement for the page. The page stays where people discover you and talk to you. A website adds a few concrete things to your sales:"
-        },
-        {
-          "t": "list",
-          "ordered": false,
-          "items": [
-            "<strong>Selling while you sleep:</strong> a tidy catalogue, clear prices and stock, a cart and a payment gateway mean a customer can finish an order at 2 a.m. without you being awake.",
-            "<strong>Order in orders and money:</strong> every order has a number, an invoice and a status. Nothing gets lost in a chat, and finding an old purchase does not mean scrolling through a hundred messages.",
-            "<strong>Trust for a new customer:</strong> someone who finds you through an ad looks for signs that the business is real. A website on your own domain, with a contact page and clear purchase and return rules, is exactly that sign.",
-            "<strong>Being found outside Instagram:</strong> customers who search your name or product on Google land on your own site, not on a results page where competitors stand next to you."
-          ]
+          "html": "Honestly: not always. If you have just started and still do not know which product sells, if your monthly sales are small and DMs handle them comfortably, or if your catalogue is so small that one tidy highlight does all the work, building a website is still too early. Spend your money on product and content. We do not sell a website to anyone whose sales are not proven yet, because first it has to be clear what sells. Then you build it a home."
         },
         {
           "t": "p",
-          "html": "A good website also makes the page stronger: the link in your bio shortens the path to buying, and site content can feed your posts and stories."
+          "html": "The signs that website time has arrived are usually one of these: you have lost an order. You have lost a customer only because you replied late. Answering messages is eating the hours that should go into product and content. Or customers keep asking you: do you not have a website?"
         }
       ]
     },
     {
       "t": "group",
-      "class": "service-section container",
+      "class": "service-section container art-section",
       "blocks": [
         {
           "t": "heading",
           "level": 2,
-          "html": "When a page alone is honestly enough"
+          "html": "The right model: page for attention, website for the till"
         },
         {
           "t": "p",
-          "html": "Honestly, not always. If you have just started and still do not know which product sells, if your monthly sales are small enough to manage in DMs, or if your range is so limited that one tidy highlight covers it, a website is probably still early. Prove the sales first, then build the infrastructure."
+          "html": "In practice the winning combination is not a choice between the two. The page gets seen every day, talks and builds trust. The bio link takes the warmed up customer to that product’s page on your site. The purchase finishes on the site with a payment gateway, an invoice and an order number. Next time, you send the sale news yourself by SMS or email instead of waiting for the algorithm’s kindness."
         },
         {
           "t": "p",
-          "html": "The signs that it is time usually look like this: you have lost an order, you have lost a customer to a late reply, answering messages eats the hours you should spend on the product, or customers keep asking: do you have a website?"
+          "html": "A website also makes the page stronger. Site content feeds posts and stories. A product page is a ready made answer to every “how much is it?” DM: one link instead of ten messages back and forth. And if the page is one day limited or closed, sales do not sleep, because your regular customers know your home address and keep buying there until the page returns."
         }
       ]
     },
     {
       "t": "group",
-      "class": "service-section container",
+      "class": "service-section container art-section",
       "blocks": [
         {
           "t": "heading",
           "level": 2,
-          "html": "The short version"
+          "html": "What a website for an Instagram shop actually means"
         },
         {
           "t": "p",
-          "html": "The page is for being seen; the website is for selling and staying. They are not rivals. A shop with only a page has built its store on rented land. A shop with both keeps the Instagram crowd and owns a home of its own. If you are still testing products, stay with the page. If your sales are steady and DMs are choking the business, a website is the next step, not a decorative cost."
+          "html": "A website for an Instagram shop is not a corporate site with a few extra buttons. It has minimums that come straight out of those DM pains: a tidy catalogue with real prices and stock, a product page that answers every repeated DM question on the spot, a payment gateway and order tracking, a buying and returns policy page that builds trust with new customers, and a clear two way connection between page and site."
+        },
+        {
+          "t": "p",
+          "html": "Anything beyond these minimums needs a sales reason, or it is decorative cost and does not belong in the scope. If you want to see how these minimums get fixed on paper, our <a href=\"/en/articles/project-scope/\">project scope article</a> publishes the full template."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "In short"
+        },
+        {
+          "t": "p",
+          "html": "A page is for being seen; a website is for selling and lasting. They are not rivals. Ask yourself one question: if my page is gone tomorrow morning, how many days of sales do I have? If the answer is zero, your problem is not only the missing website. It is a risk that grows every day, and a website is one of its answers. And if the honest answer is that there is not enough sales yet to lose, run the page with a clear mind and keep this article for its day."
         }
       ]
     },
@@ -202,11 +263,11 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Scope your shop website"
+          "html": "Take the next step from a number"
         },
         {
           "t": "p",
-          "html": "On the website building service page you can see how a shop website is scoped and built. If you want a rough number before any conversation, the project estimator gives you a brief in a few minutes, based on the features you pick."
+          "html": "On the website building page you can see how a shop website is scoped and built. If you want a rough number before any conversation, the project estimator gives you a brief based on the features you pick."
         },
         {
           "t": "group",
@@ -223,6 +284,28 @@
               "text": "Project estimator",
               "href": "/en/tools/estimator/",
               "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container art-related",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "More articles"
+        },
+        {
+          "t": "cards",
+          "kind": "work",
+          "items": [
+            {
+              "title": "",
+              "href": "",
+              "html": "<div class=\"art-grid\"><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3.5 3.5H11L20.5 13a2.12 2.12 0 0 1 0 3l-4.7 4.7a2.12 2.12 0 0 1-3 0L3.5 11z\"/><circle cx=\"8\" cy=\"8\" r=\"1.6\"/></svg></span><span class=\"art-tag\">Cost and pricing</span></div><h3><a href=\"/en/articles/website-cost/\">How much does a website cost? An honest anatomy of the price</a></h3><p>One brief, two quotes: five million and fifty million. Both can be honest. Here we open up, hour by hour, what your money buys and where a cheap quote quietly cuts.</p><p class=\"art-meta\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span></p><a class=\"art-more\" href=\"/en/articles/website-cost/\">Read the article →</a></article><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 2.5h8L19 8v13.5H6V2.5z\"/><path d=\"M13.5 2.5V8H19\"/><path d=\"M9 12.5h6M9 16h6\"/></svg></span><span class=\"art-tag\">Project scope</span></div><h3><a href=\"/en/articles/project-scope/\">What is a project scope? Take dadmor’s real template, free</a></h3><p>We publish the exact scope template we sign before every project: ten sections, a filled example and the fight each line prevents. Take it and write your project scope tonight.</p><p class=\"art-meta\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span></p><a class=\"art-more\" href=\"/en/articles/project-scope/\">Read the article →</a></article></div>"
             }
           ]
         }

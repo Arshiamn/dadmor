@@ -1,20 +1,20 @@
 {
   "path": "en/articles/website-cost/index.html",
   "lang": "en",
-  "title": "How much does a website cost, and what does the price depend on? | dadmor",
-  "description": "What a website price is made of: pages, shop and payment, special features, content and support. How a written scope protects your money, and where a very low price gets dangerous.",
-  "canonical": "https://dadmor.netlify.app/en/articles/website-cost/",
+  "title": "How much does a website cost? An honest anatomy of the price | dadmor",
+  "description": "What is a website price actually made of? dadmor opens it up hour by hour: what your money buys, why a five million and a fifty million quote can both be honest, and exactly where a cheap quote cuts: the scope, the testing and the handover.",
+  "canonical": "https://dadmor.netlify.app/en/articles/website-cost/index.html",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/website-cost/",
-    "en": "https://dadmor.netlify.app/en/articles/website-cost/",
-    "x-default": "https://dadmor.netlify.app/articles/website-cost/"
+    "fa": "https://dadmor.netlify.app/articles/website-cost/index.html",
+    "en": "https://dadmor.netlify.app/en/articles/website-cost/index.html",
+    "x-default": "https://dadmor.netlify.app/articles/website-cost/index.html"
   },
   "og": {
     "site_name": "dadmor",
     "type": "article",
-    "title": "How much does a website cost, and what does the price depend on? | dadmor",
-    "description": "What a website price is made of: pages, shop and payment, special features, content and support. How a written scope protects your money, and where a very low price gets dangerous.",
-    "url": "https://dadmor.netlify.app/en/articles/website-cost/",
+    "title": "How much does a website cost? An honest anatomy of the price | dadmor",
+    "description": "What is a website price actually made of? dadmor opens it up hour by hour: what your money buys, why a five million and a fifty million quote can both be honest, and exactly where a cheap quote cuts: the scope, the testing and the handover.",
+    "url": "https://dadmor.netlify.app/en/articles/website-cost/index.html",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
     "image:height": "630",
@@ -25,8 +25,8 @@
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "headline": "How much does a website cost, and what does the price depend on?",
-      "description": "What a website price is made of: pages, shop and payment, special features, content and support. How a written scope protects your money, and where a very low price gets dangerous.",
+      "headline": "How much does a website cost? An honest anatomy of the price",
+      "description": "What is a website price actually made of? dadmor opens it up hour by hour: what your money buys, why a five million and a fifty million quote can both be honest, and exactly where a cheap quote cuts: the scope, the testing and the handover.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -41,6 +41,7 @@
         }
       },
       "datePublished": "2026-11-21",
+      "dateModified": "2026-11-21",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://dadmor.netlify.app/en/articles/website-cost/"
     }
@@ -55,17 +56,31 @@
     },
     {
       "t": "group",
-      "class": "page-head container",
+      "class": "page-head container art-head",
       "blocks": [
         {
           "t": "raw",
-          "html": "<h1>How much does a website cost, and what does the price depend on?</h1>",
+          "html": "<span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>Cost and pricing</span>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<h1>How much does a website cost? An honest anatomy of the price</h1>",
           "class": "",
           "tag": "h1"
         },
         {
-          "t": "p",
-          "html": "21 November 2026 · 5 min read · By dadmor"
+          "t": "raw",
+          "html": "<p class=\"art-hook\">Send one brief to two studios: one says <strong>five million</strong>, the other says <strong>fifty million</strong>. The strange part is that both can be telling the truth.</p>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<p class=\"art-meta-row\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span><span aria-hidden=\"true\">·</span><span>The dadmor team</span></p>",
+          "class": "",
+          "tag": "div"
         }
       ]
     },
@@ -74,111 +89,230 @@
       "class": "container",
       "blocks": [
         {
-          "t": "p",
-          "html": "\"How much does a website cost?\" is the first question almost every client asks, and the hardest to answer. Not because builders hide the answer, but because \"a website\" is not one product with one price. A simple intro page and a shop with payment and inventory are both called a website, while the work and the price are worlds apart."
-        },
-        {
-          "t": "p",
-          "html": "This article gives no magic number, because a number without your needs is meaningless. Instead it shows what a price is made of, how a written scope protects your money, and where a very low price becomes dangerous. At the end you will find a way to get a real estimate for your own site before ordering."
+          "t": "raw",
+          "html": "<aside class=\"art-takeaways\"><h2>At a glance</h2><ul><li>A website price is hours of work multiplied by the depth of each stage. Do not compare the final number; compare the list of work.</li><li>A cheap quote usually cuts in three places: a written scope, payment testing, and handover with documentation. You pay for all three later, at a higher price.</li><li>A quote that will not write down what is NOT included is hiding the most expensive part of the project: surprises.</li></ul></aside>",
+          "class": "",
+          "tag": "div"
         }
       ]
     },
     {
       "t": "group",
-      "class": "service-section container",
+      "class": "container art-lede",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Almost every week someone asks us the same question: that place said five million, why do you say this much? The short answer is that “a website” is not the name of one product. It is the name of a chain of work, and every quote is a different selection from that chain. Until you see the list of work, comparing two numbers is like comparing the price of two sealed boxes."
+        },
+        {
+          "t": "p",
+          "html": "So we decided to publish what is usually only said in a sales meeting: what your money buys hour by hour, which parts can be cut, and who pays for the cut, and when. Read this, then get quotes from us or from anyone else."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
       "blocks": [
         {
           "t": "heading",
           "level": 2,
-          "html": "What the price is made of"
+          "html": "What exactly does your money buy?"
         },
         {
           "t": "p",
-          "html": "A website price is the sum of a few decisions. The biggest ones:"
+          "html": "A website price is built from seven stages. In any quote, each stage is either done in depth, done thinly, or not there at all, and its absence does not show in the final number:"
+        },
+        {
+          "t": "table",
+          "headers": [
+            "Stage",
+            "What happens",
+            "Why it takes time"
+          ],
+          "rows": [
+            [
+              "Conversation and scope",
+              "The goal, pages and features are fixed on paper and signed",
+              "Every ambiguity left here costs several times more in the middle of the project"
+            ],
+            [
+              "Structure and page map",
+              "The order of pages and the customer path from entry to purchase are laid out",
+              "A wrong guess here means redesign in the middle of the work"
+            ],
+            [
+              "Interface design",
+              "Pages are designed in your brand identity, with review rounds",
+              "Every review round is a full round of design and checking"
+            ],
+            [
+              "Build and development",
+              "The design becomes a real site: shop, gateway, forms, admin panel",
+              "Features are one line on paper and full of detail and edge cases in practice"
+            ],
+            [
+              "Content entry",
+              "Your real text and photos replace the placeholder content and get arranged",
+              "Unready content is the most common reason launch day slips"
+            ],
+            [
+              "Testing",
+              "A real purchase with a real card, phones and browsers, forms and error paths all get tried",
+              "A bug your customer finds costs several times the test, because it is paid in lost sales"
+            ],
+            [
+              "Handover and training",
+              "Access, maintenance documents and admin training reach you",
+              "Without it you stay dependent on the builder for every small change"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "html": "From now on, whenever you hear a number, ask one question: which rows of this table are in it, at what depth, and which rows are missing? The answer explains ninety percent of price differences."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "How can five million and fifty million both be honest?"
+        },
+        {
+          "t": "p",
+          "html": "Because the two sides are usually talking about two different things. One may be a five page brochure site on a ready template with your own content supplied. The other may be a shop with a payment gateway, order SMS, invoicing, an accounting connection and fully custom design. Both are called “a website”, but one is a bicycle and the other is a van. There is nothing strange about their prices differing."
+        },
+        {
+          "t": "p",
+          "html": "The depth of each stage differs too. In one job, testing means opening the site in one browser to see it loads. In another, it means buying with a real card, watching a failed payment and a return from the bank, and trying the site on three phones, cheap and expensive. Both call it testing. One takes two hours, the other two days."
+        },
+        {
+          "t": "p",
+          "html": "And the people differ. A freelancer has no office or team overhead and finishes cheaper, but their capacity and support are one person. A studio costs more because it has separate roles, and if one person falls ill the project does not sleep. None of this is fraud. What matters is knowing which one you are buying. The most dangerous sentence in this market is “a complete website, only this much”, because the word complete means there is no list against which completeness could be measured."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<blockquote class=\"art-quote\">Most of the difference between prices is not the builder’s profit. <span>It is the things that were quietly removed.</span></blockquote>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Where exactly does a cheap quote cut?"
+        },
+        {
+          "t": "p",
+          "html": "When a number is far below the rest of the market, the discount does not come out of the builder’s profit. It comes out of the work itself. Learn the three usual cutting places:"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "<strong>Number and type of pages:</strong> intro, services, work, contact and blog pages each mean separate design, content and review work.",
-            "<strong>Shop and payment:</strong> a product catalogue, cart, payment gateway, user accounts and order tracking are each a full part of the build.",
-            "<strong>Special features:</strong> booking, SMS integration, accounting or inventory connections, multiple languages and complex forms all raise the price, because each has its own logic and testing.",
-            "<strong>Content:</strong> if text, photos and product data are ready, the work is smaller. If content production is also on the builder, it is part of the price.",
-            "<strong>Custom design or a ready base:</strong> designing from zero takes longer. Starting from a prepared base costs less, but you should know where its limits are.",
-            "<strong>Support and maintenance:</strong> updates, backups and fixes after delivery are either in the contract or billed later. Settle it at the start."
+            "<strong>The scope:</strong> no written list gets signed, so the price can stay low. Then every “just add one page” and “I thought payment was included” becomes an argument and a separate charge. You start cheap and finish in instalments, paid in nerves.",
+            "<strong>The testing:</strong> the gateway gets connected, but a failed purchase, cancelling at the bank page and SMS errors are never tried. Your first real tester is your first real customer, and the test is paid for in lost sales and broken trust.",
+            "<strong>The handover:</strong> the domain and hosting stay in the builder’s name, no training is given and no documents arrive. To change one phone number you have to call and wait. This dependence is the hidden instalment plan of a cheap website, and it has no ceiling."
           ]
+        },
+        {
+          "t": "p",
+          "html": "Notice: cheap is not bad by itself. If your job is small and you accept these three cuts with open eyes, your choice is right. What is bad is the hidden cut, where you believe you bought something and learn on delivery day that you did not."
         }
       ]
     },
     {
       "t": "group",
-      "class": "service-section container",
+      "class": "service-section container art-section",
       "blocks": [
         {
           "t": "heading",
           "level": 2,
-          "html": "How a written scope protects your money"
+          "html": "What moves the price?"
         },
         {
           "t": "p",
-          "html": "A scope is the written document, agreed before work starts, that says what will be built and what will not. With a scope, the price is not a floating number: it is attached to a specific list of work."
-        },
-        {
-          "t": "p",
-          "html": "If something is added mid project, its effect on price and time is written down at that moment, not discovered at the end. And if something in the scope is not delivered, you hold a document that says it should have been. Most cost fights in website projects start from a missing scope, not from bad people."
-        },
-        {
-          "t": "p",
-          "html": "Our rule at dadmor is simple: we never start a project without a written scope. That rule protects the client first."
-        }
-      ]
-    },
-    {
-      "t": "group",
-      "class": "service-section container",
-      "blocks": [
-        {
-          "t": "heading",
-          "level": 2,
-          "html": "Where a very low price gets dangerous"
-        },
-        {
-          "t": "p",
-          "html": "Cheap is not bad by itself. The danger is cheap that hides what was removed. Take these signs seriously:"
+          "html": "If you want a better guess before asking for quotes, these are the main levers of website cost:"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "A firm price without a single question about what you need.",
-            "The domain and hosting registered in the builder's name, not yours. You bought the house, but the deed is in someone else's name.",
-            "No contract and no written scope.",
-            "Delivery without documentation or training, so every small change keeps you dependent on the same builder forever.",
-            "Later costs never mentioned: renewals, updates and support appear one by one afterwards."
+            "The number and type of pages, and how many need their own design.",
+            "Whether there is a shop and payment gateway, or the site is only an introduction.",
+            "Whether text and photos are ready, or must be produced and arranged.",
+            "Whether the site is in two languages or one.",
+            "Connections to other systems: SMS, accounting, inventory, booking.",
+            "Whether the design is templated, semi custom or fully custom.",
+            "How much of a hurry you are in; compressed, deadline driven work almost always costs more."
           ]
         },
         {
           "t": "p",
-          "html": "A cheap website that you do not own and cannot touch is not a purchase. It is rent."
+          "html": "This is why we do not put a fixed price on the site and write the scope first. A number without a list is just a number. We published the scope template in full in our <a href=\"/en/articles/project-scope/\">project scope article</a>, so you can take the same paper to anyone and compare quotes properly."
         }
       ]
     },
     {
       "t": "group",
-      "class": "service-section container",
+      "class": "service-section container art-section",
       "blocks": [
         {
           "t": "heading",
           "level": 2,
-          "html": "How to get an estimate before you order"
+          "html": "Checklist: judge every quote like this"
         },
         {
           "t": "p",
-          "html": "The right comparison is between scopes, not final numbers. Ask every builder for the list of work in writing, then put the lists side by side. The price difference usually comes from the difference in those lists."
+          "html": "Ask every builder these seven questions and ask for the answers in writing. A quote that answers them on paper, even a more expensive one, ends up cheaper in practice:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "Where in the document is the list of pages and features written, line by line?",
+            "What is explicitly NOT included in this price?",
+            "Is a real purchase test with a real card inside the price?",
+            "In whose name are the domain and hosting registered, and who holds full access?",
+            "What training and what documents does the handover include?",
+            "How many review rounds are included, and how is extra work priced?",
+            "After handover, if something breaks, for how long and by what method is it supported?"
+          ]
         },
         {
           "t": "p",
-          "html": "To start, you do not need to talk to anyone. We built our project estimator so that picking a site type and the features you want gives you a brief and a rough price range. You can keep that brief and ask any other builder to price the same thing."
+          "html": "If the answer to any question is “we will see how it goes”, that is exactly where the real price of the project starts separating from the number on the paper."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "In short"
+        },
+        {
+          "t": "p",
+          "html": "A website cost cannot be squeezed into one number, but it can be made transparent: seven stages, with known depth and known cuts. Do not compare numbers, compare lists. And when you hear a number that sounds too good, do not look for the discount. Look for the deleted row of the table. It is almost always there."
         }
       ]
     },
@@ -189,11 +323,11 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Get your website estimate"
+          "html": "See the number for your own project"
         },
         {
           "t": "p",
-          "html": "In a few minutes, the estimator turns the features you pick into a brief and a price range. No sign up and no obligation."
+          "html": "The dadmor project estimator works on these same levers: you pick the features and get a brief and a rough range. The final number, as always, is set by the written scope, not by a web form."
         },
         {
           "t": "group",
@@ -207,9 +341,31 @@
             },
             {
               "t": "cta",
-              "text": "Talk about a scope",
-              "href": "/en/contact/",
+              "text": "Website building service",
+              "href": "/en/services/website-building/",
               "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container art-related",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "More articles"
+        },
+        {
+          "t": "cards",
+          "kind": "work",
+          "items": [
+            {
+              "title": "",
+              "href": "",
+              "html": "<div class=\"art-grid\"><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 7.5 5.6 3.5h12.8L20 7.5\"/><path d=\"M4 7.5h16V10a2.6 2.6 0 0 1-5.2 0 2.6 2.6 0 0 1-5.6 0A2.6 2.6 0 0 1 4 10V7.5z\"/><path d=\"M5.5 12.5V20h13v-7.5\"/><path d=\"M9.5 20v-4.5h5V20\"/></svg></span><span class=\"art-tag\">Selling online</span></div><h3><a href=\"/en/articles/instagram-vs-website/\">Instagram page or website? Why your Instagram shop needs a website of its own</a></h3><p>It is seven in the morning. You open Instagram and your shop page is gone. This article starts on that morning: what a page rents, what a website owns, and when a page alone is enough.</p><p class=\"art-meta\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span></p><a class=\"art-more\" href=\"/en/articles/instagram-vs-website/\">Read the article →</a></article><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 2.5h8L19 8v13.5H6V2.5z\"/><path d=\"M13.5 2.5V8H19\"/><path d=\"M9 12.5h6M9 16h6\"/></svg></span><span class=\"art-tag\">Project scope</span></div><h3><a href=\"/en/articles/project-scope/\">What is a project scope? Take dadmor’s real template, free</a></h3><p>We publish the exact scope template we sign before every project: ten sections, a filled example and the fight each line prevents. Take it and write your project scope tonight.</p><p class=\"art-meta\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span></p><a class=\"art-more\" href=\"/en/articles/project-scope/\">Read the article →</a></article></div>"
             }
           ]
         }

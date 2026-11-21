@@ -1,20 +1,20 @@
 {
   "path": "en/articles/project-scope/index.html",
   "lang": "en",
-  "title": "What is a website project scope, and how do you write one properly? | dadmor",
-  "description": "What a project scope is, what a good one contains, and how it prevents cost and deadline fights. Includes a simple one page template you can copy and fill in for your own project.",
-  "canonical": "https://dadmor.netlify.app/en/articles/project-scope/",
+  "title": "What is a project scope? Take dadmor’s real template, free | dadmor",
+  "description": "A project scope fixes everything on paper before a website is built. dadmor publishes its real scope template here in full: all ten sections, a filled example for each, and the fight every line prevents, so you can write your project scope tonight.",
+  "canonical": "https://dadmor.netlify.app/en/articles/project-scope/index.html",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/project-scope/",
-    "en": "https://dadmor.netlify.app/en/articles/project-scope/",
-    "x-default": "https://dadmor.netlify.app/articles/project-scope/"
+    "fa": "https://dadmor.netlify.app/articles/project-scope/index.html",
+    "en": "https://dadmor.netlify.app/en/articles/project-scope/index.html",
+    "x-default": "https://dadmor.netlify.app/articles/project-scope/index.html"
   },
   "og": {
     "site_name": "dadmor",
     "type": "article",
-    "title": "What is a website project scope, and how do you write one properly? | dadmor",
-    "description": "What a project scope is, what a good one contains, and how it prevents cost and deadline fights. Includes a simple one page template you can copy and fill in for your own project.",
-    "url": "https://dadmor.netlify.app/en/articles/project-scope/",
+    "title": "What is a project scope? Take dadmor’s real template, free | dadmor",
+    "description": "A project scope fixes everything on paper before a website is built. dadmor publishes its real scope template here in full: all ten sections, a filled example for each, and the fight every line prevents, so you can write your project scope tonight.",
+    "url": "https://dadmor.netlify.app/en/articles/project-scope/index.html",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
     "image:height": "630",
@@ -25,8 +25,8 @@
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "headline": "What is a website project scope, and how do you write one properly?",
-      "description": "What a project scope is, what a good one contains, and how it prevents cost and deadline fights. Includes a simple one page template you can copy and fill in for your own project.",
+      "headline": "What is a project scope? Take dadmor’s real template, free",
+      "description": "A project scope fixes everything on paper before a website is built. dadmor publishes its real scope template here in full: all ten sections, a filled example for each, and the fight every line prevents, so you can write your project scope tonight.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -41,6 +41,7 @@
         }
       },
       "datePublished": "2026-11-21",
+      "dateModified": "2026-11-21",
       "inLanguage": "en-US",
       "mainEntityOfPage": "https://dadmor.netlify.app/en/articles/project-scope/"
     }
@@ -49,23 +50,37 @@
   "blocks": [
     {
       "t": "raw",
-      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li><a href=\"/en/articles/\">Articles</a></li><li aria-current=\"page\">Project scope</li></ol></nav>",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li><a href=\"/en/articles/\">Articles</a></li><li aria-current=\"page\">Website project scope</li></ol></nav>",
       "class": "breadcrumb container",
       "tag": "nav"
     },
     {
       "t": "group",
-      "class": "page-head container",
+      "class": "page-head container art-head",
       "blocks": [
         {
           "t": "raw",
-          "html": "<h1>What is a website project scope, and how do you write one properly?</h1>",
+          "html": "<span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>Project scope</span>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<h1>What is a project scope? Take dadmor’s real template, free</h1>",
           "class": "",
           "tag": "h1"
         },
         {
-          "t": "p",
-          "html": "21 November 2026 · 6 min read · By dadmor"
+          "t": "raw",
+          "html": "<p class=\"art-hook\">Most website project fights are not about code. They are about <strong>a sentence that was never written down</strong>. This article is the cure for those sentences, and it is free.</p>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<p class=\"art-meta-row\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span><span aria-hidden=\"true\">·</span><span>The dadmor team</span></p>",
+          "class": "",
+          "tag": "div"
         }
       ]
     },
@@ -74,132 +89,148 @@
       "class": "container",
       "blocks": [
         {
-          "t": "p",
-          "html": "Most fights in website projects start with one sentence: \"I thought this was included.\" The client had one thing in mind, the builder built another, and both believe they are right. The cure for this repeated fight is a short document written before work starts: the project scope."
-        },
-        {
-          "t": "p",
-          "html": "In this article you will read what a scope actually is, what sections it needs, and how you can write the first version yourself before talking to any builder. We also give you a simple template you can copy and fill in."
+          "t": "raw",
+          "html": "<aside class=\"art-takeaways\"><h2>At a glance</h2><ul><li>A scope is the project’s shared memory: anything not written down has a different shape in each side’s head.</li><li>The most important part of a scope is not the feature list. It is the list of things that are NOT part of the project.</li><li>A one page scope that gets read and signed beats a ten page contract nobody reads.</li></ul></aside>",
+          "class": "",
+          "tag": "div"
         }
       ]
     },
     {
       "t": "group",
-      "class": "service-section container",
+      "class": "container art-lede",
       "blocks": [
         {
-          "t": "heading",
-          "level": 2,
-          "html": "What a scope is"
+          "t": "p",
+          "html": "We publish our scope template here in full; the same document we put on the table and sign before any project starts. If you take this template to our competitor, you will get a better project, and the whole market gets healthier. A good scope does not make the client ours. It saves the project. That is why we do not hide it."
         },
         {
           "t": "p",
-          "html": "A project scope is a written document that fixes the boundaries of the work: what will be built, what will not be built, in what time and at what cost. It is not a complicated legal contract and not office paperwork. It is a clear, two sided list that both sides accept before starting."
-        },
-        {
-          "t": "p",
-          "html": "A brief says what you want. A scope says exactly what you will receive, and what you will not. That second part, the \"not included\" list, is where most misunderstandings die before they are born."
+          "html": "You can fill this document in for your own project tonight. For every section we put a filled example from a fictional shop, and under it, the exact fight that line prevents when it exists, and causes when it does not."
         }
       ]
     },
     {
       "t": "group",
-      "class": "service-section container",
+      "class": "service-section container art-section",
       "blocks": [
         {
           "t": "heading",
           "level": 2,
-          "html": "What a good scope contains"
+          "html": "What a project scope is, and what it is not"
+        },
+        {
+          "t": "p",
+          "html": "A project scope is a short document that says what will be built, for whom, with what content, in what time, and by what measure it counts as finished. It is not a legal contract and does not replace a lawyer. It is not a quote either; the quote is the price of this document. The scope is the shared picture both sides hold before money and time get spent."
+        },
+        {
+          "t": "p",
+          "html": "Without a scope, each side has built the project in their own head. In your head there is a complete shop with every detail. In the builder’s head there is a simple brochure site. You are both telling the truth. On delivery day, two different products are sitting on the table, and the fight starts right there. A scope means making those two mental pictures one, on paper, on day one."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "The dadmor scope template, section by section"
+        },
+        {
+          "t": "p",
+          "html": "Our template has ten sections. No fewer, because each one was born from a real fight. No more, because a document nobody reads prevents no fights at all. Here is the template itself:"
+        },
+        {
+          "t": "raw",
+          "html": "<div class=\"art-doc\"><div class=\"art-doc-head\"><h3>The dadmor project scope template</h3><span class=\"art-tag\">Ready to copy</span></div><div class=\"art-doc-sec\"><h3><span class=\"art-doc-num\">1</span>Project goal</h3><p>The goal of the project in one sentence; a sentence every later decision can be measured against.</p><p class=\"art-doc-ex\"><strong>Example:</strong> Selling the shop’s products online through the website, instead of taking orders by hand in DMs.</p><p class=\"art-doc-why\"><strong>The fight it prevents:</strong> If the goal is not one sentence, every new feature looks essential mid project and nobody can say no.</p></div><div class=\"art-doc-sec\"><h3><span class=\"art-doc-num\">2</span>Audience and customer</h3><p>Who the main customer is, where they come from and on what device they arrive.</p><p class=\"art-doc-ex\"><strong>Example:</strong> The Instagram page’s current customers and Google searchers; most of them arrive on a phone.</p><p class=\"art-doc-why\"><strong>The fight it prevents:</strong> Without it, the design gets built for the builder’s taste instead of your real customer.</p></div><div class=\"art-doc-sec\"><h3><span class=\"art-doc-num\">3</span>Pages</h3><p>The complete list of pages, by name. A page that is not on this list is not in this project.</p><p class=\"art-doc-ex\"><strong>Example:</strong> Home, shop, product page, basket and checkout, about, contact, buying and returns policy.</p><p class=\"art-doc-why\"><strong>The fight it prevents:</strong> A page that is not listed gets asked for on the last day as a small favour, and it breaks the whole schedule.</p></div><div class=\"art-doc-sec\"><h3><span class=\"art-doc-num\">4</span>Features</h3><p>Every feature in one complete, testable sentence, never an adjective.</p><p class=\"art-doc-ex\"><strong>Example:</strong> Payment through a bank gateway, percentage discount codes, order tracking by order number, order status SMS.</p><p class=\"art-doc-why\"><strong>The fight it prevents:</strong> Phrases like “a complete shop” or “a professional panel” mean something different to each side. A complete sentence makes the meaning one.</p></div><div class=\"art-doc-sec\"><h3><span class=\"art-doc-num\">5</span>Content</h3><p>Who prepares the text and photos of each page, and by what date they deliver them.</p><p class=\"art-doc-ex\"><strong>Example:</strong> Text for all pages from the client by the end of week two. Product photos are taken by the client; colour correction and cropping are on the builder.</p><p class=\"art-doc-why\"><strong>The fight it prevents:</strong> Most launch delays are not code. They are content that was supposed to arrive and did not, with no name and no date written anywhere.</p></div><div class=\"art-doc-sec\"><h3><span class=\"art-doc-num\">6</span>Connections</h3><p>Every external system the site connects to, by name.</p><p class=\"art-doc-ex\"><strong>Example:</strong> Bank payment gateway, SMS panel, organisation email on the domain.</p><p class=\"art-doc-why\"><strong>The fight it prevents:</strong> Every connection means a third party, a separate cost and a separate test. A connection nobody wrote down gets discovered mid work, and costs more.</p></div><div class=\"art-doc-sec\"><h3><span class=\"art-doc-num\">7</span>Out of scope</h3><p>The things that are explicitly not part of this project, however obvious they may seem.</p><p class=\"art-doc-ex\"><strong>Example:</strong> Instagram content production, advertising, entering 500 old products, logo design.</p><p class=\"art-doc-why\"><strong>The fight it prevents:</strong> This is the most important section of the template. Most fights are about work one side assumed was in and the other assumed was out.</p></div><div class=\"art-doc-sec\"><h3><span class=\"art-doc-num\">8</span>Schedule and delivery points</h3><p>The date of each stage and exactly what gets delivered that day.</p><p class=\"art-doc-ex\"><strong>Example:</strong> End of week three: a viewable version of the shop. End of week five: launch on the main domain.</p><p class=\"art-doc-why\"><strong>The fight it prevents:</strong> A final date with no middle point means neither side knows whether the work is ahead or behind until the last day, when nothing can be done.</p></div><div class=\"art-doc-sec\"><h3><span class=\"art-doc-num\">9</span>Acceptance criteria</h3><p>What “finished” means, and by what test it is proven.</p><p class=\"art-doc-ex\"><strong>Example:</strong> A complete purchase is made with a real card and an invoice is issued. The site is healthy and readable on phones and on Chrome and Firefox.</p><p class=\"art-doc-why\"><strong>The fight it prevents:</strong> Without acceptance criteria, delivery becomes two tired people’s taste on one tiring day, and that fight has no winner.</p></div><div class=\"art-doc-sec\"><h3><span class=\"art-doc-num\">10</span>Changes after signing</h3><p>How a new request mid project gets a price and a schedule effect, and in what order it gets done.</p><p class=\"art-doc-ex\"><strong>Example:</strong> Every change outside this document is first announced in writing with its price and its effect on the schedule, and is only built after the client approves it.</p><p class=\"art-doc-why\"><strong>The fight it prevents:</strong> Change in a project is natural. Unruled change is what kills projects. This line makes change possible and safe.</p></div></div>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "p",
+          "html": "These ten sections are enough for most website projects. If yours is bigger, add detail inside each section, but do not delete any section. Especially not section seven."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<blockquote class=\"art-quote\">A scope is not paperwork. It is <span>the project’s shared memory</span>, and human memory, unlike paper, remembers differently every day.</blockquote>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Three classic fights this paper switches off"
+        },
+        {
+          "t": "p",
+          "html": "<strong>“Just add one page.”</strong> Mid project it sounds harmless, but every page means design, build, content and testing. When the page list is signed, this sentence has a clear answer: yes, at this price and with this effect on the schedule. It becomes neither a fight nor a one sided favour."
+        },
+        {
+          "t": "p",
+          "html": "<strong>“I thought payment was included.”</strong> The most common sentence of delivery day. One side is sure they talked about it; the other is sure they did not. Both memories are honest. Only a document with a features section and an out of scope section can answer this sentence before it is ever said."
+        },
+        {
+          "t": "p",
+          "html": "<strong>“It was supposed to be ready before the holiday.”</strong> A final date with no middle point means there is no warning anywhere along the road. When week three has a named delivery, being behind becomes visible in week three, while something can still be done, not the night before the holiday."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Tonight, in half an hour, write your own scope"
+        },
+        {
+          "t": "p",
+          "html": "You do not need to wait for anyone. Take a piece of paper and go in this order:"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "<strong>Goal and audience:</strong> what the site is for, and who should do what on it.",
-            "<strong>Page list:</strong> every page named, not a vague line like \"a company site\".",
-            "<strong>Features:</strong> each capability in one clear sentence. For example, the contact form reaches an email, or booking is confirmed by SMS.",
-            "<strong>Content and who provides it:</strong> who prepares text, photos and the logo, and by when.",
-            "<strong>Design and revisions:</strong> how many revision rounds are in the price, and what counts as a revision.",
-            "<strong>Timeline:</strong> the start, the stages and the delivery date of each stage.",
-            "<strong>Cost and payment:</strong> the amount per stage and when it is paid.",
-            "<strong>Delivery and documentation:</strong> what you receive at the end: files, access, training and a usage document.",
-            "<strong>Support after delivery:</strong> for how long, and covering what.",
-            "<strong>Out of scope:</strong> an explicit list of what this project does not include, priced separately if needed later."
+            "Write the goal in one sentence. If your sentence has two “ands”, you have not found the goal yet.",
+            "List the pages. If you get stuck, open a competitor’s site that you like and count its pages.",
+            "Write features as complete sentences, not adjectives. “Payment through a gateway” is a sentence; “a professional shop” is an adjective.",
+            "Do not leave the out of scope section empty. Write the three things you think are obviously not included. Especially those.",
+            "Give content a name and a date: who delivers what, by when."
           ]
+        },
+        {
+          "t": "p",
+          "html": "Now hand this paper to any builder you like. For the first time, the quotes you get against one shared scope are genuinely comparable. And if you want our eyes on your scope too, start from the website building page; a ready scope cuts the conversation in half."
         }
       ]
     },
     {
       "t": "group",
-      "class": "service-section container",
+      "class": "service-section container art-section",
       "blocks": [
         {
           "t": "heading",
           "level": 2,
-          "html": "A simple template you can copy"
+          "html": "In short"
         },
         {
           "t": "p",
-          "html": "For most small websites, this one page template is enough. Fill each line with your project’s real situation:"
-        },
-        {
-          "t": "list",
-          "ordered": true,
-          "items": [
-            "Site goal: ...",
-            "Pages: home, services, about, contact, ...",
-            "Features: contact form, ... / Shop: yes or no, gateway: ...",
-            "Content: text by ..., photos by ...",
-            "Time: starts ..., first stage delivered ...",
-            "Cost: total ..., paid in ... stages",
-            "Delivery: full access + documentation + one training session",
-            "Not included: monthly content production, advertising, ..."
-          ]
-        },
-        {
-          "t": "p",
-          "html": "If a builder refuses to put something like this in writing, pause there. For a serious builder, writing it is not hard."
-        }
-      ]
-    },
-    {
-      "t": "group",
-      "class": "service-section container",
-      "blocks": [
-        {
-          "t": "heading",
-          "level": 2,
-          "html": "How a scope prevents cost and deadline fights"
-        },
-        {
-          "t": "p",
-          "html": "New ideas arrive in every project. A new idea is not bad, but it needs a defined place. With a scope, every change becomes one small written decision: this work is added, it adds this much to the price and this much to the time, do you agree? Agreed on the spot, it removes the end of project fight."
-        },
-        {
-          "t": "p",
-          "html": "And if something in the scope was not done, there is no argument about whether it was promised. The document exists. A good scope takes the relationship off memory and personal interpretation, and puts it on paper."
-        }
-      ]
-    },
-    {
-      "t": "group",
-      "class": "service-section container",
-      "blocks": [
-        {
-          "t": "heading",
-          "level": 2,
-          "html": "Check these before you accept a scope"
-        },
-        {
-          "t": "list",
-          "ordered": false,
-          "items": [
-            "Will the domain, hosting and all access end up in your name and in your hands?",
-            "Have you read the \"not included\" list and agreed with it?",
-            "Have you set a realistic deadline for the content you owe?",
-            "Is the mid project change process clear?",
-            "Does delivery include documentation and training, or only the site itself?"
-          ]
+          "html": "A project scope is not meant to make a project dry and bureaucratic. It has one job: to make what both sides hold in their heads one single thing, on paper, before money and time are spent. Projects that end in fights almost never have a technical problem. Their problem is a sentence that was never written. Write that sentence."
         }
       ]
     },
@@ -210,11 +241,11 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Start your scope here"
+          "html": "You have a scope? Now see its number"
         },
         {
           "t": "p",
-          "html": "Our project estimator ends its few simple questions with a printable brief you can use as the base of your scope. On the website building page you can also see how we start every project with a written scope."
+          "html": "With a scope in hand, the project estimator gives you a rough range in minutes, and on the website building page you can see how we work with this exact document: scope first, then a written proposal, then the build."
         },
         {
           "t": "group",
@@ -231,6 +262,28 @@
               "text": "Project estimator",
               "href": "/en/tools/estimator/",
               "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container art-related",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "More articles"
+        },
+        {
+          "t": "cards",
+          "kind": "work",
+          "items": [
+            {
+              "title": "",
+              "href": "",
+              "html": "<div class=\"art-grid\"><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3.5 3.5H11L20.5 13a2.12 2.12 0 0 1 0 3l-4.7 4.7a2.12 2.12 0 0 1-3 0L3.5 11z\"/><circle cx=\"8\" cy=\"8\" r=\"1.6\"/></svg></span><span class=\"art-tag\">Cost and pricing</span></div><h3><a href=\"/en/articles/website-cost/\">How much does a website cost? An honest anatomy of the price</a></h3><p>One brief, two quotes: five million and fifty million. Both can be honest. Here we open up, hour by hour, what your money buys and where a cheap quote quietly cuts.</p><p class=\"art-meta\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span></p><a class=\"art-more\" href=\"/en/articles/website-cost/\">Read the article →</a></article><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 7.5 5.6 3.5h12.8L20 7.5\"/><path d=\"M4 7.5h16V10a2.6 2.6 0 0 1-5.2 0 2.6 2.6 0 0 1-5.6 0A2.6 2.6 0 0 1 4 10V7.5z\"/><path d=\"M5.5 12.5V20h13v-7.5\"/><path d=\"M9.5 20v-4.5h5V20\"/></svg></span><span class=\"art-tag\">Selling online</span></div><h3><a href=\"/en/articles/instagram-vs-website/\">Instagram page or website? Why your Instagram shop needs a website of its own</a></h3><p>It is seven in the morning. You open Instagram and your shop page is gone. This article starts on that morning: what a page rents, what a website owns, and when a page alone is enough.</p><p class=\"art-meta\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span></p><a class=\"art-more\" href=\"/en/articles/instagram-vs-website/\">Read the article →</a></article></div>"
             }
           ]
         }

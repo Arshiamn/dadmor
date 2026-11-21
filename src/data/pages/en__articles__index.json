@@ -2,26 +2,52 @@
   "path": "en/articles/index.html",
   "lang": "en",
   "title": "Articles | dadmor",
-  "description": "Practical articles from dadmor for Instagram sellers and small businesses: selling online, what a website costs, and how to write a project scope. No slogans and no ranking promises, just what you should know before ordering a website.",
-  "canonical": "https://dadmor.netlify.app/en/articles/",
+  "description": "dadmor articles for Instagram sellers and small businesses: why a page is rented land, what website money actually buys hour by hour, and our real project scope template published in full. No ranking promises, nothing held back for the sales call.",
+  "canonical": "https://dadmor.netlify.app/en/articles/index.html",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/",
-    "en": "https://dadmor.netlify.app/en/articles/",
-    "x-default": "https://dadmor.netlify.app/articles/"
+    "fa": "https://dadmor.netlify.app/articles/index.html",
+    "en": "https://dadmor.netlify.app/en/articles/index.html",
+    "x-default": "https://dadmor.netlify.app/articles/index.html"
   },
   "og": {
     "site_name": "dadmor",
     "type": "website",
     "title": "Articles | dadmor",
-    "description": "Practical articles from dadmor for Instagram sellers and small businesses: selling online, what a website costs, and how to write a project scope. No slogans and no ranking promises, just what you should know before ordering a website.",
-    "url": "https://dadmor.netlify.app/en/articles/",
+    "description": "dadmor articles for Instagram sellers and small businesses: why a page is rented land, what website money actually buys hour by hour, and our real project scope template published in full. No ranking promises, nothing held back for the sales call.",
+    "url": "https://dadmor.netlify.app/en/articles/index.html",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
     "image:height": "630",
     "locale": "en_US",
     "locale:alternate": "fa_IR"
   },
-  "jsonld": [],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Articles",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Instagram page or website? Why your Instagram shop needs a website of its own",
+          "url": "https://dadmor.netlify.app/en/articles/instagram-vs-website/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How much does a website cost? An honest anatomy of the price",
+          "url": "https://dadmor.netlify.app/en/articles/website-cost/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "What is a project scope? Take dadmor’s real template, free",
+          "url": "https://dadmor.netlify.app/en/articles/project-scope/"
+        }
+      ]
+    }
+  ],
   "hero": null,
   "blocks": [
     {
@@ -32,17 +58,31 @@
     },
     {
       "t": "group",
-      "class": "page-head container",
+      "class": "art-hero container",
       "blocks": [
         {
           "t": "raw",
-          "html": "<h1>Articles</h1>",
+          "html": "<span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>dadmor articles</span>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<h1>Things we wish someone had told us before ordering a website</h1>",
           "class": "",
           "tag": "h1"
         },
         {
-          "t": "p",
-          "html": "Practical guides for Instagram sellers and small businesses, written the way we work: scope first, no slogans, no promises nobody can keep."
+          "t": "raw",
+          "html": "<p class=\"art-manifesto\">These are not the market’s usual articles. We write here what others only say in a sales meeting: what website money actually buys, why a page is rented land and what building your own home means. We have even put the scope template we sign before every project on the table, in full and free. <strong>If you read these and then go to another studio, you will buy a better project.</strong> That is enough for us.</p>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<div class=\"art-stats\"><div class=\"stat\"><strong>20+</strong><span>projects delivered</span></div><div class=\"stat\"><strong>5+</strong><span>years of building and delivery</span></div><div class=\"stat\"><strong>0</strong><span>ranking promises or guaranteed results in these articles</span></div></div>",
+          "class": "",
+          "tag": "div"
         }
       ]
     },
@@ -57,19 +97,41 @@
             {
               "title": "",
               "href": "",
-              "html": "<article class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d1\" aria-hidden=\"true\"></span>Selling online</span><h3><a href=\"/en/articles/instagram-vs-website/\">Instagram page or website? Why your Instagram shop needs a website</a></h3><p>Selling through DMs works, up to a point. Where a page falls short, what exactly a website changes, and when a page alone is honestly enough.</p><p>21 November 2026 · 6 min read</p></article>"
-            },
-            {
-              "title": "",
-              "href": "",
-              "html": "<article class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>Cost and pricing</span><h3><a href=\"/en/articles/website-cost/\">How much does a website cost, and what does the price depend on?</a></h3><p>What a website price is made of, how a written scope protects your money, and where a very low price becomes dangerous.</p><p>21 November 2026 · 5 min read</p></article>"
-            },
-            {
-              "title": "",
-              "href": "",
-              "html": "<article class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>Project scope</span><h3><a href=\"/en/articles/project-scope/\">What is a website project scope, and how do you write one properly?</a></h3><p>What a scope is, what it should contain, and how it prevents cost and deadline fights. Includes a simple template you can copy.</p><p>21 November 2026 · 6 min read</p></article>"
+              "html": "<article class=\"art-featured\"><div class=\"art-visual\" aria-hidden=\"true\"><span class=\"dot-ring dot-d4 dv dv1\"></span><span class=\"dot-ring dot-d2 dv dv2\"></span><span class=\"dot-ring dot-d3 dv dv3\"></span><div class=\"art-visual-icon\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 7.5 5.6 3.5h12.8L20 7.5\"/><path d=\"M4 7.5h16V10a2.6 2.6 0 0 1-5.2 0 2.6 2.6 0 0 1-5.6 0A2.6 2.6 0 0 1 4 10V7.5z\"/><path d=\"M5.5 12.5V20h13v-7.5\"/><path d=\"M9.5 20v-4.5h5V20\"/></svg></div></div><div class=\"art-featured-main\"><span class=\"art-tag\">Featured · Selling online</span><h2><a href=\"/en/articles/instagram-vs-website/\">Instagram page or website? Why your Instagram shop needs a website of its own</a></h2><p>It is seven in the morning. You open Instagram and your shop page is gone: three years of content, thousands of customers and every open order, inside an account that is not in your hands. This article starts on that morning and answers one question: which part of your business stands on your own land?</p><p class=\"art-meta\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span></p><a class=\"art-more\" href=\"/en/articles/instagram-vs-website/\">Read the article →</a></div></article>"
             }
           ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "cards",
+          "kind": "work",
+          "items": [
+            {
+              "title": "",
+              "href": "",
+              "html": "<div class=\"art-grid\"><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3.5 3.5H11L20.5 13a2.12 2.12 0 0 1 0 3l-4.7 4.7a2.12 2.12 0 0 1-3 0L3.5 11z\"/><circle cx=\"8\" cy=\"8\" r=\"1.6\"/></svg></span><span class=\"art-tag\">Cost and pricing</span></div><h3><a href=\"/en/articles/website-cost/\">How much does a website cost? An honest anatomy of the price</a></h3><p>One brief, two quotes: five million and fifty million. Both can be honest. Here we open up, hour by hour, what your money buys and where a cheap quote quietly cuts.</p><p class=\"art-meta\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span></p><a class=\"art-more\" href=\"/en/articles/website-cost/\">Read the article →</a></article><article class=\"art-card\"><div class=\"art-card-top\"><span class=\"row-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M6 2.5h8L19 8v13.5H6V2.5z\"/><path d=\"M13.5 2.5V8H19\"/><path d=\"M9 12.5h6M9 16h6\"/></svg></span><span class=\"art-tag\">Project scope</span></div><h3><a href=\"/en/articles/project-scope/\">What is a project scope? Take dadmor’s real template, free</a></h3><p>We publish the exact scope template we sign before every project: ten sections, a filled example and the fight each line prevents. Take it and write your project scope tonight.</p><p class=\"art-meta\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span></p><a class=\"art-more\" href=\"/en/articles/project-scope/\">Read the article →</a></article></div>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "divider"
+    },
+    {
+      "t": "group",
+      "class": "art-path container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2>Where do I start?</h2><p>If you do not know your first step yet, go in this order. All three steps are free, and none of them makes you our client.</p><div class=\"art-path-steps\"><div class=\"art-path-step\"><span class=\"art-path-num\">1</span><h3>Write the scope</h3><p>With the third article’s template, fix your project on one page of paper, even if you never work with us.</p><a class=\"art-more\" href=\"/en/articles/project-scope/\">Read the scope template →</a></div><div class=\"art-path-step\"><span class=\"art-path-num\">2</span><h3>Get a number</h3><p>The project estimator gives you a brief and a rough range in minutes, based on the features you pick.</p><a class=\"art-more\" href=\"/en/tools/estimator/\">Project estimator →</a></div><div class=\"art-path-step\"><span class=\"art-path-num\">3</span><h3>Check your security</h3><p>The free security self check shows where your current site or system is exposed, before it is too late.</p><a class=\"art-more\" href=\"/en/tools/security-check/\">Start the self check →</a></div></div>",
+          "class": "",
+          "tag": "div"
         }
       ]
     }
