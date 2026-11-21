@@ -1,20 +1,20 @@
 {
   "path": "articles/shop-builder-vs-own-site/index.html",
   "lang": "fa",
-  "title": "فروشگاه ساز یا سایت خودت؟ فرق غرفه اجاره ای در پاساژ با مغازه ای که سندش به نام شماست | dadmor",
-  "description": "فروشگاه ساز یا سایت خودت؟ اجاره ماهانه و قانون پاساژ در برابر هزینه یک باره و مالکیت کامل: فروشگاه ساز دقیقا چه می فروشد، اجاره اش در سال سوم چقدر می شود، کی انتخاب درستی است و نقطه عوض کردن به مغازه خودت کجاست. راهنمای بی پرده دادمور.",
-  "canonical": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/index.html",
+  "title": "فروشگاه ساز یا سایت خودت؟ غرفه اجاره ای یا مغازه خودت",
+  "description": "فروشگاه ساز یا سایت خودت؟ اجاره ماهانه و قانون پاساژ در برابر هزینه یک باره و مالکیت کامل: فروشگاه ساز دقیقا چه می فروشد و نقطه عوض کردن به مغازه خودت کجاست.",
+  "canonical": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/index.html",
-    "en": "https://dadmor.netlify.app/en/articles/shop-builder-vs-own-site/index.html",
-    "x-default": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/index.html"
+    "fa": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/",
+    "en": "https://dadmor.netlify.app/en/articles/shop-builder-vs-own-site/",
+    "x-default": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/"
   },
   "og": {
     "site_name": "dadmor",
     "type": "article",
-    "title": "فروشگاه ساز یا سایت خودت؟ فرق غرفه اجاره ای در پاساژ با مغازه ای که سندش به نام شماست | dadmor",
-    "description": "فروشگاه ساز یا سایت خودت؟ اجاره ماهانه و قانون پاساژ در برابر هزینه یک باره و مالکیت کامل: فروشگاه ساز دقیقا چه می فروشد، اجاره اش در سال سوم چقدر می شود، کی انتخاب درستی است و نقطه عوض کردن به مغازه خودت کجاست. راهنمای بی پرده دادمور.",
-    "url": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/index.html",
+    "title": "فروشگاه ساز یا سایت خودت؟ غرفه اجاره ای یا مغازه خودت",
+    "description": "فروشگاه ساز یا سایت خودت؟ اجاره ماهانه و قانون پاساژ در برابر هزینه یک باره و مالکیت کامل: فروشگاه ساز دقیقا چه می فروشد و نقطه عوض کردن به مغازه خودت کجاست.",
+    "url": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/",
     "image": "https://dadmor.netlify.app/covers/cover-builder.png",
     "image:width": "1200",
     "image:height": "630",
@@ -26,7 +26,8 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "فروشگاه ساز یا سایت خودت؟ فرق غرفه اجاره ای در پاساژ با مغازه ای که سندش به نام شماست",
-      "description": "فروشگاه ساز یا سایت خودت؟ اجاره ماهانه و قانون پاساژ در برابر هزینه یک باره و مالکیت کامل: فروشگاه ساز دقیقا چه می فروشد، اجاره اش در سال سوم چقدر می شود، کی انتخاب درستی است و نقطه عوض کردن به مغازه خودت کجاست. راهنمای بی پرده دادمور.",
+      "image": "https://dadmor.netlify.app/covers/cover-builder.png",
+      "description": "فروشگاه ساز یا سایت خودت؟ اجاره ماهانه و قانون پاساژ در برابر هزینه یک باره و مالکیت کامل: فروشگاه ساز دقیقا چه می فروشد و نقطه عوض کردن به مغازه خودت کجاست.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -80,6 +81,30 @@
             "@type": "Answer",
             "text": "سایت هزینه ساخت یک باره دارد و بعد از آن فقط هاست و دامنه سالانه می ماند که عدد کوچکی است. اشتراک فروشگاه ساز تا روزی که فروشگاه باز است ادامه دارد و با پلن ها بالا می رود. در بیشتر فروشگاه ها، اجاره دو تا سه سال از هزینه مالکیت رد می شود."
           }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "خانه",
+          "item": "https://dadmor.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "مقالات",
+          "item": "https://dadmor.netlify.app/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "فروشگاه ساز یا سایت خودت؟ فرق غرفه اجاره ای در پاساژ با مغازه ای که سندش به نام شماست",
+          "item": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/"
         }
       ]
     }

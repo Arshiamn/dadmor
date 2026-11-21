@@ -1,20 +1,20 @@
 {
   "path": "en/articles/shop-builder-vs-own-site/index.html",
   "lang": "en",
-  "title": "Shop builder or your own website? A stall in someone else’s mall, or a shop with your name on it | dadmor",
-  "description": "Shop builder or your own website? Monthly rent and the mall’s rules against a one time cost and full ownership: what a shop builder actually sells you, what the rent adds up to by year three, when it is the right choice, and where the switching point is. A plain spoken guide from dadmor.",
-  "canonical": "https://dadmor.netlify.app/en/articles/shop-builder-vs-own-site/index.html",
+  "title": "Shop builder or own website? Rented stall or your own shop",
+  "description": "Shop builder or your own website? Monthly rent and mall rules against a one time cost and ownership: what a builder sells, when it is right, and when to switch.",
+  "canonical": "https://dadmor.netlify.app/en/articles/shop-builder-vs-own-site/",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/index.html",
-    "en": "https://dadmor.netlify.app/en/articles/shop-builder-vs-own-site/index.html",
-    "x-default": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/index.html"
+    "fa": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/",
+    "en": "https://dadmor.netlify.app/en/articles/shop-builder-vs-own-site/",
+    "x-default": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/"
   },
   "og": {
     "site_name": "dadmor",
     "type": "article",
-    "title": "Shop builder or your own website? A stall in someone else’s mall, or a shop with your name on it | dadmor",
-    "description": "Shop builder or your own website? Monthly rent and the mall’s rules against a one time cost and full ownership: what a shop builder actually sells you, what the rent adds up to by year three, when it is the right choice, and where the switching point is. A plain spoken guide from dadmor.",
-    "url": "https://dadmor.netlify.app/en/articles/shop-builder-vs-own-site/index.html",
+    "title": "Shop builder or own website? Rented stall or your own shop",
+    "description": "Shop builder or your own website? Monthly rent and mall rules against a one time cost and ownership: what a builder sells, when it is right, and when to switch.",
+    "url": "https://dadmor.netlify.app/en/articles/shop-builder-vs-own-site/",
     "image": "https://dadmor.netlify.app/covers/cover-builder.png",
     "image:width": "1200",
     "image:height": "630",
@@ -26,7 +26,8 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "Shop builder or your own website? A stall in someone else’s mall, or a shop with your name on it",
-      "description": "Shop builder or your own website? Monthly rent and the mall’s rules against a one time cost and full ownership: what a shop builder actually sells you, what the rent adds up to by year three, when it is the right choice, and where the switching point is. A plain spoken guide from dadmor.",
+      "image": "https://dadmor.netlify.app/covers/cover-builder.png",
+      "description": "Shop builder or your own website? Monthly rent and mall rules against a one time cost and ownership: what a builder sells, when it is right, and when to switch.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -80,6 +81,30 @@
             "@type": "Answer",
             "text": "A website has a one time building cost, and after that only yearly hosting and domain, which is a small figure. A shop builder subscription runs for as long as the shop is open and rises with the plans. For most shops, two to three years of rent passes the cost of ownership."
           }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dadmor.netlify.app/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Articles",
+          "item": "https://dadmor.netlify.app/en/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Shop builder or your own website? A stall in someone else’s mall, or a shop with your name on it",
+          "item": "https://dadmor.netlify.app/en/articles/shop-builder-vs-own-site/"
         }
       ]
     }

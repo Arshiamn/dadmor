@@ -43,10 +43,19 @@ function headFor(page, route) {
   const og = Object.entries(page.og || {})
     .map(([k, v]) => `<meta property="og:${esc(k)}" content="${esc(v)}" />`)
     .join('\n    ')
+  const twitterLines = [
+    '<meta name="twitter:card" content="summary_large_image" />',
+    `<meta name="twitter:title" content="${title}" />`,
+    `<meta name="twitter:description" content="${desc}" />`,
+  ]
+  if (page.og && page.og.image) {
+    twitterLines.push(`<meta name="twitter:image" content="${esc(page.og.image)}" />`)
+  }
+  const twitter = twitterLines.join('\n    ')
   const jsonld = (page.jsonld || [])
     .map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</script>`)
     .join('\n    ')
-  return { lang, dir, title, desc, canon, hreflang, og, jsonld }
+  return { lang, dir, title, desc, canon, hreflang, og, twitter, jsonld }
 }
 
 let count = 0
@@ -63,6 +72,14 @@ for (const p of site.pages) {
     continue
   }
   let out = template
+  // Font preloads are language-conditional: an FA page never renders the
+  // Latin subsets and an EN page never renders the Arabic ones, so the
+  // other language's preloads only compete with real content.
+  const dropFonts =
+    head.lang === 'fa' ? ['inter-latin-var', 'lalezar-latin'] : ['vazirmatn-arabic-var', 'lalezar-arabic']
+  for (const f of dropFonts) {
+    out = out.replace(new RegExp(` *<link rel="preload" href="/fonts/${f}\\.woff2"[^>]*>\\n?`), '')
+  }
   out = out.replace('<html lang="fa" dir="rtl" data-theme="dark">', `<html lang="${head.lang}" dir="${head.dir}" data-theme="dark">`)
   out = out.replace(
     '<title>dadmor | استودیوی کوچک و فنی برای وب‌سایت، محصول و امنیت</title>',
@@ -72,10 +89,15 @@ for (const p of site.pages) {
     /<meta name="description" content="[^"]*" \/>/,
     `<meta name="description" content="${head.desc}" />`,
   )
-  out = out.replace(
-    '</head>',
-    `    <link rel="canonical" href="${head.canon}" />\n    ${head.hreflang}\n    ${head.og}\n    ${head.jsonld}\n  </head>`,
-  )
+  if (route === '/404.html') {
+    // The 404 page gets no canonical and no social tags, just noindex.
+    out = out.replace('</head>', `    <meta name="robots" content="noindex" />\n  </head>`)
+  } else {
+    out = out.replace(
+      '</head>',
+      `    <link rel="canonical" href="${head.canon}" />\n    ${head.hreflang}\n    ${head.og}\n    ${head.twitter}\n    ${head.jsonld}\n  </head>`,
+    )
+  }
   out = out.replace('<div id="root"></div>', `<div id="root">${html}</div>`)
   const dest = route === '/404.html' ? join(DIST, '404.html') : join(DIST, route, 'index.html')
   mkdirSync(dirname(dest), { recursive: true })

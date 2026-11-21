@@ -21,7 +21,26 @@
     "locale": "fa_IR",
     "locale:alternate": "en_US"
   },
-  "jsonld": [],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "برآوردگر پروژه",
+      "url": "https://dadmor.netlify.app/tools/estimator/",
+      "applicationCategory": "BusinessApplication",
+      "inLanguage": "fa-IR",
+      "description": "چند سؤال درباره پروژه، و یک بریف اسکوپ قابل چاپ با باند تلاش و دلیلش. قیمت و تاریخ تحویل نمی دهد و پاسخ ها از مرورگر شما بیرون نمی رود.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "url": "https://dadmor.netlify.app/"
+      }
+    }
+  ],
   "hero": null,
   "blocks": [
     {

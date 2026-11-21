@@ -1,20 +1,20 @@
 {
   "path": "en/articles/traffic-but-no-sales/index.html",
   "lang": "en",
-  "title": "Traffic but no sales? Check these seven places, in order | dadmor",
-  "description": "Your site gets traffic but no sales? Check seven places in order: trust in the first ten seconds, the product page’s answers, checkout on a cheap phone, speed on real Iranian mobile internet, a reason to buy today, abandoned cart follow up, and measuring. Each with a test you can run tonight.",
-  "canonical": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/index.html",
+  "title": "Traffic but no sales? Check these seven places, in order",
+  "description": "Traffic but no sales? Check seven places in order: trust in the first ten seconds, product page answers, checkout on a cheap phone, speed, and cart follow up.",
+  "canonical": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/traffic-but-no-sales/index.html",
-    "en": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/index.html",
-    "x-default": "https://dadmor.netlify.app/articles/traffic-but-no-sales/index.html"
+    "fa": "https://dadmor.netlify.app/articles/traffic-but-no-sales/",
+    "en": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/",
+    "x-default": "https://dadmor.netlify.app/articles/traffic-but-no-sales/"
   },
   "og": {
     "site_name": "dadmor",
     "type": "article",
-    "title": "Traffic but no sales? Check these seven places, in order | dadmor",
-    "description": "Your site gets traffic but no sales? Check seven places in order: trust in the first ten seconds, the product page’s answers, checkout on a cheap phone, speed on real Iranian mobile internet, a reason to buy today, abandoned cart follow up, and measuring. Each with a test you can run tonight.",
-    "url": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/index.html",
+    "title": "Traffic but no sales? Check these seven places, in order",
+    "description": "Traffic but no sales? Check seven places in order: trust in the first ten seconds, product page answers, checkout on a cheap phone, speed, and cart follow up.",
+    "url": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/",
     "image": "https://dadmor.netlify.app/covers/cover-nosales.png",
     "image:width": "1200",
     "image:height": "630",
@@ -26,7 +26,8 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "Traffic but no sales? Check these seven places, in order",
-      "description": "Your site gets traffic but no sales? Check seven places in order: trust in the first ten seconds, the product page’s answers, checkout on a cheap phone, speed on real Iranian mobile internet, a reason to buy today, abandoned cart follow up, and measuring. Each with a test you can run tonight.",
+      "image": "https://dadmor.netlify.app/covers/cover-nosales.png",
+      "description": "Traffic but no sales? Check seven places in order: trust in the first ten seconds, product page answers, checkout on a cheap phone, speed, and cart follow up.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -80,6 +81,30 @@
             "@type": "Answer",
             "text": "No. The symbol is one of several trust signals, and it only means something beside a real contact number, an about page and clear buying terms. No badge compensates for a broken checkout and an incomplete product page."
           }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dadmor.netlify.app/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Articles",
+          "item": "https://dadmor.netlify.app/en/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Traffic but no sales? Check these seven places, in order",
+          "item": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/"
         }
       ]
     }

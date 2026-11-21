@@ -1,20 +1,20 @@
 {
   "path": "articles/project-scope/index.html",
   "lang": "fa",
-  "title": "اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید | dadmor",
-  "description": "اسکوپ پروژه سندی است که قبل از طراحی سایت همه چیز را روی کاغذ ثابت می کند. دادمور قالب واقعی اسکوپ خودش را این جا کامل منتشر می کند: هر ده بخش، با یک مثال پرشده و دعوایی که هر خط جلویش را می گیرد، تا امشب اسکوپ پروژه تان را بنویسید.",
-  "canonical": "https://dadmor.netlify.app/articles/project-scope/index.html",
+  "title": "اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید",
+  "description": "اسکوپ پروژه سندی است که قبل از طراحی سایت همه چیز را روی کاغذ ثابت می کند. دادمور قالب واقعی اسکوپ خودش را کامل منتشر می کند: هر ده بخش، با یک مثال پرشده.",
+  "canonical": "https://dadmor.netlify.app/articles/project-scope/",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/project-scope/index.html",
-    "en": "https://dadmor.netlify.app/en/articles/project-scope/index.html",
-    "x-default": "https://dadmor.netlify.app/articles/project-scope/index.html"
+    "fa": "https://dadmor.netlify.app/articles/project-scope/",
+    "en": "https://dadmor.netlify.app/en/articles/project-scope/",
+    "x-default": "https://dadmor.netlify.app/articles/project-scope/"
   },
   "og": {
     "site_name": "dadmor",
     "type": "article",
-    "title": "اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید | dadmor",
-    "description": "اسکوپ پروژه سندی است که قبل از طراحی سایت همه چیز را روی کاغذ ثابت می کند. دادمور قالب واقعی اسکوپ خودش را این جا کامل منتشر می کند: هر ده بخش، با یک مثال پرشده و دعوایی که هر خط جلویش را می گیرد، تا امشب اسکوپ پروژه تان را بنویسید.",
-    "url": "https://dadmor.netlify.app/articles/project-scope/index.html",
+    "title": "اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید",
+    "description": "اسکوپ پروژه سندی است که قبل از طراحی سایت همه چیز را روی کاغذ ثابت می کند. دادمور قالب واقعی اسکوپ خودش را کامل منتشر می کند: هر ده بخش، با یک مثال پرشده.",
+    "url": "https://dadmor.netlify.app/articles/project-scope/",
     "image": "https://dadmor.netlify.app/covers/cover-scope.png",
     "image:width": "1200",
     "image:height": "630",
@@ -26,7 +26,8 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید",
-      "description": "اسکوپ پروژه سندی است که قبل از طراحی سایت همه چیز را روی کاغذ ثابت می کند. دادمور قالب واقعی اسکوپ خودش را این جا کامل منتشر می کند: هر ده بخش، با یک مثال پرشده و دعوایی که هر خط جلویش را می گیرد، تا امشب اسکوپ پروژه تان را بنویسید.",
+      "image": "https://dadmor.netlify.app/covers/cover-scope.png",
+      "description": "اسکوپ پروژه سندی است که قبل از طراحی سایت همه چیز را روی کاغذ ثابت می کند. دادمور قالب واقعی اسکوپ خودش را کامل منتشر می کند: هر ده بخش، با یک مثال پرشده.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -80,6 +81,30 @@
             "@type": "Answer",
             "text": "هر طرف پروژه را در ذهن خودش می سازد و روز تحویل دو محصول متفاوت روی میز است. دعواهای کلاسیکش را همه شنیده اند: «فقط یه صفحه اضافه کن»، «فکر کردم درگاه هم بود» و «قرار بود قبل عید برسد»."
           }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "خانه",
+          "item": "https://dadmor.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "مقالات",
+          "item": "https://dadmor.netlify.app/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید",
+          "item": "https://dadmor.netlify.app/articles/project-scope/"
         }
       ]
     }

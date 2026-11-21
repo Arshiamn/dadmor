@@ -126,7 +126,7 @@
         },
         {
           "t": "p",
-          "html": "If your users abandon a specific task halfway, such as signup or checkout, the problem is usually not the product itself. The problem is that the flow was never seen through the user's eyes: the button is not where they look for it, the error and empty states were never designed, and every screen was decided in isolation."
+          "html": "If your users abandon a specific task halfway, such as signup or checkout, the problem is usually not the product itself. The problem is that the flow was never seen through the user's eyes: the button is not where they look for it, the error and empty states were never designed, and every screen was decided in isolation. If users arrive but never finish buying, this checklist helps too: <a href=\"/en/articles/traffic-but-no-sales/\">traffic but no sales? Check these seven places</a>."
         },
         {
           "t": "p",

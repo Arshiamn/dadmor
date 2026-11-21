@@ -2,19 +2,19 @@
   "path": "en/articles/instagram-hacked/index.html",
   "lang": "en",
   "title": "Your shop page got hacked? Do these things first | dadmor",
-  "description": "Has your shop’s Instagram page been hacked? The right order for getting the account back through Meta’s official path, saving the email first, closing sessions, the page recovery scammers to avoid, and the prevention that actually works: two factor with an authenticator app, a separate email and backup codes.",
-  "canonical": "https://dadmor.netlify.app/en/articles/instagram-hacked/index.html",
+  "description": "Shop page hacked? How to get it back through Meta’s official path, the recovery scammers to avoid, and prevention that works: two factor and backup codes.",
+  "canonical": "https://dadmor.netlify.app/en/articles/instagram-hacked/",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/instagram-hacked/index.html",
-    "en": "https://dadmor.netlify.app/en/articles/instagram-hacked/index.html",
-    "x-default": "https://dadmor.netlify.app/articles/instagram-hacked/index.html"
+    "fa": "https://dadmor.netlify.app/articles/instagram-hacked/",
+    "en": "https://dadmor.netlify.app/en/articles/instagram-hacked/",
+    "x-default": "https://dadmor.netlify.app/articles/instagram-hacked/"
   },
   "og": {
     "site_name": "dadmor",
     "type": "article",
     "title": "Your shop page got hacked? Do these things first | dadmor",
-    "description": "Has your shop’s Instagram page been hacked? The right order for getting the account back through Meta’s official path, saving the email first, closing sessions, the page recovery scammers to avoid, and the prevention that actually works: two factor with an authenticator app, a separate email and backup codes.",
-    "url": "https://dadmor.netlify.app/en/articles/instagram-hacked/index.html",
+    "description": "Shop page hacked? How to get it back through Meta’s official path, the recovery scammers to avoid, and prevention that works: two factor and backup codes.",
+    "url": "https://dadmor.netlify.app/en/articles/instagram-hacked/",
     "image": "https://dadmor.netlify.app/covers/cover-hacked.png",
     "image:width": "1200",
     "image:height": "630",
@@ -26,7 +26,8 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "Your shop page got hacked? Do these things first",
-      "description": "Has your shop’s Instagram page been hacked? The right order for getting the account back through Meta’s official path, saving the email first, closing sessions, the page recovery scammers to avoid, and the prevention that actually works: two factor with an authenticator app, a separate email and backup codes.",
+      "image": "https://dadmor.netlify.app/covers/cover-hacked.png",
+      "description": "Shop page hacked? How to get it back through Meta’s official path, the recovery scammers to avoid, and prevention that works: two factor and backup codes.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -80,6 +81,30 @@
             "@type": "Answer",
             "text": "Make a fresh page with the same name and identity, and announce the new address through every other channel you have: your website, your messaging channel, and the customers whose numbers you hold. And this time, from day one, keep your customer list outside Instagram too, so no single account can be everything you have."
           }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dadmor.netlify.app/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Articles",
+          "item": "https://dadmor.netlify.app/en/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Your shop page got hacked? Do these things first",
+          "item": "https://dadmor.netlify.app/en/articles/instagram-hacked/"
         }
       ]
     }

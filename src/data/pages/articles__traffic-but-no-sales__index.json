@@ -1,20 +1,20 @@
 {
   "path": "articles/traffic-but-no-sales/index.html",
   "lang": "fa",
-  "title": "بازدید داری، فروش نداری؟ این هفت جا را به ترتیب چک کن | dadmor",
-  "description": "سایتتان بازدید دارد ولی فروش نه؟ هفت جا را به ترتیب چک کنید: اعتماد در ده ثانیه اول، جواب های صفحه محصول، صندوق روی گوشی ارزان، سرعت روی اینترنت واقعی ایران، دلیل خرید امروز، پیگیری سبد رها شده و اندازه گیری. هر کدام با یک تست که امشب می شود انجام داد.",
-  "canonical": "https://dadmor.netlify.app/articles/traffic-but-no-sales/index.html",
+  "title": "بازدید داری، فروش نداری؟ این هفت جا را به ترتیب چک کن",
+  "description": "سایتتان بازدید دارد ولی فروش نه؟ هفت جا را به ترتیب چک کنید: اعتماد در ده ثانیه اول، جواب های صفحه محصول، صندوق روی گوشی ارزان، سرعت و پیگیری سبد رها شده.",
+  "canonical": "https://dadmor.netlify.app/articles/traffic-but-no-sales/",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/traffic-but-no-sales/index.html",
-    "en": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/index.html",
-    "x-default": "https://dadmor.netlify.app/articles/traffic-but-no-sales/index.html"
+    "fa": "https://dadmor.netlify.app/articles/traffic-but-no-sales/",
+    "en": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/",
+    "x-default": "https://dadmor.netlify.app/articles/traffic-but-no-sales/"
   },
   "og": {
     "site_name": "dadmor",
     "type": "article",
-    "title": "بازدید داری، فروش نداری؟ این هفت جا را به ترتیب چک کن | dadmor",
-    "description": "سایتتان بازدید دارد ولی فروش نه؟ هفت جا را به ترتیب چک کنید: اعتماد در ده ثانیه اول، جواب های صفحه محصول، صندوق روی گوشی ارزان، سرعت روی اینترنت واقعی ایران، دلیل خرید امروز، پیگیری سبد رها شده و اندازه گیری. هر کدام با یک تست که امشب می شود انجام داد.",
-    "url": "https://dadmor.netlify.app/articles/traffic-but-no-sales/index.html",
+    "title": "بازدید داری، فروش نداری؟ این هفت جا را به ترتیب چک کن",
+    "description": "سایتتان بازدید دارد ولی فروش نه؟ هفت جا را به ترتیب چک کنید: اعتماد در ده ثانیه اول، جواب های صفحه محصول، صندوق روی گوشی ارزان، سرعت و پیگیری سبد رها شده.",
+    "url": "https://dadmor.netlify.app/articles/traffic-but-no-sales/",
     "image": "https://dadmor.netlify.app/covers/cover-nosales.png",
     "image:width": "1200",
     "image:height": "630",
@@ -26,7 +26,8 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "بازدید داری، فروش نداری؟ این هفت جا را به ترتیب چک کن",
-      "description": "سایتتان بازدید دارد ولی فروش نه؟ هفت جا را به ترتیب چک کنید: اعتماد در ده ثانیه اول، جواب های صفحه محصول، صندوق روی گوشی ارزان، سرعت روی اینترنت واقعی ایران، دلیل خرید امروز، پیگیری سبد رها شده و اندازه گیری. هر کدام با یک تست که امشب می شود انجام داد.",
+      "image": "https://dadmor.netlify.app/covers/cover-nosales.png",
+      "description": "سایتتان بازدید دارد ولی فروش نه؟ هفت جا را به ترتیب چک کنید: اعتماد در ده ثانیه اول، جواب های صفحه محصول، صندوق روی گوشی ارزان، سرعت و پیگیری سبد رها شده.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -80,6 +81,30 @@
             "@type": "Answer",
             "text": "نه. نماد یکی از چند نشانه اعتماد است و کنار شماره تماس واقعی، صفحه درباره ما و شرایط روشن خرید معنا پیدا می کند. هیچ نشانی، صندوق خراب و صفحه محصول ناقص را جبران نمی کند."
           }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "خانه",
+          "item": "https://dadmor.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "مقالات",
+          "item": "https://dadmor.netlify.app/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "بازدید داری، فروش نداری؟ این هفت جا را به ترتیب چک کن",
+          "item": "https://dadmor.netlify.app/articles/traffic-but-no-sales/"
         }
       ]
     }

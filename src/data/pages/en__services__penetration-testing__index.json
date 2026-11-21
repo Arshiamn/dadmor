@@ -1,8 +1,8 @@
 {
   "path": "en/services/penetration-testing/index.html",
   "lang": "en",
-  "title": "Manual penetration testing with a signed scope and retest | dadmor",
-  "description": "Manual web and API penetration testing using PTES and OWASP WSTG, a CVSS-scored report and one retest. Only with a written scope, signed authorisation and an NDA.",
+  "title": "Manual penetration testing with a signed scope and retest",
+  "description": "Manual web and API penetration testing (PTES, OWASP WSTG), a CVSS-scored report and one retest. Only with a written scope, signed authorisation and an NDA.",
   "canonical": "https://dadmor.netlify.app/en/services/penetration-testing/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/services/penetration-testing/",
@@ -12,8 +12,8 @@
   "og": {
     "site_name": "dadmor",
     "type": "website",
-    "title": "Manual penetration testing with a signed scope and retest | dadmor",
-    "description": "Manual web and API penetration testing using PTES and OWASP WSTG, a CVSS-scored report and one retest. Only with a written scope, signed authorisation and an NDA.",
+    "title": "Manual penetration testing with a signed scope and retest",
+    "description": "Manual web and API penetration testing (PTES, OWASP WSTG), a CVSS-scored report and one retest. Only with a written scope, signed authorisation and an NDA.",
     "url": "https://dadmor.netlify.app/en/services/penetration-testing/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -27,7 +27,7 @@
         "@context": "https://schema.org",
         "@type": "Service",
         "name": "Penetration testing",
-        "description": "Manual web and API penetration testing using PTES and OWASP WSTG, a CVSS-scored report and one retest. Only with a written scope, signed authorisation and an NDA.",
+        "description": "Manual web and API penetration testing (PTES, OWASP WSTG), a CVSS-scored report and one retest. Only with a written scope, signed authorisation and an NDA.",
         "provider": {
           "@type": "Organization",
           "name": "dadmor",
@@ -149,7 +149,7 @@
         },
         {
           "t": "p",
-          "html": "Know where your system is open before an attacker finds it: manual testing under a signed scope, a scored report, and a retest after the fixes."
+          "html": "Know where your system is open before an attacker finds it: manual testing under a signed scope, a scored report, and a retest after the fixes. And if by security you mean your shop’s Instagram page, start here: <a href=\"/en/articles/instagram-hacked/\">your shop page got hacked? Do these things first</a>."
         }
       ]
     },

@@ -2,7 +2,7 @@
   "path": "en/services/index.html",
   "lang": "en",
   "title": "Services | dadmor",
-  "description": "dadmor's six services in one shared format: problem, audience, deliverables, scope factors and limits. Use the service finder to get one primary and one secondary suggestion from six questions.",
+  "description": "dadmor's six services in one format: problem, audience, deliverables, scope factors and limits, plus a finder that suggests a service from six questions.",
   "canonical": "https://dadmor.netlify.app/en/services/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/services/",
@@ -13,7 +13,7 @@
     "site_name": "dadmor",
     "type": "website",
     "title": "Services | dadmor",
-    "description": "dadmor's six services in one shared format: problem, audience, deliverables, scope factors and limits. Use the service finder to get one primary and one secondary suggestion from six questions.",
+    "description": "dadmor's six services in one format: problem, audience, deliverables, scope factors and limits, plus a finder that suggests a service from six questions.",
     "url": "https://dadmor.netlify.app/en/services/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",

@@ -1,20 +1,20 @@
 {
   "path": "en/articles/website-cost/index.html",
   "lang": "en",
-  "title": "How much does a website cost? An honest anatomy of the price | dadmor",
-  "description": "What is a website price actually made of? dadmor opens it up hour by hour: what your money buys, why a five million and a fifty million quote can both be honest, and exactly where a cheap quote cuts: the scope, the testing and the handover.",
-  "canonical": "https://dadmor.netlify.app/en/articles/website-cost/index.html",
+  "title": "How much does a website cost? An honest price anatomy",
+  "description": "What is a website price made of? dadmor opens it up hour by hour: what your money buys, and why a five and a fifty million quote can both be honest.",
+  "canonical": "https://dadmor.netlify.app/en/articles/website-cost/",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/website-cost/index.html",
-    "en": "https://dadmor.netlify.app/en/articles/website-cost/index.html",
-    "x-default": "https://dadmor.netlify.app/articles/website-cost/index.html"
+    "fa": "https://dadmor.netlify.app/articles/website-cost/",
+    "en": "https://dadmor.netlify.app/en/articles/website-cost/",
+    "x-default": "https://dadmor.netlify.app/articles/website-cost/"
   },
   "og": {
     "site_name": "dadmor",
     "type": "article",
-    "title": "How much does a website cost? An honest anatomy of the price | dadmor",
-    "description": "What is a website price actually made of? dadmor opens it up hour by hour: what your money buys, why a five million and a fifty million quote can both be honest, and exactly where a cheap quote cuts: the scope, the testing and the handover.",
-    "url": "https://dadmor.netlify.app/en/articles/website-cost/index.html",
+    "title": "How much does a website cost? An honest price anatomy",
+    "description": "What is a website price made of? dadmor opens it up hour by hour: what your money buys, and why a five and a fifty million quote can both be honest.",
+    "url": "https://dadmor.netlify.app/en/articles/website-cost/",
     "image": "https://dadmor.netlify.app/covers/cover-cost.png",
     "image:width": "1200",
     "image:height": "630",
@@ -26,7 +26,8 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "How much does a website cost? An honest anatomy of the price",
-      "description": "What is a website price actually made of? dadmor opens it up hour by hour: what your money buys, why a five million and a fifty million quote can both be honest, and exactly where a cheap quote cuts: the scope, the testing and the handover.",
+      "image": "https://dadmor.netlify.app/covers/cover-cost.png",
+      "description": "What is a website price made of? dadmor opens it up hour by hour: what your money buys, and why a five and a fifty million quote can both be honest.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -80,6 +81,30 @@
             "@type": "Answer",
             "text": "Do not compare the final number; compare the list of work and the depth of each stage. Ask every builder the seven checklist questions in this article and ask for the answers in writing."
           }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dadmor.netlify.app/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Articles",
+          "item": "https://dadmor.netlify.app/en/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How much does a website cost? An honest anatomy of the price",
+          "item": "https://dadmor.netlify.app/en/articles/website-cost/"
         }
       ]
     }

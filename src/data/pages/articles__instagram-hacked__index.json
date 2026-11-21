@@ -2,19 +2,19 @@
   "path": "articles/instagram-hacked/index.html",
   "lang": "fa",
   "title": "پیج فروشگاهت هک شد؟ اول این کارها را بکن | dadmor",
-  "description": "پیج فروشگاهتان هک شده است؟ ترتیب درست برگرداندن حساب از مسیر رسمی متا، اول نجات ایمیل، بستن نشست ها، دام کلاه بردارهای بازیابی پیج و پیشگیری هایی که واقعا جواب می دهند: تایید دو مرحله ای با اپلیکیشن، ایمیل جدا و کدهای پشتیبان.",
-  "canonical": "https://dadmor.netlify.app/articles/instagram-hacked/index.html",
+  "description": "پیج فروشگاهتان هک شده؟ برگرداندن حساب از مسیر رسمی متا، دام کلاه بردارهای بازیابی پیج و پیشگیری هایی که واقعا جواب می دهند: تایید دو مرحله ای، ایمیل جدا و کدهای پشتیبان.",
+  "canonical": "https://dadmor.netlify.app/articles/instagram-hacked/",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/instagram-hacked/index.html",
-    "en": "https://dadmor.netlify.app/en/articles/instagram-hacked/index.html",
-    "x-default": "https://dadmor.netlify.app/articles/instagram-hacked/index.html"
+    "fa": "https://dadmor.netlify.app/articles/instagram-hacked/",
+    "en": "https://dadmor.netlify.app/en/articles/instagram-hacked/",
+    "x-default": "https://dadmor.netlify.app/articles/instagram-hacked/"
   },
   "og": {
     "site_name": "dadmor",
     "type": "article",
     "title": "پیج فروشگاهت هک شد؟ اول این کارها را بکن | dadmor",
-    "description": "پیج فروشگاهتان هک شده است؟ ترتیب درست برگرداندن حساب از مسیر رسمی متا، اول نجات ایمیل، بستن نشست ها، دام کلاه بردارهای بازیابی پیج و پیشگیری هایی که واقعا جواب می دهند: تایید دو مرحله ای با اپلیکیشن، ایمیل جدا و کدهای پشتیبان.",
-    "url": "https://dadmor.netlify.app/articles/instagram-hacked/index.html",
+    "description": "پیج فروشگاهتان هک شده؟ برگرداندن حساب از مسیر رسمی متا، دام کلاه بردارهای بازیابی پیج و پیشگیری هایی که واقعا جواب می دهند: تایید دو مرحله ای، ایمیل جدا و کدهای پشتیبان.",
+    "url": "https://dadmor.netlify.app/articles/instagram-hacked/",
     "image": "https://dadmor.netlify.app/covers/cover-hacked.png",
     "image:width": "1200",
     "image:height": "630",
@@ -26,7 +26,8 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "پیج فروشگاهت هک شد؟ اول این کارها را بکن",
-      "description": "پیج فروشگاهتان هک شده است؟ ترتیب درست برگرداندن حساب از مسیر رسمی متا، اول نجات ایمیل، بستن نشست ها، دام کلاه بردارهای بازیابی پیج و پیشگیری هایی که واقعا جواب می دهند: تایید دو مرحله ای با اپلیکیشن، ایمیل جدا و کدهای پشتیبان.",
+      "image": "https://dadmor.netlify.app/covers/cover-hacked.png",
+      "description": "پیج فروشگاهتان هک شده؟ برگرداندن حساب از مسیر رسمی متا، دام کلاه بردارهای بازیابی پیج و پیشگیری هایی که واقعا جواب می دهند: تایید دو مرحله ای، ایمیل جدا و کدهای پشتیبان.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -80,6 +81,30 @@
             "@type": "Answer",
             "text": "یک پیج تازه با همان نام و هویت بسازید و از هر کانال دیگری که دارید، سایت، کانال پیام رسان و مشتری هایی که شماره شان را دارید، نشانی تازه را اعلام کنید. و این بار از روز اول، فهرست مشتری ها را بیرون از اینستاگرام هم نگه دارید تا هیچ حسابی نتواند همه چیزتان باشد."
           }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "خانه",
+          "item": "https://dadmor.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "مقالات",
+          "item": "https://dadmor.netlify.app/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "پیج فروشگاهت هک شد؟ اول این کارها را بکن",
+          "item": "https://dadmor.netlify.app/articles/instagram-hacked/"
         }
       ]
     }

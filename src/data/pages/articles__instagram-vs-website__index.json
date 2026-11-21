@@ -1,20 +1,20 @@
 {
   "path": "articles/instagram-vs-website/index.html",
   "lang": "fa",
-  "title": "پیج اینستاگرام یا سایت؟ چرا فروشگاه اینستاگرامی شما به سایت خودش نیاز دارد | dadmor",
-  "description": "صبحی که پیج فروشگاهتان نباشد، چه می شود؟ پیج چه چیزی را اجاره می دهد و سایت چه چیزی را مال شما می کند، طراحی سایت برای فروشگاه اینستاگرامی یعنی چه و چه زمانی همان پیج به تنهایی کافی است. راهنمای بی پرده دادمور.",
-  "canonical": "https://dadmor.netlify.app/articles/instagram-vs-website/index.html",
+  "title": "پیج اینستاگرام یا سایت؟ چرا فروشگاهتان به سایت نیاز دارد",
+  "description": "صبحی که پیج فروشگاهتان نباشد، چه می شود؟ پیج چه چیزی را اجاره می دهد و سایت چه چیزی را مال شما می کند، و چه زمانی همان پیج به تنهایی کافی است. راهنمای بی پرده دادمور.",
+  "canonical": "https://dadmor.netlify.app/articles/instagram-vs-website/",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/instagram-vs-website/index.html",
-    "en": "https://dadmor.netlify.app/en/articles/instagram-vs-website/index.html",
-    "x-default": "https://dadmor.netlify.app/articles/instagram-vs-website/index.html"
+    "fa": "https://dadmor.netlify.app/articles/instagram-vs-website/",
+    "en": "https://dadmor.netlify.app/en/articles/instagram-vs-website/",
+    "x-default": "https://dadmor.netlify.app/articles/instagram-vs-website/"
   },
   "og": {
     "site_name": "dadmor",
     "type": "article",
-    "title": "پیج اینستاگرام یا سایت؟ چرا فروشگاه اینستاگرامی شما به سایت خودش نیاز دارد | dadmor",
-    "description": "صبحی که پیج فروشگاهتان نباشد، چه می شود؟ پیج چه چیزی را اجاره می دهد و سایت چه چیزی را مال شما می کند، طراحی سایت برای فروشگاه اینستاگرامی یعنی چه و چه زمانی همان پیج به تنهایی کافی است. راهنمای بی پرده دادمور.",
-    "url": "https://dadmor.netlify.app/articles/instagram-vs-website/index.html",
+    "title": "پیج اینستاگرام یا سایت؟ چرا فروشگاهتان به سایت نیاز دارد",
+    "description": "صبحی که پیج فروشگاهتان نباشد، چه می شود؟ پیج چه چیزی را اجاره می دهد و سایت چه چیزی را مال شما می کند، و چه زمانی همان پیج به تنهایی کافی است. راهنمای بی پرده دادمور.",
+    "url": "https://dadmor.netlify.app/articles/instagram-vs-website/",
     "image": "https://dadmor.netlify.app/covers/cover-instagram.png",
     "image:width": "1200",
     "image:height": "630",
@@ -26,7 +26,8 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "پیج اینستاگرام یا سایت؟ چرا فروشگاه اینستاگرامی شما به سایت خودش نیاز دارد",
-      "description": "صبحی که پیج فروشگاهتان نباشد، چه می شود؟ پیج چه چیزی را اجاره می دهد و سایت چه چیزی را مال شما می کند، طراحی سایت برای فروشگاه اینستاگرامی یعنی چه و چه زمانی همان پیج به تنهایی کافی است. راهنمای بی پرده دادمور.",
+      "image": "https://dadmor.netlify.app/covers/cover-instagram.png",
+      "description": "صبحی که پیج فروشگاهتان نباشد، چه می شود؟ پیج چه چیزی را اجاره می دهد و سایت چه چیزی را مال شما می کند، و چه زمانی همان پیج به تنهایی کافی است. راهنمای بی پرده دادمور.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -80,6 +81,30 @@
             "@type": "Answer",
             "text": "نشانه هایش معمولا یکی از این هاست: یک سفارش را گم کرده اید، مشتری ای را فقط به خاطر دیر جواب دادن از دست داده اید، جواب دادن به پیام ها ساعت هایی را می خورد که باید صرف محصول و محتوا شود، یا مشتری ها مدام می پرسند سایت ندارید؟"
           }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "خانه",
+          "item": "https://dadmor.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "مقالات",
+          "item": "https://dadmor.netlify.app/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "پیج اینستاگرام یا سایت؟ چرا فروشگاه اینستاگرامی شما به سایت خودش نیاز دارد",
+          "item": "https://dadmor.netlify.app/articles/instagram-vs-website/"
         }
       ]
     }

@@ -2,7 +2,7 @@
   "path": "en/tools/security-check/index.html",
   "lang": "en",
   "title": "Security self-check: twelve plain questions | dadmor",
-  "description": "Twelve plain questions about your site's and team's security habits, with a transparent score and next actions in order. It does not test your system and does not replace a penetration test.",
+  "description": "Twelve questions about your security habits, with a transparent score and next actions in order. It does not test your system or replace a penetration test.",
   "canonical": "https://dadmor.netlify.app/en/tools/security-check/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/tools/security-check/",
@@ -13,7 +13,7 @@
     "site_name": "dadmor",
     "type": "website",
     "title": "Security self-check: twelve plain questions | dadmor",
-    "description": "Twelve plain questions about your site's and team's security habits, with a transparent score and next actions in order. It does not test your system and does not replace a penetration test.",
+    "description": "Twelve questions about your security habits, with a transparent score and next actions in order. It does not test your system or replace a penetration test.",
     "url": "https://dadmor.netlify.app/en/tools/security-check/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -21,7 +21,26 @@
     "locale": "en_US",
     "locale:alternate": "fa_IR"
   },
-  "jsonld": [],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Security self-check",
+      "url": "https://dadmor.netlify.app/en/tools/security-check/",
+      "applicationCategory": "BusinessApplication",
+      "inLanguage": "en",
+      "description": "Twelve questions about your security habits, with a transparent score and next actions in order. It does not test your system or replace a penetration test.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "url": "https://dadmor.netlify.app/"
+      }
+    }
+  ],
   "hero": null,
   "blocks": [
     {

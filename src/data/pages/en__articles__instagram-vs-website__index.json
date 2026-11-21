@@ -1,20 +1,20 @@
 {
   "path": "en/articles/instagram-vs-website/index.html",
   "lang": "en",
-  "title": "Instagram page or website? Why your Instagram shop needs a website of its own | dadmor",
-  "description": "What happens on the morning your shop page is gone? What a page rents and what a website owns, what a website for an Instagram shop actually means, and when a page alone is honestly enough. A plain spoken guide from dadmor.",
-  "canonical": "https://dadmor.netlify.app/en/articles/instagram-vs-website/index.html",
+  "title": "Instagram page or website? Why your shop needs a website",
+  "description": "What happens on the morning your shop page is gone? What a page rents and what a website owns, and when a page alone is honestly enough.",
+  "canonical": "https://dadmor.netlify.app/en/articles/instagram-vs-website/",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/instagram-vs-website/index.html",
-    "en": "https://dadmor.netlify.app/en/articles/instagram-vs-website/index.html",
-    "x-default": "https://dadmor.netlify.app/articles/instagram-vs-website/index.html"
+    "fa": "https://dadmor.netlify.app/articles/instagram-vs-website/",
+    "en": "https://dadmor.netlify.app/en/articles/instagram-vs-website/",
+    "x-default": "https://dadmor.netlify.app/articles/instagram-vs-website/"
   },
   "og": {
     "site_name": "dadmor",
     "type": "article",
-    "title": "Instagram page or website? Why your Instagram shop needs a website of its own | dadmor",
-    "description": "What happens on the morning your shop page is gone? What a page rents and what a website owns, what a website for an Instagram shop actually means, and when a page alone is honestly enough. A plain spoken guide from dadmor.",
-    "url": "https://dadmor.netlify.app/en/articles/instagram-vs-website/index.html",
+    "title": "Instagram page or website? Why your shop needs a website",
+    "description": "What happens on the morning your shop page is gone? What a page rents and what a website owns, and when a page alone is honestly enough.",
+    "url": "https://dadmor.netlify.app/en/articles/instagram-vs-website/",
     "image": "https://dadmor.netlify.app/covers/cover-instagram.png",
     "image:width": "1200",
     "image:height": "630",
@@ -26,7 +26,8 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "Instagram page or website? Why your Instagram shop needs a website of its own",
-      "description": "What happens on the morning your shop page is gone? What a page rents and what a website owns, what a website for an Instagram shop actually means, and when a page alone is honestly enough. A plain spoken guide from dadmor.",
+      "image": "https://dadmor.netlify.app/covers/cover-instagram.png",
+      "description": "What happens on the morning your shop page is gone? What a page rents and what a website owns, and when a page alone is honestly enough.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -80,6 +81,30 @@
             "@type": "Answer",
             "text": "The signs are usually one of these: you have lost an order, you have lost a customer only because you replied late, answering messages is eating the hours that should go into product and content, or customers keep asking whether you have a website."
           }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dadmor.netlify.app/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Articles",
+          "item": "https://dadmor.netlify.app/en/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Instagram page or website? Why your Instagram shop needs a website of its own",
+          "item": "https://dadmor.netlify.app/en/articles/instagram-vs-website/"
         }
       ]
     }

@@ -21,7 +21,26 @@
     "locale": "fa_IR",
     "locale:alternate": "en_US"
   },
-  "jsonld": [],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "خودارزیابی امنیت",
+      "url": "https://dadmor.netlify.app/tools/security-check/",
+      "applicationCategory": "BusinessApplication",
+      "inLanguage": "fa-IR",
+      "description": "دوازده سؤال ساده درباره عادت های امنیتی سایت و تیم تان، با امتیاز شفاف و کارهای بعدی به ترتیب. سیستم شما را تست نمی کند و جای تست نفوذ را نمی گیرد.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "url": "https://dadmor.netlify.app/"
+      }
+    }
+  ],
   "hero": null,
   "blocks": [
     {

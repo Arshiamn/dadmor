@@ -2,19 +2,19 @@
   "path": "articles/website-cost/index.html",
   "lang": "fa",
   "title": "هزینه طراحی سایت چقدر است؟ کالبدشکافی صادقانه قیمت | dadmor",
-  "description": "هزینه طراحی سایت از چه ساخته می شود؟ دادمور این جا ساعت به ساعت باز می کند پول شما چه می خرد، چرا پیش فاکتور پنج میلیونی و پنجاه میلیونی هر دو می توانند صادقانه باشند و قیمت ارزان دقیقا از کجا کم می گذارد: اسکوپ، تست و تحویل.",
-  "canonical": "https://dadmor.netlify.app/articles/website-cost/index.html",
+  "description": "هزینه طراحی سایت از چه ساخته می شود؟ دادمور ساعت به ساعت باز می کند پول شما چه می خرد و چرا پیش فاکتور پنج میلیونی و پنجاه میلیونی هر دو می توانند صادقانه باشند.",
+  "canonical": "https://dadmor.netlify.app/articles/website-cost/",
   "hreflang": {
-    "fa": "https://dadmor.netlify.app/articles/website-cost/index.html",
-    "en": "https://dadmor.netlify.app/en/articles/website-cost/index.html",
-    "x-default": "https://dadmor.netlify.app/articles/website-cost/index.html"
+    "fa": "https://dadmor.netlify.app/articles/website-cost/",
+    "en": "https://dadmor.netlify.app/en/articles/website-cost/",
+    "x-default": "https://dadmor.netlify.app/articles/website-cost/"
   },
   "og": {
     "site_name": "dadmor",
     "type": "article",
     "title": "هزینه طراحی سایت چقدر است؟ کالبدشکافی صادقانه قیمت | dadmor",
-    "description": "هزینه طراحی سایت از چه ساخته می شود؟ دادمور این جا ساعت به ساعت باز می کند پول شما چه می خرد، چرا پیش فاکتور پنج میلیونی و پنجاه میلیونی هر دو می توانند صادقانه باشند و قیمت ارزان دقیقا از کجا کم می گذارد: اسکوپ، تست و تحویل.",
-    "url": "https://dadmor.netlify.app/articles/website-cost/index.html",
+    "description": "هزینه طراحی سایت از چه ساخته می شود؟ دادمور ساعت به ساعت باز می کند پول شما چه می خرد و چرا پیش فاکتور پنج میلیونی و پنجاه میلیونی هر دو می توانند صادقانه باشند.",
+    "url": "https://dadmor.netlify.app/articles/website-cost/",
     "image": "https://dadmor.netlify.app/covers/cover-cost.png",
     "image:width": "1200",
     "image:height": "630",
@@ -26,7 +26,8 @@
       "@context": "https://schema.org",
       "@type": "Article",
       "headline": "هزینه طراحی سایت چقدر است؟ کالبدشکافی صادقانه قیمت",
-      "description": "هزینه طراحی سایت از چه ساخته می شود؟ دادمور این جا ساعت به ساعت باز می کند پول شما چه می خرد، چرا پیش فاکتور پنج میلیونی و پنجاه میلیونی هر دو می توانند صادقانه باشند و قیمت ارزان دقیقا از کجا کم می گذارد: اسکوپ، تست و تحویل.",
+      "image": "https://dadmor.netlify.app/covers/cover-cost.png",
+      "description": "هزینه طراحی سایت از چه ساخته می شود؟ دادمور ساعت به ساعت باز می کند پول شما چه می خرد و چرا پیش فاکتور پنج میلیونی و پنجاه میلیونی هر دو می توانند صادقانه باشند.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -80,6 +81,30 @@
             "@type": "Answer",
             "text": "عدد نهایی را مقایسه نکنید؛ فهرست کارها و عمق هر مرحله را مقایسه کنید. از هر سازنده ای همان هفت سؤال چک لیست این مقاله را بپرسید و جواب کتبی بخواهید."
           }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "خانه",
+          "item": "https://dadmor.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "مقالات",
+          "item": "https://dadmor.netlify.app/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "هزینه طراحی سایت چقدر است؟ کالبدشکافی صادقانه قیمت",
+          "item": "https://dadmor.netlify.app/articles/website-cost/"
         }
       ]
     }
