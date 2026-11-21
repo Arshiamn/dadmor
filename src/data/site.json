@@ -244,6 +244,62 @@
       "title": "نمونه کار: کارهایی که می توانید ببینید | dadmor",
       "blocks": 4,
       "hero": false
+    },
+    {
+      "path": "articles/index.html",
+      "lang": "fa",
+      "title": "مقالات | dadmor",
+      "blocks": 3,
+      "hero": false
+    },
+    {
+      "path": "articles/instagram-vs-website/index.html",
+      "lang": "fa",
+      "title": "پیج اینستاگرام یا سایت؟ چرا فروشگاه اینستاگرامی شما به سایت نیاز دارد | dadmor",
+      "blocks": 10,
+      "hero": false
+    },
+    {
+      "path": "articles/website-cost/index.html",
+      "lang": "fa",
+      "title": "هزینه طراحی سایت چقدر است و قیمت به چه چیزهایی بستگی دارد | dadmor",
+      "blocks": 9,
+      "hero": false
+    },
+    {
+      "path": "articles/project-scope/index.html",
+      "lang": "fa",
+      "title": "اسکوپ پروژه سایت چیست و چطور آن را درست بنویسیم | dadmor",
+      "blocks": 10,
+      "hero": false
+    },
+    {
+      "path": "en/articles/index.html",
+      "lang": "en",
+      "title": "Articles | dadmor",
+      "blocks": 3,
+      "hero": false
+    },
+    {
+      "path": "en/articles/instagram-vs-website/index.html",
+      "lang": "en",
+      "title": "Instagram page or website? Why your Instagram shop needs a website | dadmor",
+      "blocks": 9,
+      "hero": false
+    },
+    {
+      "path": "en/articles/website-cost/index.html",
+      "lang": "en",
+      "title": "How much does a website cost, and what does the price depend on? | dadmor",
+      "blocks": 8,
+      "hero": false
+    },
+    {
+      "path": "en/articles/project-scope/index.html",
+      "lang": "en",
+      "title": "What is a website project scope, and how do you write one properly? | dadmor",
+      "blocks": 9,
+      "hero": false
     }
   ],
   "chrome": {

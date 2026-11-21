@@ -2401,8 +2401,12 @@ html.has-custom-cursor summary {
     background-color 180ms var(--ease-out), border-color 180ms var(--ease-out);
 }
 .cursor-ring.cursor-ring-hot {
-  width: 40px;
-  height: 40px;
+  /* No growth on hover (owner report with screenshot, 2026-11-17):
+     the enlarged ring ballooned over small link texts in the footer
+     and crossed the letters. The ring keeps its resting size; the
+     green border alone signals the hover. */
+  width: 26px;
+  height: 26px;
   /* No fill: the ring used to paint a soft disc over button labels and
      hide their text (owner report, 2026-11-17). Border only, slightly
      stronger colour carries the hover signal. */
@@ -2415,4 +2419,16 @@ html.has-custom-cursor summary {
   border-radius: 2px;
   background: var(--color-primary);
   border-color: transparent;
+}
+
+/* ---- (7) HEADER NAV FIT (2026-11-21). Adding «مقالات» as the eighth nav
+   item pushed the desktop nav past its width: labels wrapped mid-word
+   and the header grew a second line. Keep every label on one line and
+   tighten the nav spacing slightly so the full row fits at 1280px up. */
+.nav-links {
+  gap: var(--space-1);
+}
+.nav-links a {
+  white-space: nowrap;
+  padding-inline: 6px;
 }

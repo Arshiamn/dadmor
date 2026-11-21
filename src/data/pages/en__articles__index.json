@@ -1,0 +1,77 @@
+{
+  "path": "en/articles/index.html",
+  "lang": "en",
+  "title": "Articles | dadmor",
+  "description": "Practical articles from dadmor for Instagram sellers and small businesses: selling online, what a website costs, and how to write a project scope. No slogans and no ranking promises, just what you should know before ordering a website.",
+  "canonical": "https://dadmor.netlify.app/en/articles/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/articles/",
+    "en": "https://dadmor.netlify.app/en/articles/",
+    "x-default": "https://dadmor.netlify.app/articles/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "website",
+    "title": "Articles | dadmor",
+    "description": "Practical articles from dadmor for Instagram sellers and small businesses: selling online, what a website costs, and how to write a project scope. No slogans and no ranking promises, just what you should know before ordering a website.",
+    "url": "https://dadmor.netlify.app/en/articles/",
+    "image": "https://dadmor.netlify.app/og.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "en_US",
+    "locale:alternate": "fa_IR"
+  },
+  "jsonld": [],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li aria-current=\"page\">Articles</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h1>Articles</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "p",
+          "html": "Practical guides for Instagram sellers and small businesses, written the way we work: scope first, no slogans, no promises nobody can keep."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "cards",
+          "kind": "work",
+          "items": [
+            {
+              "title": "",
+              "href": "",
+              "html": "<article class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d1\" aria-hidden=\"true\"></span>Selling online</span><h3><a href=\"/en/articles/instagram-vs-website/\">Instagram page or website? Why your Instagram shop needs a website</a></h3><p>Selling through DMs works, up to a point. Where a page falls short, what exactly a website changes, and when a page alone is honestly enough.</p><p>21 November 2026 · 6 min read</p></article>"
+            },
+            {
+              "title": "",
+              "href": "",
+              "html": "<article class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>Cost and pricing</span><h3><a href=\"/en/articles/website-cost/\">How much does a website cost, and what does the price depend on?</a></h3><p>What a website price is made of, how a written scope protects your money, and where a very low price becomes dangerous.</p><p>21 November 2026 · 5 min read</p></article>"
+            },
+            {
+              "title": "",
+              "href": "",
+              "html": "<article class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>Project scope</span><h3><a href=\"/en/articles/project-scope/\">What is a website project scope, and how do you write one properly?</a></h3><p>What a scope is, what it should contain, and how it prevents cost and deadline fights. Includes a simple template you can copy.</p><p>21 November 2026 · 6 min read</p></article>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

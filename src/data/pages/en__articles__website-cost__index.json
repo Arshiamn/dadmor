@@ -1,0 +1,219 @@
+{
+  "path": "en/articles/website-cost/index.html",
+  "lang": "en",
+  "title": "How much does a website cost, and what does the price depend on? | dadmor",
+  "description": "What a website price is made of: pages, shop and payment, special features, content and support. How a written scope protects your money, and where a very low price gets dangerous.",
+  "canonical": "https://dadmor.netlify.app/en/articles/website-cost/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/articles/website-cost/",
+    "en": "https://dadmor.netlify.app/en/articles/website-cost/",
+    "x-default": "https://dadmor.netlify.app/articles/website-cost/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "article",
+    "title": "How much does a website cost, and what does the price depend on? | dadmor",
+    "description": "What a website price is made of: pages, shop and payment, special features, content and support. How a written scope protects your money, and where a very low price gets dangerous.",
+    "url": "https://dadmor.netlify.app/en/articles/website-cost/",
+    "image": "https://dadmor.netlify.app/og.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "en_US",
+    "locale:alternate": "fa_IR"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "How much does a website cost, and what does the price depend on?",
+      "description": "What a website price is made of: pages, shop and payment, special features, content and support. How a written scope protects your money, and where a very low price gets dangerous.",
+      "author": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "url": "https://dadmor.netlify.app/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dadmor.netlify.app/img/dadmor-halftone-logo.svg"
+        }
+      },
+      "datePublished": "2026-11-21",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://dadmor.netlify.app/en/articles/website-cost/"
+    }
+  ],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li><a href=\"/en/articles/\">Articles</a></li><li aria-current=\"page\">Website cost</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h1>How much does a website cost, and what does the price depend on?</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "p",
+          "html": "21 November 2026 · 5 min read · By dadmor"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "\"How much does a website cost?\" is the first question almost every client asks, and the hardest to answer. Not because builders hide the answer, but because \"a website\" is not one product with one price. A simple intro page and a shop with payment and inventory are both called a website, while the work and the price are worlds apart."
+        },
+        {
+          "t": "p",
+          "html": "This article gives no magic number, because a number without your needs is meaningless. Instead it shows what a price is made of, how a written scope protects your money, and where a very low price becomes dangerous. At the end you will find a way to get a real estimate for your own site before ordering."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "What the price is made of"
+        },
+        {
+          "t": "p",
+          "html": "A website price is the sum of a few decisions. The biggest ones:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Number and type of pages:</strong> intro, services, work, contact and blog pages each mean separate design, content and review work.",
+            "<strong>Shop and payment:</strong> a product catalogue, cart, payment gateway, user accounts and order tracking are each a full part of the build.",
+            "<strong>Special features:</strong> booking, SMS integration, accounting or inventory connections, multiple languages and complex forms all raise the price, because each has its own logic and testing.",
+            "<strong>Content:</strong> if text, photos and product data are ready, the work is smaller. If content production is also on the builder, it is part of the price.",
+            "<strong>Custom design or a ready base:</strong> designing from zero takes longer. Starting from a prepared base costs less, but you should know where its limits are.",
+            "<strong>Support and maintenance:</strong> updates, backups and fixes after delivery are either in the contract or billed later. Settle it at the start."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "How a written scope protects your money"
+        },
+        {
+          "t": "p",
+          "html": "A scope is the written document, agreed before work starts, that says what will be built and what will not. With a scope, the price is not a floating number: it is attached to a specific list of work."
+        },
+        {
+          "t": "p",
+          "html": "If something is added mid project, its effect on price and time is written down at that moment, not discovered at the end. And if something in the scope is not delivered, you hold a document that says it should have been. Most cost fights in website projects start from a missing scope, not from bad people."
+        },
+        {
+          "t": "p",
+          "html": "Our rule at dadmor is simple: we never start a project without a written scope. That rule protects the client first."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Where a very low price gets dangerous"
+        },
+        {
+          "t": "p",
+          "html": "Cheap is not bad by itself. The danger is cheap that hides what was removed. Take these signs seriously:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "A firm price without a single question about what you need.",
+            "The domain and hosting registered in the builder's name, not yours. You bought the house, but the deed is in someone else's name.",
+            "No contract and no written scope.",
+            "Delivery without documentation or training, so every small change keeps you dependent on the same builder forever.",
+            "Later costs never mentioned: renewals, updates and support appear one by one afterwards."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "A cheap website that you do not own and cannot touch is not a purchase. It is rent."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "How to get an estimate before you order"
+        },
+        {
+          "t": "p",
+          "html": "The right comparison is between scopes, not final numbers. Ask every builder for the list of work in writing, then put the lists side by side. The price difference usually comes from the difference in those lists."
+        },
+        {
+          "t": "p",
+          "html": "To start, you do not need to talk to anyone. We built our project estimator so that picking a site type and the features you want gives you a brief and a rough price range. You can keep that brief and ask any other builder to price the same thing."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-cta container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Get your website estimate"
+        },
+        {
+          "t": "p",
+          "html": "In a few minutes, the estimator turns the features you pick into a brief and a price range. No sign up and no obligation."
+        },
+        {
+          "t": "group",
+          "class": "btn-row",
+          "blocks": [
+            {
+              "t": "cta",
+              "text": "Project estimator",
+              "href": "/en/tools/estimator/",
+              "class": "btn btn-primary"
+            },
+            {
+              "t": "cta",
+              "text": "Talk about a scope",
+              "href": "/en/contact/",
+              "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "path": "articles/index.html",
+  "lang": "fa",
+  "title": "مقالات | dadmor",
+  "description": "مقاله های کاربردی dadmor برای فروشگاه های اینستاگرامی و کسب و کارهای کوچک: فروش آنلاین، هزینه طراحی سایت و اسکوپ پروژه. بدون شعار و بدون قول رتبه، فقط چیزی که قبل از سفارش سایت باید بدانید.",
+  "canonical": "https://dadmor.netlify.app/articles/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/articles/",
+    "en": "https://dadmor.netlify.app/en/articles/",
+    "x-default": "https://dadmor.netlify.app/articles/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "website",
+    "title": "مقالات | dadmor",
+    "description": "مقاله های کاربردی dadmor برای فروشگاه های اینستاگرامی و کسب و کارهای کوچک: فروش آنلاین، هزینه طراحی سایت و اسکوپ پروژه. بدون شعار و بدون قول رتبه، فقط چیزی که قبل از سفارش سایت باید بدانید.",
+    "url": "https://dadmor.netlify.app/articles/",
+    "image": "https://dadmor.netlify.app/og.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "fa_IR",
+    "locale:alternate": "en_US"
+  },
+  "jsonld": [],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"مسیر صفحه\"><ol><li><a href=\"/\">خانه</a></li><li aria-current=\"page\">مقالات</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h1>مقالات</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "p",
+          "html": "اینجا از چیزهایی می نویسیم که قبل از سفارش سایت و در مسیر فروش آنلاین باید بدانید: با دلیل و مثال، بدون شعار و بدون قول هایی که نمی شود نگه داشت."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "cards",
+          "kind": "work",
+          "items": [
+            {
+              "title": "",
+              "href": "",
+              "html": "<article class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d1\" aria-hidden=\"true\"></span>فروش آنلاین</span><h3><a href=\"/articles/instagram-vs-website/\">پیج اینستاگرام یا سایت؟ چرا فروشگاه اینستاگرامی شما به سایت نیاز دارد</a></h3><p>فروش از دایرکت تا یک جایی جواب می دهد. پیج کجا کم می آورد، سایت دقیقا چه چیزی را عوض می کند و چه زمانی همان پیج به تنهایی کافی است.</p><p>۳۰ آبان ۱۴۰۵ · ۷ دقیقه خواندن</p></article>"
+            },
+            {
+              "title": "",
+              "href": "",
+              "html": "<article class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d2\" aria-hidden=\"true\"></span>هزینه و قیمت</span><h3><a href=\"/articles/website-cost/\">هزینه طراحی سایت چقدر است و قیمت به چه چیزهایی بستگی دارد</a></h3><p>قیمت سایت از چه تصمیم هایی ساخته می شود، اسکوپ مکتوب چطور از پول شما محافظت می کند و پیشنهاد خیلی ارزان کجا خطرناک می شود.</p><p>۳۰ آبان ۱۴۰۵ · ۷ دقیقه خواندن</p></article>"
+            },
+            {
+              "title": "",
+              "href": "",
+              "html": "<article class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>اسکوپ پروژه</span><h3><a href=\"/articles/project-scope/\">اسکوپ پروژه سایت چیست و چطور آن را درست بنویسیم</a></h3><p>اسکوپ چیست، چه بخش هایی دارد و چطور جلوی دعوای هزینه و زمان را می گیرد. با یک قالب ساده که می توانید کپی کنید و پر کنید.</p><p>۳۰ آبان ۱۴۰۵ · ۶ دقیقه خواندن</p></article>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

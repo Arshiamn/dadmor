@@ -1,0 +1,240 @@
+{
+  "path": "en/articles/project-scope/index.html",
+  "lang": "en",
+  "title": "What is a website project scope, and how do you write one properly? | dadmor",
+  "description": "What a project scope is, what a good one contains, and how it prevents cost and deadline fights. Includes a simple one page template you can copy and fill in for your own project.",
+  "canonical": "https://dadmor.netlify.app/en/articles/project-scope/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/articles/project-scope/",
+    "en": "https://dadmor.netlify.app/en/articles/project-scope/",
+    "x-default": "https://dadmor.netlify.app/articles/project-scope/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "article",
+    "title": "What is a website project scope, and how do you write one properly? | dadmor",
+    "description": "What a project scope is, what a good one contains, and how it prevents cost and deadline fights. Includes a simple one page template you can copy and fill in for your own project.",
+    "url": "https://dadmor.netlify.app/en/articles/project-scope/",
+    "image": "https://dadmor.netlify.app/og.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "en_US",
+    "locale:alternate": "fa_IR"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "What is a website project scope, and how do you write one properly?",
+      "description": "What a project scope is, what a good one contains, and how it prevents cost and deadline fights. Includes a simple one page template you can copy and fill in for your own project.",
+      "author": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "url": "https://dadmor.netlify.app/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dadmor.netlify.app/img/dadmor-halftone-logo.svg"
+        }
+      },
+      "datePublished": "2026-11-21",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://dadmor.netlify.app/en/articles/project-scope/"
+    }
+  ],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li><a href=\"/en/articles/\">Articles</a></li><li aria-current=\"page\">Project scope</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h1>What is a website project scope, and how do you write one properly?</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "p",
+          "html": "21 November 2026 · 6 min read · By dadmor"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "Most fights in website projects start with one sentence: \"I thought this was included.\" The client had one thing in mind, the builder built another, and both believe they are right. The cure for this repeated fight is a short document written before work starts: the project scope."
+        },
+        {
+          "t": "p",
+          "html": "In this article you will read what a scope actually is, what sections it needs, and how you can write the first version yourself before talking to any builder. We also give you a simple template you can copy and fill in."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "What a scope is"
+        },
+        {
+          "t": "p",
+          "html": "A project scope is a written document that fixes the boundaries of the work: what will be built, what will not be built, in what time and at what cost. It is not a complicated legal contract and not office paperwork. It is a clear, two sided list that both sides accept before starting."
+        },
+        {
+          "t": "p",
+          "html": "A brief says what you want. A scope says exactly what you will receive, and what you will not. That second part, the \"not included\" list, is where most misunderstandings die before they are born."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "What a good scope contains"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Goal and audience:</strong> what the site is for, and who should do what on it.",
+            "<strong>Page list:</strong> every page named, not a vague line like \"a company site\".",
+            "<strong>Features:</strong> each capability in one clear sentence. For example, the contact form reaches an email, or booking is confirmed by SMS.",
+            "<strong>Content and who provides it:</strong> who prepares text, photos and the logo, and by when.",
+            "<strong>Design and revisions:</strong> how many revision rounds are in the price, and what counts as a revision.",
+            "<strong>Timeline:</strong> the start, the stages and the delivery date of each stage.",
+            "<strong>Cost and payment:</strong> the amount per stage and when it is paid.",
+            "<strong>Delivery and documentation:</strong> what you receive at the end: files, access, training and a usage document.",
+            "<strong>Support after delivery:</strong> for how long, and covering what.",
+            "<strong>Out of scope:</strong> an explicit list of what this project does not include, priced separately if needed later."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "A simple template you can copy"
+        },
+        {
+          "t": "p",
+          "html": "For most small websites, this one page template is enough. Fill each line with your project’s real situation:"
+        },
+        {
+          "t": "list",
+          "ordered": true,
+          "items": [
+            "Site goal: ...",
+            "Pages: home, services, about, contact, ...",
+            "Features: contact form, ... / Shop: yes or no, gateway: ...",
+            "Content: text by ..., photos by ...",
+            "Time: starts ..., first stage delivered ...",
+            "Cost: total ..., paid in ... stages",
+            "Delivery: full access + documentation + one training session",
+            "Not included: monthly content production, advertising, ..."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "If a builder refuses to put something like this in writing, pause there. For a serious builder, writing it is not hard."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "How a scope prevents cost and deadline fights"
+        },
+        {
+          "t": "p",
+          "html": "New ideas arrive in every project. A new idea is not bad, but it needs a defined place. With a scope, every change becomes one small written decision: this work is added, it adds this much to the price and this much to the time, do you agree? Agreed on the spot, it removes the end of project fight."
+        },
+        {
+          "t": "p",
+          "html": "And if something in the scope was not done, there is no argument about whether it was promised. The document exists. A good scope takes the relationship off memory and personal interpretation, and puts it on paper."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Check these before you accept a scope"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "Will the domain, hosting and all access end up in your name and in your hands?",
+            "Have you read the \"not included\" list and agreed with it?",
+            "Have you set a realistic deadline for the content you owe?",
+            "Is the mid project change process clear?",
+            "Does delivery include documentation and training, or only the site itself?"
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-cta container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Start your scope here"
+        },
+        {
+          "t": "p",
+          "html": "Our project estimator ends its few simple questions with a printable brief you can use as the base of your scope. On the website building page you can also see how we start every project with a written scope."
+        },
+        {
+          "t": "group",
+          "class": "btn-row",
+          "blocks": [
+            {
+              "t": "cta",
+              "text": "Website building service",
+              "href": "/en/services/website-building/",
+              "class": "btn btn-primary"
+            },
+            {
+              "t": "cta",
+              "text": "Project estimator",
+              "href": "/en/tools/estimator/",
+              "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
