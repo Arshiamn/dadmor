@@ -292,7 +292,7 @@ h2 {
 :root[data-theme="light"] .marquee-glow {
   background: radial-gradient(
     240px circle at var(--mx, 50%) var(--my, 50%),
-    rgba(58, 53, 135, 0.16),
+    rgba(91, 69, 201, 0.14),
     transparent 70%
   );
 }
@@ -437,7 +437,7 @@ h2 {
   background: radial-gradient(ellipse 90% 80% at 50% 40%, rgba(11, 10, 20, 0.72), rgba(11, 10, 20, 0) 70%);
 }
 :root[data-theme="light"] .hero-text::before {
-  background: radial-gradient(ellipse 90% 80% at 50% 40%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(ellipse 90% 80% at 50% 40%, rgba(250, 248, 243, 0.85), rgba(250, 248, 243, 0) 70%);
 }
 .hero h1 {
   text-shadow: 0 2px 24px rgba(11, 10, 20, 0.55), 0 0 2px rgba(11, 10, 20, 0.4);
@@ -446,10 +446,10 @@ h2 {
   text-shadow: 0 1px 12px rgba(11, 10, 20, 0.6);
 }
 :root[data-theme="light"] .hero h1 {
-  text-shadow: 0 2px 24px rgba(255, 255, 255, 0.65), 0 0 2px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 2px 24px rgba(246, 244, 239, 0.7), 0 0 2px rgba(246, 244, 239, 0.55);
 }
 :root[data-theme="light"] .hero-text p {
-  text-shadow: 0 1px 12px rgba(255, 255, 255, 0.7);
+  text-shadow: 0 1px 12px rgba(246, 244, 239, 0.75);
 }
 
 /* ---- (3) BRAND LOCKUP — one lion + the correct wordmark. LionWord used
@@ -786,7 +786,7 @@ html, body {
 :root[data-theme="light"] .hero h1 .w:nth-child(odd),
 :root[data-theme="light"] .hero h1 .w:nth-child(even) { color: var(--color-foreground); }
 .hero h1 .w.w-accent { color: var(--violet-bright); }
-:root[data-theme="light"] .hero h1 .w.w-accent { color: #7C3AED; }
+:root[data-theme="light"] .hero h1 .w.w-accent { color: var(--color-primary-bright); }
 
 /* Holographic foil: an iridescent gradient whose position follows the
    element's 3D tilt (--fx/--fy set from the pointer), so the material
@@ -1176,8 +1176,12 @@ html, body {
      "not good" — too bright/neon (value 100) and too close in hue to the
      indigo base (256° vs 244°), so it read as a brighter indigo. The new
      light violet #7C3AED is a refined, clearly purple violet (hue 262°,
-     5.70:1 on white, AA; 1.81:1 against the indigo base). */
-  color: #7C3AED;
+     5.70:1 on white, AA; 1.81:1 against the indigo base).
+     2026-11-23 comfort pass: #7C3AED at display sizes still vibrated on
+     white; the headings now take the light theme's primary-bright token
+     (#6d54d8, 4.8:1 on the warm paper), the same violet as the hero
+     accent, so the whole light face speaks one calmer violet. */
+  color: var(--color-primary-bright);
 }
 
 /* ============ v27 (2026-11-06, owner orders) ============ */
@@ -3012,4 +3016,57 @@ html[lang="en"] .art-summary li::before {
     display: block;
     overflow-x: auto;
   }
+}
+
+/* ================================================================
+   Light theme comfort pass, 2026-11-23 (owner: the light theme is
+   not interesting and hurts the eyes). Companion to the tokens.css
+   palette pass: the dark design's neon values reached light mode
+   through primitives and hardcoded glows. These overrides retune
+   them for the warm paper. Dark mode is untouched, and no animation,
+   timing or geometry changes: colours and shadows only.
+   ================================================================ */
+
+/* Hero backdrop: the base layers are drawn with the dark primitives
+   (var(--violet) at full neon saturation, and one dot layer in raw
+   --live #00e676) — on white the green layer read as dust specks
+   scattered over the hero and the violet wash was candy-bright.
+   Light gets the same four-layer composition in the retuned violet,
+   with the fourth layer violet too (green stays a signal, never
+   decoration). The drift animation is unchanged. */
+:root[data-theme="light"] .hero-backdrop {
+  background-image:
+    radial-gradient(60% 50% at 50% 30%, color-mix(in srgb, var(--color-primary) 13%, transparent), transparent 70%),
+    radial-gradient(2px 2px at 20% 40%, color-mix(in srgb, var(--color-primary) 38%, transparent), transparent),
+    radial-gradient(2px 2px at 70% 25%, color-mix(in srgb, var(--color-primary) 30%, transparent), transparent),
+    radial-gradient(2px 2px at 85% 60%, color-mix(in srgb, var(--color-primary) 24%, transparent), transparent);
+}
+
+/* Dot band: the live dot itself already uses the deep text green in
+   light mode, but its halo was the dark neon rgba(0, 230, 118, 0.7),
+   a spray-paint blob on the pale band. Softened to the same deep
+   green at a resting alpha. */
+:root[data-theme="light"] .marquee-row:nth-child(2) .marquee-dot:nth-child(24n+1)::after {
+  box-shadow: 0 0 8px 2px rgba(0, 107, 67, 0.35);
+}
+
+/* The travelling violet comet glowed with the dark neon violet
+   (rgba(140, 128, 255, 0.7)) and read as a bruise on the band. */
+:root[data-theme="light"] .dot-stream-comet {
+  box-shadow: 0 0 10px 2px rgba(91, 69, 201, 0.35);
+}
+
+/* Toggle and language hover glows: same neon violet, softened. */
+:root[data-theme="light"] .theme-toggle:hover,
+:root[data-theme="light"] .lang-switch a:hover {
+  text-shadow: 0 0 10px rgba(91, 69, 201, 0.35);
+}
+:root[data-theme="light"] .theme-toggle:hover svg {
+  filter: drop-shadow(0 0 5px rgba(91, 69, 201, 0.45));
+}
+
+/* Footer: a soft violet-tinted closing band, so the page ends on a
+   deliberate surface instead of trailing off into the paper. */
+:root[data-theme="light"] .site-footer {
+  background: #efeaf7;
 }
