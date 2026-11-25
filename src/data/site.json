@@ -295,6 +295,27 @@
       "hero": false
     },
     {
+      "path": "articles/payment-gateway-trust-symbol/index.html",
+      "lang": "fa",
+      "title": "درگاه پرداخت و نماد اعتماد: چطور فروشگاهت را به پول واقعی وصل کنی | dadmor",
+      "blocks": 16,
+      "hero": false
+    },
+    {
+      "path": "articles/seo-for-small-shops/index.html",
+      "lang": "fa",
+      "title": "سئو چیست؟ راهنمای شروع سئو برای فروشگاه های کوچک | dadmor",
+      "blocks": 18,
+      "hero": false
+    },
+    {
+      "path": "articles/website-speed-and-sales/index.html",
+      "lang": "fa",
+      "title": "سرعت سایت چرا برای فروش مهم است و چه چیزهایی سایتت را کند می کند | dadmor",
+      "blocks": 16,
+      "hero": false
+    },
+    {
       "path": "en/articles/index.html",
       "lang": "en",
       "title": "Articles | dadmor",
@@ -341,6 +362,27 @@
       "lang": "en",
       "title": "Traffic but no sales? Check these seven places | dadmor",
       "blocks": 19,
+      "hero": false
+    },
+    {
+      "path": "en/articles/payment-gateway-trust-symbol/index.html",
+      "lang": "en",
+      "title": "Payment gateway and trust symbol: how to connect your shop to real money | dadmor",
+      "blocks": 16,
+      "hero": false
+    },
+    {
+      "path": "en/articles/seo-for-small-shops/index.html",
+      "lang": "en",
+      "title": "What is SEO? A starter guide for small shops | dadmor",
+      "blocks": 18,
+      "hero": false
+    },
+    {
+      "path": "en/articles/website-speed-and-sales/index.html",
+      "lang": "en",
+      "title": "Why website speed matters for sales, and what makes your site slow | dadmor",
+      "blocks": 16,
       "hero": false
     }
   ],

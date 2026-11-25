@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A bank card with a green check beside a trust badge">
+    <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="78%">
+      <stop offset="0%" stop-color="#262052"/>
+      <stop offset="55%" stop-color="#141126"/>
+      <stop offset="100%" stop-color="#0b0a14"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.4" fill="#8c80ff"/>
+    </pattern>
+    <radialGradient id="dotfade" cx="50%" cy="46%" r="62%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="68%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </radialGradient>
+    <mask id="dotmask">
+      <rect width="600" height="400" fill="url(#dotfade)"/>
+    </mask>
+  </defs>
+  <rect width="600" height="400" fill="url(#glow)"/>
+  <rect width="600" height="400" fill="url(#dots)" opacity="0.32" mask="url(#dotmask)"/>
+  <!-- bank card -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="96" y="128" width="252" height="158" rx="18" fill="#16132a" stroke="#b7a6ff" stroke-width="5"/>
+    <line x1="96" y1="168" x2="348" y2="168" stroke="#8c80ff" stroke-width="10"/>
+    <rect x="122" y="196" width="46" height="34" rx="6" stroke="#8c80ff" stroke-width="4"/>
+    <circle cx="212" cy="252" r="5" fill="#8c80ff" stroke="none" opacity="0.8"/>
+    <circle cx="240" cy="252" r="5" fill="#8c80ff" stroke="none" opacity="0.8"/>
+    <circle cx="268" cy="252" r="5" fill="#8c80ff" stroke="none" opacity="0.8"/>
+    <circle cx="296" cy="252" r="5" fill="#8c80ff" stroke="none" opacity="0.8"/>
+  </g>
+  <!-- trust badge: rosette with a check -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="408,238 428,300 448,262 468,300 488,238" fill="#16132a" stroke="#8c80ff" stroke-width="5"/>
+    <circle cx="448" cy="182" r="66" fill="#0b0a14" stroke="#b7a6ff" stroke-width="5"/>
+    <circle cx="448" cy="182" r="50" stroke="#8c80ff" stroke-width="3"/>
+    <path d="M420 184 l20 20 l38 -42" stroke="#00ff41" stroke-width="7"/>
+  </g>
+</svg>

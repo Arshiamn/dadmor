@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A magnifier over a page with a rising chart">
+    <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="78%">
+      <stop offset="0%" stop-color="#262052"/>
+      <stop offset="55%" stop-color="#141126"/>
+      <stop offset="100%" stop-color="#0b0a14"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.4" fill="#8c80ff"/>
+    </pattern>
+    <radialGradient id="dotfade" cx="50%" cy="46%" r="62%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="68%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </radialGradient>
+    <mask id="dotmask">
+      <rect width="600" height="400" fill="url(#dotfade)"/>
+    </mask>
+  </defs>
+  <rect width="600" height="400" fill="url(#glow)"/>
+  <rect width="600" height="400" fill="url(#dots)" opacity="0.32" mask="url(#dotmask)"/>
+  <!-- page -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="150" y="66" width="218" height="268" rx="14" fill="#16132a" stroke="#b7a6ff" stroke-width="5"/>
+    <line x1="182" y1="112" x2="300" y2="112" stroke="#8c80ff" stroke-width="6"/>
+    <line x1="182" y1="142" x2="336" y2="142" stroke="#8c80ff" stroke-width="4" opacity="0.75"/>
+    <line x1="182" y1="168" x2="336" y2="168" stroke="#8c80ff" stroke-width="4" opacity="0.75"/>
+    <polyline points="182,286 224,248 258,264 306,214" stroke="#00ff41" stroke-width="5"/>
+    <polyline points="282,210 308,210 308,236" stroke="#00ff41" stroke-width="5"/>
+  </g>
+  <!-- magnifier -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="392" cy="252" r="62" fill="#0b0a14" fill-opacity="0.55" stroke="#b7a6ff" stroke-width="6"/>
+    <line x1="436" y1="296" x2="492" y2="352" stroke="#b7a6ff" stroke-width="10"/>
+  </g>
+</svg>
