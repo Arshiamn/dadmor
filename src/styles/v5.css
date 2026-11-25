@@ -2677,6 +2677,117 @@ html[lang="en"] .art-kicker {
   white-space: nowrap;
 }
 
+/* ------------------------------------- index search + filter (2026-11-25)
+   The articles index rebuilt on the approved mockup skeleton (hero
+   search, filter pills, clean card grid) in dadmor tokens only.
+   Scoped to the index controls and the index grid modifier, so the
+   article detail pages keep their existing card styles. */
+.art-search {
+  margin-top: var(--space-6);
+  max-width: 560px;
+}
+.art-search-box {
+  position: relative;
+}
+.art-search-icon {
+  position: absolute;
+  inset-inline-start: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  color: var(--color-muted-foreground);
+  pointer-events: none;
+}
+.art-search input {
+  width: 100%;
+  padding: 13px 16px;
+  padding-inline-start: 44px;
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-card);
+  color: var(--color-foreground);
+  font: inherit;
+}
+.art-search input::placeholder {
+  color: var(--color-muted-foreground);
+}
+.art-search input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-glow-violet);
+}
+.art-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: 28px;
+}
+.art-pill {
+  font: inherit;
+  font-size: var(--text-small);
+  font-weight: var(--weight-emphasis);
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  color: var(--color-muted-foreground);
+  cursor: pointer;
+  transition: border-color 200ms ease, color 200ms ease,
+    background-color 200ms ease;
+}
+.art-pill:hover {
+  border-color: var(--color-border-control);
+  color: var(--color-foreground);
+}
+.art-pill:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+.art-pill[aria-pressed="true"] {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
+.art-grid-index {
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 1023.98px) {
+  .art-grid-index {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.art-grid-index .art-card-media {
+  position: relative;
+}
+.art-card-chip {
+  position: absolute;
+  inset-inline-start: 12px;
+  top: 12px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--color-primary);
+  color: var(--color-primary-foreground);
+  font-size: 0.75rem;
+  font-weight: var(--weight-emphasis);
+  line-height: 1.7;
+}
+.art-empty {
+  padding: var(--space-7) var(--space-4);
+  border: var(--border-width) dashed var(--color-border);
+  border-radius: var(--radius-card-lg);
+  text-align: center;
+  color: var(--color-muted-foreground);
+}
+.art-empty p {
+  margin: 0 0 var(--space-4);
+}
+.art-empty-reset {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
+
 /* ---------------------------------------------------------- article head */
 .art-head {
   padding-block: var(--space-7) var(--space-5);

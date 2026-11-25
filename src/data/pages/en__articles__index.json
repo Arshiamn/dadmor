@@ -93,46 +93,10 @@
       "tag": "nav"
     },
     {
-      "t": "group",
-      "class": "art-mast container",
-      "blocks": [
-        {
-          "t": "raw",
-          "html": "<p class=\"art-kicker\">dadmor articles</p>",
-          "class": "",
-          "tag": "div"
-        },
-        {
-          "t": "raw",
-          "html": "<h1>Things we wish someone had told us before ordering a website</h1>",
-          "class": "",
-          "tag": "h1"
-        },
-        {
-          "t": "raw",
-          "html": "<p class=\"art-manifesto\">These are not the market’s usual articles. We write here what others only say in a sales meeting: what website money actually buys and why a page is rented land. <strong>If you read these and then go to another studio, you will buy a better project.</strong></p>",
-          "class": "",
-          "tag": "div"
-        },
-        {
-          "t": "raw",
-          "html": "<div class=\"art-stats\"><div class=\"stat\"><strong>20+</strong><span>projects delivered</span></div><div class=\"stat\"><strong>5+</strong><span>years of building and delivery</span></div><div class=\"stat\"><strong>0</strong><span>ranking promises or guaranteed results in these articles</span></div></div>",
-          "class": "",
-          "tag": "div"
-        }
-      ]
-    },
-    {
-      "t": "group",
-      "class": "container art-contents",
-      "blocks": [
-        {
-          "t": "raw",
-          "html": "<div class=\"art-feature\"><a class=\"art-card art-card-feature\" href=\"/en/articles/instagram-vs-website/\"><span class=\"art-card-media\"><img src=\"/covers/cover-instagram.svg\" alt=\"Article cover: a locked phone beside a house of your own\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h2 class=\"art-card-title\">Instagram page or website? Why your Instagram shop needs a website of its own</h2><span class=\"art-card-excerpt\">It is seven in the morning. You open Instagram and your shop page is gone: three years of content, thousands of customers and every open order, inside an account that is not in your hands. This article starts on that morning and answers one question: which part of your business stands on your own land?</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a></div><div class=\"art-grid\"><a class=\"art-card\" href=\"/en/articles/website-cost/\"><span class=\"art-card-media\"><img src=\"/covers/cover-cost.svg\" alt=\"Article cover: a price tag and coins\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Cost and pricing</span><h3 class=\"art-card-title\">How much does a website cost? An honest anatomy of the price</h3><span class=\"art-card-excerpt\">One brief, two quotes: five million and fifty million. Both can be honest. Here we open up, hour by hour, what your money buys and where a cheap quote quietly cuts.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a><a class=\"art-card\" href=\"/en/articles/project-scope/\"><span class=\"art-card-media\"><img src=\"/covers/cover-scope.svg\" alt=\"Article cover: a signed document with a seal of approval\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Project scope</span><h3 class=\"art-card-title\">What is a project scope? Take dadmor’s real template, free</h3><span class=\"art-card-excerpt\">We publish the exact scope template we sign before every project: ten sections, a filled example and the fight each line prevents. Take it and write your project scope tonight.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a><a class=\"art-card\" href=\"/en/articles/shop-builder-vs-own-site/\"><span class=\"art-card-media\"><img src=\"/covers/cover-builder.svg\" alt=\"Article cover: a market stall with a striped awning beside your own shop with a green door\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h3 class=\"art-card-title\">Shop builder or your own website? Renting a stall in someone else’s mall or owning your shop</h3><span class=\"art-card-excerpt\">For a few hundred thousand tomans a month your shop opens and everything is ready. But the stall belongs to the mall: its rent runs forever, its rules are set by someone else, and on the day you leave, the customers stay behind.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a><a class=\"art-card\" href=\"/en/articles/instagram-hacked/\"><span class=\"art-card-media\"><img src=\"/covers/cover-hacked.svg\" alt=\"Article cover: a phone with a cracked shield and a green check on its intact half\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Security</span><h3 class=\"art-card-title\">Your shop page got hacked? Do these things first</h3><span class=\"art-card-excerpt\">You wake up and the page is not in your hands: the password has changed and strange stories are going up. The first hour decides whether the page comes back. Here is the right recovery order, and the locks that actually work.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>9 min read</span></span></span></a><a class=\"art-card\" href=\"/en/articles/traffic-but-no-sales/\"><span class=\"art-card-media\"><img src=\"/covers/cover-nosales.svg\" alt=\"Article cover: a funnel visitors enter and a shopping cart under a magnifier\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h3 class=\"art-card-title\">Traffic but no sales? Check these seven places</h3><span class=\"art-card-excerpt\">Yesterday four hundred people came and nobody bought. Most shops do not have a people problem; somewhere between the door and the till the customer turns around and leaves. Check these seven places, in order.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a></div>",
-          "class": "",
-          "tag": "div"
-        }
-      ]
+      "t": "raw",
+      "html": "<div data-articles-index></div>",
+      "class": "",
+      "tag": "div"
     },
     {
       "t": "group",
