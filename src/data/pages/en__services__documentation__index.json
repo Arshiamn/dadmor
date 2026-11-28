@@ -134,7 +134,7 @@
         },
         {
           "t": "p",
-          "html": "We build documentation like a product: first we audit what exists, what is missing, and what is wrong, then we assign each document an audience, a format, an update rule, and an owner, and we hand it over reviewed by your own team. We also do not write documentation without a source, because documentation without a source is a guess."
+          "html": "We build documentation like a product: first we audit what exists, what is missing, and what is wrong, then we assign each document an audience, a format, an update rule, and an owner, and we hand it over reviewed by your own team. We also do not write documentation without a source, because documentation without a source is a guess. We have also published the scope template we sign before every project, so you can see what a good document looks like: <a href=\"/en/articles/project-scope/\">dadmor’s real project scope template</a>."
         }
       ]
     },

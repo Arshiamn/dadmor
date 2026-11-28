@@ -63,6 +63,10 @@
             "href": "/en/journal/"
           },
           {
+            "text": "Articles",
+            "href": "/en/articles/"
+          },
+          {
             "text": "FAQ",
             "href": "/en/faq/"
           },
@@ -151,6 +155,10 @@
           {
             "text": "یادداشت ها",
             "href": "/journal/"
+          },
+          {
+            "text": "مقالات",
+            "href": "/articles/"
           },
           {
             "text": "پرسش ها",

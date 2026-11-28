@@ -192,35 +192,43 @@
   }
 }
 
-/* Light theme: fully working secondary theme, chosen explicitly via data-theme. */
+/* Light theme: fully working secondary theme, chosen explicitly via data-theme.
+   2026-11-23 comfort pass (owner: the light theme "is not interesting at
+   all and hurts the eyes"). The old light face was pure white on pure
+   white with every text role in saturated indigo #3a3587: no tonal
+   layering, maximum glare, and long text that fatigues. The new face is
+   a warm paper with a soft violet-souled ink, and the brand violet
+   retuned richer and calmer for light. Measured on the new paper
+   (#f6f4ef): ink 12.3:1, muted 5.8:1, primary 6.0:1 (white text on
+   primary 6.6:1), primary-bright 4.8:1, live text 6.0:1. */
 :root[data-theme="light"] {
   color-scheme: light;
-  --color-background: #ffffff;
-  --color-surface: #ffffff;
-  --color-foreground: #3a3587;
-  --color-muted-foreground: #5a5a6a;
-  --color-primary: #3a3587;
-  --color-primary-bright: #3a3587;
-  --color-live: #006b43;            /* green as TEXT on light: 6.60 on white */
+  --color-background: #f6f4ef;
+  --color-surface: #fffefa;
+  --color-foreground: #2e2c3e;
+  --color-muted-foreground: #5f5c72;
+  --color-primary: #5b45c9;
+  --color-primary-bright: #6d54d8;
+  --color-live: #006b43;            /* green as TEXT on light: 6.0 on the paper */
   --color-live-graphics: #008a5a;   /* green as graphics on light: 4.39 (>=3:1) */
   --color-primary-foreground: #ffffff;
-  --color-primary-soft: #eeedf8;
-  --color-border: #e4e2f0;
-  --color-border-control: #767490;
-  --color-ring: #3a3587;
+  --color-primary-soft: #edeafa;
+  --color-border: #e0dbd2;
+  --color-border-control: #7d7a8c;
+  --color-ring: #5b45c9;
   --color-error: #b3261e;
-  --color-dot: #3a3587;
-  --color-selection: #eeedf8;
-  --lion-ink: #3a3587;
-  --lion-eyes: #3a3587;  /* owner: no green eyes in light mode */
-  --acc-section: #3a3587;
+  --color-dot: #6d54d8;
+  --color-selection: #d9d2f8;
+  --lion-ink: #43389b;
+  --lion-eyes: #43389b;  /* owner: no green eyes in light mode */
+  --acc-section: #5b45c9;
   --acc-warm: var(--warm-deep);
-  --glass-tint: rgba(255, 255, 255, 0.78);
-  --glass-fallback: #ffffff;
-  --glass-border: #e4e2f0;
-  --shadow-soft: 0 1px 2px rgba(26, 26, 34, 0.06), 0 4px 12px rgba(26, 26, 34, 0.05);
-  --shadow-glow-violet: 0 0 16px rgba(58, 53, 135, 0.25);
-  --shadow-glow-live: 0 0 16px rgba(0, 107, 67, 0.3);
+  --glass-tint: rgba(250, 248, 243, 0.85);
+  --glass-fallback: #fffefa;
+  --glass-border: #e0dbd2;
+  --shadow-soft: 0 1px 2px rgba(43, 36, 84, 0.05), 0 10px 28px rgba(43, 36, 84, 0.06);
+  --shadow-glow-violet: 0 0 18px rgba(91, 69, 201, 0.3);
+  --shadow-glow-live: 0 0 16px rgba(0, 107, 67, 0.28);
 }
 
 :root[data-theme="dark"] {

@@ -25,10 +25,27 @@
     [
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
+        "@type": [
+          "Organization",
+          "ProfessionalService"
+        ],
         "name": "dadmor",
         "url": "https://dadmor.netlify.app/",
-        "logo": "https://dadmor.netlify.app/img/dadmor-halftone-logo.svg"
+        "logo": "https://dadmor.netlify.app/img/dadmor-halftone-logo.svg",
+        "sameAs": [
+          "https://www.instagram.com/dadmor.studio",
+          "https://t.me/dadmor_ai"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+98-939-140-0826",
+          "email": "hello@dadmor.com",
+          "contactType": "sales",
+          "availableLanguage": [
+            "fa",
+            "en"
+          ]
+        }
       },
       {
         "@context": "https://schema.org",
@@ -83,7 +100,7 @@
         },
         {
           "t": "p",
-          "html": "هر پروژه با یک سند اسکوپ شروع می شود: چه چیزی تحویل می شود، چه چیزی نه، و چه چیزی را باید شما فراهم کنید. اگر نمی دانید از کدام شروع کنید، <a href=\"/services/#finder\">یابنده خدمت</a> با شش سؤال پیشنهاد می دهد."
+          "html": "هر پروژه با یک سند اسکوپ شروع می شود: چه چیزی تحویل می شود، چه چیزی نه، و چه چیزی را باید شما فراهم کنید. اگر نمی دانید از کدام شروع کنید، <a href=\"/services/#finder\">یابنده خدمت</a> با شش سؤال پیشنهاد می دهد. از دل همین پروژه ها <a href=\"/articles/\">مقاله هایی درباره هزینه، اسکوپ و فروش سایت</a> هم می نویسیم."
         },
         {
           "t": "list",

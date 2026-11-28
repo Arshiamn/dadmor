@@ -1,0 +1,433 @@
+{
+  "path": "en/articles/instagram-hacked/index.html",
+  "lang": "en",
+  "title": "Your shop page got hacked? Do these things first | dadmor",
+  "description": "Shop page hacked? How to get it back through Meta’s official path, the recovery scammers to avoid, and prevention that works: two factor and backup codes.",
+  "canonical": "https://dadmor.netlify.app/en/articles/instagram-hacked/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/articles/instagram-hacked/",
+    "en": "https://dadmor.netlify.app/en/articles/instagram-hacked/",
+    "x-default": "https://dadmor.netlify.app/articles/instagram-hacked/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "article",
+    "title": "Your shop page got hacked? Do these things first | dadmor",
+    "description": "Shop page hacked? How to get it back through Meta’s official path, the recovery scammers to avoid, and prevention that works: two factor and backup codes.",
+    "url": "https://dadmor.netlify.app/en/articles/instagram-hacked/",
+    "image": "https://dadmor.netlify.app/covers/cover-hacked.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "en_US",
+    "locale:alternate": "fa_IR"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Your shop page got hacked? Do these things first",
+      "image": "https://dadmor.netlify.app/covers/cover-hacked.png",
+      "description": "Shop page hacked? How to get it back through Meta’s official path, the recovery scammers to avoid, and prevention that works: two factor and backup codes.",
+      "author": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "url": "https://dadmor.netlify.app/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dadmor.netlify.app/img/dadmor-halftone-logo.svg"
+        }
+      },
+      "datePublished": "2026-11-21",
+      "dateModified": "2026-11-21",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://dadmor.netlify.app/en/articles/instagram-hacked/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know my page is hacked and not just locked?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The signs of a hack are these: your password does not work, the account email or phone has changed, you see posts and stories that are not yours, or you received a password change email from Instagram that you did not request. A temporary lock over suspicious activity usually opens with the same password and one simple verification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Someone says they will bring my page back instantly for a fee. Should I trust them?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. An account can only come back through Meta’s official path, and there is no paid shortcut. These offers are either scams, or they walk the same free path and charge you for it. Give your password and money to none of them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is two factor by SMS not enough?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is far better than not having it, but SMS is tied to the SIM card, and a SIM card can be moved with forged identity. An authenticator app on your own phone is safer, and setting it up takes only a few minutes more."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "If the page does not come back, where do I start?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Make a fresh page with the same name and identity, and announce the new address through every other channel you have: your website, your messaging channel, and the customers whose numbers you hold. And this time, from day one, keep your customer list outside Instagram too, so no single account can be everything you have."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dadmor.netlify.app/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Articles",
+          "item": "https://dadmor.netlify.app/en/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Your shop page got hacked? Do these things first",
+          "item": "https://dadmor.netlify.app/en/articles/instagram-hacked/"
+        }
+      ]
+    }
+  ],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li><a href=\"/en/articles/\">Articles</a></li><li aria-current=\"page\">Your page got hacked?</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container art-head",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<p class=\"art-cat\">Security</p>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<h1>Your shop page got hacked? Do these things first</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "raw",
+          "html": "<p class=\"art-hook\">For your customers, your page is the shop itself, and a hack means <strong>someone changed the lock on your shop</strong>. In most cases there is a way back, as long as you do not burn the first hour on the wrong moves.</p>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<p class=\"art-meta-row\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>9 min read</span><span aria-hidden=\"true\">·</span><span>The dadmor team</span></p>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<figure class=\"art-cover\"><img src=\"/covers/cover-hacked.svg\" alt=\"Article cover: a phone with a cracked shield and a green check on its intact half\" width=\"600\" height=\"400\"></figure>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<nav class=\"art-toc\" aria-label=\"Article sections\"><h2>In this article</h2><ol><li><a href=\"#sec-1\">The first hour: what is the right order for getting the page back?</a></li><li><a href=\"#sec-2\">Why do we say the email first? Because that is where most hacks start</a></li><li><a href=\"#sec-3\">What if the official path does not bring it back?</a></li><li><a href=\"#sec-4\">What prevention actually works?</a></li><li><a href=\"#sec-5\">The main lesson: do not build something one password can take away</a></li><li><a href=\"#sec-6\">In short</a></li></ol></nav>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<aside class=\"art-summary\"><h2>Summary</h2><ol><li>Spend the first hour in the right order: the email first, then Meta’s official recovery path, then change the password and close every session. Trust no “instant recovery for a fee”.</li><li>Most page hacks start from the email, or from a password that reached someone else; a page lock without an email lock is not a lock.</li><li>A page may come back or may not; but your website and customer list cannot be taken from you by stealing one password. Build something that is not tied to a single account.</li></ol></aside>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container art-lede",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "The messages started from customers: “Has your page been hacked?” The stories were advertising cryptocurrency, the profile photo had changed, and the password no longer worked. By noon the shop owner had typed the password wrong three times, messaged four people who promised “instant recovery”, and was about to send money to one of them."
+        },
+        {
+          "t": "p",
+          "html": "This scenario is so common for Instagram shops that it can be written down like a recipe. The good news is that Meta has an official path for exactly this situation, and many pages come back through it. The bad news is that most of the damage happens in the first hour, out of panic: trusting the wrong person, or touching things that should not be touched."
+        },
+        {
+          "t": "p",
+          "html": "This article is the right order of work: first getting the page back, then closing the door the hacker came through, and finally the prevention that keeps you from reaching this day again. And one honest sentence from the start: nobody, including us, can guarantee the return of any page. Anyone who gives you that promise is making money from your panic."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-1\">The first hour: what is the right order for getting the page back?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "Do these in exactly this order:"
+        },
+        {
+          "t": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Save the email first:</strong> if the email the page was made with is not in your hands, the page recovery is not in your hands either. From a safe device, change the email password and close the email’s unknown sessions.",
+            "<strong>Take Meta’s official path:</strong> on the Instagram login screen tap the forgotten password option, or open instagram.com/hacked directly. This path is built for “my account was hacked” and takes you through identity checks step by step.",
+            "<strong>Check Instagram’s own emails:</strong> if you received an email from Instagram about a password or account email change that was not you, that same email carries a link to undo the change. Only click it after checking the sender’s address.",
+            "<strong>If you are still logged in somewhere:</strong> from that device, change the password and close every other session in the account settings. First put the hacker outside, then lock the door.",
+            "<strong>Tell your customers:</strong> from your personal page or any other channel you have, announce that the page is not in your hands and that no link or card number coming from it should be trusted. The main scam usually runs in your name, on your followers."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-2\">Why do we say the email first? Because that is where most hacks start</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "Most hacks of shop pages are not magic. Either the page password leaked somewhere, or someone reached the owner’s email and opened the door from inside with “forgot password”. That is why, after getting the page back, check these too:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "The email and page passwords are not the same, and neither of them is used anywhere else.",
+            "No unknown forwarding rule has been created in the email, and the email’s recovery number is your own number.",
+            "The mobile number the page and email are registered with is in your hands; if your SIM card had no signal for a while for no reason, follow it up with your operator."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<blockquote class=\"art-quote\">Getting the page back is half the work. If you do not close <span>the door the hacker came through</span>, you will have a guest again tomorrow.</blockquote>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-3\">What if the official path does not bring it back?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "Sometimes automatic recovery is not enough. Then these paths remain:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "If your account is a business account, follow the support path inside Meta Business Suite and the Accounts Centre; business accounts have more ways to make contact.",
+            "Complete identity verification with the account owner’s ID, fully and patiently; this path sometimes takes days and sometimes weeks.",
+            "In the meantime, do not keep changing the password every day and do not send request after request; it does not help and can slow the path down."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "And one serious warning: in these days, people show up who promise to get the page back through “a contact at Meta” or by “hacking it back”, and they ask for your money or your password first. They are either scammers, or they simply walk the same free official path and charge you for it. There is no paid shortcut for getting an account back."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-4\">What prevention actually works?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Two factor with an app:</strong> in the account settings, turn on two factor authentication with an authenticator app, not only SMS. SMS is better than nothing, but a SIM card can be moved; the app’s code on your own phone closes that road.",
+            "<strong>A separate email for the page:</strong> keep one separate email for the shop account that is used nowhere else, and whose password matches nothing else.",
+            "<strong>Keep the backup codes:</strong> print the recovery codes Meta gives you, or keep them somewhere safe outside the phone. On the bad day, those codes are your fastest key.",
+            "<strong>Audit the admins regularly:</strong> in the Accounts Centre, see who has access to the page and the ad account. Close a former colleague’s or employee’s access on the day they leave, not a month later.",
+            "<strong>Never give your password to any service:</strong> follower growth, scheduling and stats services that ask for your Instagram password open the door to everyone. A proper service only connects through Meta’s official login and never asks for a password. And do not buy followers; part of the hacks walk in through exactly that door."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "This list can be done in an hour. Our <a href=\"/en/tools/security-check/\">security self check</a> asks the same kind of questions about your website and systems and shows you the open places. And if your work has reached a point where its security needs a deeper look, on the <a href=\"/en/services/penetration-testing/\">penetration testing</a> page we have honestly said what a real assessment covers and what it does not."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-5\">The main lesson: do not build something one password can take away</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "Suppose the worst happened and the page did not come back. If your whole business was that one page, you start from zero: no customers, no sales history, not even a way to tell your old customers where you have returned."
+        },
+        {
+          "t": "p",
+          "html": "Now imagine the same event for someone who has their own website. Their page is hacked and it hurts, but their domain, website and customer list, with the phone numbers and emails the customers gave themselves, are still in place. From there they announce where the new page is, and their sales do not sleep. In the first article of this series, <a href=\"/en/articles/instagram-vs-website/\">Instagram page or website</a>, we said why a page is rented; security is the other half of the same sentence: what is truly yours cannot be taken from you by stealing one password."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-6\">In short</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "If your page was hacked today, do not reverse the order: email, Meta’s official path, closing sessions, telling customers. If you have not been hacked yet, spend that one hour of prevention today: two factor with an app, a separate email, backup codes and an admin audit. And for the day none of it works, keep a second home whose only key is in your own hands."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-cta container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Check your own locks today"
+        },
+        {
+          "t": "p",
+          "html": "The security self check asks twelve plain questions in a few minutes and shows the open places in your website and systems. For a deeper look, see the penetration testing page; we have said there what we cover and what we do not."
+        },
+        {
+          "t": "group",
+          "class": "btn-row",
+          "blocks": [
+            {
+              "t": "cta",
+              "text": "Security self check",
+              "href": "/en/tools/security-check/",
+              "class": "btn btn-primary"
+            },
+            {
+              "t": "cta",
+              "text": "Penetration testing service",
+              "href": "/en/services/penetration-testing/",
+              "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section art-faq",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Frequently asked questions"
+        },
+        {
+          "t": "raw",
+          "html": "<div class=\"art-faq-list\"><div class=\"art-faq-item\"><h3>How do I know my page is hacked and not just locked?</h3><p>The signs of a hack are these: your password does not work, the account email or phone has changed, you see posts and stories that are not yours, or you received a password change email from Instagram that you did not request. A temporary lock over suspicious activity usually opens with the same password and one simple verification.</p></div><div class=\"art-faq-item\"><h3>Someone says they will bring my page back instantly for a fee. Should I trust them?</h3><p>No. An account can only come back through Meta’s official path, and there is no paid shortcut. These offers are either scams, or they walk the same free path and charge you for it. Give your password and money to none of them.</p></div><div class=\"art-faq-item\"><h3>Is two factor by SMS not enough?</h3><p>It is far better than not having it, but SMS is tied to the SIM card, and a SIM card can be moved with forged identity. An authenticator app on your own phone is safer, and setting it up takes only a few minutes more.</p></div><div class=\"art-faq-item\"><h3>If the page does not come back, where do I start?</h3><p>Make a fresh page with the same name and identity, and announce the new address through every other channel you have: your website, your messaging channel, and the customers whose numbers you hold. And this time, from day one, keep your customer list outside Instagram too, so no single account can be everything you have.</p></div></div>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container art-related",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "More articles"
+        },
+        {
+          "t": "cards",
+          "kind": "work",
+          "items": [
+            {
+              "title": "",
+              "href": "",
+              "html": "<a class=\"art-card\" href=\"/en/articles/instagram-vs-website/\"><span class=\"art-card-media\"><img src=\"/covers/cover-instagram.svg\" alt=\"Article cover: a locked phone beside a house of your own\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h3 class=\"art-card-title\">Instagram page or website? Why your Instagram shop needs a website of its own</h3><span class=\"art-card-excerpt\">It is seven in the morning. You open Instagram and your shop page is gone. This article starts on that morning: what a page rents, what a website owns, and when a page alone is enough.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a><a class=\"art-card\" href=\"/en/articles/traffic-but-no-sales/\"><span class=\"art-card-media\"><img src=\"/covers/cover-nosales.svg\" alt=\"Article cover: a funnel visitors enter and a shopping cart under a magnifier\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h3 class=\"art-card-title\">Traffic but no sales? Check these seven places</h3><span class=\"art-card-excerpt\">Yesterday four hundred people came and nobody bought. Most shops do not have a people problem; somewhere between the door and the till the customer turns around and leaves. Check these seven places, in order.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

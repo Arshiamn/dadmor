@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A rented market stall beside your own shop">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="78%">
+      <stop offset="0%" stop-color="#262052"/>
+      <stop offset="55%" stop-color="#141126"/>
+      <stop offset="100%" stop-color="#0b0a14"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.4" fill="#8c80ff"/>
+    </pattern>
+    <radialGradient id="dotfade" cx="50%" cy="46%" r="62%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="68%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </radialGradient>
+    <mask id="dotmask">
+      <rect width="600" height="400" fill="url(#dotfade)"/>
+    </mask>
+  </defs>
+  <rect width="600" height="400" fill="url(#glow)"/>
+  <rect width="600" height="400" fill="url(#dots)" opacity="0.32" mask="url(#dotmask)"/>
+  <!-- market stall: the rented spot in someone else's mall -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="118" y1="168" x2="118" y2="322" stroke="#b7a6ff" stroke-width="5"/>
+    <line x1="252" y1="168" x2="252" y2="322" stroke="#b7a6ff" stroke-width="5"/>
+    <path d="M98 172 L138 124 H232 L272 172 Z" fill="#16132a" stroke="#b7a6ff" stroke-width="5"/>
+    <line x1="152" y1="129" x2="140" y2="169" stroke="#8c80ff" stroke-width="5" opacity="0.8"/>
+    <line x1="185" y1="127" x2="185" y2="170" stroke="#8c80ff" stroke-width="5" opacity="0.8"/>
+    <line x1="218" y1="129" x2="230" y2="169" stroke="#8c80ff" stroke-width="5" opacity="0.8"/>
+    <rect x="140" y="206" width="18" height="32" rx="4" fill="#16132a" stroke="#8c80ff" stroke-width="4"/>
+    <rect x="168" y="198" width="22" height="40" rx="4" fill="#16132a" stroke="#8c80ff" stroke-width="4"/>
+    <rect x="205" y="214" width="26" height="24" fill="#16132a" stroke="#8c80ff" stroke-width="4"/>
+    <rect x="112" y="238" width="146" height="12" fill="#16132a" stroke="#b7a6ff" stroke-width="4.5"/>
+    <rect x="124" y="250" width="122" height="72" fill="#16132a" stroke="#b7a6ff" stroke-width="4.5"/>
+  </g>
+  <!-- your own shop: solid, signed, green door -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="336" y="128" width="176" height="36" rx="6" fill="#16132a" stroke="#b7a6ff" stroke-width="5"/>
+    <line x1="396" y1="146" x2="452" y2="146" stroke="#8c80ff" stroke-width="6" opacity="0.7"/>
+    <line x1="352" y1="164" x2="352" y2="182" stroke="#b7a6ff" stroke-width="5"/>
+    <line x1="496" y1="164" x2="496" y2="182" stroke="#b7a6ff" stroke-width="5"/>
+    <rect x="348" y="182" width="152" height="140" fill="#16132a" stroke="#b7a6ff" stroke-width="5"/>
+    <rect x="364" y="206" width="36" height="36" stroke="#8c80ff" stroke-width="4"/>
+    <rect x="424" y="240" width="42" height="82" fill="#00ff41" stroke="none"/>
+  </g>
+  <line x1="84" y1="322" x2="516" y2="322" stroke="#8c80ff" stroke-width="3" opacity="0.45"/>
+</svg>

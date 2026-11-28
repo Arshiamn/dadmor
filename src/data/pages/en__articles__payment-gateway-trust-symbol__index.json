@@ -1,0 +1,448 @@
+{
+  "path": "en/articles/payment-gateway-trust-symbol/index.html",
+  "lang": "en",
+  "title": "Payment gateway and trust symbol: how to connect your shop to real money | dadmor",
+  "description": "How to get an online payment gateway and the Iranian trust symbol (eNAMAD) for your shop: direct bank gateway versus payment facilitators, the steps, and the checklist your site must pass first.",
+  "canonical": "https://dadmor.netlify.app/en/articles/payment-gateway-trust-symbol/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/articles/payment-gateway-trust-symbol/",
+    "en": "https://dadmor.netlify.app/en/articles/payment-gateway-trust-symbol/",
+    "x-default": "https://dadmor.netlify.app/articles/payment-gateway-trust-symbol/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "article",
+    "title": "Payment gateway and trust symbol: how to connect your shop to real money | dadmor",
+    "description": "How to get an online payment gateway and the Iranian trust symbol (eNAMAD) for your shop: direct bank gateway versus payment facilitators, the steps, and the checklist your site must pass first.",
+    "url": "https://dadmor.netlify.app/en/articles/payment-gateway-trust-symbol/",
+    "image": "https://dadmor.netlify.app/covers/cover-payment.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "en_US",
+    "locale:alternate": "fa_IR"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Payment gateway and trust symbol: how to connect your shop to real money",
+      "image": "https://dadmor.netlify.app/covers/cover-payment.png",
+      "description": "How to get an online payment gateway and the Iranian trust symbol (eNAMAD) for your shop: direct bank gateway versus payment facilitators, the steps, and the checklist your site must pass first.",
+      "author": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "url": "https://dadmor.netlify.app/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dadmor.netlify.app/img/dadmor-halftone-logo.svg"
+        }
+      },
+      "datePublished": "2026-11-25",
+      "dateModified": "2026-11-25",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://dadmor.netlify.app/en/articles/payment-gateway-trust-symbol/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I get a payment gateway without a website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A payment gateway is built for a website and connects to your domain. Some facilitators also offer payment links, which help for occasional DM sales, but a payment link is not a website: it has no basket, no order history and no customer list."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does getting the trust symbol take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on how complete your documents are. If your business details, address and site are ready and correct, the review usually takes a few working days. What delays it is incomplete documents and a site with no contact details or rules."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a payment facilitator safe, or must I take a direct bank gateway?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Licensed facilitators operate under Shaparak and the customer’s payment happens on a secure bank page; the money settles into your own account. When choosing, check the facilitator’s license and track record, and avoid unnamed intermediaries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much of my sales do gateway fees take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A direct bank gateway has lower, flatter fees and facilitators take a percentage of each transaction. The exact figure depends on the bank and the facilitator and is published in their own tariffs; check there, with your sales volume, which is worth more to you."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dadmor.netlify.app/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Articles",
+          "item": "https://dadmor.netlify.app/en/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Payment gateway and trust symbol: how to connect your shop to real money",
+          "item": "https://dadmor.netlify.app/en/articles/payment-gateway-trust-symbol/"
+        }
+      ]
+    }
+  ],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li><a href=\"/en/articles/\">Articles</a></li><li aria-current=\"page\">Payment gateway and trust symbol</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container art-head",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<p class=\"art-cat\">Payments and trust</p>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<h1>Payment gateway and trust symbol: how to connect your shop to real money</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "raw",
+          "html": "<p class=\"art-hook\">As long as money moves by manual card transfers and screenshot receipts, your shop has a ceiling: every order is a chat and every payment is a worry. <strong>A payment gateway and a trust symbol</strong> are the two pieces that turn an Instagram shop into a real store.</p>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<p class=\"art-meta-row\"><span>25 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span><span aria-hidden=\"true\">·</span><span>The dadmor team</span></p>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<figure class=\"art-cover\"><img src=\"/covers/cover-payment.svg\" alt=\"Article cover: a bank card with a green check beside a trust badge\" width=\"600\" height=\"400\"></figure>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<nav class=\"art-toc\" aria-label=\"Article sections\"><h2>In this article</h2><ol><li><a href=\"#sec-1\">Why manual card transfers cap your shop</a></li><li><a href=\"#sec-2\">What a payment gateway is, and the two ways to get one</a></li><li><a href=\"#sec-3\">What the trust symbol is and how to get it</a></li><li><a href=\"#sec-4\">Complete this checklist on your site before you apply</a></li><li><a href=\"#sec-5\">What changes after the gateway is connected?</a></li><li><a href=\"#sec-6\">In short</a></li></ol></nav>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<aside class=\"art-summary\"><h2>Summary</h2><ol><li>A payment gateway means the customer pays inside your site, at that moment, and the order registers itself. No more chats asking for a card number, no receipts to check by hand.</li><li>You have two routes: a direct bank gateway, which asks for the trust symbol and a tax tracking code, and a payment facilitator, which starts with simpler verification. The trust symbol comes from the eNAMAD system.</li><li>Before you apply, your site must be ready: real contact details, buying and returns rules, a privacy page, and correct prices and stock. They look at your site first, then grant the symbol and the gateway.</li></ol></aside>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container art-lede",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "An order arrives in your DMs. You send a card number, the customer sends a screenshot of a receipt, you check the receipt against your balance, and only then, if it is not fake, you register the order. This loop works for ten orders a day. For fifty, it is one full time person doing nothing but checking receipts."
+        },
+        {
+          "t": "p",
+          "html": "An online payment gateway removes the loop: the customer pays for the basket on your site and the order registers itself. The trust symbol is the badge that tells the customer, and the bank, that this shop is real and its owner and address are known. Together they are the infrastructure of real selling, not decoration."
+        },
+        {
+          "t": "p",
+          "html": "This article goes in order: what each one is, where you get it, and what to prepare first. And one honest note up front: neither happens in a day or without documents, but the path is clear and you walk it once."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-1\">Why manual card transfers cap your shop</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "Card to card is fine for starting out, but it has three problems that grow as the shop grows:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Fake receipts and manual checking:</strong> every receipt has to be checked against your account, and fake receipts are not rare. One wrong order means the goods left and the money never arrived.",
+            "<strong>Customers who abandon halfway:</strong> when buyers see they must leave the site, open a banking app and transfer money by hand, many drop the purchase right there. Paying inside the site is one step; a manual transfer is five.",
+            "<strong>A personal account and messy books:</strong> heavy traffic on a personal account raises questions at the bank and mixes the shop’s money with household spending. At month’s end you cannot tell what you actually sold."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "A payment gateway solves all three at once: the money lands in your business account, traceable, and every payment is tied to a specific order."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-2\">What a payment gateway is, and the two ways to get one</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "A payment gateway is a secure page a bank or an intermediary company places at your site’s disposal. The customer pays there with their own card, the result, success or failure, returns to your site, and the order is registered. There are two ways to get one:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Direct bank gateway:</strong> you take it from the bank itself. It requires the trust symbol, a tax tracking code and a business bank account. Its fees are lower, but setting it up takes more documents and more time.",
+            "<strong>Payment facilitator:</strong> companies that work under Shaparak, the national payment network, and hand you a ready gateway. It starts with identity verification and a live website, and usually does not require the trust symbol on day one. In return, they take a percentage fee on each transaction."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "The honest choice: if your site is new and you want to start selling quickly, a facilitator is the easier start. Once sales are steady and you have the symbol, you can add a direct gateway beside it. Many shops keep both, so if one goes down, selling does not stop."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<blockquote class=\"art-quote\">A payment gateway means <span>the customer pays in the same place they shopped</span>. Every extra step between the basket and the payment is a place where the customer can leave and not come back.</blockquote>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-3\">What the trust symbol is and how to get it</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "The electronic trust symbol, known as eNAMAD, is a badge Iran’s E-Commerce Development Center grants to online shops after verifying the owner’s identity and address. A customer clicking the symbol on your site sees your registered shop details. The steps are:"
+        },
+        {
+          "t": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Register in the eNAMAD system:</strong> at enamad.ir you create an account and enter your business details, your site’s domain, address and contact routes.",
+            "<strong>Identity and address verification:</strong> the business owner’s identity documents and postal address are checked. This is why the address and phone on your site must be real and answered.",
+            "<strong>Site review:</strong> a reviewer looks at your site: contact details, buying and returns rules, and whether the shop is genuinely active and selling.",
+            "<strong>Place the symbol code:</strong> after approval you put the symbol code on your site, usually in the footer, so a customer can see your details in one click."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "The symbol has levels, and most shops start at the base level. The more important point: the symbol is issued for your own domain, which means you first need a website of your own. In <a href=\"/en/articles/shop-builder-vs-own-site/\">Shop builder or your own website</a> we explain why that ownership matters more than renting space on someone else’s platform."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-4\">Complete this checklist on your site before you apply</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "For both the symbol and the gateway, your site is reviewed first. Complete these before applying so nothing stalls in review:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "Real contact details: address, an answered phone and an email, on the contact page and in the footer.",
+            "A rules page: buying terms, shipping cost and time, and the returns and exchange policy, clear and unambiguous.",
+            "A privacy page: what you do with customer information and who can reach it.",
+            "Correct prices and stock: a sold out product should not be sellable, and prices should be current.",
+            "A live site on the exact domain you register for the symbol; the symbol is tied to the domain."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "If you do not have a site yet, or yours lacks these basics, fix that first. On our <a href=\"/en/services/website-building/\">website building</a> page we list what a complete shop site includes, and with the <a href=\"/en/tools/estimator/\">project estimator</a> you can see what setting one up costs before deciding anything."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-5\">What changes after the gateway is connected?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Orders register themselves:</strong> a successful payment means an order with the customer’s details in your panel. No DM orders and no manual receipts.",
+            "<strong>Money is traceable:</strong> every transaction has a tracking code, and refunds to the customer go back through the same path, documented, not by pleading card transfers.",
+            "<strong>Trust at the moment of payment:</strong> a clickable trust symbol and a familiar bank payment page matter exactly where a stranger is about to pay you for the first time."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "And one honest boundary: a gateway and a symbol do not sell on their own. They remove payment friction; bringing the customer and convincing them is the work of product and content. In <a href=\"/en/articles/traffic-but-no-sales/\">Traffic but no sales</a> we list the places to check between a customer arriving and a customer buying."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-6\">In short</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "The whole path is this: your own site with complete details and rules, the trust symbol from eNAMAD, and a payment gateway, direct or through a facilitator. Each step is done once, and after that your shop runs on rails: the customer arrives, pays, and the order registers, without you standing in the middle of every purchase checking receipts."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-cta container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Is your site ready for a gateway?"
+        },
+        {
+          "t": "p",
+          "html": "The first step is a site a gateway and a symbol can sit on: real contact details, clear rules and a working basket. The project estimator shows the cost and time of building such a site in a few minutes, and the website building page shows what a complete shop includes."
+        },
+        {
+          "t": "group",
+          "class": "btn-row",
+          "blocks": [
+            {
+              "t": "cta",
+              "text": "Estimate your project cost",
+              "href": "/en/tools/estimator/",
+              "class": "btn btn-primary"
+            },
+            {
+              "t": "cta",
+              "text": "Website building service",
+              "href": "/en/services/website-building/",
+              "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section art-faq",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Frequently asked questions"
+        },
+        {
+          "t": "raw",
+          "html": "<div class=\"art-faq-list\"><div class=\"art-faq-item\"><h3>Can I get a payment gateway without a website?</h3><p>A payment gateway is built for a website and connects to your domain. Some facilitators also offer payment links, which help for occasional DM sales, but a payment link is not a website: it has no basket, no order history and no customer list.</p></div><div class=\"art-faq-item\"><h3>How long does getting the trust symbol take?</h3><p>It depends on how complete your documents are. If your business details, address and site are ready and correct, the review usually takes a few working days. What delays it is incomplete documents and a site with no contact details or rules.</p></div><div class=\"art-faq-item\"><h3>Is a payment facilitator safe, or must I take a direct bank gateway?</h3><p>Licensed facilitators operate under Shaparak and the customer’s payment happens on a secure bank page; the money settles into your own account. When choosing, check the facilitator’s license and track record, and avoid unnamed intermediaries.</p></div><div class=\"art-faq-item\"><h3>How much of my sales do gateway fees take?</h3><p>A direct bank gateway has lower, flatter fees and facilitators take a percentage of each transaction. The exact figure depends on the bank and the facilitator and is published in their own tariffs; check there, with your sales volume, which is worth more to you.</p></div></div>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container art-related",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "More articles"
+        },
+        {
+          "t": "cards",
+          "kind": "work",
+          "items": [
+            {
+              "title": "",
+              "href": "",
+              "html": "<a class=\"art-card\" href=\"/en/articles/shop-builder-vs-own-site/\"><span class=\"art-card-media\"><img src=\"/covers/cover-builder.svg\" alt=\"Article cover: a market stall with a striped awning beside your own shop with a green door\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h3 class=\"art-card-title\">Shop builder or your own website? Renting a stall in someone else’s mall or owning your shop</h3><span class=\"art-card-excerpt\">For a few hundred thousand tomans a month your shop opens and everything is ready. But the stall belongs to the mall: its rent runs forever, and on the day you leave, the customers stay behind.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>9 min read</span></span></span></a><a class=\"art-card\" href=\"/en/articles/website-cost/\"><span class=\"art-card-media\"><img src=\"/covers/cover-cost.svg\" alt=\"Article cover: a price tag and coins\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Cost and pricing</span><h3 class=\"art-card-title\">How much does a website cost? An honest anatomy of the price</h3><span class=\"art-card-excerpt\">One brief, two quotes: five million and fifty million. Both can be honest. Here we open up what your money buys and where a cheap quote quietly cuts.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

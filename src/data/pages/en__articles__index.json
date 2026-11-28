@@ -1,0 +1,114 @@
+{
+  "path": "en/articles/index.html",
+  "lang": "en",
+  "title": "Articles | dadmor",
+  "description": "Articles for Instagram sellers and small businesses: why a page is rented land, what website money buys hour by hour, and our real scope template in full.",
+  "canonical": "https://dadmor.netlify.app/en/articles/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/articles/",
+    "en": "https://dadmor.netlify.app/en/articles/",
+    "x-default": "https://dadmor.netlify.app/articles/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "website",
+    "title": "Articles | dadmor",
+    "description": "Articles for Instagram sellers and small businesses: why a page is rented land, what website money buys hour by hour, and our real scope template in full.",
+    "url": "https://dadmor.netlify.app/en/articles/",
+    "image": "https://dadmor.netlify.app/og.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "en_US",
+    "locale:alternate": "fa_IR"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Articles",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Instagram page or website? Why your Instagram shop needs a website of its own",
+          "url": "https://dadmor.netlify.app/en/articles/instagram-vs-website/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "How much does a website cost? An honest anatomy of the price",
+          "url": "https://dadmor.netlify.app/en/articles/website-cost/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "What is a project scope? Take dadmor’s real template, free",
+          "url": "https://dadmor.netlify.app/en/articles/project-scope/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Shop builder or your own website? Renting a stall in someone else’s mall or owning your shop",
+          "url": "https://dadmor.netlify.app/en/articles/shop-builder-vs-own-site/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Your shop page got hacked? Do these things first",
+          "url": "https://dadmor.netlify.app/en/articles/instagram-hacked/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Traffic but no sales? Check these seven places",
+          "url": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dadmor.netlify.app/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Articles",
+          "item": "https://dadmor.netlify.app/en/articles/"
+        }
+      ]
+    }
+  ],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li aria-current=\"page\">Articles</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "raw",
+      "html": "<div data-articles-index></div>",
+      "class": "",
+      "tag": "div"
+    },
+    {
+      "t": "group",
+      "class": "art-path container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2>Where do I start?</h2><p>If you do not know your first step yet, go in this order. All three steps are free, and none of them makes you our client.</p><ol class=\"art-path-list\"><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">1</span><span class=\"art-path-body\"><h3>Write the scope</h3><p>With the third article’s template, fix your project on one page of paper, even if you never work with us.</p></span><a class=\"art-path-link\" href=\"/en/articles/project-scope/\">Read the scope template →</a></li><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">2</span><span class=\"art-path-body\"><h3>Get a number</h3><p>The project estimator gives you a brief and a rough range in minutes, based on the features you pick.</p></span><a class=\"art-path-link\" href=\"/en/tools/estimator/\">Project estimator →</a></li><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">3</span><span class=\"art-path-body\"><h3>Check your security</h3><p>The free security self check shows where your current site or system is exposed, before it is too late.</p></span><a class=\"art-path-link\" href=\"/en/tools/security-check/\">Start the self check →</a></li></ol>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "path": "en/services/business-model/index.html",
   "lang": "en",
   "title": "Business model design you can test | dadmor",
-  "description": "Three phases, Diagnosis, Redesign and Validation, each with a named output: assumptions, revenue logic and kill/continue criteria. Not a pitch deck, not a forecast.",
+  "description": "Three phases, Diagnosis, Redesign and Validation, each with a named output: assumptions, revenue logic and kill/continue criteria. Not a forecast.",
   "canonical": "https://dadmor.netlify.app/en/services/business-model/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/services/business-model/",
@@ -13,7 +13,7 @@
     "site_name": "dadmor",
     "type": "website",
     "title": "Business model design you can test | dadmor",
-    "description": "Three phases, Diagnosis, Redesign and Validation, each with a named output: assumptions, revenue logic and kill/continue criteria. Not a pitch deck, not a forecast.",
+    "description": "Three phases, Diagnosis, Redesign and Validation, each with a named output: assumptions, revenue logic and kill/continue criteria. Not a forecast.",
     "url": "https://dadmor.netlify.app/en/services/business-model/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -27,7 +27,7 @@
         "@context": "https://schema.org",
         "@type": "Service",
         "name": "Business model design",
-        "description": "Three phases, Diagnosis, Redesign and Validation, each with a named output: assumptions, revenue logic and kill/continue criteria. Not a pitch deck, not a forecast.",
+        "description": "Three phases, Diagnosis, Redesign and Validation, each with a named output: assumptions, revenue logic and kill/continue criteria. Not a forecast.",
         "provider": {
           "@type": "Organization",
           "name": "dadmor",
@@ -134,7 +134,7 @@
         },
         {
           "t": "p",
-          "html": "We start by mapping the assumptions and ranking them by risk, then redesign the model around its revenue logic and design tests for the riskiest assumptions, with continue-or-stop criteria written before the test runs. The numbers are calculations, not prophecies: every number is tied to a written assumption."
+          "html": "We start by mapping the assumptions and ranking them by risk, then redesign the model around its revenue logic and design tests for the riskiest assumptions, with continue-or-stop criteria written before the test runs. The numbers are calculations, not prophecies: every number is tied to a written assumption. That writing-it-down-first habit is what a scope is on a website project, and we have published our real template: <a href=\"/en/articles/project-scope/\">what is a project scope?</a>"
         }
       ]
     },

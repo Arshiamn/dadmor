@@ -1,8 +1,8 @@
 {
   "path": "en/tools/estimator/index.html",
   "lang": "en",
-  "title": "Project estimator: a scoped brief with an S, M or L band | dadmor",
-  "description": "A few questions about your project, and a printable scoped brief with an effort band and the reason for it. No price, no delivery date, and your answers never leave your browser.",
+  "title": "Project estimator: a scoped brief with an S, M or L band",
+  "description": "Answer a few questions and get a printable scoped brief with an effort band and its reason. No price or delivery date; answers never leave your browser.",
   "canonical": "https://dadmor.netlify.app/en/tools/estimator/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/tools/estimator/",
@@ -12,8 +12,8 @@
   "og": {
     "site_name": "dadmor",
     "type": "website",
-    "title": "Project estimator: a scoped brief with an S, M or L band | dadmor",
-    "description": "A few questions about your project, and a printable scoped brief with an effort band and the reason for it. No price, no delivery date, and your answers never leave your browser.",
+    "title": "Project estimator: a scoped brief with an S, M or L band",
+    "description": "Answer a few questions and get a printable scoped brief with an effort band and its reason. No price or delivery date; answers never leave your browser.",
     "url": "https://dadmor.netlify.app/en/tools/estimator/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -21,7 +21,26 @@
     "locale": "en_US",
     "locale:alternate": "fa_IR"
   },
-  "jsonld": [],
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Project estimator",
+      "url": "https://dadmor.netlify.app/en/tools/estimator/",
+      "applicationCategory": "BusinessApplication",
+      "inLanguage": "en",
+      "description": "Answer a few questions and get a printable scoped brief with an effort band and its reason. No price or delivery date; answers never leave your browser.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "url": "https://dadmor.netlify.app/"
+      }
+    }
+  ],
   "hero": null,
   "blocks": [
     {

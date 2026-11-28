@@ -1,7 +1,7 @@
 {
   "path": "en/services/marketing-content/index.html",
   "lang": "en",
-  "title": "Content, video and SEO built from your product's structure | dadmor",
+  "title": "Content, video and SEO built from your product's structure",
   "description": "Persian and English video, text and SEO built from your product's structure, with a monthly plan and a report of what was published and measured.",
   "canonical": "https://dadmor.netlify.app/en/services/marketing-content/",
   "hreflang": {
@@ -12,7 +12,7 @@
   "og": {
     "site_name": "dadmor",
     "type": "website",
-    "title": "Content, video and SEO built from your product's structure | dadmor",
+    "title": "Content, video and SEO built from your product's structure",
     "description": "Persian and English video, text and SEO built from your product's structure, with a monthly plan and a report of what was published and measured.",
     "url": "https://dadmor.netlify.app/en/services/marketing-content/",
     "image": "https://dadmor.netlify.app/og.png",
@@ -134,7 +134,7 @@
         },
         {
           "t": "p",
-          "html": "We start from a search-intent map: your customers' real questions, and which content answers each one, on which page. Then the monthly plan, production, and technical SEO all sit on that same map. We do not promise Google rankings either; nobody can promise that honestly. What we deliver is relevant content and the right structure."
+          "html": "We start from a search-intent map: your customers' real questions, and which content answers each one, on which page. Then the monthly plan, production, and technical SEO all sit on that same map. We do not promise Google rankings either; nobody can promise that honestly. What we deliver is relevant content and the right structure. See the pattern in <a href=\"/en/articles/instagram-vs-website/\">Instagram page or website</a>: why a page is necessary for reach but not enough for a shop."
         }
       ]
     },

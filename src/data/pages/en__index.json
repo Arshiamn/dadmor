@@ -1,8 +1,8 @@
 {
   "path": "en/index.html",
   "lang": "en",
-  "title": "dadmor | A small technical studio for websites, products and security",
-  "description": "Website building, UI/UX design, business models, documentation, penetration testing and content, with a written scope before work starts and handover documents when it ends.",
+  "title": "dadmor | A small technical studio for websites and security",
+  "description": "Website building, UI/UX design, business models, documentation, penetration testing and content, with written scope before work and handover docs at the end.",
   "canonical": "https://dadmor.netlify.app/en/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/",
@@ -12,8 +12,8 @@
   "og": {
     "site_name": "dadmor",
     "type": "website",
-    "title": "dadmor | A small technical studio for websites, products and security",
-    "description": "Website building, UI/UX design, business models, documentation, penetration testing and content, with a written scope before work starts and handover documents when it ends.",
+    "title": "dadmor | A small technical studio for websites and security",
+    "description": "Website building, UI/UX design, business models, documentation, penetration testing and content, with written scope before work and handover docs at the end.",
     "url": "https://dadmor.netlify.app/en/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -25,10 +25,27 @@
     [
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
+        "@type": [
+          "Organization",
+          "ProfessionalService"
+        ],
         "name": "dadmor",
         "url": "https://dadmor.netlify.app/",
-        "logo": "https://dadmor.netlify.app/img/dadmor-halftone-logo.svg"
+        "logo": "https://dadmor.netlify.app/img/dadmor-halftone-logo.svg",
+        "sameAs": [
+          "https://www.instagram.com/dadmor.studio",
+          "https://t.me/dadmor_ai"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+98-939-140-0826",
+          "email": "hello@dadmor.com",
+          "contactType": "sales",
+          "availableLanguage": [
+            "fa",
+            "en"
+          ]
+        }
       },
       {
         "@context": "https://schema.org",
@@ -83,7 +100,7 @@
         },
         {
           "t": "p",
-          "html": "Every project starts with a scope document: what is delivered, what is not, and what you need to supply. If you are unsure where to start, the <a href=\"/en/services/#finder\">service finder</a> suggests one in six questions."
+          "html": "Every project starts with a scope document: what is delivered, what is not, and what you need to supply. If you are unsure where to start, the <a href=\"/en/services/#finder\">service finder</a> suggests one in six questions. Out of these same projects we also write <a href=\"/en/articles/\">articles on website cost, scope and sales</a>."
         },
         {
           "t": "list",

@@ -1,0 +1,114 @@
+{
+  "path": "articles/index.html",
+  "lang": "fa",
+  "title": "مقالات | dadmor",
+  "description": "مقاله های دادمور برای فروشگاه های اینستاگرامی و کسب و کارهای کوچک: چرا پیج اجاره ای است، هزینه طراحی سایت دقیقا چه می خرد و قالب واقعی اسکوپ پروژه. بدون قول رتبه.",
+  "canonical": "https://dadmor.netlify.app/articles/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/articles/",
+    "en": "https://dadmor.netlify.app/en/articles/",
+    "x-default": "https://dadmor.netlify.app/articles/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "website",
+    "title": "مقالات | dadmor",
+    "description": "مقاله های دادمور برای فروشگاه های اینستاگرامی و کسب و کارهای کوچک: چرا پیج اجاره ای است، هزینه طراحی سایت دقیقا چه می خرد و قالب واقعی اسکوپ پروژه. بدون قول رتبه.",
+    "url": "https://dadmor.netlify.app/articles/",
+    "image": "https://dadmor.netlify.app/og.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "fa_IR",
+    "locale:alternate": "en_US"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "مقالات",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "پیج اینستاگرام یا سایت؟ چرا فروشگاه اینستاگرامی شما به سایت خودش نیاز دارد",
+          "url": "https://dadmor.netlify.app/articles/instagram-vs-website/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "هزینه طراحی سایت چقدر است؟ کالبدشکافی صادقانه قیمت",
+          "url": "https://dadmor.netlify.app/articles/website-cost/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "اسکوپ پروژه سایت چیست؟ قالب واقعی دادمور را همین جا بردارید",
+          "url": "https://dadmor.netlify.app/articles/project-scope/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "فروشگاه ساز یا سایت خودت؟ اجاره نشینی در پاساژ دیگران یا مغازه خودت",
+          "url": "https://dadmor.netlify.app/articles/shop-builder-vs-own-site/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "پیج فروشگاهت هک شد؟ اول این کارها را بکن",
+          "url": "https://dadmor.netlify.app/articles/instagram-hacked/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "بازدید داری، فروش نداری؟ این هفت جا را چک کن",
+          "url": "https://dadmor.netlify.app/articles/traffic-but-no-sales/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "خانه",
+          "item": "https://dadmor.netlify.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "مقالات",
+          "item": "https://dadmor.netlify.app/articles/"
+        }
+      ]
+    }
+  ],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"مسیر صفحه\"><ol><li><a href=\"/\">خانه</a></li><li aria-current=\"page\">مقالات</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "raw",
+      "html": "<div data-articles-index></div>",
+      "class": "",
+      "tag": "div"
+    },
+    {
+      "t": "group",
+      "class": "art-path container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2>از کجا شروع کنم؟</h2><p>اگر هنوز نمی دانید قدم اولتان چیست، این ترتیب را بروید. هر سه قدم رایگان اند و هیچ کدامشان شما را مشتری ما نمی کند.</p><ol class=\"art-path-list\"><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">۱</span><span class=\"art-path-body\"><h3>اسکوپ را بنویسید</h3><p>با قالب مقاله سوم، پروژه تان را روی یک صفحه کاغذ ثابت کنید؛ حتی اگر قرار نیست با ما کار کنید.</p></span><a class=\"art-path-link\" href=\"/articles/project-scope/\">خواندن قالب اسکوپ ←</a></li><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">۲</span><span class=\"art-path-body\"><h3>عدد بگیرید</h3><p>برآوردگر پروژه بر اساس قابلیت هایی که انتخاب می کنید، در چند دقیقه یک بریف و یک بازه تقریبی می دهد.</p></span><a class=\"art-path-link\" href=\"/tools/estimator/\">برآوردگر پروژه ←</a></li><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">۳</span><span class=\"art-path-body\"><h3>امنیت را بسنجید</h3><p>خودارزیابی امنیت رایگان نشان می دهد سایت یا سامانه فعلی تان کجاها آسیب پذیر است، قبل از این که دیر شود.</p></span><a class=\"art-path-link\" href=\"/tools/security-check/\">شروع خودارزیابی ←</a></li></ol>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import type { Block, Lang } from '../lib/site'
 import { slogan } from '../lib/slogans'
 import DotStream from './DotStream'
 import ContactForm from './ContactForm'
+import ArticlesIndex from './ArticlesIndex'
 import { ChannelLinks, CHANNEL_CAPTIONS } from './Chrome'
 import HomeLionContactCta from './HomeLionContactCta'
 
@@ -213,6 +214,12 @@ export function renderBlock(b: Block, key: number, lang: Lang): React.ReactNode 
       // The finder root div is also React-managed (ServicesPage).
       if (/^\s*<(script|noscript)/i.test(html)) return null
       if (html.includes('data-finder')) return null
+      /* The articles index is React-managed too (search + category
+         filter): the page data carries only the marker, the component
+         renders the masthead, controls and cards from ARTICLES_INDEX. */
+      if (html.includes('data-articles-index')) {
+        return <ArticlesIndex key={key} lang={lang} />
+      }
       /* The contact form lives in the data as raw v4 <form> markup. Render
          the React form instead — same field names, same copy, but it
          submits with fetch and shows an inline success message rather than

@@ -1,0 +1,465 @@
+{
+  "path": "en/articles/traffic-but-no-sales/index.html",
+  "lang": "en",
+  "title": "Traffic but no sales? Check these seven places, in order",
+  "description": "Traffic but no sales? Check seven places in order: trust in the first ten seconds, product page answers, checkout on a cheap phone, speed, and cart follow up.",
+  "canonical": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/articles/traffic-but-no-sales/",
+    "en": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/",
+    "x-default": "https://dadmor.netlify.app/articles/traffic-but-no-sales/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "article",
+    "title": "Traffic but no sales? Check these seven places, in order",
+    "description": "Traffic but no sales? Check seven places in order: trust in the first ten seconds, product page answers, checkout on a cheap phone, speed, and cart follow up.",
+    "url": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/",
+    "image": "https://dadmor.netlify.app/covers/cover-nosales.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "en_US",
+    "locale:alternate": "fa_IR"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Traffic but no sales? Check these seven places, in order",
+      "image": "https://dadmor.netlify.app/covers/cover-nosales.png",
+      "description": "Traffic but no sales? Check seven places in order: trust in the first ten seconds, product page answers, checkout on a cheap phone, speed, and cart follow up.",
+      "author": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "url": "https://dadmor.netlify.app/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dadmor.netlify.app/img/dadmor-halftone-logo.svg"
+        }
+      },
+      "datePublished": "2026-11-21",
+      "dateModified": "2026-11-21",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know the problem is traffic or the site itself?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your daily traffic is significant but sales have stayed near zero for several weeks, the problem is almost always inside the site. If traffic was low from the start, fix traffic first; this article is for when people come and do not buy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which check should I do first?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the article’s own order: trust and the product page first, because they are the most common dropping places, then checkout and speed. Each test takes only a few minutes, and you do not have to do all seven in one night."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I buy advertising to get sales moving?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Advertising to a shop with a broken checkout only delivers more visitors who do not buy. First find and fix the drop; then the same advertising, on the same budget, produces sales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the trust symbol alone fix sales?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The symbol is one of several trust signals, and it only means something beside a real contact number, an about page and clear buying terms. No badge compensates for a broken checkout and an incomplete product page."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dadmor.netlify.app/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Articles",
+          "item": "https://dadmor.netlify.app/en/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Traffic but no sales? Check these seven places, in order",
+          "item": "https://dadmor.netlify.app/en/articles/traffic-but-no-sales/"
+        }
+      ]
+    }
+  ],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li><a href=\"/en/articles/\">Articles</a></li><li aria-current=\"page\">Traffic but no sales?</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container art-head",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<p class=\"art-cat\">Selling online</p>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<h1>Traffic but no sales? Check these seven places, in order</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "raw",
+          "html": "<p class=\"art-hook\">Traffic means people come to your shop’s door, and no sales means somewhere between <strong>the door and the till</strong> they turn around and leave. This article is the map of that path.</p>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<p class=\"art-meta-row\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span><span aria-hidden=\"true\">·</span><span>The dadmor team</span></p>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<figure class=\"art-cover\"><img src=\"/covers/cover-nosales.svg\" alt=\"Article cover: a funnel visitors enter and a shopping cart under a magnifier\" width=\"600\" height=\"400\"></figure>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<nav class=\"art-toc\" aria-label=\"Article sections\"><h2>In this article</h2><ol><li><a href=\"#sec-1\">First, settle one question: is the problem traffic, or the shop?</a></li><li><a href=\"#sec-2\">Check one: do they trust you in the first ten seconds?</a></li><li><a href=\"#sec-3\">Check two: does the product page answer without a DM?</a></li><li><a href=\"#sec-4\">Check three: does checkout survive a cheap phone?</a></li><li><a href=\"#sec-5\">Check four: how slow is the site on real Iranian internet?</a></li><li><a href=\"#sec-6\">Check five: why should the customer buy today?</a></li><li><a href=\"#sec-7\">Check six: does anyone call the abandoned cart back?</a></li><li><a href=\"#sec-8\">Check seven: do you even know where the customer leaves?</a></li><li><a href=\"#sec-9\">In short</a></li></ol></nav>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<aside class=\"art-summary\"><h2>Summary</h2><ol><li>Most shops that say “we have traffic but no sales” do not have a traffic problem; they have one specific place on the path between entry and payment.</li><li>Check the seven places in this order: trust, the product page’s answers, checkout on a cheap phone, real speed, a reason to buy today, abandoned cart follow up, and measuring.</li><li>Each check has a test of a few minutes that you run tonight on your own phone. Do not guess; test, and fix that one place.</li></ol></aside>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container art-lede",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "She opens the stats: yesterday, four hundred and seventeen visits. She opens the orders: zero. Almost every online shop owner has seen this scene once, and the first guess is usually the same: “I must need more advertising.”"
+        },
+        {
+          "t": "p",
+          "html": "Most of the time, no. Advertising brings more people into the same shop; if people turn around and leave somewhere inside the shop, advertising only makes the leaving more crowded. Good traffic with no sales means the path between the door and the till is broken in one place, and your job is to find that one place, not to open the traffic tap."
+        },
+        {
+          "t": "p",
+          "html": "This article walks that path in order: seven stations from the moment of entry to after payment. For each one we have said what to look at, and what test to run tonight, on your own phone."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-1\">First, settle one question: is the problem traffic, or the shop?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "If your traffic is very low, this article is not for you yet; people have to reach the shop first. But if tens or hundreds of people arrive every day and almost nobody buys, your problem is not traffic. In small shops, one or two purchases out of every hundred real visitors is no strange number; absolute zero, for weeks in a row, means one place on the path is closed."
+        },
+        {
+          "t": "p",
+          "html": "Now let us go in order. Pass each station with its own test and move to the next."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-2\">Check one: do they trust you in the first ten seconds?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "A new customer does not know you, and in the first seconds they have only one question: is this place real? They take the answer from these: a real phone number and address that are easy to find, the electronic trust symbol and a payment gateway whose name they know, an about page that shows a real person stands behind this shop, and prices and terms that are hidden nowhere."
+        },
+        {
+          "t": "p",
+          "html": "<strong>Tonight’s test:</strong> show the site on a phone to someone who does not know your shop, and after ten seconds take the phone back. Ask: would you pay by card here? Hear the answer exactly as it is, and do not explain."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<blockquote class=\"art-quote\">A customer rarely says no out loud. <span>They quietly turn around and leave</span>. Your job is finding the exact step they turn back on.</blockquote>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-3\">Check two: does the product page answer without a DM?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "Every question whose answer is not on the product page becomes either a DM or a lost customer. These four must be clear without messaging and without hunting: the final price, the cost and time of shipping, the return conditions, and whether it is in stock. A real product photo and a description that helps choosing are decided on the same page."
+        },
+        {
+          "t": "p",
+          "html": "<strong>Tonight’s test:</strong> open one product page and time how long finding the shipping cost takes. If it takes more than a minute, your customer gives up in exactly the same place."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-4\">Check three: does checkout survive a cheap phone?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "Most of your customers buy on mid range and cheap Android phones, not on your office phone and internet. A checkout with too many steps, a discount code that throws a strange error, or a payment page that falls apart on mobile loses the customer at the exact moment of paying."
+        },
+        {
+          "t": "p",
+          "html": "<strong>Tonight’s test:</strong> take the cheapest phone in the house, turn on mobile data, and make one full purchase from your own shop, all the way to the payment receipt. Everywhere you paused or frowned, your customer has already left."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-5\">Check four: how slow is the site on real Iranian internet?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "Everyone measures speed on home or office wifi; your customer buys in the street, on mobile data. Heavy product photos and a page where you stare at white for several seconds just to see the price mean a silent goodbye on that internet."
+        },
+        {
+          "t": "p",
+          "html": "<strong>Tonight’s test:</strong> turn wifi off and open your best selling product page on mobile data. If seeing the price and the buy button takes more than a few seconds, lighten the photos first; it is usually the cheapest repair a shop has."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-6\">Check five: why should the customer buy today?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "“I will buy later” in practice means I will not buy. Buying today needs one real reason: free shipping above a clear amount, stock that is genuinely low, a gift on the first order, or a delivery with a known date. A real reason means something that is still true tomorrow exactly as you said it today; fake countdowns and a permanent “only two left” destroy the trust of check one as well."
+        },
+        {
+          "t": "p",
+          "html": "<strong>Tonight’s test:</strong> read the product page like a stranger and ask yourself: if you do not buy today, what do you lose? If the answer is “nothing”, your customer has understood exactly the same thing."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-7\">Check six: does anyone call the abandoned cart back?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "Most carts get abandoned, and that is normal in every shop in the world. The difference between shops that sell is that they do not treat abandonment as the end of the story: one reminder SMS or email in the first few hours, and for more expensive carts, one short human phone call. A customer who reached the till is your warmest customer; it is a pity to say goodbye to them in silence."
+        },
+        {
+          "t": "p",
+          "html": "<strong>Tonight’s test:</strong> build a cart with your own number and abandon it. In the next twenty four hours, does anything reach you? If not, your customers receive nothing either."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-8\">Check seven: do you even know where the customer leaves?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "If there is no analytics tool on your site, or you never look at it, you are repairing in the dark. You do not need to become a data scientist; these three numbers are enough: which product page gets the most visits, at which checkout step you see the biggest drop, and whether customers mostly come on mobile or desktop. These numbers tell you which check to take seriously first."
+        },
+        {
+          "t": "p",
+          "html": "<strong>Tonight’s test:</strong> answer this without guessing: which is your most visited product page, and how many sales did it have last month? If you do not know the answer, your first step is here, not advertising."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-9\">In short</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "Good traffic and zero sales amount to one sentence: people come, and somewhere they turn back. You will not find that place by guessing; you find it with these seven tests, and fixing it usually costs less than fresh advertising. And if the tests show the problem is the shop building itself, its checkout, product pages and speed, then it is rebuilding time: on the <a href=\"/en/services/website-building/\">website building</a> page you can see how we build a shop, and the <a href=\"/en/tools/estimator/\">project estimator</a> gives you its number before any conversation."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-cta container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "See your shop through your customer’s eyes"
+        },
+        {
+          "t": "p",
+          "html": "On the website building page you can see how we build a shop’s product pages and checkout so they pass these seven checks. If you want a rough number first, the project estimator gives you a brief based on the features you pick."
+        },
+        {
+          "t": "group",
+          "class": "btn-row",
+          "blocks": [
+            {
+              "t": "cta",
+              "text": "Website building service",
+              "href": "/en/services/website-building/",
+              "class": "btn btn-primary"
+            },
+            {
+              "t": "cta",
+              "text": "Project estimator",
+              "href": "/en/tools/estimator/",
+              "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section art-faq",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Frequently asked questions"
+        },
+        {
+          "t": "raw",
+          "html": "<div class=\"art-faq-list\"><div class=\"art-faq-item\"><h3>How do I know the problem is traffic or the site itself?</h3><p>If your daily traffic is significant but sales have stayed near zero for several weeks, the problem is almost always inside the site. If traffic was low from the start, fix traffic first; this article is for when people come and do not buy.</p></div><div class=\"art-faq-item\"><h3>Which check should I do first?</h3><p>In the article’s own order: trust and the product page first, because they are the most common dropping places, then checkout and speed. Each test takes only a few minutes, and you do not have to do all seven in one night.</p></div><div class=\"art-faq-item\"><h3>Should I buy advertising to get sales moving?</h3><p>Advertising to a shop with a broken checkout only delivers more visitors who do not buy. First find and fix the drop; then the same advertising, on the same budget, produces sales.</p></div><div class=\"art-faq-item\"><h3>Does the trust symbol alone fix sales?</h3><p>No. The symbol is one of several trust signals, and it only means something beside a real contact number, an about page and clear buying terms. No badge compensates for a broken checkout and an incomplete product page.</p></div></div>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container art-related",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "More articles"
+        },
+        {
+          "t": "cards",
+          "kind": "work",
+          "items": [
+            {
+              "title": "",
+              "href": "",
+              "html": "<a class=\"art-card\" href=\"/en/articles/website-cost/\"><span class=\"art-card-media\"><img src=\"/covers/cover-cost.svg\" alt=\"Article cover: a price tag and coins\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Cost and pricing</span><h3 class=\"art-card-title\">How much does a website cost? An honest anatomy of the price</h3><span class=\"art-card-excerpt\">One brief, two quotes: five million and fifty million. Both can be honest. Here we open up, hour by hour, what your money buys and where a cheap quote quietly cuts.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a><a class=\"art-card\" href=\"/en/articles/instagram-hacked/\"><span class=\"art-card-media\"><img src=\"/covers/cover-hacked.svg\" alt=\"Article cover: a phone with a cracked shield and a green check on its intact half\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Security</span><h3 class=\"art-card-title\">Your shop page got hacked? Do these things first</h3><span class=\"art-card-excerpt\">You wake up and the page is not in your hands: the password has changed and strange stories are going up. The first hour decides whether the page comes back. Here is the right recovery order, and the locks that actually work.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>9 min read</span></span></span></a>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

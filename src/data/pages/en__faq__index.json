@@ -2,7 +2,7 @@
   "path": "en/faq/index.html",
   "lang": "en",
   "title": "FAQ: price, time, ownership and security | dadmor",
-  "description": "Plain answers to twelve questions asked before starting: how price is set, how long it takes, who owns what, what a penetration test is, and why we do not guarantee SEO.",
+  "description": "Plain answers to twelve questions asked before starting: how price is set, how long it takes, who owns what, and why we do not guarantee SEO.",
   "canonical": "https://dadmor.netlify.app/en/faq/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/faq/",
@@ -13,7 +13,7 @@
     "site_name": "dadmor",
     "type": "website",
     "title": "FAQ: price, time, ownership and security | dadmor",
-    "description": "Plain answers to twelve questions asked before starting: how price is set, how long it takes, who owns what, what a penetration test is, and why we do not guarantee SEO.",
+    "description": "Plain answers to twelve questions asked before starting: how price is set, how long it takes, who owns what, and why we do not guarantee SEO.",
     "url": "https://dadmor.netlify.app/en/faq/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -40,7 +40,7 @@
             "name": "How is price decided?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Before any price, we have a scoping conversation. After it, we send a written proposal with a fixed price for a defined scope."
+              "text": "Before any price, we have a scoping conversation. After it, we send a written proposal with a fixed price for a defined scope. We have also opened up what a website price is made of, hour by hour, in How much does a website cost?"
             }
           },
           {
@@ -96,7 +96,7 @@
             "name": "How do we start?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "With the project estimator or the contact form. The estimator builds a printable scoped brief you can send us."
+              "text": "With the project estimator or the contact form. The estimator builds a printable scoped brief you can send us. We have also published the scope template we sign before starting: What is a project scope? Take dadmor’s real template."
             }
           },
           {
@@ -229,7 +229,8 @@
                           "ordered": false,
                           "items": [
                             "Before any price, we have a scoping conversation. After it, we send a written proposal with a fixed price for a defined scope.",
-                            "The project estimator shows only an effort band (S, M or L), not a price. The main factors are the number of pages or features, integrations, content readiness and project type. For the monthly marketing service, the price is a fixed monthly amount, set in the same written proposal."
+                            "The project estimator shows only an effort band (S, M or L), not a price. The main factors are the number of pages or features, integrations, content readiness and project type. For the monthly marketing service, the price is a fixed monthly amount, set in the same written proposal.",
+                            "We have also opened up what a website price is made of, hour by hour, in <a href=\"/en/articles/website-cost/\">How much does a website cost?</a>"
                           ]
                         }
                       ]
@@ -446,7 +447,8 @@
                           "ordered": false,
                           "items": [
                             "With the project estimator or the contact form. The estimator builds a printable scoped brief you can send us.",
-                            "Next, we have a scoping conversation (the Discover step), followed by a written proposal with the scope, deliverables and a fixed price. Work starts only after you approve the proposal."
+                            "Next, we have a scoping conversation (the Discover step), followed by a written proposal with the scope, deliverables and a fixed price. Work starts only after you approve the proposal.",
+                            "We have also published the scope template we sign before starting: <a href=\"/en/articles/project-scope/\">What is a project scope? Take dadmor’s real template</a>."
                           ]
                         }
                       ]

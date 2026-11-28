@@ -292,7 +292,7 @@ h2 {
 :root[data-theme="light"] .marquee-glow {
   background: radial-gradient(
     240px circle at var(--mx, 50%) var(--my, 50%),
-    rgba(58, 53, 135, 0.16),
+    rgba(91, 69, 201, 0.14),
     transparent 70%
   );
 }
@@ -437,7 +437,7 @@ h2 {
   background: radial-gradient(ellipse 90% 80% at 50% 40%, rgba(11, 10, 20, 0.72), rgba(11, 10, 20, 0) 70%);
 }
 :root[data-theme="light"] .hero-text::before {
-  background: radial-gradient(ellipse 90% 80% at 50% 40%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(ellipse 90% 80% at 50% 40%, rgba(250, 248, 243, 0.85), rgba(250, 248, 243, 0) 70%);
 }
 .hero h1 {
   text-shadow: 0 2px 24px rgba(11, 10, 20, 0.55), 0 0 2px rgba(11, 10, 20, 0.4);
@@ -446,10 +446,10 @@ h2 {
   text-shadow: 0 1px 12px rgba(11, 10, 20, 0.6);
 }
 :root[data-theme="light"] .hero h1 {
-  text-shadow: 0 2px 24px rgba(255, 255, 255, 0.65), 0 0 2px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 2px 24px rgba(246, 244, 239, 0.7), 0 0 2px rgba(246, 244, 239, 0.55);
 }
 :root[data-theme="light"] .hero-text p {
-  text-shadow: 0 1px 12px rgba(255, 255, 255, 0.7);
+  text-shadow: 0 1px 12px rgba(246, 244, 239, 0.75);
 }
 
 /* ---- (3) BRAND LOCKUP — one lion + the correct wordmark. LionWord used
@@ -786,7 +786,7 @@ html, body {
 :root[data-theme="light"] .hero h1 .w:nth-child(odd),
 :root[data-theme="light"] .hero h1 .w:nth-child(even) { color: var(--color-foreground); }
 .hero h1 .w.w-accent { color: var(--violet-bright); }
-:root[data-theme="light"] .hero h1 .w.w-accent { color: #7C3AED; }
+:root[data-theme="light"] .hero h1 .w.w-accent { color: var(--color-primary-bright); }
 
 /* Holographic foil: an iridescent gradient whose position follows the
    element's 3D tilt (--fx/--fy set from the pointer), so the material
@@ -1176,8 +1176,12 @@ html, body {
      "not good" — too bright/neon (value 100) and too close in hue to the
      indigo base (256° vs 244°), so it read as a brighter indigo. The new
      light violet #7C3AED is a refined, clearly purple violet (hue 262°,
-     5.70:1 on white, AA; 1.81:1 against the indigo base). */
-  color: #7C3AED;
+     5.70:1 on white, AA; 1.81:1 against the indigo base).
+     2026-11-23 comfort pass: #7C3AED at display sizes still vibrated on
+     white; the headings now take the light theme's primary-bright token
+     (#6d54d8, 4.8:1 on the warm paper), the same violet as the hero
+     accent, so the whole light face speaks one calmer violet. */
+  color: var(--color-primary-bright);
 }
 
 /* ============ v27 (2026-11-06, owner orders) ============ */
@@ -2386,6 +2390,13 @@ html.has-custom-cursor summary {
   width: 5px;
   height: 5px;
   background: var(--lion-eyes);
+  transition: background-color 180ms var(--ease-out);
+}
+/* Colour swap on hover (owner order, 2026-11-21): resting state is a
+   violet ring around a green dot; over interactive elements the ring
+   turns green (see .cursor-ring-hot) and the dot turns violet. */
+.cursor-dot.cursor-dot-hot {
+  background: var(--color-primary);
 }
 .cursor-ring {
   width: 26px;
@@ -2401,8 +2412,12 @@ html.has-custom-cursor summary {
     background-color 180ms var(--ease-out), border-color 180ms var(--ease-out);
 }
 .cursor-ring.cursor-ring-hot {
-  width: 40px;
-  height: 40px;
+  /* No growth on hover (owner report with screenshot, 2026-11-17):
+     the enlarged ring ballooned over small link texts in the footer
+     and crossed the letters. The ring keeps its resting size; the
+     green border alone signals the hover. */
+  width: 26px;
+  height: 26px;
   /* No fill: the ring used to paint a soft disc over button labels and
      hide their text (owner report, 2026-11-17). Border only, slightly
      stronger colour carries the hover signal. */
@@ -2415,4 +2430,754 @@ html.has-custom-cursor summary {
   border-radius: 2px;
   background: var(--color-primary);
   border-color: transparent;
+}
+
+/* ---- (7) HEADER NAV FIT (2026-11-21). Adding «مقالات» as the eighth nav
+   item pushed the desktop nav past its width: labels wrapped mid-word
+   and the header grew a second line. Keep every label on one line and
+   tighten the nav spacing slightly so the full row fits at 1280px up. */
+.nav-links {
+  gap: var(--space-1);
+}
+.nav-links a {
+  white-space: nowrap;
+  padding-inline: 6px;
+}
+
+/* ---- (8) ARTICLE COMPONENTS v4 (2026-11-21). The مقالات section
+   rebuilt a fourth time on a live competitor study (Websima, Novin,
+   Webramz): image first, one branded cover system, restrained type
+   (hierarchy by weight and colour, not display size), one strict card
+   anatomy with 2-line clamped excerpts, an in-article table of
+   contents, FAQ sections and ruled editorial details kept from v3
+   where they worked (summary list, pull quote, scope document, cost
+   table). Every selector is scoped under .art- classes, so no other
+   page changes. Colours come from the theme tokens only, so the
+   light theme follows for free. The covers themselves stay dark in
+   both themes: they are branded artwork, like a printed magazine
+   cover, so their background is a fixed brand colour, not a token. */
+
+/* ---------------------------------------------------------- index header */
+.art-mast {
+  padding-block: var(--space-7) var(--space-6);
+}
+.art-kicker {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin: 0 0 var(--space-4);
+  font-size: var(--text-small);
+  font-weight: var(--weight-emphasis);
+  color: var(--color-primary);
+}
+.art-kicker::after {
+  content: "";
+  flex: 1;
+  border-top: var(--border-width) solid var(--color-border);
+}
+html[lang="en"] .art-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+.art-mast h1 {
+  font-size: clamp(1.9rem, 1.55rem + 1.6vw, 2.35rem);
+  line-height: 1.35;
+  margin: 0 0 var(--space-4);
+}
+.art-manifesto {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: var(--color-muted-foreground);
+  max-width: 62ch;
+  margin: 0;
+}
+.art-manifesto strong {
+  color: var(--color-foreground);
+}
+.art-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-6);
+  margin-top: var(--space-6);
+  padding-top: var(--space-4);
+  border-top: var(--border-width) solid var(--color-border);
+}
+.art-stats .stat {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+}
+.art-stats .stat strong {
+  font-size: 1.125rem;
+  color: var(--color-primary);
+}
+.art-stats .stat span {
+  color: var(--color-muted-foreground);
+  font-size: var(--text-small);
+}
+
+/* ---------------------------------------------------------- article cards */
+.art-contents {
+  padding-block: var(--space-2) var(--space-7);
+}
+.art-feature {
+  margin-bottom: 28px;
+}
+.art-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+.art-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-card-lg);
+  overflow: hidden;
+  color: var(--color-foreground);
+  text-decoration: none;
+  transition: transform 250ms var(--ease-out), border-color 250ms ease,
+    box-shadow 250ms ease;
+}
+.art-card:hover {
+  text-decoration: none;
+  transform: translateY(-4px);
+  border-color: var(--color-border-control);
+  box-shadow: var(--shadow-soft);
+}
+.art-card-media {
+  display: block;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  background: #0b0a14;
+}
+.art-card-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 450ms var(--ease-out);
+}
+.art-card:hover .art-card-media img {
+  transform: scale(1.045);
+}
+.art-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-5);
+  flex: 1;
+}
+.art-card-cat {
+  font-size: var(--text-small);
+  font-weight: var(--weight-emphasis);
+  color: var(--color-primary);
+}
+.art-card-title {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  transition: color 200ms ease;
+}
+.art-card:hover .art-card-title {
+  color: var(--color-primary);
+}
+.art-card-excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  overflow: hidden;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--color-muted-foreground);
+}
+.art-card-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: auto;
+  padding-top: var(--space-3);
+  font-size: 0.8125rem;
+  color: var(--color-muted-foreground);
+}
+.art-card-feature {
+  flex-direction: row;
+}
+.art-card-feature .art-card-media {
+  flex: 0 0 45%;
+  aspect-ratio: auto;
+}
+.art-card-feature .art-card-body {
+  justify-content: center;
+  padding: var(--space-6);
+}
+.art-card-feature .art-card-title {
+  font-size: clamp(1.45rem, 2.4vw, 1.8rem);
+  line-height: 1.4;
+}
+.art-card-feature .art-card-meta {
+  margin-top: var(--space-3);
+}
+
+/* ---------------------------------------------------------- index path cards */
+.art-path {
+  padding-block: var(--space-6) var(--space-8);
+}
+.art-path h2 {
+  margin: 0 0 var(--space-3);
+}
+.art-path > div > p {
+  max-width: 62ch;
+  margin: 0;
+  line-height: 1.85;
+  color: var(--color-muted-foreground);
+}
+.art-path-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  list-style: none;
+  margin: var(--space-6) 0 0;
+  padding: 0;
+}
+.art-path-row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-card-lg);
+  padding: var(--space-5);
+}
+.art-path-num {
+  font-size: 1.375rem;
+  font-weight: var(--weight-heading);
+  line-height: 1.3;
+  color: var(--color-primary);
+}
+.art-path-body {
+  display: block;
+  min-width: 0;
+}
+.art-path-body h3 {
+  margin: 0 0 var(--space-1);
+  font-size: 1.2rem;
+}
+.art-path-body p {
+  margin: 0;
+  line-height: 1.8;
+  color: var(--color-muted-foreground);
+}
+.art-path-link {
+  margin-top: auto;
+  font-size: var(--text-small);
+  font-weight: var(--weight-emphasis);
+  white-space: nowrap;
+}
+
+/* ------------------------------------- index search + filter (2026-11-25)
+   The articles index rebuilt on the approved mockup skeleton (hero
+   search, filter pills, clean card grid) in dadmor tokens only.
+   Scoped to the index controls and the index grid modifier, so the
+   article detail pages keep their existing card styles. */
+.art-search {
+  margin-top: var(--space-6);
+  max-width: 560px;
+}
+.art-search-box {
+  position: relative;
+}
+.art-search-icon {
+  position: absolute;
+  inset-inline-start: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  color: var(--color-muted-foreground);
+  pointer-events: none;
+}
+.art-search input {
+  width: 100%;
+  padding: 13px 16px;
+  padding-inline-start: 44px;
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-card);
+  color: var(--color-foreground);
+  font: inherit;
+}
+.art-search input::placeholder {
+  color: var(--color-muted-foreground);
+}
+.art-search input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-glow-violet);
+}
+.art-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: 28px;
+}
+.art-pill {
+  font: inherit;
+  font-size: var(--text-small);
+  font-weight: var(--weight-emphasis);
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: var(--color-surface);
+  border: var(--border-width) solid var(--color-border);
+  color: var(--color-muted-foreground);
+  cursor: pointer;
+  transition: border-color 200ms ease, color 200ms ease,
+    background-color 200ms ease;
+}
+.art-pill:hover {
+  border-color: var(--color-border-control);
+  color: var(--color-foreground);
+}
+.art-pill:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+.art-pill[aria-pressed="true"] {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
+.art-grid-index {
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 1023.98px) {
+  .art-grid-index {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.art-grid-index .art-card-media {
+  position: relative;
+}
+.art-card-chip {
+  position: absolute;
+  inset-inline-start: 12px;
+  top: 12px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--color-primary);
+  color: var(--color-primary-foreground);
+  font-size: 0.75rem;
+  font-weight: var(--weight-emphasis);
+  line-height: 1.7;
+}
+.art-empty {
+  padding: var(--space-7) var(--space-4);
+  border: var(--border-width) dashed var(--color-border);
+  border-radius: var(--radius-card-lg);
+  text-align: center;
+  color: var(--color-muted-foreground);
+}
+.art-empty p {
+  margin: 0 0 var(--space-4);
+}
+.art-empty-reset {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
+
+/* ---------------------------------------------------------- article head */
+.art-head {
+  padding-block: var(--space-7) var(--space-5);
+}
+.art-cat {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin: 0 0 var(--space-5);
+  font-size: var(--text-small);
+  font-weight: 600;
+  color: var(--color-primary);
+}
+.art-cat::after {
+  content: "";
+  flex: 1;
+  border-top: var(--border-width) solid var(--color-border);
+}
+html[lang="en"] .art-cat {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+.art-head h1 {
+  font-size: clamp(1.85rem, 1.5rem + 1.8vw, 2.3rem);
+  line-height: 1.35;
+  margin: 0 0 var(--space-4);
+}
+.art-hook {
+  font-size: 1.1rem;
+  line-height: 1.85;
+  max-width: 58ch;
+  margin: 0 0 var(--space-6);
+  color: var(--color-muted-foreground);
+}
+.art-hook strong {
+  color: var(--color-foreground);
+}
+.art-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2) var(--space-3);
+  margin: 0;
+  padding-block: var(--space-3);
+  border-top: var(--border-width) solid var(--color-border);
+  border-bottom: var(--border-width) solid var(--color-border);
+  font-size: var(--text-small);
+  color: var(--color-muted-foreground);
+}
+
+/* ---------------------------------------------------------- cover + contents box */
+.art-cover {
+  max-width: 44rem;
+  aspect-ratio: 2 / 1;
+  margin: 0 0 var(--space-6);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-card-lg);
+  overflow: hidden;
+  background: #0b0a14;
+}
+.art-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.art-toc {
+  max-width: 44rem;
+  margin-bottom: var(--space-6);
+  padding: var(--space-5) var(--space-6);
+  background: var(--color-primary-soft);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-card-lg);
+}
+.art-toc h2 {
+  font-size: 1.1rem;
+  margin: 0 0 var(--space-3);
+}
+.art-toc ol {
+  margin: 0;
+  padding-inline-start: var(--space-5);
+  line-height: 2;
+  color: var(--color-muted-foreground);
+}
+.art-toc a {
+  color: var(--color-foreground);
+  text-decoration: none;
+}
+.art-toc a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+/* ---------------------------------------------------------- reading column */
+.art-lede,
+.art-section {
+  max-width: 44rem;
+}
+.art-lede {
+  padding-block: var(--space-2) var(--space-4);
+}
+.art-lede p {
+  font-size: 1.075rem;
+  line-height: 1.95;
+}
+.art-lede p:first-of-type {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: var(--color-foreground);
+}
+.art-section {
+  padding-block: var(--space-6) var(--space-5);
+  border-top: var(--border-width) solid var(--color-border);
+}
+.art-section h2 {
+  font-size: 1.55rem;
+  line-height: 1.4;
+  margin: 0 0 var(--space-4);
+  scroll-margin-top: var(--scroll-offset);
+}
+.art-section p {
+  font-size: 1.075rem;
+  line-height: 1.95;
+}
+.art-section ul,
+.art-section ol {
+  font-size: 1.075rem;
+  line-height: 1.9;
+}
+
+/* ---------------------------------------------------------- summary list */
+.art-summary {
+  max-width: 44rem;
+  margin: 0 0 var(--space-6);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-card-lg);
+  padding: var(--space-5) var(--space-6) var(--space-6);
+}
+.art-summary h2 {
+  font-size: 1.15rem;
+  margin: 0;
+  padding-bottom: var(--space-3);
+  border-bottom: var(--border-width) solid var(--color-border);
+}
+.art-summary ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: art-sum;
+}
+.art-summary li {
+  counter-increment: art-sum;
+  position: relative;
+  padding-block: var(--space-3);
+  padding-inline-start: 2.2rem;
+  line-height: 1.85;
+  color: var(--color-muted-foreground);
+}
+.art-summary li + li {
+  border-top: var(--border-width) solid
+    color-mix(in srgb, var(--color-border) 55%, transparent);
+}
+.art-summary li::before {
+  content: counter(art-sum, persian);
+  position: absolute;
+  inset-inline-start: 0;
+  top: var(--space-3);
+  font-weight: var(--weight-heading);
+  color: var(--color-primary);
+}
+html[lang="en"] .art-summary li::before {
+  content: counter(art-sum);
+}
+
+/* ---------------------------------------------------------- pull quote */
+.art-quote {
+  max-width: 54rem;
+  margin-block: var(--space-5);
+  margin-inline: auto;
+  padding-block: var(--space-6);
+  text-align: center;
+  font-size: clamp(1.45rem, 3.2vw, 2.05rem);
+  font-weight: var(--weight-heading);
+  line-height: 1.65;
+  color: var(--color-foreground);
+}
+.art-quote::before,
+.art-quote::after {
+  content: "";
+  display: block;
+  width: 3.5rem;
+  margin-inline: auto;
+  border-top: 2px solid var(--color-primary);
+}
+.art-quote::before {
+  margin-bottom: var(--space-6);
+}
+.art-quote::after {
+  margin-top: var(--space-6);
+}
+.art-quote span {
+  color: var(--color-primary);
+}
+
+/* ---------------------------------------------------------- scope document */
+.art-doc {
+  margin-block: var(--space-4);
+}
+.art-doc-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding-bottom: var(--space-4);
+  border-bottom: 2px solid var(--color-border-control);
+}
+.art-doc-head h3 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+.art-tag {
+  font-size: var(--text-small);
+  white-space: nowrap;
+  color: var(--color-muted-foreground);
+}
+.art-doc-sec {
+  padding-block: var(--space-5);
+  border-bottom: var(--border-width) solid
+    color-mix(in srgb, var(--color-border) 60%, transparent);
+}
+.art-doc-sec:last-child {
+  border-bottom: none;
+}
+.art-doc-sec h3 {
+  margin: 0 0 var(--space-2);
+  font-size: 1.2rem;
+}
+.art-doc-num {
+  margin-inline-end: var(--space-2);
+  color: var(--color-primary);
+}
+.art-doc-sec p {
+  color: var(--color-muted-foreground);
+}
+.art-doc-sec p strong {
+  color: var(--color-foreground);
+}
+.art-doc-ex {
+  margin-inline-start: var(--space-1);
+  border-inline-start: 2px solid var(--color-primary);
+  padding-inline-start: var(--space-4);
+}
+
+/* ---------------------------------------------------------- cost table */
+.art-section table {
+  margin-block: var(--space-4);
+  font-size: 1rem;
+}
+.art-section th,
+.art-section td {
+  border: none;
+  border-bottom: var(--border-width) solid var(--color-border);
+  padding: var(--space-3);
+  line-height: 1.7;
+}
+.art-section thead th {
+  background: transparent;
+  border-bottom: 2px solid var(--color-border-control);
+  font-weight: var(--weight-heading);
+  color: var(--color-foreground);
+}
+.art-section th:first-child,
+.art-section td:first-child {
+  padding-inline-start: 0;
+}
+
+/* ---------------------------------------------------------- article FAQ */
+.art-faq-list {
+  display: grid;
+  gap: var(--space-5);
+}
+.art-faq-item h3 {
+  font-size: 1.15rem;
+  margin: 0 0 var(--space-2);
+}
+.art-faq-item p {
+  margin: 0;
+  color: var(--color-muted-foreground);
+}
+
+/* ---------------------------------------------------------- related cards */
+.art-related {
+  padding-block: var(--space-6) var(--space-8);
+}
+.art-related > h2 {
+  margin: 0 0 var(--space-5);
+}
+.art-related > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+/* ---------------------------------------------------------- small screens */
+@media (max-width: 767.98px) {
+  .art-mast {
+    padding-block: var(--space-6) var(--space-5);
+  }
+  .art-mast h1 {
+    font-size: 1.8rem;
+  }
+  .art-head h1 {
+    font-size: 1.7rem;
+  }
+  .art-grid,
+  .art-path-list,
+  .art-related > div {
+    grid-template-columns: 1fr;
+  }
+  .art-card-feature {
+    flex-direction: column;
+  }
+  .art-card-feature .art-card-media {
+    flex: none;
+    aspect-ratio: 3 / 2;
+  }
+  .art-card-feature .art-card-body {
+    padding: var(--space-5);
+  }
+  .art-toc {
+    padding: var(--space-4) var(--space-5);
+  }
+  .art-summary {
+    padding: var(--space-4) var(--space-4) var(--space-5);
+  }
+  .art-section table {
+    display: block;
+    overflow-x: auto;
+  }
+}
+
+/* ================================================================
+   Light theme comfort pass, 2026-11-23 (owner: the light theme is
+   not interesting and hurts the eyes). Companion to the tokens.css
+   palette pass: the dark design's neon values reached light mode
+   through primitives and hardcoded glows. These overrides retune
+   them for the warm paper. Dark mode is untouched, and no animation,
+   timing or geometry changes: colours and shadows only.
+   ================================================================ */
+
+/* Hero backdrop: the base layers are drawn with the dark primitives
+   (var(--violet) at full neon saturation, and one dot layer in raw
+   --live #00e676) — on white the green layer read as dust specks
+   scattered over the hero and the violet wash was candy-bright.
+   Light gets the same four-layer composition in the retuned violet,
+   with the fourth layer violet too (green stays a signal, never
+   decoration). The drift animation is unchanged. */
+:root[data-theme="light"] .hero-backdrop {
+  background-image:
+    radial-gradient(60% 50% at 50% 30%, color-mix(in srgb, var(--color-primary) 13%, transparent), transparent 70%),
+    radial-gradient(2px 2px at 20% 40%, color-mix(in srgb, var(--color-primary) 38%, transparent), transparent),
+    radial-gradient(2px 2px at 70% 25%, color-mix(in srgb, var(--color-primary) 30%, transparent), transparent),
+    radial-gradient(2px 2px at 85% 60%, color-mix(in srgb, var(--color-primary) 24%, transparent), transparent);
+}
+
+/* Dot band: the live dot itself already uses the deep text green in
+   light mode, but its halo was the dark neon rgba(0, 230, 118, 0.7),
+   a spray-paint blob on the pale band. Softened to the same deep
+   green at a resting alpha. */
+:root[data-theme="light"] .marquee-row:nth-child(2) .marquee-dot:nth-child(24n+1)::after {
+  box-shadow: 0 0 8px 2px rgba(0, 107, 67, 0.35);
+}
+
+/* The travelling violet comet glowed with the dark neon violet
+   (rgba(140, 128, 255, 0.7)) and read as a bruise on the band. */
+:root[data-theme="light"] .dot-stream-comet {
+  box-shadow: 0 0 10px 2px rgba(91, 69, 201, 0.35);
+}
+
+/* Toggle and language hover glows: same neon violet, softened. */
+:root[data-theme="light"] .theme-toggle:hover,
+:root[data-theme="light"] .lang-switch a:hover {
+  text-shadow: 0 0 10px rgba(91, 69, 201, 0.35);
+}
+:root[data-theme="light"] .theme-toggle:hover svg {
+  filter: drop-shadow(0 0 5px rgba(91, 69, 201, 0.45));
+}
+
+/* Footer: a soft violet-tinted closing band, so the page ends on a
+   deliberate surface instead of trailing off into the paper. */
+:root[data-theme="light"] .site-footer {
+  background: #efeaf7;
 }

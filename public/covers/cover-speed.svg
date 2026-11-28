@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="A speedometer with its needle high and a small clock">
+    <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="78%">
+      <stop offset="0%" stop-color="#262052"/>
+      <stop offset="55%" stop-color="#141126"/>
+      <stop offset="100%" stop-color="#0b0a14"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.4" fill="#8c80ff"/>
+    </pattern>
+    <radialGradient id="dotfade" cx="50%" cy="46%" r="62%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="68%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </radialGradient>
+    <mask id="dotmask">
+      <rect width="600" height="400" fill="url(#dotfade)"/>
+    </mask>
+  </defs>
+  <rect width="600" height="400" fill="url(#glow)"/>
+  <rect width="600" height="400" fill="url(#dots)" opacity="0.32" mask="url(#dotmask)"/>
+  <!-- gauge -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M168 268 A132 132 0 0 1 432 268" stroke="#8c80ff" stroke-width="5"/>
+    <path d="M356 160 A132 132 0 0 1 432 268" stroke="#00ff41" stroke-width="7"/>
+    <line x1="182" y1="238" x2="204" y2="246" stroke="#b7a6ff" stroke-width="5"/>
+    <line x1="222" y1="176" x2="240" y2="192" stroke="#b7a6ff" stroke-width="5"/>
+    <line x1="300" y1="140" x2="300" y2="164" stroke="#b7a6ff" stroke-width="5"/>
+    <line x1="378" y1="176" x2="360" y2="192" stroke="#b7a6ff" stroke-width="5"/>
+    <line x1="418" y1="238" x2="396" y2="246" stroke="#b7a6ff" stroke-width="5"/>
+    <line x1="300" y1="272" x2="378" y2="196" stroke="#b7a6ff" stroke-width="7"/>
+    <circle cx="300" cy="272" r="13" fill="#16132a" stroke="#b7a6ff" stroke-width="5"/>
+    <line x1="216" y1="308" x2="384" y2="308" stroke="#8c80ff" stroke-width="4" opacity="0.7"/>
+  </g>
+  <!-- small clock -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="466" cy="316" r="36" fill="#0b0a14" stroke="#b7a6ff" stroke-width="5"/>
+    <polyline points="466,296 466,316 482,326" stroke="#00ff41" stroke-width="5"/>
+  </g>
+</svg>

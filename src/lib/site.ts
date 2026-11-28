@@ -81,6 +81,7 @@ export const CHROME = chromeJson as unknown as Record<Lang, ChromeData>
 export const NAV: Record<Lang, { text: string; href: string }[]> = {
   fa: [
     { text: 'خدمت ها', href: '/services/' },
+    { text: 'مقالات', href: '/articles/' },
     { text: 'فرایند کار', href: '/process/' },
     { text: 'نمونه کار', href: '/work/' },
     { text: 'درباره ما', href: '/about/' },
@@ -89,6 +90,7 @@ export const NAV: Record<Lang, { text: string; href: string }[]> = {
   ],
   en: [
     { text: 'Services', href: '/en/services/' },
+    { text: 'Articles', href: '/en/articles/' },
     { text: 'Process', href: '/en/process/' },
     { text: 'Work', href: '/en/work/' },
     { text: 'About', href: '/en/about/' },

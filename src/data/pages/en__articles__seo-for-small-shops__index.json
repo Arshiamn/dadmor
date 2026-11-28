@@ -1,0 +1,475 @@
+{
+  "path": "en/articles/seo-for-small-shops/index.html",
+  "lang": "en",
+  "title": "What is SEO? A starter guide for small shops | dadmor",
+  "description": "What is SEO and where do you start? A practical SEO starter guide for small shops: the words customers actually search, product pages that answer questions, Google Search Console, and the first steps that matter.",
+  "canonical": "https://dadmor.netlify.app/en/articles/seo-for-small-shops/",
+  "hreflang": {
+    "fa": "https://dadmor.netlify.app/articles/seo-for-small-shops/",
+    "en": "https://dadmor.netlify.app/en/articles/seo-for-small-shops/",
+    "x-default": "https://dadmor.netlify.app/articles/seo-for-small-shops/"
+  },
+  "og": {
+    "site_name": "dadmor",
+    "type": "article",
+    "title": "What is SEO? A starter guide for small shops | dadmor",
+    "description": "What is SEO and where do you start? A practical SEO starter guide for small shops: the words customers actually search, product pages that answer questions, Google Search Console, and the first steps that matter.",
+    "url": "https://dadmor.netlify.app/en/articles/seo-for-small-shops/",
+    "image": "https://dadmor.netlify.app/covers/cover-seo.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "locale": "en_US",
+    "locale:alternate": "fa_IR"
+  },
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "What is SEO? A starter guide for small shops",
+      "image": "https://dadmor.netlify.app/covers/cover-seo.png",
+      "description": "What is SEO and where do you start? A practical SEO starter guide for small shops: the words customers actually search, product pages that answer questions, Google Search Console, and the first steps that matter.",
+      "author": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "url": "https://dadmor.netlify.app/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "dadmor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dadmor.netlify.app/img/dadmor-halftone-logo.svg"
+        }
+      },
+      "datePublished": "2026-11-25",
+      "dateModified": "2026-11-25",
+      "inLanguage": "en-US",
+      "mainEntityOfPage": "https://dadmor.netlify.app/en/articles/seo-for-small-shops/"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does SEO take to show results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a small shop, being seriously seen on Google is usually a matter of months, not days, and it depends on the competition for your product and your city. Anyone who promises an exact time and an exact rank is selling something that is not in their hands."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I do my own site’s SEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The steps in this article, yes: correct page titles and descriptions, complete product content, registering the site in Search Console and keeping the site alive. The more technical work and a steady content program are what many shops later hand to a person or a team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which matters more, SEO or Instagram ads?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They are different jobs. Ads bring people quickly and end quickly; SEO is built more slowly but stays, and it is yours. Most shops start with ads and build SEO alongside, so their dependence on ads shrinks over time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Someone offers a guaranteed first rank on Google for a monthly fee. Should I accept?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Nobody can guarantee the first rank, because it is in Google’s hands and depends on the search and the competitors. From anyone you hire for SEO, ask for concrete work and Search Console reports, not ranking promises."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://dadmor.netlify.app/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Articles",
+          "item": "https://dadmor.netlify.app/en/articles/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "What is SEO? A starter guide for small shops",
+          "item": "https://dadmor.netlify.app/en/articles/seo-for-small-shops/"
+        }
+      ]
+    }
+  ],
+  "hero": null,
+  "blocks": [
+    {
+      "t": "raw",
+      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li><a href=\"/en/articles/\">Articles</a></li><li aria-current=\"page\">What is SEO?</li></ol></nav>",
+      "class": "breadcrumb container",
+      "tag": "nav"
+    },
+    {
+      "t": "group",
+      "class": "page-head container art-head",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<p class=\"art-cat\">SEO and visibility</p>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<h1>What is SEO? A starter guide for small shops</h1>",
+          "class": "",
+          "tag": "h1"
+        },
+        {
+          "t": "raw",
+          "html": "<p class=\"art-hook\">Your next customer is searching Google right now for something you sell. <strong>SEO</strong> is how your shop shows up among the answers when they search. It is not magic and it is not a promise of ranking first; it is a set of concrete jobs you can start this week.</p>",
+          "class": "",
+          "tag": "div"
+        },
+        {
+          "t": "raw",
+          "html": "<p class=\"art-meta-row\"><span>25 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span><span aria-hidden=\"true\">·</span><span>The dadmor team</span></p>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<figure class=\"art-cover\"><img src=\"/covers/cover-seo.svg\" alt=\"Article cover: a magnifier over a page with a chart and lines of text\" width=\"600\" height=\"400\"></figure>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<nav class=\"art-toc\" aria-label=\"Article sections\"><h2>In this article</h2><ol><li><a href=\"#sec-1\">What is SEO, in shop language?</a></li><li><a href=\"#sec-2\">What SEO is not: three claims that should scare you</a></li><li><a href=\"#sec-3\">Step zero: a site of your own that can be found</a></li><li><a href=\"#sec-4\">Step one: the words customers actually search</a></li><li><a href=\"#sec-5\">Step two: a product page that answers the customer’s questions</a></li><li><a href=\"#sec-6\">Step three: trust and freshness</a></li><li><a href=\"#sec-7\">How do you know you are going the right way?</a></li><li><a href=\"#sec-8\">In short</a></li></ol></nav>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<aside class=\"art-summary\"><h2>Summary</h2><ol><li>SEO means your site gets found for the searches real customers make, and gives the right answer. It starts with the site itself, not with tricks and shortcuts.</li><li>Nobody can guarantee the first rank on Google; keep your distance from anyone who promises it. SEO results should be read in Google Search Console, not in a seller’s promise.</li><li>The right order for a small shop: a findable site of your own, product pages with correct titles and complete content, trust signals, and fresh content. That is enough to start.</li></ol></aside>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container art-lede",
+      "blocks": [
+        {
+          "t": "p",
+          "html": "The last time you wanted to buy something and did not know the seller, what did you do? You probably searched Google. Your customers do the same; even the ones who follow your page search the product name on Google once before buying, to compare prices and places."
+        },
+        {
+          "t": "p",
+          "html": "SEO is short for search engine optimization, but do not let the name fool you. In practice it means building and writing your site so that when someone looks for your product, Google shows your site too, and the customer finds exactly what they came for."
+        },
+        {
+          "t": "p",
+          "html": "This guide is written for small shops: it needs neither a big agency budget nor hard jargon. We go through the first steps in order, and we say plainly, from the start, what SEO is not."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-1\">What is SEO, in shop language?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "Picture Google as the busiest street in the city. Thousands of people walk it every day looking for a shop like yours. Google is the signposting: from each shop’s name and description it decides which ones to show each customer."
+        },
+        {
+          "t": "p",
+          "html": "SEO work is making your shop’s sign clear, meaning correct titles and descriptions; keeping the inside of the shop tidy, meaning complete and fast pages; and having people speak well of your shop, meaning real trust and a real track record. That is exactly what Google is looking for: the best answer for the right person. Everything in this article comes back to one of these three."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-2\">What SEO is not: three claims that should scare you</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "<strong>It is not a promise of ranking first:</strong> nobody can guarantee the first rank on Google. Rank depends on the search itself, the city, the competitors and time, and it is in Google’s hands. Anyone selling a “guaranteed first rank” either does not know, or knows and says it anyway.",
+            "<strong>It is not tricks and shortcuts:</strong> buying links and stuffing pages with repeated keywords may work for a while, but Google finds them, and the penalty is falling from the very place you worked to reach.",
+            "<strong>It is not overnight work:</strong> being seen on Google comes from weeks and months of staying and doing things properly. SEO is renting a shop on the busy street, not buying a billboard for one night."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "We tell our own customers exactly this, and it is written on this site too: zero ranking promises and zero guaranteed results. If someone tells you the opposite, spend your money elsewhere."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-3\">Step zero: a site of your own that can be found</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "SEO only means something on a site that is yours and that Google can find. An Instagram page barely exists in Google search, and on a shop builder your control is limited; we open both up fully in <a href=\"/en/articles/instagram-vs-website/\">Instagram page or website</a> and <a href=\"/en/articles/shop-builder-vs-own-site/\">Shop builder or your own website</a>. On your own site, check these basics:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "The site opens correctly and quickly on mobile; most of your customers arrive on a phone.",
+            "Every page has its own clear address, so Google can find all of them.",
+            "The site is registered in Google Search Console, Google’s own free tool that shows whether your site is being seen at all."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-4\">Step one: the words customers actually search</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "Customers do not talk like you. You know the product’s exact technical name; the customer searches what is in their head: the simple product name, what it is for, sometimes their city. Simple ways to find those words:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "Watch Google’s own suggestions as you start typing; those are real searches by real people.",
+            "Ask customers: “What did you search to find us?” Write the answers down; that list is more real for you than any tool.",
+            "Write each product page title in that same language: the product name plus the feature the customer is after, not your warehouse code or internal name."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "And one simple rule: one page, one topic. One page for one search. Putting every product on a single page confuses the customer and Google alike."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-5\">Step two: a product page that answers the customer’s questions</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "Google lifts the page that answers the customer’s question better. A complete product page has these:"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "<strong>A real, clear photo</strong> of the product itself, not a catalogue photo from someone else’s site.",
+            "<strong>A visible price and stock state;</strong> customers have no patience for asking prices in DMs, and a page without a price is an incomplete page for Google too.",
+            "<strong>Text that answers the questions:</strong> what it is made of and its size, who and what it is for, how it ships and how it can be returned.",
+            "<strong>A correct title and short description,</strong> the exact thing the customer sees on Google and clicks because of."
+          ]
+        },
+        {
+          "t": "p",
+          "html": "A page that answers the customer’s questions is both seen better on Google and sells more when the customer arrives. The two are not separate; we cover the second half fully in <a href=\"/en/articles/traffic-but-no-sales/\">Traffic but no sales</a>."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<blockquote class=\"art-quote\">Google is looking for the best answer for the customer, not the best trick. <span>A page that genuinely serves the customer</span> finds its place sooner or later.</blockquote>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-6\">Step three: trust and freshness</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "list",
+          "ordered": false,
+          "items": [
+            "Have the trust symbol and real contact details on the site; we walk through the steps in <a href=\"/en/articles/payment-gateway-trust-symbol/\">Payment gateway and trust symbol</a>. Google and customers both trust an address-less shop less.",
+            "Show real customer reviews on the product page, with names and dates; a real review and a made one are distinguishable from a distance.",
+            "Keep the site alive: new products, current prices and fresh content now and then. A site untouched for a year looks, to Google too, like a shop whose shutters stayed down."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-7\">How do you know you are going the right way?</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "Google Search Console is free and shows you three things: which searches people find you with, how many people saw your site on Google and how many clicked, and which pages have problems. Look at it once a month. SEO growth should be read there: more searches and more pages, over several months. Any other report, especially a promise of an exact rank, is words, not evidence."
+        },
+        {
+          "t": "p",
+          "html": "If you have neither the time nor the patience for this work, it can be handed to someone; judge them by the same measures: concrete work and Search Console reports, not ranking promises. On our <a href=\"/en/services/marketing-content/\">marketing content</a> page we explain how we write content for shops and how we report it."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section",
+      "blocks": [
+        {
+          "t": "raw",
+          "html": "<h2 class=\"art-h2\" id=\"sec-8\">In short</h2>",
+          "class": "",
+          "tag": "h2"
+        },
+        {
+          "t": "p",
+          "html": "For a small shop, SEO starts here: a site of your own, product pages written in the customer’s language that answer their questions, trust signals, and Search Console to see whether you are going the right way. Nobody can promise a rank; but being found can be built, step by step and with patience."
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-cta container",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Where do you start?"
+        },
+        {
+          "t": "p",
+          "html": "If you do not have a site yet, SEO starts with building the site itself, and the project estimator shows its cost plainly. If you have a site and want its content written so both customers and Google can find it, see the marketing content page."
+        },
+        {
+          "t": "group",
+          "class": "btn-row",
+          "blocks": [
+            {
+              "t": "cta",
+              "text": "Estimate your project cost",
+              "href": "/en/tools/estimator/",
+              "class": "btn btn-primary"
+            },
+            {
+              "t": "cta",
+              "text": "Marketing content service",
+              "href": "/en/services/marketing-content/",
+              "class": "btn btn-ghost"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "service-section container art-section art-faq",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "Frequently asked questions"
+        },
+        {
+          "t": "raw",
+          "html": "<div class=\"art-faq-list\"><div class=\"art-faq-item\"><h3>How long does SEO take to show results?</h3><p>For a small shop, being seriously seen on Google is usually a matter of months, not days, and it depends on the competition for your product and your city. Anyone who promises an exact time and an exact rank is selling something that is not in their hands.</p></div><div class=\"art-faq-item\"><h3>Can I do my own site’s SEO?</h3><p>The steps in this article, yes: correct page titles and descriptions, complete product content, registering the site in Search Console and keeping the site alive. The more technical work and a steady content program are what many shops later hand to a person or a team.</p></div><div class=\"art-faq-item\"><h3>Which matters more, SEO or Instagram ads?</h3><p>They are different jobs. Ads bring people quickly and end quickly; SEO is built more slowly but stays, and it is yours. Most shops start with ads and build SEO alongside, so their dependence on ads shrinks over time.</p></div><div class=\"art-faq-item\"><h3>Someone offers a guaranteed first rank on Google for a monthly fee. Should I accept?</h3><p>No. Nobody can guarantee the first rank, because it is in Google’s hands and depends on the search and the competitors. From anyone you hire for SEO, ask for concrete work and Search Console reports, not ranking promises.</p></div></div>",
+          "class": "",
+          "tag": "div"
+        }
+      ]
+    },
+    {
+      "t": "group",
+      "class": "container art-related",
+      "blocks": [
+        {
+          "t": "heading",
+          "level": 2,
+          "html": "More articles"
+        },
+        {
+          "t": "cards",
+          "kind": "work",
+          "items": [
+            {
+              "title": "",
+              "href": "",
+              "html": "<a class=\"art-card\" href=\"/en/articles/traffic-but-no-sales/\"><span class=\"art-card-media\"><img src=\"/covers/cover-nosales.svg\" alt=\"Article cover: a funnel visitors enter and a shopping cart under a magnifier\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h3 class=\"art-card-title\">Traffic but no sales? Check these seven places</h3><span class=\"art-card-excerpt\">Yesterday four hundred people came and nobody bought. Most shops do not have a people problem; somewhere between the door and the till the customer turns around and leaves.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a><a class=\"art-card\" href=\"/en/articles/instagram-vs-website/\"><span class=\"art-card-media\"><img src=\"/covers/cover-instagram.svg\" alt=\"Article cover: a locked phone beside a house of your own\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h3 class=\"art-card-title\">Instagram page or website? Why your Instagram shop needs a website of its own</h3><span class=\"art-card-excerpt\">It is seven in the morning. You open Instagram and your shop page is gone. This article starts on that morning: which part of your business stands on your own land?</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

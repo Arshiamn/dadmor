@@ -244,6 +244,146 @@
       "title": "نمونه کار: کارهایی که می توانید ببینید | dadmor",
       "blocks": 4,
       "hero": false
+    },
+    {
+      "path": "articles/index.html",
+      "lang": "fa",
+      "title": "مقالات | dadmor",
+      "blocks": 3,
+      "hero": false
+    },
+    {
+      "path": "articles/instagram-vs-website/index.html",
+      "lang": "fa",
+      "title": "پیج اینستاگرام یا سایت؟ چرا فروشگاه اینستاگرامی شما به سایت نیاز دارد | dadmor",
+      "blocks": 10,
+      "hero": false
+    },
+    {
+      "path": "articles/website-cost/index.html",
+      "lang": "fa",
+      "title": "هزینه طراحی سایت چقدر است و قیمت به چه چیزهایی بستگی دارد | dadmor",
+      "blocks": 9,
+      "hero": false
+    },
+    {
+      "path": "articles/project-scope/index.html",
+      "lang": "fa",
+      "title": "اسکوپ پروژه سایت چیست و چطور آن را درست بنویسیم | dadmor",
+      "blocks": 10,
+      "hero": false
+    },
+    {
+      "path": "articles/shop-builder-vs-own-site/index.html",
+      "lang": "fa",
+      "title": "فروشگاه ساز یا سایت خودت؟ فرق غرفه اجاره ای با مغازه خودت | dadmor",
+      "blocks": 16,
+      "hero": false
+    },
+    {
+      "path": "articles/instagram-hacked/index.html",
+      "lang": "fa",
+      "title": "پیج فروشگاهت هک شد؟ اول این کارها را بکن | dadmor",
+      "blocks": 16,
+      "hero": false
+    },
+    {
+      "path": "articles/traffic-but-no-sales/index.html",
+      "lang": "fa",
+      "title": "بازدید داری، فروش نداری؟ این هفت جا را به ترتیب چک کن | dadmor",
+      "blocks": 19,
+      "hero": false
+    },
+    {
+      "path": "articles/payment-gateway-trust-symbol/index.html",
+      "lang": "fa",
+      "title": "درگاه پرداخت و نماد اعتماد: چطور فروشگاهت را به پول واقعی وصل کنی | dadmor",
+      "blocks": 16,
+      "hero": false
+    },
+    {
+      "path": "articles/seo-for-small-shops/index.html",
+      "lang": "fa",
+      "title": "سئو چیست؟ راهنمای شروع سئو برای فروشگاه های کوچک | dadmor",
+      "blocks": 18,
+      "hero": false
+    },
+    {
+      "path": "articles/website-speed-and-sales/index.html",
+      "lang": "fa",
+      "title": "سرعت سایت چرا برای فروش مهم است و چه چیزهایی سایتت را کند می کند | dadmor",
+      "blocks": 16,
+      "hero": false
+    },
+    {
+      "path": "en/articles/index.html",
+      "lang": "en",
+      "title": "Articles | dadmor",
+      "blocks": 3,
+      "hero": false
+    },
+    {
+      "path": "en/articles/instagram-vs-website/index.html",
+      "lang": "en",
+      "title": "Instagram page or website? Why your Instagram shop needs a website | dadmor",
+      "blocks": 9,
+      "hero": false
+    },
+    {
+      "path": "en/articles/website-cost/index.html",
+      "lang": "en",
+      "title": "How much does a website cost, and what does the price depend on? | dadmor",
+      "blocks": 8,
+      "hero": false
+    },
+    {
+      "path": "en/articles/project-scope/index.html",
+      "lang": "en",
+      "title": "What is a website project scope, and how do you write one properly? | dadmor",
+      "blocks": 9,
+      "hero": false
+    },
+    {
+      "path": "en/articles/shop-builder-vs-own-site/index.html",
+      "lang": "en",
+      "title": "Shop builder or your own website, and where the switching point is | dadmor",
+      "blocks": 16,
+      "hero": false
+    },
+    {
+      "path": "en/articles/instagram-hacked/index.html",
+      "lang": "en",
+      "title": "Your shop page got hacked? Do these things first | dadmor",
+      "blocks": 16,
+      "hero": false
+    },
+    {
+      "path": "en/articles/traffic-but-no-sales/index.html",
+      "lang": "en",
+      "title": "Traffic but no sales? Check these seven places | dadmor",
+      "blocks": 19,
+      "hero": false
+    },
+    {
+      "path": "en/articles/payment-gateway-trust-symbol/index.html",
+      "lang": "en",
+      "title": "Payment gateway and trust symbol: how to connect your shop to real money | dadmor",
+      "blocks": 16,
+      "hero": false
+    },
+    {
+      "path": "en/articles/seo-for-small-shops/index.html",
+      "lang": "en",
+      "title": "What is SEO? A starter guide for small shops | dadmor",
+      "blocks": 18,
+      "hero": false
+    },
+    {
+      "path": "en/articles/website-speed-and-sales/index.html",
+      "lang": "en",
+      "title": "Why website speed matters for sales, and what makes your site slow | dadmor",
+      "blocks": 16,
+      "hero": false
     }
   ],
   "chrome": {

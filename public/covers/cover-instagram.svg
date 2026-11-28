@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Locked phone beside a house of your own">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="78%">
+      <stop offset="0%" stop-color="#262052"/>
+      <stop offset="55%" stop-color="#141126"/>
+      <stop offset="100%" stop-color="#0b0a14"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.4" fill="#8c80ff"/>
+    </pattern>
+    <radialGradient id="dotfade" cx="50%" cy="46%" r="62%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="68%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </radialGradient>
+    <mask id="dotmask">
+      <rect width="600" height="400" fill="url(#dotfade)"/>
+    </mask>
+  </defs>
+  <rect width="600" height="400" fill="url(#glow)"/>
+  <rect width="600" height="400" fill="url(#dots)" opacity="0.32" mask="url(#dotmask)"/>
+  <!-- phone: the rented page, locked -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="188" y="76" width="118" height="244" rx="20" fill="#16132a" stroke="#b7a6ff" stroke-width="5"/>
+    <line x1="228" y1="98" x2="266" y2="98" stroke="#8c80ff" stroke-width="5"/>
+    <circle cx="247" cy="188" r="17" fill="#8c80ff" stroke="none"/>
+    <path d="M247 196 L234 238 h26 Z" fill="#8c80ff" stroke="none"/>
+    <circle cx="247" cy="292" r="4.5" fill="#8c80ff" stroke="none" opacity="0.7"/>
+  </g>
+  <!-- house: the website you own, green door -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M338 222 L412 156 L486 222" stroke="#b7a6ff" stroke-width="5"/>
+    <rect x="354" y="220" width="116" height="100" fill="#16132a" stroke="#b7a6ff" stroke-width="5"/>
+    <circle cx="412" cy="196" r="8" stroke="#8c80ff" stroke-width="4"/>
+    <rect x="394" y="264" width="36" height="56" rx="4" fill="#00ff41" stroke="none"/>
+  </g>
+</svg>
