@@ -186,12 +186,6 @@
     <lastmod>2026-11-21</lastmod>
   </url>
   <url>
-    <loc>https://dadmor.netlify.app/en/journal/</loc>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://dadmor.netlify.app/journal/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://dadmor.netlify.app/en/journal/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dadmor.netlify.app/journal/" />
-  </url>
-  <url>
     <loc>https://dadmor.netlify.app/en/privacy/</loc>
     <xhtml:link rel="alternate" hreflang="fa" href="https://dadmor.netlify.app/privacy/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://dadmor.netlify.app/en/privacy/" />
@@ -278,12 +272,6 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dadmor.netlify.app/en/faq/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dadmor.netlify.app/faq/" />
     <lastmod>2026-11-21</lastmod>
-  </url>
-  <url>
-    <loc>https://dadmor.netlify.app/journal/</loc>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://dadmor.netlify.app/journal/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://dadmor.netlify.app/en/journal/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dadmor.netlify.app/journal/" />
   </url>
   <url>
     <loc>https://dadmor.netlify.app/privacy/</loc>

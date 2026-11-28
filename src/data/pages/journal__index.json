@@ -2,7 +2,8 @@
   "path": "journal/index.html",
   "lang": "fa",
   "title": "یادداشت ها: اسکوپ، ساخت، امنیت و محتوا | dadmor",
-  "description": "یادداشت هایی درباره نوشتن اسکوپ، نگهداری سایت، تست نفوذ، مستندسازی و سئوی فارسی. هنوز یادداشتی منتشر نشده است؛ موضوع های برنامه ریزی شده را اینجا ببینید.",
+  "description": "یادداشت هایی درباره نوشتن اسکوپ، نگهداری سایت، تست نفوذ، مستندسازی و سئوی فارسی. هنوز یادداشتی منتشر نشده است.",
+  "noindex": true,
   "canonical": "https://dadmor.netlify.app/journal/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/journal/",
@@ -13,7 +14,7 @@
     "site_name": "dadmor",
     "type": "website",
     "title": "یادداشت ها: اسکوپ، ساخت، امنیت و محتوا | dadmor",
-    "description": "یادداشت هایی درباره نوشتن اسکوپ، نگهداری سایت، تست نفوذ، مستندسازی و سئوی فارسی. هنوز یادداشتی منتشر نشده است؛ موضوع های برنامه ریزی شده را اینجا ببینید.",
+    "description": "یادداشت هایی درباره نوشتن اسکوپ، نگهداری سایت، تست نفوذ، مستندسازی و سئوی فارسی. هنوز یادداشتی منتشر نشده است.",
     "url": "https://dadmor.netlify.app/journal/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -57,26 +58,8 @@
             {
               "title": "",
               "href": "",
-              "html": "<div class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>ایده</span><p>هنوز یادداشتی منتشر نشده است. موضوع هایی که در برنامه داریم در فهرست زیر آمده است.</p></div>"
+              "html": "<div class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>ایده</span><p>هنوز یادداشتی منتشر نشده است.</p></div>"
             }
-          ]
-        },
-        {
-          "t": "list",
-          "ordered": true,
-          "items": [
-            "<span class=\"planned-tag\">برنامه ریزی شده</span> اسکوپ پروژه وب سایت را چطور بنویسیم؟",
-            "<span class=\"planned-tag\">برنامه ریزی شده</span> چرا سایت های کوچک بعد از لانچ خراب می شوند؟",
-            "<span class=\"planned-tag\">برنامه ریزی شده</span> تست نفوذ با اسکن امنیتی چه فرقی دارد؟",
-            "<span class=\"planned-tag\">برنامه ریزی شده</span> مستند محصول خوب چه شکلی است؟ (با یک صفحه نمونه سانسورشده)",
-            "<span class=\"planned-tag\">برنامه ریزی شده</span> مدل کسب وکار را چطور آزمایش کنیم، نه فقط ارائه کنیم؟",
-            "<span class=\"planned-tag\">برنامه ریزی شده</span> سئوی فارسی: نیم فاصله، اعداد و قصد جستجو",
-            "<span class=\"planned-tag\">برنامه ریزی شده</span> دسترس پذیری وب سایت یعنی چه، به زبان ساده؟",
-            "<span class=\"planned-tag\">برنامه ریزی شده</span> سرعت سایت را بدون بازطراحی کامل چطور بهتر کنیم؟",
-            "<span class=\"planned-tag\">برنامه ریزی شده</span> از ایده تا لانچ: یک پروژه واقعی، مرحله به مرحله (فقط با پروژه واقعی و اجازه)",
-            "<span class=\"planned-tag\">برنامه ریزی شده</span> امنیت فرم تماس و داده کاربران",
-            "<span class=\"planned-tag\">برنامه ریزی شده</span> محتوا از روی ساختار محصول: ویدیو، متن، سئو در یک سیستم",
-            "<span class=\"planned-tag\">برنامه ریزی شده</span> چه زمانی به استودیو نیاز ندارید؟ (راهنمای صادقانه)"
           ]
         }
       ]

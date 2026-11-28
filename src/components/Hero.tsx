@@ -33,9 +33,10 @@ export default function Hero({ page, lang, dark }: { page: PageData; lang: Lang;
   // (good for SEO / no-JS) and the staggered fade-in is a CSS animation
   // (.hero h1 .w, hero-word-in, `backwards` fill so each word starts
   // hidden during its delay). No React state, no hydration mismatch,
-  // no flash — the same rhythm as before (200ms first word, 300ms per
-  // word, ~0.8s total). Reduced-motion shows the title at once (the
-  // animation is disabled in the reduced-motion block in v5.css).
+  // no flash. The stagger is compressed (100ms steps, owner bug list
+  // 2026-11-28) so the full headline reads complete within ~0.8s.
+  // Reduced-motion shows the title at once (the animation is disabled
+  // in the reduced-motion block in v5.css).
   const [canvasReady, setCanvasReady] = useState(false)
 
   // Mount the 3D canvas immediately on first paint — the animated

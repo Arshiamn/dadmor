@@ -3,9 +3,10 @@
      .lion-dots  — the 194 halftone circles (breathing target)
      .lion-face  — the 53-subpath face, fill var(--lion-ink)
      .lion-eyes  — the 2-subpath eyes, fill var(--lion-eyes), id="eyes"
-   Dark: violet ink + green eyes. Light: indigo ink + indigo eyes (owner:
-   no green in light mode). The breathing pulse lives in v5.css and runs
-   only in dark mode (class lion-breathing on the wrapper). */
+   Dark: violet ink + green eyes. Light: indigo ink + green eyes (the
+   light shade of the signature green, owner 2026-11-28). The breathing
+   pulse lives in v5.css and runs only in dark mode (class
+   lion-breathing on the wrapper); in light mode only the eyes glow. */
 
 import iconSvgRaw from '/img/dadmor-halftone-icon.svg?raw'
 import wordmarkSvgRaw from '/img/dadmor-halftone-wordmark.svg?raw'

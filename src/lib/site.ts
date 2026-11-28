@@ -14,6 +14,7 @@ export interface PageData {
   lang: Lang
   title: string
   description: string
+  noindex?: boolean
   canonical: string
   hreflang: Record<string, string>
   og: Record<string, string>

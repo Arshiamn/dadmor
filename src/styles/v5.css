@@ -92,7 +92,9 @@ h2 {
 
 /* ---- Lion breathing, dark mode only (v5 §5.2). One shared ~3s breath:
    the whole dot field fades in/out AND the eyes glow with each pulse,
-   like the lion is breathing. Light mode: static indigo, no green.
+   like the lion is breathing. Light mode: dots and face stay static,
+   but the eyes are the signature green with their own soft glow pulse
+   (owner 2026-11-28; the light eye shade lives in tokens.css).
    v15 (2026-11-06 06:49, owner order): the face blobs (.lion-face,
    53 subpaths) never faded, so only SOME dots seemed to pulse — the
    face now breathes with the dots, ALL of them fade and brighten
@@ -133,11 +135,24 @@ h2 {
   }
 }
 :root[data-theme="light"] .lion-breathing .lion-dots,
-:root[data-theme="light"] .lion-breathing .lion-face,
-:root[data-theme="light"] .lion-breathing .lion-eyes {
+:root[data-theme="light"] .lion-breathing .lion-face {
   animation: none;
   opacity: 1;
   filter: none;
+}
+/* Light eyes: no breathing fade (the light lion does not breathe), but
+   the green keeps the dark mode's glow character, scaled down to soft
+   halos that read on the paper field instead of beaming off it. */
+:root[data-theme="light"] .lion-breathing .lion-eyes {
+  animation: lion-eyes-glow-light var(--duration-breath) ease-in-out infinite;
+}
+@keyframes lion-eyes-glow-light {
+  0%, 100% {
+    filter: drop-shadow(0 0 2px var(--lion-eyes)) drop-shadow(0 0 6px var(--lion-eyes));
+  }
+  50% {
+    filter: drop-shadow(0 0 4px var(--lion-eyes)) drop-shadow(0 0 16px var(--lion-eyes));
+  }
 }
 
 /* ---- Glitch, WORKING this time (v5 §4 B1). The .glitchable class is set in
@@ -1243,20 +1258,25 @@ html, body {
    are always rendered visible in the HTML (SEO / no-JS) and the
    staggered fade-in is a CSS animation with `backwards` fill, so each
    word starts hidden during its delay and fades in on schedule. No
-   React state, no hydration mismatch, no flash. Same rhythm as the old
-   state typing: first word at 200ms, then 300ms per word. */
+   React state, no hydration mismatch, no flash.
+   2026-11-28 (owner bug list): the old rhythm (first word at 200ms,
+   then 300ms per word) left the headline incomplete for ~3s on a real
+   load. The stagger is compressed to a 100ms step with a 260ms
+   rise/fade per word, so even a six-word headline is fully visible
+   ~0.8s after the animation starts; the four-word FA/EN headlines
+   finish in ~0.6s. */
 .hero h1 .w {
-  animation: hero-word-in 300ms ease-out backwards;
+  animation: hero-word-in 260ms ease-out backwards;
 }
-.hero h1 .w:nth-child(1) { animation-delay: 0.2s; }
-.hero h1 .w:nth-child(2) { animation-delay: 0.5s; }
-.hero h1 .w:nth-child(3) { animation-delay: 0.8s; }
-.hero h1 .w:nth-child(4) { animation-delay: 1.1s; }
-.hero h1 .w:nth-child(5) { animation-delay: 1.4s; }
-.hero h1 .w:nth-child(6) { animation-delay: 1.7s; }
+.hero h1 .w:nth-child(1) { animation-delay: 0.05s; }
+.hero h1 .w:nth-child(2) { animation-delay: 0.15s; }
+.hero h1 .w:nth-child(3) { animation-delay: 0.25s; }
+.hero h1 .w:nth-child(4) { animation-delay: 0.35s; }
+.hero h1 .w:nth-child(5) { animation-delay: 0.45s; }
+.hero h1 .w:nth-child(6) { animation-delay: 0.55s; }
 @keyframes hero-word-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from { opacity: 0; transform: translateY(0.16em); }
+  to { opacity: 1; transform: translateY(0); }
 }
 @media (prefers-reduced-motion: reduce) {
   .hero h1 .w {

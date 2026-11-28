@@ -93,9 +93,12 @@ for (const p of site.pages) {
     // The 404 page gets no canonical and no social tags, just noindex.
     out = out.replace('</head>', `    <meta name="robots" content="noindex" />\n  </head>`)
   } else {
+    // Pages flagged "noindex" in their data (e.g. the still-empty journal)
+    // keep their canonical/social tags but tell crawlers to stay out.
+    const robots = data.noindex ? '    <meta name="robots" content="noindex" />\n' : ''
     out = out.replace(
       '</head>',
-      `    <link rel="canonical" href="${head.canon}" />\n    ${head.hreflang}\n    ${head.og}\n    ${head.twitter}\n    ${head.jsonld}\n  </head>`,
+      `${robots}    <link rel="canonical" href="${head.canon}" />\n    ${head.hreflang}\n    ${head.og}\n    ${head.twitter}\n    ${head.jsonld}\n  </head>`,
     )
   }
   out = out.replace('<div id="root"></div>', `<div id="root">${html}</div>`)

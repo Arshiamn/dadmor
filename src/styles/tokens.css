@@ -220,7 +220,12 @@
   --color-dot: #6d54d8;
   --color-selection: #d9d2f8;
   --lion-ink: #43389b;
-  --lion-eyes: #43389b;  /* owner: no green eyes in light mode */
+  --lion-eyes: #00a651;  /* owner 2026-11-28: the eyes are the signature green in
+                            light mode too. The dark #00ff41 measures only 1.24:1
+                            on this paper and washes out, so the light shade is
+                            the same green deepened to ~2.9:1 on the paper and
+                            ~2.9:1 against the indigo ink; the glow lives in
+                            v5.css (lion-eyes-glow-light). */
   --acc-section: #5b45c9;
   --acc-warm: var(--warm-deep);
   --glass-tint: rgba(250, 248, 243, 0.85);
