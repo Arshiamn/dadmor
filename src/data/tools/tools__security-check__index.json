@@ -4,85 +4,85 @@
     {
       "n": 1,
       "q": [
-        "آیا نرم افزار، قالب و افزونه ها به روز نگه داشته می شوند؟",
-        "Are software, themes and plugins kept up to date?"
+        "نرم افزار سایت، قالب و افزونه ها را مرتب به روز می کنید؟",
+        "Do you keep your site software, theme and plugins up to date?"
       ]
     },
     {
       "n": 2,
       "q": [
-        "آیا وقتی کسی از تیم یا همکاری جدا می شود، دسترسی اش قطع می شود؟",
-        "Is access removed when someone leaves the team or a partnership ends?"
+        "وقتی کسی از تیم می رود یا همکاری تان تمام می شود، دسترسی اش را می بندید؟",
+        "When someone leaves the team or a partnership ends, do you close their access?"
       ]
     },
     {
       "n": 3,
       "q": [
-        "آیا سایت تان HTTPS دارد و گواهی اش معتبر است؟",
-        "Does your site use HTTPS with a valid certificate?"
+        "سایت تان قفل HTTPS را دارد و گواهی اش معتبر است؟",
+        "Does your site have the HTTPS lock, with a certificate that is still valid?"
       ]
     },
     {
       "n": 4,
       "q": [
-        "آیا به طور منظم بک آپ گرفته می شود و بازگرداندن آن آزمایش شده است؟",
-        "Are backups taken regularly, and has restoring one been tested?"
+        "مرتب از سایت نسخه پشتیبان می گیرید؟ تا حالا یک بار برگرداندنش را امتحان کرده اید؟",
+        "Do you back up your site regularly? Have you ever tried restoring one?"
       ]
     },
     {
       "n": 5,
       "q": [
-        "آیا ورود دو مرحله ای برای حساب های مهم فعال است؟",
-        "Is two-factor sign-in on for important accounts?"
+        "برای حساب های مهم، ورود دو مرحله ای را روشن کرده اید؟",
+        "Have you turned on two-step sign-in for your important accounts?"
       ]
     },
     {
       "n": 6,
       "q": [
-        "آیا برای پنل مدیریت، رمزهای عبور قوی و یکتا استفاده می شود؟ (رمز را ننویسید؛ فقط بله یا نه.)",
-        "Are admin passwords strong and unique? (Do not write the password; just answer.)"
+        "برای پنل مدیریت، رمزها قوی اند و هر کدام فقط برای همان حساب اند؟ (رمز را اینجا ننویسید، فقط جواب بدهید.)",
+        "Are admin passwords strong, with a different one for each account? (Do not write any password here, just answer.)"
       ]
     },
     {
       "n": 7,
       "q": [
-        "آیا افزونه یا کد شخص ثالث پیش از نصب بررسی می شود؟",
-        "Are third-party plugins or code checked before they are installed?"
+        "پیش از نصب هر افزونه یا کد تازه، اول بررسی اش می کنید؟",
+        "Before installing a new plugin or code, do you check it first?"
       ]
     },
     {
       "n": 8,
       "q": [
-        "آیا فرم ها فقط داده لازم را می گیرند و پیام های خطا اطلاعات حساس نشان نمی دهند؟",
-        "Do forms collect only the data they need, and do error messages avoid showing sensitive details?"
+        "فرم هایتان فقط اطلاعاتی را می گیرند که واقعاً لازم دارید؟ و پیام های خطا جزئیات حساس را لو نمی دهند؟",
+        "Do your forms only ask for what you really need? And do error messages keep sensitive details hidden?"
       ]
     },
     {
       "n": 9,
       "q": [
-        "آیا بک آپ ها و داده حساس جدا از سایت عمومی نگه داشته می شوند؟",
-        "Are backups and sensitive data kept separate from the public site?"
+        "نسخه های پشتیبان و اطلاعات حساس را جدا از بخش عمومی سایت نگه می دارید؟",
+        "Do you keep backups and sensitive information away from the public part of the site?"
       ]
     },
     {
       "n": 10,
       "q": [
-        "آیا لاگ ها و هشدارهای امنیتی بررسی می شوند؟",
-        "Are security logs and alerts reviewed?"
+        "کسی در تیم مرتب گزارش های خطا و هشدارهای امنیتی را نگاه می کند؟",
+        "Does someone on the team regularly look at error reports and security alerts?"
       ]
     },
     {
       "n": 11,
       "q": [
-        "آیا می دانید اگر نفوذ یا خرابی پیش بیاید، چه کسی چه کاری باید بکند؟",
-        "Do you know who does what if there is a breach or an outage?"
+        "اگر سایت هک شود یا از کار بیفتد، می دانید هر کس باید چه کار کند؟",
+        "If your site were hacked or went down, does everyone know what they should do?"
       ]
     },
     {
       "n": 12,
       "q": [
-        "آیا تا حالا تست امنیتی دستی انجام شده است؟",
-        "Has a manual security test ever been done?"
+        "تا حالا برای سایت تان یک تست امنیتی دستی انجام شده است؟",
+        "Has a manual security test ever been done on your site?"
       ]
     }
   ],
@@ -91,63 +91,63 @@
       "priority": 1,
       "from_q": 1,
       "action": [
-        "نرم افزار، قالب و افزونه ها را به روز کنید و یک روز ثابت در ماه برای این کار بگذارید.",
-        "Update software, themes and plugins, and set a fixed day each month for it."
+        "نرم افزار، قالب و افزونه ها را به روز کنید و یک روز ثابت در ماه برای این کار کنار بگذارید.",
+        "Update your software, theme and plugins, and set aside one fixed day each month for it."
       ]
     },
     {
       "priority": 2,
       "from_q": 2,
       "action": [
-        "فهرست کسانی را که دسترسی دارند ببینید و دسترسی هر کسی را که دیگر با شما کار نمی کند قطع کنید.",
-        "Review who has access, and remove access for anyone who no longer works with you."
+        "فهرست آدم هایی را که دسترسی دارند نگاه کنید و دسترسی هر کس را که دیگر با شما کار نمی کند ببندید.",
+        "Look at the list of people who have access, and close access for anyone who no longer works with you."
       ]
     },
     {
       "priority": 3,
       "from_q": 3,
       "action": [
-        "از میزبان سایت بخواهید HTTPS را با گواهی معتبر فعال کند. بیشتر میزبان ها این را رایگان می دهند.",
-        "Ask your host to turn on HTTPS with a valid certificate. Most hosts offer this at no cost."
+        "از میزبان سایت تان بخواهید HTTPS را با یک گواهی معتبر روشن کند. بیشتر میزبان ها این را رایگان می دهند.",
+        "Ask your host to turn on HTTPS with a valid certificate. Most hosts give this for free."
       ]
     },
     {
       "priority": 4,
       "from_q": 4,
       "action": [
-        "بک آپ منظم را روشن کنید و یک بار بازگرداندنش را آزمایش کنید.",
-        "Turn on regular backups, and test restoring one once."
+        "نسخه پشتیبان منظم را روشن کنید و یک بار امتحان کنید که واقعاً برمی گردد یا نه.",
+        "Turn on regular backups, and try restoring one once to see that it really works."
       ]
     },
     {
       "priority": 5,
       "from_q": 5,
       "action": [
-        "ورود دو مرحله ای را برای ایمیل، هاست، دامنه و پنل مدیریت فعال کنید.",
-        "Turn on two-factor sign-in for email, hosting, domain and the admin panel."
+        "ورود دو مرحله ای را برای ایمیل، هاست، دامنه و پنل مدیریت روشن کنید.",
+        "Turn on two-step sign-in for email, hosting, domain and the admin panel."
       ]
     },
     {
       "priority": 6,
       "from_q": 6,
       "action": [
-        "برای هر حساب مدیریت، رمز یکتا و طولانی بگذارید و از یک مدیر رمز عبور استفاده کنید.",
-        "Give every admin account a long, unique password, and use a password manager."
+        "برای هر حساب مدیریت یک رمز طولانی و جدا بگذارید و رمزها را در یک برنامه نگهداری رمز نگه دارید.",
+        "Give each admin account its own long password, and keep passwords in a password manager app."
       ]
     },
     {
       "priority": 7,
       "from_q": 7,
       "action": [
-        "پیش از نصب هر افزونه یا کد، ببینید چه کسی آن را نگه می دارد و آخرین به روزرسانی اش کی بوده است.",
-        "Before installing a plugin or code, check who maintains it and when it was last updated."
+        "پیش از نصب هر افزونه یا کد تازه، ببینید چه کسی نگهداری اش می کند و آخرین به روزرسانی اش کی بوده.",
+        "Before installing a new plugin or code, check who maintains it and when it was last updated."
       ]
     },
     {
       "priority": 8,
       "from_q": 8,
       "action": [
-        "فیلدهای غیرضروری فرم ها را حذف کنید و پیام های خطا را طوری بنویسید که جزئیات فنی نشان ندهند.",
+        "فیلدهای اضافی فرم ها را بردارید و پیام های خطا را طوری بنویسید که جزئیات فنی را نشان ندهند.",
         "Remove form fields you do not need, and write error messages that do not show technical details."
       ]
     },
@@ -155,32 +155,32 @@
       "priority": 9,
       "from_q": 9,
       "action": [
-        "بک آپ ها و داده حساس را از پوشه های عمومی سایت بیرون ببرید.",
-        "Move backups and sensitive data out of the site's public folders."
+        "نسخه های پشتیبان و اطلاعات حساس را از پوشه های عمومی سایت بیرون ببرید.",
+        "Move backups and sensitive information out of the site's public folders."
       ]
     },
     {
       "priority": 10,
       "from_q": 10,
       "action": [
-        "یک نفر را مسئول دیدن هشدارهای امنیتی کنید و زمان مشخصی برای آن بگذارید.",
-        "Make one person responsible for security alerts, with a set time to check them."
+        "یک نفر را مسئول نگاه کردن به هشدارهای امنیتی کنید و برایش یک زمان ثابت بگذارید.",
+        "Put one person in charge of watching security alerts, with a fixed time for it."
       ]
     },
     {
       "priority": 11,
       "from_q": 11,
       "action": [
-        "یک برنامه یک صفحه ای بنویسید: در صورت نفوذ یا خرابی، چه کسی به چه کسی خبر می دهد و اولین قدم چیست.",
-        "Write a one-page plan: if there is a breach or outage, who tells whom, and what the first step is."
+        "روی یک صفحه بنویسید: اگر نفوذ یا خرابی پیش آمد، چه کسی به چه کسی خبر بدهد و اولین قدم چه باشد.",
+        "Write on one page: if there is a break-in or an outage, who tells whom, and what the first step is."
       ]
     },
     {
       "priority": 12,
       "from_q": 12,
       "action": [
-        "وقتی کارهای بالا انجام شد، یک تست دستی با اسکوپ مشخص برای مهم ترین بخش ها در نظر بگیرید.",
-        "Once the steps above are done, consider a manual test with a defined scope for the most important parts."
+        "وقتی کارهای بالا انجام شد، برای مهم ترین بخش ها یک تست دستی با محدوده روشن در نظر بگیرید.",
+        "Once the steps above are done, think about a manual test with a clear scope for the most important parts."
       ]
     }
   ],
@@ -191,31 +191,31 @@
     "مطمئن نیستم"
   ],
   "warnings": [
-    "این ابزار سیستم شما را تست نمی کند، هیچ داده ای از شما نمی گیرد و نمی فرستد، و جای تست نفوذ را نمی گیرد.",
-    "هیچ رمز عبور، نشانی سرور، IP یا اطلاعات ورودی را جایی وارد نکنید، نه اینجا و نه در فرم تماس. این ابزار هم چنین چیزی نمی پرسد."
+    "این ابزار سایت تان را تست نمی کند، داده ای از شما نمی گیرد و نمی فرستد و جای تست نفوذ را نمی گیرد. نتیجه اش هم حکم قطعی درباره امنیت تان نیست.",
+    "هیچ وقت رمز عبور، نشانی سرور، IP یا اطلاعات ورودتان را جایی ننویسید، نه اینجا و نه در فرم تماس. ما هم چنین چیزی از شما نمی خواهیم."
   ],
   "strings": {
-    "progress": "{n} از ۱۲ پاسخ داده شده",
-    "howScore": "امتیاز چطور حساب می شود",
-    "scoreText": "بله ۲ امتیاز، تا حدی ۱، نه ۰، مطمئن نیستم ۰. «مطمئن نیستم» جریمه نیست: آن سؤال با برچسب «این را بررسی کنید» در نتیجه می آید. بیشترین امتیاز ۲۴ است.",
-    "needAll": "برای دیدن نتیجه، به همه دوازده سؤال جواب دهید. {n} سؤال مانده است.",
+    "progress": "{n} از ۱۲ سؤال جواب داده شده",
+    "howScore": "امتیازتان چطور حساب می شود",
+    "scoreText": "بله ۲ امتیاز می گیرد، تا حدی ۱، نه ۰ و «مطمئن نیستم» هم ۰. «مطمئن نیستم» جریمه نیست: آن سؤال در نتیجه با برچسب «این را بررسی کنید» می آید تا پیدایش کنید. بیشترین امتیاز ۲۴ است.",
+    "needAll": "برای دیدن نتیجه باید به هر دوازده سؤال جواب بدهید. هنوز {n} سؤال مانده است.",
     "result": "نتیجه شما: {score} از ۲۴",
     "band1": [
-      "پایه های خوبی دارید. همین روال را ادامه دهید. برای جریان های حساس، مثل پرداخت یا ورود کاربر، یک تست با اسکوپ مشخص را در نظر بگیرید."
+      "از روی جواب هایتان، پایه ها سر جایشان است و روال خوبی دارید. همین را نگه دارید. فقط یادتان باشد این نتیجه نمی گوید امنیت تان کامل است. برای بخش های حساسی مثل پرداخت یا ورود مشتری، یک تست با محدوده روشن را در نظر بگیرید."
     ],
     "band2": [
-      "چند جای خالی دارید که می شود به ترتیب بست. فهرست زیر از ساده ترین و کم هزینه ترین کار شروع می شود."
+      "چند جای خالی دارید که می شود یکی یکی بست. فهرست زیر از ساده ترین و ارزان ترین کار شروع می شود."
     ],
     "band3": [
-      "از سه کار اول فهرست زیر شروع کنید، به همین ترتیب. هر کدام را که انجام دهید، وضعیت تان بهتر می شود."
+      "از سه کار اول فهرست زیر شروع کنید، به همان ترتیب. هر کدام را که انجام بدهید، یک قدم جلوترید."
     ],
-    "after3": "بعد از این سه",
-    "checkThis": "این را بررسی کنید",
-    "checkText": "برای این سؤال ها جواب روشنی نداشتید. پیدا کردن جواب، اولین قدم است:",
-    "finishPrefix": "کامل کنید: ",
-    "allYes": "برای هیچ سؤالی کار فوری نمانده است. روال فعلی را نگه دارید.",
-    "footer": "اگر بخواهید، تست نفوذ دستی با اسکوپ امضاشده را در صفحه تست نفوذ ببینید.",
+    "after3": "بعد از این سه کار",
+    "checkThis": "این ها را بررسی کنید",
+    "checkText": "به این سؤال ها جواب روشنی نداشتید. اولین قدم، پیدا کردن جوابشان است:",
+    "finishPrefix": "این ها را کامل کنید: ",
+    "allYes": "برای هیچ سؤالی کار فوری نمانده است. همین روال را نگه دارید.",
+    "footer": "اگر خواستید قدم بعدی را بردارید، تست نفوذ دستی با محدوده امضاشده را در صفحه تست نفوذ ببینید.",
     "serviceUrl": "/services/penetration-testing/",
-    "actions": "کارهای بعدی، به ترتیب"
+    "actions": "کارهای بعدی، به همین ترتیب"
   }
 }

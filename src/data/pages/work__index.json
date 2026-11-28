@@ -1,8 +1,8 @@
 {
   "path": "work/index.html",
   "lang": "fa",
-  "title": "نمونه کار: کارهایی که می توانید ببینید | dadmor",
-  "description": "فقط کاری را نشان می دهیم که لینکش باز می شود و نقش ما در آن روشن است. جای خالی ها تا رسیدن اجازه انتشار خالی می ماند.",
+  "title": "نمونه کارها: فقط آن هایی که می توانید باز کنید و ببینید | dadmor",
+  "description": "ما فقط کاری را نشان می دهیم که لینکش باز شود و معلوم باشد نقش ما در آن چه بوده است. جاهای خالی هم تا وقتی اجازه انتشار نگیریم خالی می مانند.",
   "canonical": "https://dadmor.netlify.app/work/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/work/",
@@ -12,8 +12,8 @@
   "og": {
     "site_name": "dadmor",
     "type": "website",
-    "title": "نمونه کار: کارهایی که می توانید ببینید | dadmor",
-    "description": "فقط کاری را نشان می دهیم که لینکش باز می شود و نقش ما در آن روشن است. جای خالی ها تا رسیدن اجازه انتشار خالی می ماند.",
+    "title": "نمونه کارها: فقط آن هایی که می توانید باز کنید و ببینید | dadmor",
+    "description": "ما فقط کاری را نشان می دهیم که لینکش باز شود و معلوم باشد نقش ما در آن چه بوده است. جاهای خالی هم تا وقتی اجازه انتشار نگیریم خالی می مانند.",
     "url": "https://dadmor.netlify.app/work/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -42,7 +42,7 @@
         },
         {
           "t": "p",
-          "html": "برای هر نمونه می نویسیم چه کاری را ما انجام دادیم و چه کاری را نه. مشتری، نظر مشتری یا آماری را که وجود ندارد نشان نمی دهیم."
+          "html": "کنار هر کار نوشته ایم چه بخشش با ما بوده و چه بخشش نه. مشتری یا حرف مشتری یا عددی را که وجود ندارد، از خودمان در نمی آوریم."
         }
       ]
     },
@@ -52,23 +52,23 @@
       "blocks": [
         {
           "t": "p",
-          "html": "نشانه نقطه ای کنار هر مورد وضعیت آن را نشان می دهد و همیشه برچسب متنی دارد: «بررسی و تحویل شده» برای کار منتشرشده، «ایده» برای جای خالی."
+          "html": "نقطه رنگی کنار هر کار وضعیتش را نشان می دهد و همیشه یک برچسب متنی هم دارد: «منتشر شده و تحویل داده ایم» برای کاری که آنلاین است، «ایده» برای جایی که هنوز خالی است."
         },
         {
           "t": "raw",
-          "html": "<article class=\"work-item work-item-featured work-item-media\"> <div class=\"work-item-text\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>بررسی و تحویل شده</span> <h2><a href=\"https://ghazalalidoost.art\" target=\"_blank\" rel=\"noopener\">ghazalalidoost.art</a></h2> <p class=\"work-label\">کار مشتری · وب سایت نمونه کار غزل علی دوست</p> <p class=\"work-label\">نقش ما: طراحی و ساخت</p> <a class=\"service-link\" href=\"https://ghazalalidoost.art\" target=\"_blank\" rel=\"noopener\">دیدن ghazalalidoost.art (پنجره جدید)</a> </div> <figure class=\"work-item-shot\"><picture><source srcset=\"/img/ghazal-home-dark-en.webp\" type=\"image/webp\"><img src=\"/img/ghazal-home-dark-en.jpg\" alt=\"صفحه اصلی وب سایت غزل علی دوست — حالت شب، زبان انگلیسی\" loading=\"lazy\" width=\"1280\" height=\"800\"></picture></figure> </article>",
+          "html": "<article class=\"work-item work-item-featured work-item-media\"> <div class=\"work-item-text\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>منتشر شده و تحویل داده ایم</span> <h2><a href=\"https://ghazalalidoost.art\" target=\"_blank\" rel=\"noopener\">ghazalalidoost.art</a></h2> <p class=\"work-label\">کار مشتری · سایت نمونه کار غزل علی دوست</p> <p class=\"work-label\">نقش ما: طراحی و ساخت</p> <a class=\"service-link\" href=\"https://ghazalalidoost.art\" target=\"_blank\" rel=\"noopener\">دیدن ghazalalidoost.art (پنجره جدید)</a> </div> <figure class=\"work-item-shot\"><picture><source srcset=\"/img/ghazal-home-dark-en.webp\" type=\"image/webp\"><img src=\"/img/ghazal-home-dark-en.jpg\" alt=\"صفحه اصلی وب سایت غزل علی دوست، حالت شب، زبان انگلیسی\" loading=\"lazy\" width=\"1280\" height=\"800\"></picture></figure> </article>",
           "class": "work-item work-item-featured",
           "tag": "article"
         },
         {
           "t": "raw",
-          "html": "<article class=\"work-item work-placeholder\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>ایده</span> <h2>نمونه کار بیشتر</h2> <p class=\"work-label\">اینجا اضافه می شود.</p> </article>",
+          "html": "<article class=\"work-item work-placeholder\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>ایده</span> <h2>کار بعدی اینجاست، وقتی منتشر شد</h2> <p class=\"work-label\">فعلاً خالی است.</p> </article>",
           "class": "work-item work-placeholder",
           "tag": "article"
         },
         {
           "t": "p",
-          "html": "بعضی کارها، مثل تست نفوذ و مستند داخلی، به طور پیش فرض محرمانه اند. آن ها را فقط به صورت سانسورشده و با اجازه کتبی مالک منتشر می کنیم."
+          "html": "بعضی کارها را اصلاً نمی شود نشان داد. تست نفوذ و نوشته های داخلی مشتری ذاتاً محرمانه اند. آن ها را فقط تکه هایی سانسورشده و با اجازه کتبی صاحب کار منتشر می کنیم."
         }
       ]
     },
@@ -79,11 +79,11 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "کار شما می تواند مورد بعدی باشد"
+          "html": "دوست دارید کار شما بعدی باشد؟"
         },
         {
           "t": "p",
-          "html": "اول اسکوپ را روشن کنیم."
+          "html": "اول بگذارید دقیق شود چه می خواهید."
         },
         {
           "t": "group",

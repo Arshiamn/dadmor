@@ -2,7 +2,7 @@
   "path": "en/articles/index.html",
   "lang": "en",
   "title": "Articles | dadmor",
-  "description": "Articles for Instagram sellers and small businesses: why a page is rented land, what website money buys hour by hour, and our real scope template in full.",
+  "description": "From our own project experience: what we have learned about websites, sales and customers, so you do not make the wrong call when ordering a website and selling online. Every article opens one real problem and explains the way through it.",
   "canonical": "https://dadmor.netlify.app/en/articles/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/articles/",
@@ -13,7 +13,7 @@
     "site_name": "dadmor",
     "type": "website",
     "title": "Articles | dadmor",
-    "description": "Articles for Instagram sellers and small businesses: why a page is rented land, what website money buys hour by hour, and our real scope template in full.",
+    "description": "From our own project experience: what we have learned about websites, sales and customers, so you do not make the wrong call when ordering a website and selling online. Every article opens one real problem and explains the way through it.",
     "url": "https://dadmor.netlify.app/en/articles/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -104,7 +104,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<h2>Where do I start?</h2><p>If you do not know your first step yet, go in this order. All three steps are free, and none of them makes you our client.</p><ol class=\"art-path-list\"><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">1</span><span class=\"art-path-body\"><h3>Write the scope</h3><p>With the third article’s template, fix your project on one page of paper, even if you never work with us.</p></span><a class=\"art-path-link\" href=\"/en/articles/project-scope/\">Read the scope template →</a></li><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">2</span><span class=\"art-path-body\"><h3>Get a number</h3><p>The project estimator gives you a brief and a rough range in minutes, based on the features you pick.</p></span><a class=\"art-path-link\" href=\"/en/tools/estimator/\">Project estimator →</a></li><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">3</span><span class=\"art-path-body\"><h3>Check your security</h3><p>The free security self check shows where your current site or system is exposed, before it is too late.</p></span><a class=\"art-path-link\" href=\"/en/tools/security-check/\">Start the self check →</a></li></ol>",
+          "html": "<h2>Where should you start?</h2><p>If you don't know your first step yet, take them in this order. All three are free, and none of them makes you our client.</p><ol class=\"art-path-list\"><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">1</span><span class=\"art-path-body\"><h3>Write the scope</h3><p>Using the template in the third article, pin your project down on one page. Do it even if you never work with us.</p></span><a class=\"art-path-link\" href=\"/en/articles/project-scope/\">Open the scope template →</a></li><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">2</span><span class=\"art-path-body\"><h3>Get a rough number</h3><p>Answer the estimator's questions and you'll get a brief plus a rough range, based on the features you choose.</p></span><a class=\"art-path-link\" href=\"/en/tools/estimator/\">Project estimator →</a></li><li class=\"art-path-row\"><span class=\"art-path-num\" aria-hidden=\"true\">3</span><span class=\"art-path-body\"><h3>Check how safe you are</h3><p>The free security self check shows where your site or system is exposed, while there's still time to fix it.</p></span><a class=\"art-path-link\" href=\"/en/tools/security-check/\">Start the self check →</a></li></ol>",
           "class": "",
           "tag": "div"
         }

@@ -1,8 +1,8 @@
 {
   "path": "en/articles/website-speed-and-sales/index.html",
   "lang": "en",
-  "title": "Why website speed matters for sales, and what makes your site slow | dadmor",
-  "description": "Website speed affects sales directly: a mobile customer will not wait for a slow page. The most common causes of a slow shop site, how to measure speed with your own phone, and the right order to fix it.",
+  "title": "Website speed and sales: why your slow page loses buyers, and what makes it slow | dadmor",
+  "description": "Website speed hits your sales directly: a customer on mobile data will not wait for a slow page. The usual causes of a slow shop site, how to measure yours with your own phone, and the right order to fix it.",
   "canonical": "https://dadmor.netlify.app/en/articles/website-speed-and-sales/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/articles/website-speed-and-sales/",
@@ -12,8 +12,8 @@
   "og": {
     "site_name": "dadmor",
     "type": "article",
-    "title": "Why website speed matters for sales, and what makes your site slow | dadmor",
-    "description": "Website speed affects sales directly: a mobile customer will not wait for a slow page. The most common causes of a slow shop site, how to measure speed with your own phone, and the right order to fix it.",
+    "title": "Website speed and sales: why your slow page loses buyers, and what makes it slow | dadmor",
+    "description": "Website speed hits your sales directly: a customer on mobile data will not wait for a slow page. The usual causes of a slow shop site, how to measure yours with your own phone, and the right order to fix it.",
     "url": "https://dadmor.netlify.app/en/articles/website-speed-and-sales/",
     "image": "https://dadmor.netlify.app/covers/cover-speed.png",
     "image:width": "1200",
@@ -25,9 +25,9 @@
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "headline": "Why website speed matters for sales, and what makes your site slow",
+      "headline": "Website speed and sales: why your slow page loses buyers, and what makes it slow",
       "image": "https://dadmor.netlify.app/covers/cover-speed.png",
-      "description": "Website speed affects sales directly: a mobile customer will not wait for a slow page. The most common causes of a slow shop site, how to measure speed with your own phone, and the right order to fix it.",
+      "description": "Website speed hits your sales directly: a customer on mobile data will not wait for a slow page. The usual causes of a slow shop site, how to measure yours with your own phone, and the right order to fix it.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -55,7 +55,7 @@
           "name": "My site is a shop and it is a bit slow. Is that not normal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Being a shop is not a reason for slowness. The basket and the gateway do have some inherent work, but the home page and product pages should not be slow. If they are, the cause is usually heavy photos, weak hosting or an extra plugin, and all three can be fixed."
+            "text": "Being a shop is not an excuse for slowness. Yes, the basket and the gateway have some inherent work to do, but your home page and product pages should not be slow. If they are, the cause is usually heavy photos, weak hosting or an extra plugin, and all three can be fixed."
           }
         },
         {
@@ -63,7 +63,7 @@
           "name": "How small should a product photo be?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "As small as the size it is displayed at on the site. A several megabyte phone photo is unnecessary for a page that shows the image a few hundred pixels wide; a compressed version of the same photo, at the sharpness the eye actually sees, is several times lighter. Make it a habit before uploading any photo."
+            "text": "As small as the size it is displayed at on your site. A several megabyte phone photo is pointless on a page that shows the image a few hundred pixels wide. A compressed version of the same photo, at the sharpness the eye actually sees, is several times lighter. Make it a habit before you upload any photo."
           }
         },
         {
@@ -71,7 +71,7 @@
           "name": "I bought cheap hosting. Is it really the culprit?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Sometimes yes and sometimes no. First check the photos and plugins, which are in your own hands. If those are fine and the site is still slow at busy hours, the hosting cannot answer for your shop, and changing it is more effective than any other optimization."
+            "text": "Sometimes yes, sometimes no. First check the photos and plugins, because those are in your own hands. If they are fine and the site is still slow at busy hours, your hosting cannot answer for your shop, and changing it beats any other optimisation."
           }
         },
         {
@@ -79,7 +79,7 @@
           "name": "Should I fix speed first or the site’s look first?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Speed first. The customer has to see the page before its look can do anything. The good news is that lightening a site is usually cheaper and faster than a redesign, and after it, any design works better on a fast site."
+            "text": "Speed first. Your customer has to see the page before its look can do anything. The good news: lightening a site is usually cheaper and faster than a redesign, and afterwards, any design works better on a fast site."
           }
         }
       ]
@@ -103,7 +103,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Why website speed matters for sales, and what makes your site slow",
+          "name": "Website speed and sales: why your slow page loses buyers, and what makes it slow",
           "item": "https://dadmor.netlify.app/en/articles/website-speed-and-sales/"
         }
       ]
@@ -129,13 +129,13 @@
         },
         {
           "t": "raw",
-          "html": "<h1>Why website speed matters for sales, and what makes your site slow</h1>",
+          "html": "<h1>Website speed and sales: why your slow page loses buyers, and what makes it slow</h1>",
           "class": "",
           "tag": "h1"
         },
         {
           "t": "raw",
-          "html": "<p class=\"art-hook\">A customer taps your site’s link from Instagram and the page stays white. A few seconds later they are back where they were: they never saw the price, never saw the product. <strong>Website speed</strong> is the customer’s first meeting with your shop, and very often their last.</p>",
+          "html": "<p class=\"art-hook\">A customer taps your link from Instagram, and the page stays white. A few seconds later they are gone. They never saw the price. They never saw the product. <strong>Website speed</strong> is your customer’s first meeting with your shop, and very often their last.</p>",
           "class": "",
           "tag": "div"
         },
@@ -165,7 +165,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<nav class=\"art-toc\" aria-label=\"Article sections\"><h2>In this article</h2><ol><li><a href=\"#sec-1\">The mobile customer does not wait</a></li><li><a href=\"#sec-2\">What makes a shop site slow?</a></li><li><a href=\"#sec-3\">Measure your site’s speed yourself</a></li><li><a href=\"#sec-4\">The right order to fix slowness: photos first</a></li><li><a href=\"#sec-5\">What counts as fast enough?</a></li><li><a href=\"#sec-6\">In short</a></li></ol></nav>",
+          "html": "<nav class=\"art-toc\" aria-label=\"Article sections\"><h2>In this article</h2><ol><li><a href=\"#sec-1\">The mobile customer does not wait</a></li><li><a href=\"#sec-2\">What is making your shop site slow?</a></li><li><a href=\"#sec-3\">Measure your site’s speed yourself, with your phone</a></li><li><a href=\"#sec-4\">The right order to fix slowness: photos first</a></li><li><a href=\"#sec-5\">What counts as fast enough?</a></li><li><a href=\"#sec-6\">The bottom line</a></li></ol></nav>",
           "class": "",
           "tag": "div"
         }
@@ -177,7 +177,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<aside class=\"art-summary\"><h2>Summary</h2><ol><li>Most of your customers arrive on a phone, on mobile data. A page that opens late has lost the customer before the product was even seen.</li><li>The most common cause of slowness is your own heavy photos; after that, cheap crowded hosting, and themes and plugins piled on top of each other. Most of it is cheap to fix.</li><li>Measure the speed with your own phone first, then fix in order of impact: photos, extra plugins, hosting. A redesign is the last step, not the first.</li></ol></aside>",
+          "html": "<aside class=\"art-summary\"><h2>Summary</h2><ol><li>Most of your customers arrive on a phone, on mobile data. A page that opens late has lost them before they have even seen the product.</li><li>The most common cause of slowness is your own heavy photos. After that come cheap, crowded hosting, and themes and plugins piled on top of each other. Most of it is cheap to fix.</li><li>Measure the speed with your own phone first. Then fix in order of impact: photos, extra plugins, hosting. A redesign is the last step, not the first.</li></ol></aside>",
           "class": "",
           "tag": "div"
         }
@@ -189,15 +189,15 @@
       "blocks": [
         {
           "t": "p",
-          "html": "In a physical shop, a customer who stands in front of a closed door walks to the shop next door. Online, that door is a page that is still loading. The difference is that here you do not even see how many came and turned back; sales just drop, and nobody knows why."
+          "html": "In a physical shop, a customer standing in front of a closed door walks to the shop next door. Online, that door is a page that is still loading. The difference is that here you never even see how many came and turned back. Sales just drop, and nobody knows why."
         },
         {
           "t": "p",
-          "html": "Website speed means the time between the customer tapping your link and being able to see the product and press the buy button. That time should be measured on a phone and on the customer’s ordinary mobile data, not on your office Wi-Fi and your own laptop, where everything is fast."
+          "html": "Website speed means the time between your customer tapping the link and being able to see the product and press the buy button. Measure that time on a phone, on ordinary mobile data. Not on your office Wi-Fi and your laptop, where everything feels fast."
         },
         {
           "t": "p",
-          "html": "In this article we say what makes a shop site slow, how to measure its speed yourself, and in what order to fix it so your money is spent where it matters most first."
+          "html": "So here is what makes a shop site slow, how to measure its speed yourself, and the order to fix it in, so your money gets spent where it matters most first."
         }
       ]
     },
@@ -213,11 +213,11 @@
         },
         {
           "t": "p",
-          "html": "Your customer arrives from your DMs and your bio link, on a phone, in the middle of the day, on mobile data. For them, your site is one of several pages they open today. If the home page and the product page take long to open, they go back and buy from another page or site that opened sooner. It is not your product or your price; they never got that far."
+          "html": "Your customer arrives from your DMs and your bio link, on a phone, in the middle of the day, on mobile data. For them, your site is one of several pages they open today. If your home page and product page take long to open, they go back and buy from another page or site that opened sooner. It was not your product, and it was not your price. They never got that far."
         },
         {
           "t": "p",
-          "html": "The important point is that slowness usually shows itself in the worst place: the product page and checkout. The customer has come all the way to the till and is kept waiting there. In <a href=\"/en/articles/traffic-but-no-sales/\">Traffic but no sales</a> we list the places a customer is lost between arriving and buying; speed is the first of them, and the only one where the customer never even entered the shop."
+          "html": "And notice where slowness usually bites: the product page and checkout, the worst possible place. Your customer has come all the way to the till, and that is where they are kept waiting. In <a href=\"/en/articles/traffic-but-no-sales/\">Traffic but no sales</a> we list the places a customer is lost between arriving and buying. Speed is the first of them, and the only one where the customer never even entered the shop."
         }
       ]
     },
@@ -227,7 +227,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<h2 class=\"art-h2\" id=\"sec-2\">What makes a shop site slow?</h2>",
+          "html": "<h2 class=\"art-h2\" id=\"sec-2\">What is making your shop site slow?</h2>",
           "class": "",
           "tag": "h2"
         },
@@ -235,10 +235,10 @@
           "t": "list",
           "ordered": false,
           "items": [
-            "<strong>Heavy photos:</strong> the most common cause. A photo taken on a phone is several megabytes, and for a product page it needs to be a fraction of that. Ten products with raw photos means a page that effectively never opens on mobile data.",
-            "<strong>Cheap, crowded hosting:</strong> a host that packs hundreds of sites onto one weak server answers everyone late at busy hours. For a shop that actually sells, the cheapest hosting is usually the most expensive choice.",
-            "<strong>Themes and plugins piled up:</strong> every plugin installed one day for a small job and left behind costs something on every visit. Sites that have collected plugins for years have slowed under their own weight.",
-            "<strong>Video and large files on the home page:</strong> an autoplaying video, extra fonts and scripts turn the home page, which should be the lightest page, into the heaviest page of the site."
+            "<strong>Heavy photos:</strong> the most common cause, by far. A photo straight off a phone is several megabytes, and a product page needs a fraction of that. Ten products with raw photos make a page that, on mobile data, effectively never opens.",
+            "<strong>Cheap, crowded hosting:</strong> a host that packs hundreds of sites onto one weak server answers everyone late at busy hours. For a shop that actually sells, the cheapest hosting is usually the most expensive choice you can make.",
+            "<strong>Themes and plugins piled up:</strong> every plugin you installed one day for a small job and left behind costs something on every single visit. Sites that have collected plugins for years are slowing down under their own weight.",
+            "<strong>Video and large files on the home page:</strong> an autoplaying video, extra fonts and scripts turn your home page, which should be the lightest page you have, into the heaviest page on the site."
           ]
         }
       ]
@@ -249,7 +249,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<h2 class=\"art-h2\" id=\"sec-3\">Measure your site’s speed yourself</h2>",
+          "html": "<h2 class=\"art-h2\" id=\"sec-3\">Measure your site’s speed yourself, with your phone</h2>",
           "class": "",
           "tag": "h2"
         },
@@ -257,9 +257,9 @@
           "t": "list",
           "ordered": false,
           "items": [
-            "On your own phone, with Wi-Fi off and mobile data on, open your site and count how long it takes until you can see a product. This is the simplest and most honest test, and it is exactly what the customer experiences.",
-            "Use free speed testing tools and test the home page and one product page separately; the product page number matters more, because buying starts there.",
-            "Repeat the test once at a busy hour of the day; weak hosting shows itself exactly then, not at midnight when you happen to test."
+            "On your own phone, Wi-Fi off and mobile data on, open your site and count how long it takes until you can see a product. It is the simplest and most honest test there is, because it is exactly what your customer experiences.",
+            "Use free speed testing tools, and test your home page and one product page separately. The product page number matters more, because buying starts there.",
+            "Repeat the test once at a busy hour of the day. Weak hosting shows itself exactly then, not at midnight, when you happen to test."
           ]
         }
       ]
@@ -278,15 +278,15 @@
           "t": "list",
           "ordered": true,
           "items": [
-            "<strong>Lighten the photos:</strong> shrink and compress every product photo to the size it is actually shown at on the site. This single job makes the biggest change in most shops and costs nothing.",
-            "<strong>Remove extra plugins:</strong> any plugin whose job you do not know, or whose job something else has taken over, should go. In speed, less is faster.",
-            "<strong>Change the hosting:</strong> if the server cannot answer, no optimization saves it. Choose hosting fit for a shop by its real resources, not only by its price.",
-            "<strong>Turn on caching and compression:</strong> one time technical jobs that can be enabled on most sites so pages reach the customer lighter and readier."
+            "<strong>Lighten the photos:</strong> shrink and compress every product photo to the size it is actually shown at on your site. In most shops this single job makes the biggest difference, and it costs nothing.",
+            "<strong>Remove extra plugins:</strong> any plugin whose job you cannot name, or whose job something else has taken over, should go. With speed, less is faster.",
+            "<strong>Change the hosting:</strong> if the server cannot answer, no optimisation will save it. Choose hosting that fits a shop by its real resources, not by price alone.",
+            "<strong>Turn on caching and compression:</strong> one time technical jobs you can switch on for most sites, so pages reach your customer lighter and readier."
           ]
         },
         {
           "t": "p",
-          "html": "Do not reverse this order. A full redesign of a site whose problem is heavy photos and weak hosting spends a lot of money and brings the same slowness back with a fresh look."
+          "html": "Do not reverse this order. Redesign a site whose real problem is heavy photos and weak hosting, and you spend a lot of money to bring the same slowness back in a fresh look."
         }
       ]
     },
@@ -296,7 +296,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<blockquote class=\"art-quote\">Speed cannot be compensated for with pretty design; <span>a customer who never saw the page likes no design at all</span>. Opening first, beauty second.</blockquote>",
+          "html": "<blockquote class=\"art-quote\">Pretty design cannot make up for slowness. <span>A customer who never saw the page likes no design at all</span>. Opening first, beauty second.</blockquote>",
           "class": "",
           "tag": "div"
         }
@@ -314,11 +314,11 @@
         },
         {
           "t": "p",
-          "html": "There is no magic number, and do not trust anyone who gives you an exact, guaranteed one. The practical measure is this: the home page and the product page, on an ordinary phone and ordinary mobile data, open without an annoying pause, and the customer can scroll and press the buy button right away. If you got bored during your own test, the customer feels exactly the same."
+          "html": "There is no magic number, and do not trust anyone who gives you an exact, guaranteed one. The practical measure is this: your home page and product page, on an ordinary phone and ordinary mobile data, open without an annoying pause, and your customer can scroll and press the buy button straight away. If you got bored during your own test, your customer feels exactly the same."
         },
         {
           "t": "p",
-          "html": "Speed is not a one time job either. Every new product with a heavy photo and every new plugin can slow it down again. Repeat the same phone test once a month to catch new slowness early. On our <a href=\"/en/services/website-building/\">website building</a> page we explain that we count speed as part of the build from day one, not a repair done at the end."
+          "html": "Speed is not a one time job either. Every new product with a heavy photo, and every new plugin, can slow things down again. Repeat the same phone test once a month and you will catch new slowness early. On our <a href=\"/en/services/website-building/\">website building</a> page we explain why we count speed as part of the build from day one, not a repair bolted on at the end."
         }
       ]
     },
@@ -328,13 +328,13 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<h2 class=\"art-h2\" id=\"sec-6\">In short</h2>",
+          "html": "<h2 class=\"art-h2\" id=\"sec-6\">The bottom line</h2>",
           "class": "",
           "tag": "h2"
         },
         {
           "t": "p",
-          "html": "Website speed is respect for the customer’s time, and you see its effect directly in sales, because a customer who stays finally gets the chance to buy. Start by measuring with your own phone and fix in order: photos, plugins, hosting. Most shops do not need a redesign to become fast; they need to become lighter."
+          "html": "Website speed is respect for your customer’s time, and you see its effect directly in sales, because a customer who stays finally gets the chance to buy. Start by measuring with your own phone, then fix in order: photos, plugins, hosting. Most shops do not need a redesign to get fast. They need to get lighter."
         }
       ]
     },
@@ -345,11 +345,11 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Your site is slow and you do not know where it comes from?"
+          "html": "Your site is slow, and you do not know why?"
         },
         {
           "t": "p",
-          "html": "Measure it with the phone test first; half the answer shows up right there. If you want your new site built fast from day one, the project estimator shows its cost and time, and the website building page shows how we treat speed from the start."
+          "html": "Run the phone test first. Half the answer usually shows up right there. And if you want your new site built fast from day one, the project estimator shows its cost and time, and the website building page shows how we treat speed from the start."
         },
         {
           "t": "group",
@@ -382,7 +382,7 @@
         },
         {
           "t": "raw",
-          "html": "<div class=\"art-faq-list\"><div class=\"art-faq-item\"><h3>My site is a shop and it is a bit slow. Is that not normal?</h3><p>Being a shop is not a reason for slowness. The basket and the gateway do have some inherent work, but the home page and product pages should not be slow. If they are, the cause is usually heavy photos, weak hosting or an extra plugin, and all three can be fixed.</p></div><div class=\"art-faq-item\"><h3>How small should a product photo be?</h3><p>As small as the size it is displayed at on the site. A several megabyte phone photo is unnecessary for a page that shows the image a few hundred pixels wide; a compressed version of the same photo, at the sharpness the eye actually sees, is several times lighter. Make it a habit before uploading any photo.</p></div><div class=\"art-faq-item\"><h3>I bought cheap hosting. Is it really the culprit?</h3><p>Sometimes yes and sometimes no. First check the photos and plugins, which are in your own hands. If those are fine and the site is still slow at busy hours, the hosting cannot answer for your shop, and changing it is more effective than any other optimization.</p></div><div class=\"art-faq-item\"><h3>Should I fix speed first or the site’s look first?</h3><p>Speed first. The customer has to see the page before its look can do anything. The good news is that lightening a site is usually cheaper and faster than a redesign, and after it, any design works better on a fast site.</p></div></div>",
+          "html": "<div class=\"art-faq-list\"><div class=\"art-faq-item\"><h3>My site is a shop and it is a bit slow. Is that not normal?</h3><p>Being a shop is not an excuse for slowness. Yes, the basket and the gateway have some inherent work to do, but your home page and product pages should not be slow. If they are, the cause is usually heavy photos, weak hosting or an extra plugin, and all three can be fixed.</p></div><div class=\"art-faq-item\"><h3>How small should a product photo be?</h3><p>As small as the size it is displayed at on your site. A several megabyte phone photo is pointless on a page that shows the image a few hundred pixels wide. A compressed version of the same photo, at the sharpness the eye actually sees, is several times lighter. Make it a habit before you upload any photo.</p></div><div class=\"art-faq-item\"><h3>I bought cheap hosting. Is it really the culprit?</h3><p>Sometimes yes, sometimes no. First check the photos and plugins, because those are in your own hands. If they are fine and the site is still slow at busy hours, your hosting cannot answer for your shop, and changing it beats any other optimisation.</p></div><div class=\"art-faq-item\"><h3>Should I fix speed first or the site’s look first?</h3><p>Speed first. Your customer has to see the page before its look can do anything. The good news: lightening a site is usually cheaper and faster than a redesign, and afterwards, any design works better on a fast site.</p></div></div>",
           "class": "",
           "tag": "div"
         }

@@ -160,18 +160,10 @@
           "html": "Work you can check"
         },
         {
-          "t": "p",
-          "html": "We only show work whose link opens and where our role is stated."
-        },
-        {
           "t": "raw",
-          "html": "<article class=\"work-item work-item-featured work-item-media\"> <div class=\"work-item-text\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>Verified and handed over</span> <h3><a href=\"https://ghazalalidoost.art\" target=\"_blank\" rel=\"noopener\">ghazalalidoost.art</a></h3> <p class=\"work-label\">Client work · Ghazal Alidoust's portfolio website · Our role: Design and build</p> <a class=\"service-link\" href=\"https://ghazalalidoost.art\" target=\"_blank\" rel=\"noopener\">Visit ghazalalidoost.art (opens a new tab)</a> </div> <figure class=\"work-item-shot\"><picture><source srcset=\"/img/ghazal-home-dark-en.webp\" type=\"image/webp\"><img src=\"/img/ghazal-home-dark-en.jpg\" alt=\"Ghazal Alidoust's website home page — dark mode, English\" loading=\"lazy\" width=\"1280\" height=\"800\"></picture></figure> </article>",
+          "html": "<article class=\"work-item work-item-featured work-item-media\"> <div class=\"work-item-text\"> <h3><a href=\"https://ghazalalidoost.art\" target=\"_blank\" rel=\"noopener\">ghazalalidoost.art</a></h3> <p class=\"work-label\">Client work · Ghazal Alidoust's portfolio website · Our role: Design and build</p> <a class=\"service-link\" href=\"https://ghazalalidoost.art\" target=\"_blank\" rel=\"noopener\">Visit ghazalalidoost.art</a> </div> <figure class=\"work-item-shot\"><picture><source srcset=\"/img/ghazal-home-dark-en.webp\" type=\"image/webp\"><img src=\"/img/ghazal-home-dark-en.jpg\" alt=\"Ghazal Alidoust's website home page — dark mode, English\" loading=\"lazy\" width=\"1280\" height=\"800\"></picture></figure> </article>",
           "class": "work-item work-item-featured",
           "tag": "article"
-        },
-        {
-          "t": "p",
-          "html": "More selected work will be added as it is published."
         },
         {
           "t": "raw",

@@ -1,7 +1,7 @@
 {
   "path": "404.html",
   "lang": "fa",
-  "title": "صفحه پیدا نشد · Page not found | dadmor",
+  "title": "این صفحه نیست · Page not found | dadmor",
   "description": "",
   "hreflang": {},
   "og": {},
@@ -18,17 +18,17 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<h1>این صفحه هنوز ساختاری ندارد.</h1>",
+          "html": "<h1>این صفحه اینجا نیست.</h1>",
           "class": "",
           "tag": "h1"
         },
         {
           "t": "p",
-          "html": "نشانی ای که باز کردید اینجا صفحه ای ندارد. شاید جابه جا شده یا نشانی کامل نیست."
+          "html": "آدرسی که باز کرده اید به هیچ صفحه ای نمی رسد. شاید صفحه جابه جا شده یا آدرس را ناقص زده اید."
         },
         {
           "t": "p",
-          "html": "<a class=\"btn btn-primary\" href=\"/\">صفحه اصلی</a><a class=\"btn btn-ghost\" href=\"/services/\">خدمت ها</a><a class=\"btn btn-ghost\" href=\"/contact/\">تماس</a>"
+          "html": "<a class=\"btn btn-primary\" href=\"/\">صفحه اصلی</a><a class=\"btn btn-ghost\" href=\"/services/\">ببینید چه کار می کنیم</a><a class=\"btn btn-ghost\" href=\"/contact/\">تماس</a>"
         }
       ]
     },
@@ -38,13 +38,13 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<h1>This page has no structure yet.</h1>",
+          "html": "<h1>This page is not here.</h1>",
           "class": "",
           "tag": "h1"
         },
         {
           "t": "p",
-          "html": "The address you opened has no page here. It may have moved, or the address may be incomplete."
+          "html": "The address you opened does not lead anywhere here. The page may have moved, or the address may have a typo."
         },
         {
           "t": "p",

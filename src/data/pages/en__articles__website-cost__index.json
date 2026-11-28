@@ -1,8 +1,8 @@
 {
   "path": "en/articles/website-cost/index.html",
   "lang": "en",
-  "title": "How much does a website cost? An honest price anatomy",
-  "description": "What is a website price made of? dadmor opens it up hour by hour: what your money buys, and why a five and a fifty million quote can both be honest.",
+  "title": "How much does a website cost? An honest look inside the price",
+  "description": "One brief, two quotes: five million and fifty million, both can be honest. We open the website price stage by stage, so you can see what your money buys, and where a cheap quote cuts corners.",
   "canonical": "https://dadmor.netlify.app/en/articles/website-cost/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/articles/website-cost/",
@@ -12,8 +12,8 @@
   "og": {
     "site_name": "dadmor",
     "type": "article",
-    "title": "How much does a website cost? An honest price anatomy",
-    "description": "What is a website price made of? dadmor opens it up hour by hour: what your money buys, and why a five and a fifty million quote can both be honest.",
+    "title": "How much does a website cost? An honest look inside the price",
+    "description": "One brief, two quotes: five million and fifty million, both can be honest. We open the website price stage by stage, so you can see what your money buys, and where a cheap quote cuts corners.",
     "url": "https://dadmor.netlify.app/en/articles/website-cost/",
     "image": "https://dadmor.netlify.app/covers/cover-cost.png",
     "image:width": "1200",
@@ -27,7 +27,7 @@
       "@type": "Article",
       "headline": "How much does a website cost? An honest anatomy of the price",
       "image": "https://dadmor.netlify.app/covers/cover-cost.png",
-      "description": "What is a website price made of? dadmor opens it up hour by hour: what your money buys, and why a five and a fifty million quote can both be honest.",
+      "description": "One brief, two quotes: five million and fifty million, both can be honest. We open the website price stage by stage, so you can see what your money buys, and where a cheap quote cuts corners.",
       "author": {
         "@type": "Organization",
         "name": "dadmor",
@@ -55,7 +55,7 @@
           "name": "Why does one website cost five million and another fifty million?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Because the two sides are usually talking about two different things: one may be a five page brochure site on a ready template, the other a shop with a payment gateway, order SMS, invoicing and fully custom design. Both are called a website, but the work is not the same."
+            "text": "Because the two sides are usually pricing two different jobs. One might be a five page brochure site on a ready template. The other a shop with a payment gateway, order SMS, invoicing and design made from scratch. Both are called a website. The work is not the same work."
           }
         },
         {
@@ -63,7 +63,7 @@
           "name": "What stages is a website price built from?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Seven stages: conversation and scope, structure and page map, interface design, build and development, content entry, testing, and handover and training. In any quote, each stage is either done in depth, done thinly, or not there at all."
+            "text": "Seven of them: conversation and scope, structure and page map, interface design, build and development, content entry, testing, and handover and training. In any quote, every stage is either done properly, done thinly, or missing entirely."
           }
         },
         {
@@ -71,7 +71,7 @@
           "name": "Where does a cheap quote usually cut?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In three usual places: no written scope gets signed, no real purchase test is done, and handover and documentation are incomplete. You pay for all three later, at a higher price."
+            "text": "The same three places, usually: no written scope gets signed, no real purchase ever gets tested, and the handover and documents are half done or absent. All three send you a bill later, at a higher price."
           }
         },
         {
@@ -79,7 +79,7 @@
           "name": "How should I compare quotes?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Do not compare the final number; compare the list of work and the depth of each stage. Ask every builder the seven checklist questions in this article and ask for the answers in writing."
+            "text": "Compare the list of work and how deeply each stage is done, not the final number. Put the seven checklist questions in this article to every builder, and get the answers in writing."
           }
         }
       ]
@@ -135,13 +135,13 @@
         },
         {
           "t": "raw",
-          "html": "<p class=\"art-hook\">Send one brief to two studios: one says <strong>five million</strong>, the other says <strong>fifty million</strong>. The strange part is that both can be telling the truth.</p>",
+          "html": "<p class=\"art-hook\">Send the same brief to two studios. One says <strong>five million</strong>. The other says <strong>fifty million</strong>. Here is the odd part: both of them can be telling the truth.</p>",
           "class": "",
           "tag": "div"
         },
         {
           "t": "raw",
-          "html": "<p class=\"art-meta-row\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span><span aria-hidden=\"true\">·</span><span>The dadmor team</span></p>",
+          "html": "<p class=\"art-meta-row\"><span>21 November 2026</span><span aria-hidden=\"true\">·</span><span>8 min read</span><span aria-hidden=\"true\">·</span><span>Roxana and Arshia</span></p>",
           "class": "",
           "tag": "div"
         }
@@ -165,7 +165,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<nav class=\"art-toc\" aria-label=\"Article sections\"><h2>In this article</h2><ol><li><a href=\"#sec-1\">What exactly does your money buy?</a></li><li><a href=\"#sec-2\">How can five million and fifty million both be honest?</a></li><li><a href=\"#sec-3\">Where exactly does a cheap quote cut?</a></li><li><a href=\"#sec-4\">What moves the price?</a></li><li><a href=\"#sec-5\">Checklist: judge every quote like this</a></li><li><a href=\"#sec-6\">In short</a></li></ol></nav>",
+          "html": "<nav class=\"art-toc\" aria-label=\"Article sections\"><h2>In this article</h2><ol><li><a href=\"#sec-1\">What does your money actually buy?</a></li><li><a href=\"#sec-2\">How can five million and fifty million both be honest?</a></li><li><a href=\"#sec-3\">Where a cheap quote quietly cuts</a></li><li><a href=\"#sec-4\">What pushes the price around</a></li><li><a href=\"#sec-5\">Seven questions to put to every quote</a></li><li><a href=\"#sec-6\">Lists, not numbers</a></li></ol></nav>",
           "class": "",
           "tag": "div"
         }
@@ -177,7 +177,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<aside class=\"art-summary\"><h2>Summary</h2><ol><li>A website price is hours of work multiplied by the depth of each stage. Do not compare the final number; compare the list of work.</li><li>A cheap quote usually cuts in three places: a written scope, payment testing, and handover with documentation. You pay for all three later, at a higher price.</li><li>A quote that will not write down what is NOT included is hiding the most expensive part of the project: surprises.</li></ol></aside>",
+          "html": "<aside class=\"art-summary\"><h2>Summary</h2><ol><li>A website price is hours of work, multiplied by how deeply each stage gets done. So do not compare the final number. Compare the list of work behind it.</li><li>A cheap quote usually cuts the same three things: the written scope, testing a real payment, and handover with documents. You pay for all three later, and it costs more then.</li><li>A quote that will not write down what is NOT included is hiding the priciest part of any project: the surprises.</li></ol></aside>",
           "class": "",
           "tag": "div"
         }
@@ -189,11 +189,11 @@
       "blocks": [
         {
           "t": "p",
-          "html": "Almost every week someone asks us the same question: that place said five million, why do you say this much? The short answer is that “a website” is not the name of one product. It is the name of a chain of work, and every quote is a different selection from that chain. Until you see the list of work, comparing two numbers is like comparing the price of two sealed boxes."
+          "html": "Someone asks us this almost every week: that place quoted five million, why is yours this much? The short answer is that “a website” is not one product. It is a chain of jobs, and every quote picks a different stretch of that chain. Until you can see the list of work, comparing two numbers is comparing two sealed boxes."
         },
         {
           "t": "p",
-          "html": "So we decided to publish what is usually only said in a sales meeting: what your money buys hour by hour, which parts can be cut, and who pays for the cut, and when. Read this, then get quotes from us or from anyone else."
+          "html": "So here is what usually only gets said inside a sales meeting, published instead: what your money buys, hour by hour, which parts can be cut, and who ends up paying for the cut, and when. Read it, then go and get quotes. From us, from anyone."
         }
       ]
     },
@@ -203,13 +203,13 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<h2 class=\"art-h2\" id=\"sec-1\">What exactly does your money buy?</h2>",
+          "html": "<h2 class=\"art-h2\" id=\"sec-1\">What does your money actually buy?</h2>",
           "class": "",
           "tag": "h2"
         },
         {
           "t": "p",
-          "html": "A website price is built from seven stages. In any quote, each stage is either done in depth, done thinly, or not there at all, and its absence does not show in the final number:"
+          "html": "A website price is built from seven stages. In any quote you are handed, each stage is done properly, done thinly, or simply not there. And its absence never shows in the final number:"
         },
         {
           "t": "table",
@@ -221,44 +221,44 @@
           "rows": [
             [
               "Conversation and scope",
-              "The goal, pages and features are fixed on paper and signed",
-              "Every ambiguity left here costs several times more in the middle of the project"
+              "The goal, the pages and the features get fixed on paper, and signed",
+              "Every vagueness left here costs several times more once the project is underway"
             ],
             [
               "Structure and page map",
-              "The order of pages and the customer path from entry to purchase are laid out",
-              "A wrong guess here means redesign in the middle of the work"
+              "The order of the pages, and the path a customer walks from landing to paying, get laid out",
+              "Guess this wrong and it is a redesign in the middle of the job"
             ],
             [
               "Interface design",
-              "Pages are designed in your brand identity, with review rounds",
-              "Every review round is a full round of design and checking"
+              "Pages designed in your brand’s look, with rounds of review",
+              "Every review round is a full round of designing and checking"
             ],
             [
               "Build and development",
-              "The design becomes a real site: shop, gateway, forms, admin panel",
-              "Features are one line on paper and full of detail and edge cases in practice"
+              "The design becomes a working site: shop, gateway, forms, admin panel",
+              "A feature is one line on paper. In real life it is detail and edge cases all the way down"
             ],
             [
               "Content entry",
-              "Your real text and photos replace the placeholder content and get arranged",
-              "Unready content is the most common reason launch day slips"
+              "Your real words and photos replace the placeholders, and get arranged properly",
+              "Content that is not ready is the most common reason launch day slides"
             ],
             [
               "Testing",
-              "A real purchase with a real card, phones and browsers, forms and error paths all get tried",
-              "A bug your customer finds costs several times the test, because it is paid in lost sales"
+              "A real purchase with a real card, on phones and browsers, forms and error paths all tried for real",
+              "A bug your customer finds first costs several times the test. You pay it in lost sales"
             ],
             [
               "Handover and training",
-              "Access, maintenance documents and admin training reach you",
-              "Without it you stay dependent on the builder for every small change"
+              "Access, the maintenance documents and admin training actually reach you",
+              "Without this, every tiny change keeps you dependent on whoever built it"
             ]
           ]
         },
         {
           "t": "p",
-          "html": "From now on, whenever you hear a number, ask one question: which rows of this table are in it, at what depth, and which rows are missing? The answer explains ninety percent of price differences."
+          "html": "From now on, when someone gives you a number, ask one question: which rows of this table are in it, how deeply, and which rows are missing altogether? That answer explains about ninety percent of the difference between prices."
         }
       ]
     },
@@ -274,15 +274,15 @@
         },
         {
           "t": "p",
-          "html": "Because the two sides are usually talking about two different things. One may be a five page brochure site on a ready template with your own content supplied. The other may be a shop with a payment gateway, order SMS, invoicing, an accounting connection and fully custom design. Both are called “a website”, but one is a bicycle and the other is a van. There is nothing strange about their prices differing."
+          "html": "Because the two of you are usually talking about two different things. One quote might be a five page brochure site, built on a ready template, with content you supply yourself. The other might be a full shop: payment gateway, order SMS, invoicing, a connection to your accounting, design made from scratch. Both get called “a website”. One is a bicycle, the other is a van. Of course the prices differ."
         },
         {
           "t": "p",
-          "html": "The depth of each stage differs too. In one job, testing means opening the site in one browser to see it loads. In another, it means buying with a real card, watching a failed payment and a return from the bank, and trying the site on three phones, cheap and expensive. Both call it testing. One takes two hours, the other two days."
+          "html": "The depth differs too. In one shop, testing means opening the site in one browser to check it loads. In another it means paying with a real card, watching a payment fail, coming back from the bank, and trying the whole thing on three phones, cheap ones and expensive ones. Both call it testing. One takes two hours. The other takes two days."
         },
         {
           "t": "p",
-          "html": "And the people differ. A freelancer has no office or team overhead and finishes cheaper, but their capacity and support are one person. A studio costs more because it has separate roles, and if one person falls ill the project does not sleep. None of this is fraud. What matters is knowing which one you are buying. The most dangerous sentence in this market is “a complete website, only this much”, because the word complete means there is no list against which completeness could be measured."
+          "html": "And the people differ. A freelancer carries no office and no team, so they finish cheaper, but their capacity and their support are one person deep. A studio costs more because the roles are separate, and if one person gets sick the project does not fall asleep. None of that is fraud. What matters is knowing which one you are actually buying. The most dangerous sentence in this market is “a complete website, only this much”, because complete means nothing until there is a list to measure it against."
         }
       ]
     },
@@ -292,7 +292,7 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<blockquote class=\"art-quote\">Most of the difference between prices is not the builder’s profit. <span>It is the things that were quietly removed.</span></blockquote>",
+          "html": "<blockquote class=\"art-quote\">Most of the gap between two prices is not the builder’s profit. <span>It is the work that was quietly taken out.</span></blockquote>",
           "class": "",
           "tag": "div"
         }
@@ -304,26 +304,26 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<h2 class=\"art-h2\" id=\"sec-3\">Where exactly does a cheap quote cut?</h2>",
+          "html": "<h2 class=\"art-h2\" id=\"sec-3\">Where a cheap quote quietly cuts</h2>",
           "class": "",
           "tag": "h2"
         },
         {
           "t": "p",
-          "html": "When a number is far below the rest of the market, the discount does not come out of the builder’s profit. It comes out of the work itself. Learn the three usual cutting places:"
+          "html": "When a number sits far below everyone else, the discount does not come out of the builder’s profit. It comes out of your work. Learn the three places it usually gets cut:"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "<strong>The scope:</strong> no written list gets signed, so the price can stay low. Then every “just add one page” and “I thought payment was included” becomes an argument and a separate charge. You start cheap and finish in instalments, paid in nerves.",
-            "<strong>The testing:</strong> the gateway gets connected, but a failed purchase, cancelling at the bank page and SMS errors are never tried. Your first real tester is your first real customer, and the test is paid for in lost sales and broken trust.",
-            "<strong>The handover:</strong> the domain and hosting stay in the builder’s name, no training is given and no documents arrive. To change one phone number you have to call and wait. This dependence is the hidden instalment plan of a cheap website, and it has no ceiling."
+            "<strong>The scope:</strong> no written list gets signed, which is exactly how the price stays low. Then every “just add one page” and “I thought payment was included” turns into an argument, and a separate charge. You start cheap and pay the rest in instalments, in nerves.",
+            "<strong>The testing:</strong> the gateway gets connected, sure. But a failed purchase, backing out at the bank page, an SMS that never arrives: never tried. Your first real tester becomes your first real customer, and the fee is lost sales and dented trust.",
+            "<strong>The handover:</strong> domain and hosting stay in the builder’s name, no training happens, no documents arrive. Changing one phone number means a phone call, and a wait. That dependence is the hidden instalment plan of a cheap website, and it has no ceiling on it."
           ]
         },
         {
           "t": "p",
-          "html": "Notice: cheap is not bad by itself. If your job is small and you accept these three cuts with open eyes, your choice is right. What is bad is the hidden cut, where you believe you bought something and learn on delivery day that you did not."
+          "html": "To be clear: cheap is not automatically bad. If your job is small and you take these three cuts with your eyes open, your choice can be the right one. The bad version is the hidden cut, where you believe you bought something and only find out on delivery day that you did not."
         }
       ]
     },
@@ -333,30 +333,30 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<h2 class=\"art-h2\" id=\"sec-4\">What moves the price?</h2>",
+          "html": "<h2 class=\"art-h2\" id=\"sec-4\">What pushes the price around</h2>",
           "class": "",
           "tag": "h2"
         },
         {
           "t": "p",
-          "html": "If you want a better guess before asking for quotes, these are the main levers of <a href=\"/en/services/website-building/\">website cost</a>:"
+          "html": "Want a better guess before you start collecting quotes? These are the main levers on <a href=\"/en/services/website-building/\">website cost</a>:"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "The number and type of pages, and how many need their own design.",
-            "Whether there is a shop and payment gateway, or the site is only an introduction.",
-            "Whether text and photos are ready, or must be produced and arranged.",
-            "Whether the site is in two languages or one.",
-            "Connections to other systems: SMS, accounting, inventory, booking.",
-            "Whether the design is templated, semi custom or fully custom.",
-            "How much of a hurry you are in; compressed, deadline driven work almost always costs more."
+            "How many pages there are, what kind, and how many need a design of their own.",
+            "Whether there is a shop and a payment gateway, or the site only introduces you.",
+            "Whether words and photos are ready, or somebody has to make and arrange them.",
+            "Whether it is one language or two.",
+            "Connections to other systems: SMS, accounting, stock, booking.",
+            "Templated design, partly custom, or fully custom.",
+            "How much of a rush you are in. Squashed, deadline driven work almost always costs more."
           ]
         },
         {
           "t": "p",
-          "html": "This is why we do not put a fixed price on the site and write the scope first. A number without a list is just a number. We published the scope template in full in our <a href=\"/en/articles/project-scope/\">project scope article</a>, so you can take the same paper to anyone and compare quotes properly."
+          "html": "This is why we do not hang a fixed price on our site, and why the scope comes first. A number with no list behind it is just a number. We published our whole scope template in the <a href=\"/en/articles/project-scope/\">project scope article</a>, so you can carry the same sheet of paper to anyone and compare quotes fairly."
         }
       ]
     },
@@ -366,30 +366,30 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<h2 class=\"art-h2\" id=\"sec-5\">Checklist: judge every quote like this</h2>",
+          "html": "<h2 class=\"art-h2\" id=\"sec-5\">Seven questions to put to every quote</h2>",
           "class": "",
           "tag": "h2"
         },
         {
           "t": "p",
-          "html": "Ask every builder these seven questions and ask for the answers in writing. A quote that answers them on paper, even a more expensive one, ends up cheaper in practice:"
+          "html": "Put these seven questions to every builder, and ask for the answers in writing. A quote that answers them on paper, even a pricier one, tends to end up cheaper in real life:"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "Where in the document is the list of pages and features written, line by line?",
+            "Where, in the document, is the list of pages and features, line by line?",
             "What is explicitly NOT included in this price?",
-            "Is a real purchase test with a real card inside the price?",
-            "In whose name are the domain and hosting registered, and who holds full access?",
-            "What training and what documents does the handover include?",
-            "How many review rounds are included, and how is extra work priced?",
-            "After handover, if something breaks, for how long and by what method is it supported?"
+            "Does the price include testing a real purchase with a real card?",
+            "Whose name are the domain and hosting in, and who holds the full access?",
+            "What training, and what documents, come with the handover?",
+            "How many review rounds are included, and what does extra work cost?",
+            "After handover, if something breaks, how long is it supported, and how?"
           ]
         },
         {
           "t": "p",
-          "html": "If the answer to any question is “we will see how it goes”, that is exactly where the real price of the project starts separating from the number on the paper."
+          "html": "If the answer to any of them is “we will see how it goes”, you have just found the spot where the real price starts parting company with the number on the paper."
         }
       ]
     },
@@ -399,13 +399,13 @@
       "blocks": [
         {
           "t": "raw",
-          "html": "<h2 class=\"art-h2\" id=\"sec-6\">In short</h2>",
+          "html": "<h2 class=\"art-h2\" id=\"sec-6\">Lists, not numbers</h2>",
           "class": "",
           "tag": "h2"
         },
         {
           "t": "p",
-          "html": "A website cost cannot be squeezed into one number, but it can be made transparent: seven stages, with known depth and known cuts. Do not compare numbers, compare lists. And when you hear a number that sounds too good, do not look for the discount. Look for the deleted row of the table. It is almost always there."
+          "html": "You cannot squeeze a website’s cost into one honest number, but you can make it transparent: seven stages, with the depth and the cuts out in the open. Lists, not numbers. And when a number sounds too good, do not hunt for the discount. Hunt for the deleted row of the table. It is almost always there."
         }
       ]
     },
@@ -416,11 +416,11 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "See the number for your own project"
+          "html": "Now run your own project through it"
         },
         {
           "t": "p",
-          "html": "The dadmor <a href=\"/en/tools/estimator/\">project estimator</a> works on these same levers: you pick the features and get a brief and a rough range. The final number, as always, is set by the written scope, not by a web form."
+          "html": "Our <a href=\"/en/tools/estimator/\">project estimator</a> works off these same levers: pick the features, get a brief and a rough range back. The final number, as ever, gets set by the written scope. Not by a web form."
         },
         {
           "t": "group",
@@ -453,7 +453,7 @@
         },
         {
           "t": "raw",
-          "html": "<div class=\"art-faq-list\"><div class=\"art-faq-item\"><h3>Why does one website cost five million and another fifty million?</h3><p>Because the two sides are usually talking about two different things: one may be a five page brochure site on a ready template, the other a shop with a payment gateway, order SMS, invoicing and fully custom design. Both are called a website, but the work is not the same.</p></div><div class=\"art-faq-item\"><h3>What stages is a website price built from?</h3><p>Seven stages: conversation and scope, structure and page map, interface design, build and development, content entry, testing, and handover and training. In any quote, each stage is either done in depth, done thinly, or not there at all.</p></div><div class=\"art-faq-item\"><h3>Where does a cheap quote usually cut?</h3><p>In three usual places: no written scope gets signed, no real purchase test is done, and handover and documentation are incomplete. You pay for all three later, at a higher price.</p></div><div class=\"art-faq-item\"><h3>How should I compare quotes?</h3><p>Do not compare the final number; compare the list of work and the depth of each stage. Ask every builder the seven checklist questions in this article and ask for the answers in writing.</p></div></div>",
+          "html": "<div class=\"art-faq-list\"><div class=\"art-faq-item\"><h3>Why does one website cost five million and another fifty million?</h3><p>Because the two sides are usually pricing two different jobs. One might be a five page brochure site on a ready template. The other a shop with a payment gateway, order SMS, invoicing and design made from scratch. Both are called a website. The work is not the same work.</p></div><div class=\"art-faq-item\"><h3>What stages is a website price built from?</h3><p>Seven of them: conversation and scope, structure and page map, interface design, build and development, content entry, testing, and handover and training. In any quote, every stage is either done properly, done thinly, or missing entirely.</p></div><div class=\"art-faq-item\"><h3>Where does a cheap quote usually cut?</h3><p>The same three places, usually: no written scope gets signed, no real purchase ever gets tested, and the handover and documents are half done or absent. All three send you a bill later, at a higher price.</p></div><div class=\"art-faq-item\"><h3>How should I compare quotes?</h3><p>Compare the list of work and how deeply each stage is done, not the final number. Put the seven checklist questions in this article to every builder, and get the answers in writing.</p></div></div>",
           "class": "",
           "tag": "div"
         }
@@ -475,7 +475,7 @@
             {
               "title": "",
               "href": "",
-              "html": "<a class=\"art-card\" href=\"/en/articles/instagram-vs-website/\"><span class=\"art-card-media\"><img src=\"/covers/cover-instagram.svg\" alt=\"Article cover: a locked phone beside a house of your own\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h3 class=\"art-card-title\">Instagram page or website? Why your Instagram shop needs a website of its own</h3><span class=\"art-card-excerpt\">It is seven in the morning. You open Instagram and your shop page is gone. This article starts on that morning: what a page rents, what a website owns, and when a page alone is enough.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a><a class=\"art-card\" href=\"/en/articles/shop-builder-vs-own-site/\"><span class=\"art-card-media\"><img src=\"/covers/cover-builder.svg\" alt=\"Article cover: a market stall with a striped awning beside your own shop with a green door\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h3 class=\"art-card-title\">Shop builder or your own website? Renting a stall in someone else’s mall or owning your shop</h3><span class=\"art-card-excerpt\">For a few hundred thousand tomans a month your shop opens and everything is ready. But the stall belongs to the mall: its rent runs forever, its rules are set by someone else, and on the day you leave, the customers stay behind.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a>"
+              "html": "<a class=\"art-card\" href=\"/en/articles/instagram-vs-website/\"><span class=\"art-card-media\"><img src=\"/covers/cover-instagram.svg\" alt=\"Article cover: a locked phone beside a house of your own\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h3 class=\"art-card-title\">Instagram page or website? Why your Instagram shop needs a website of its own</h3><span class=\"art-card-excerpt\">It is seven in the morning, you open Instagram, and your shop page is gone. This article starts on that morning: what a page only rents you, what a website actually gives you, and when a page alone is honestly enough.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a><a class=\"art-card\" href=\"/en/articles/shop-builder-vs-own-site/\"><span class=\"art-card-media\"><img src=\"/covers/cover-builder.svg\" alt=\"Article cover: a market stall with a striped awning beside your own shop with a green door\" loading=\"lazy\"></span><span class=\"art-card-body\"><span class=\"art-card-cat\">Selling online</span><h3 class=\"art-card-title\">Shop builder or your own website? Renting a stall in someone else’s mall or owning your shop</h3><span class=\"art-card-excerpt\">For a few hundred thousand tomans a month your shop opens and everything is ready. But the stall belongs to the mall: its rent runs forever, its rules are set by someone else, and on the day you leave, the customers stay behind.</span><span class=\"art-card-meta\"><span>21 November 2026</span><span class=\"art-card-dot\" aria-hidden=\"true\">·</span><span>8 min read</span></span></span></a>"
             }
           ]
         }

@@ -3,42 +3,42 @@
     {
       "path": "404.html",
       "lang": "fa",
-      "title": "صفحه پیدا نشد · Page not found | dadmor",
+      "title": "این صفحه نیست · Page not found | dadmor",
       "blocks": 3,
       "hero": false
     },
     {
       "path": "about/index.html",
       "lang": "fa",
-      "title": "درباره dadmor: استودیوی مستقل و فنی | dadmor",
+      "title": "درباره ما: دو نفری که دادمور را ساختند | dadmor",
       "blocks": 7,
       "hero": false
     },
     {
       "path": "contact/index.html",
       "lang": "fa",
-      "title": "تماس: پروژه تان را در چند خط بنویسید | dadmor",
+      "title": "تماس با ما: در چند خط بنویسید چه می خواهید | dadmor",
       "blocks": 3,
       "hero": false
     },
     {
       "path": "en/about/index.html",
       "lang": "en",
-      "title": "About dadmor: an independent, technical studio | dadmor",
+      "title": "About us: the two people behind dadmor | dadmor",
       "blocks": 7,
       "hero": false
     },
     {
       "path": "en/contact/index.html",
       "lang": "en",
-      "title": "Contact: describe your project in a few lines | dadmor",
+      "title": "Contact us: tell us what you need in a few lines | dadmor",
       "blocks": 3,
       "hero": false
     },
     {
       "path": "en/faq/index.html",
       "lang": "en",
-      "title": "FAQ: price, time, ownership and security | dadmor",
+      "title": "Questions people ask before starting: price, time, ownership, security | dadmor",
       "blocks": 4,
       "hero": false
     },
@@ -52,98 +52,98 @@
     {
       "path": "en/journal/index.html",
       "lang": "en",
-      "title": "Journal: scope, build, security and content | dadmor",
+      "title": "Journal: things we learn from the work itself | dadmor",
       "blocks": 3,
       "hero": false
     },
     {
       "path": "en/privacy/index.html",
       "lang": "en",
-      "title": "Privacy: what is collected and what is not | dadmor",
+      "title": "Privacy: what we take from you and what we do not | dadmor",
       "blocks": 7,
       "hero": false
     },
     {
       "path": "en/process/index.html",
       "lang": "en",
-      "title": "Process: five steps with inputs and outputs | dadmor",
+      "title": "How we work: five steps, from first talk to handover | dadmor",
       "blocks": 4,
       "hero": false
     },
     {
       "path": "en/services/business-model/index.html",
       "lang": "en",
-      "title": "Business model design you can test | dadmor",
+      "title": "Business model design you can actually test | dadmor",
       "blocks": 13,
       "hero": false
     },
     {
       "path": "en/services/documentation/index.html",
       "lang": "en",
-      "title": "Product, API and handover documentation | dadmor",
+      "title": "Handover docs the next person can actually use | dadmor",
       "blocks": 13,
       "hero": false
     },
     {
       "path": "en/services/index.html",
       "lang": "en",
-      "title": "Services | dadmor",
+      "title": "Our services: the six things we do for you | dadmor",
       "blocks": 4,
       "hero": false
     },
     {
       "path": "en/services/marketing-content/index.html",
       "lang": "en",
-      "title": "Content, video and SEO built from your product's structure | dadmor",
+      "title": "Content, video and search visibility built from your own product | dadmor",
       "blocks": 13,
       "hero": false
     },
     {
       "path": "en/services/penetration-testing/index.html",
       "lang": "en",
-      "title": "Manual penetration testing with a signed scope and retest | dadmor",
+      "title": "Manual penetration testing, with your written permission and a retest | dadmor",
       "blocks": 14,
       "hero": false
     },
     {
       "path": "en/services/ui-ux-design/index.html",
       "lang": "en",
-      "title": "UI/UX design based on user tasks | dadmor",
+      "title": "UI and UX design based on what your customer came to do | dadmor",
       "blocks": 13,
       "hero": false
     },
     {
       "path": "en/services/website-building/index.html",
       "lang": "en",
-      "title": "Website building with a written scope and handover | dadmor",
+      "title": "Website building with a written agreement and handover notes | dadmor",
       "blocks": 13,
       "hero": false
     },
     {
       "path": "en/tools/estimator/index.html",
       "lang": "en",
-      "title": "Project estimator: a scoped brief with an S, M or L band | dadmor",
+      "title": "Project estimator: find out how much work your project really is | dadmor",
       "blocks": 5,
       "hero": false
     },
     {
       "path": "en/tools/security-check/index.html",
       "lang": "en",
-      "title": "Security self-check: twelve plain questions | dadmor",
+      "title": "Security self-check: twelve plain questions to ask yourself | dadmor",
       "blocks": 4,
       "hero": false
     },
     {
       "path": "en/work/index.html",
       "lang": "en",
-      "title": "Work you can check | dadmor",
+      "title": "Our work: only the pieces you can open and check | dadmor",
       "blocks": 4,
       "hero": false
     },
     {
       "path": "faq/index.html",
       "lang": "fa",
-      "title": "پرسش های رایج: قیمت، زمان، مالکیت و امنیت | dadmor",
+      "title": "سؤال هایی که قبل از شروع از ما می پرسند: قیمت، زمان، مالکیت، امنیت | dadmor",
       "blocks": 4,
       "hero": false
     },
@@ -157,231 +157,231 @@
     {
       "path": "journal/index.html",
       "lang": "fa",
-      "title": "یادداشت ها: اسکوپ، ساخت، امنیت و محتوا | dadmor",
+      "title": "یادداشت ها: چیزهایی که از کار هر روزمان یاد می گیریم | dadmor",
       "blocks": 3,
       "hero": false
     },
     {
       "path": "privacy/index.html",
       "lang": "fa",
-      "title": "حریم خصوصی: چه چیزی جمع می شود و چه چیزی نه | dadmor",
+      "title": "حریم خصوصی: از شما چه می گیریم و چه نمی گیریم | dadmor",
       "blocks": 7,
       "hero": false
     },
     {
       "path": "process/index.html",
       "lang": "fa",
-      "title": "فرایند کار: پنج مرحله با ورودی و خروجی | dadmor",
+      "title": "فرایند کار ما: پنج قدم، از حرف اول تا تحویل | dadmor",
       "blocks": 4,
       "hero": false
     },
     {
       "path": "services/business-model/index.html",
       "lang": "fa",
-      "title": "طراحی و آزمایش مدل کسب وکار | dadmor",
+      "title": "مدل کسب وکار را اول روی کاغذ امتحان می کنیم | dadmor",
       "blocks": 13,
       "hero": false
     },
     {
       "path": "services/documentation/index.html",
       "lang": "fa",
-      "title": "مستندسازی محصول، API و تحویل | dadmor",
+      "title": "نوشته های تحویل که نفر بعدی واقعاً ازشان سر در می آورد | dadmor",
       "blocks": 13,
       "hero": false
     },
     {
       "path": "services/index.html",
       "lang": "fa",
-      "title": "خدمت ها | dadmor",
+      "title": "خدمت های ما: شش کاری که برایتان انجام می دهیم | dadmor",
       "blocks": 4,
       "hero": false
     },
     {
       "path": "services/marketing-content/index.html",
       "lang": "fa",
-      "title": "تولید محتوا، ویدیو و سئو از روی ساختار محصول | dadmor",
+      "title": "محتوا و ویدیو و دیده شدن در جستجو، از روی خود محصولتان | dadmor",
       "blocks": 13,
       "hero": false
     },
     {
       "path": "services/penetration-testing/index.html",
       "lang": "fa",
-      "title": "تست نفوذ دستی با اسکوپ امضاشده و بازتست | dadmor",
+      "title": "تست نفوذ دستی، با اجازه کتبی شما و یک بازتست | dadmor",
       "blocks": 14,
       "hero": false
     },
     {
       "path": "services/ui-ux-design/index.html",
       "lang": "fa",
-      "title": "طراحی رابط و تجربه کاربری بر اساس وظیفه کاربر | dadmor",
+      "title": "طراحی رابط بر اساس کاری که مشتری برایش آمده | dadmor",
       "blocks": 13,
       "hero": false
     },
     {
       "path": "services/website-building/index.html",
       "lang": "fa",
-      "title": "ساخت وب سایت با اسکوپ و مستند تحویل | dadmor",
+      "title": "ساخت سایت با توافق کتبی و نوشته تحویل | dadmor",
       "blocks": 13,
       "hero": false
     },
     {
       "path": "tools/estimator/index.html",
       "lang": "fa",
-      "title": "برآوردگر پروژه: بریف اسکوپ با باند L/M/S | dadmor",
+      "title": "برآوردگر پروژه: اول بفهمید کارتان چقدر کار می برد | dadmor",
       "blocks": 5,
       "hero": false
     },
     {
       "path": "tools/security-check/index.html",
       "lang": "fa",
-      "title": "خودارزیابی امنیت: دوازده سؤال ساده | dadmor",
+      "title": "خودارزیابی امنیت: دوازده سؤال ساده از خودتان بپرسید | dadmor",
       "blocks": 4,
       "hero": false
     },
     {
       "path": "work/index.html",
       "lang": "fa",
-      "title": "نمونه کار: کارهایی که می توانید ببینید | dadmor",
+      "title": "نمونه کارها: فقط آن هایی که می توانید باز کنید و ببینید | dadmor",
       "blocks": 4,
       "hero": false
     },
     {
       "path": "articles/index.html",
       "lang": "fa",
-      "title": "مقالات | dadmor",
+      "title": "مقاله ها: برای فروشگاه هایی که از دایرکت خسته شده اند | dadmor",
       "blocks": 3,
       "hero": false
     },
     {
       "path": "articles/instagram-vs-website/index.html",
       "lang": "fa",
-      "title": "پیج اینستاگرام یا سایت؟ چرا فروشگاه اینستاگرامی شما به سایت نیاز دارد | dadmor",
+      "title": "پیج اینستاگرام یا سایت؟ چرا فروشگاه شما به خانه خودش نیاز دارد | dadmor",
       "blocks": 10,
       "hero": false
     },
     {
       "path": "articles/website-cost/index.html",
       "lang": "fa",
-      "title": "هزینه طراحی سایت چقدر است و قیمت به چه چیزهایی بستگی دارد | dadmor",
+      "title": "هزینه طراحی سایت چقدر است و پولتان دقیقاً کجا می رود | dadmor",
       "blocks": 9,
       "hero": false
     },
     {
       "path": "articles/project-scope/index.html",
       "lang": "fa",
-      "title": "اسکوپ پروژه سایت چیست و چطور آن را درست بنویسیم | dadmor",
+      "title": "توافق پروژه سایت چیست و چطور درست بنویسیمش | dadmor",
       "blocks": 10,
       "hero": false
     },
     {
       "path": "articles/shop-builder-vs-own-site/index.html",
       "lang": "fa",
-      "title": "فروشگاه ساز یا سایت خودت؟ فرق غرفه اجاره ای با مغازه خودت | dadmor",
+      "title": "فروشگاه ساز یا سایت خودت؟ اجاره نشین بمانیم یا مغازه خودمان را بزنیم | dadmor",
       "blocks": 16,
       "hero": false
     },
     {
       "path": "articles/instagram-hacked/index.html",
       "lang": "fa",
-      "title": "پیج فروشگاهت هک شد؟ اول این کارها را بکن | dadmor",
+      "title": "پیج فروشگاهت هک شد؟ این کارها را اول بکن، به ترتیب | dadmor",
       "blocks": 16,
       "hero": false
     },
     {
       "path": "articles/traffic-but-no-sales/index.html",
       "lang": "fa",
-      "title": "بازدید داری، فروش نداری؟ این هفت جا را به ترتیب چک کن | dadmor",
+      "title": "بازدید داری ولی فروش نداری؟ این هفت جا را به ترتیب چک کن | dadmor",
       "blocks": 19,
       "hero": false
     },
     {
       "path": "articles/payment-gateway-trust-symbol/index.html",
       "lang": "fa",
-      "title": "درگاه پرداخت و نماد اعتماد: چطور فروشگاهت را به پول واقعی وصل کنی | dadmor",
+      "title": "درگاه پرداخت و نماد اعتماد: فروشگاهت را چطور به پول واقعی وصل کنی | dadmor",
       "blocks": 16,
       "hero": false
     },
     {
       "path": "articles/seo-for-small-shops/index.html",
       "lang": "fa",
-      "title": "سئو چیست؟ راهنمای شروع سئو برای فروشگاه های کوچک | dadmor",
+      "title": "سئو چیست؟ از کجا شروع کنیم، برای فروشگاه های کوچک | dadmor",
       "blocks": 18,
       "hero": false
     },
     {
       "path": "articles/website-speed-and-sales/index.html",
       "lang": "fa",
-      "title": "سرعت سایت چرا برای فروش مهم است و چه چیزهایی سایتت را کند می کند | dadmor",
+      "title": "سرعت سایت چرا روی فروشت اثر می گذارد و چه چیزهایی کندش می کند | dadmor",
       "blocks": 16,
       "hero": false
     },
     {
       "path": "en/articles/index.html",
       "lang": "en",
-      "title": "Articles | dadmor",
+      "title": "Articles: for shops tired of selling only in DMs | dadmor",
       "blocks": 3,
       "hero": false
     },
     {
       "path": "en/articles/instagram-vs-website/index.html",
       "lang": "en",
-      "title": "Instagram page or website? Why your Instagram shop needs a website | dadmor",
+      "title": "Instagram page or your own website? Why your shop needs a home of its own | dadmor",
       "blocks": 9,
       "hero": false
     },
     {
       "path": "en/articles/website-cost/index.html",
       "lang": "en",
-      "title": "How much does a website cost, and what does the price depend on? | dadmor",
+      "title": "How much does a website cost, and where does the money actually go? | dadmor",
       "blocks": 8,
       "hero": false
     },
     {
       "path": "en/articles/project-scope/index.html",
       "lang": "en",
-      "title": "What is a website project scope, and how do you write one properly? | dadmor",
+      "title": "What is a website project agreement, and how do you write one properly? | dadmor",
       "blocks": 9,
       "hero": false
     },
     {
       "path": "en/articles/shop-builder-vs-own-site/index.html",
       "lang": "en",
-      "title": "Shop builder or your own website, and where the switching point is | dadmor",
+      "title": "Shop builder or your own website? Renting a stall or owning the shop | dadmor",
       "blocks": 16,
       "hero": false
     },
     {
       "path": "en/articles/instagram-hacked/index.html",
       "lang": "en",
-      "title": "Your shop page got hacked? Do these things first | dadmor",
+      "title": "Your shop page got hacked? Do these things first, in order | dadmor",
       "blocks": 16,
       "hero": false
     },
     {
       "path": "en/articles/traffic-but-no-sales/index.html",
       "lang": "en",
-      "title": "Traffic but no sales? Check these seven places | dadmor",
+      "title": "Traffic but no sales? Check these seven places in order | dadmor",
       "blocks": 19,
       "hero": false
     },
     {
       "path": "en/articles/payment-gateway-trust-symbol/index.html",
       "lang": "en",
-      "title": "Payment gateway and trust symbol: how to connect your shop to real money | dadmor",
+      "title": "Payment gateway and trust symbol: connecting your shop to real money | dadmor",
       "blocks": 16,
       "hero": false
     },
     {
       "path": "en/articles/seo-for-small-shops/index.html",
       "lang": "en",
-      "title": "What is SEO? A starter guide for small shops | dadmor",
+      "title": "What is SEO? Where small shops should start | dadmor",
       "blocks": 18,
       "hero": false
     },
     {
       "path": "en/articles/website-speed-and-sales/index.html",
       "lang": "en",
-      "title": "Why website speed matters for sales, and what makes your site slow | dadmor",
+      "title": "Why your site speed affects sales, and what is slowing it down | dadmor",
       "blocks": 16,
       "hero": false
     }

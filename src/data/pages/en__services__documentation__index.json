@@ -1,8 +1,8 @@
 {
   "path": "en/services/documentation/index.html",
   "lang": "en",
-  "title": "Product, API and handover documentation | dadmor",
-  "description": "Product docs, API docs, handover guides and decision logs, each with a named audience, format and update rule.",
+  "title": "Documentation, so the work survives people leaving | dadmor",
+  "description": "Product docs, API docs, handover guides and decision logs. Each one gets a named audience, a format, and a rule for keeping it current.",
   "canonical": "https://dadmor.netlify.app/en/services/documentation/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/services/documentation/",
@@ -12,8 +12,8 @@
   "og": {
     "site_name": "dadmor",
     "type": "website",
-    "title": "Product, API and handover documentation | dadmor",
-    "description": "Product docs, API docs, handover guides and decision logs, each with a named audience, format and update rule.",
+    "title": "Documentation, so the work survives people leaving | dadmor",
+    "description": "Product docs, API docs, handover guides and decision logs. Each one gets a named audience, a format, and a rule for keeping it current.",
     "url": "https://dadmor.netlify.app/en/services/documentation/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -27,7 +27,7 @@
         "@context": "https://schema.org",
         "@type": "Service",
         "name": "Documentation",
-        "description": "Product docs, API docs, handover guides and decision logs, each with a named audience, format and update rule.",
+        "description": "Product docs, API docs, handover guides and decision logs. Each one gets a named audience, a format, and a rule for keeping it current.",
         "provider": {
           "@type": "Organization",
           "name": "dadmor",
@@ -44,7 +44,7 @@
             "name": "Where do the documents live?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Where your team already works: the code repository, a wiki, or Notion. The choice is recorded in the Structure phase."
+              "text": "Where your team already works: the code repository, a wiki, or Notion. We record the choice during the Structure phase."
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Do you use a standard for API docs?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "If your API has, or can have, an OpenAPI specification, we build the reference from it so it stays in step with the code."
+              "text": "If your API has an OpenAPI specification, or can have one, we build the reference from it, so the docs stay in step with the code."
             }
           },
           {
@@ -60,7 +60,7 @@
             "name": "How is a decision log different from meeting minutes?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Minutes record what was said. A decision log records what was decided, why, and which options were rejected."
+              "text": "Minutes record who said what. A decision log records what was decided, why, and which options were turned down."
             }
           }
         ]
@@ -111,7 +111,7 @@
         },
         {
           "t": "p",
-          "html": "Documentation that means the work does not stop when the key person leaves: knowledge and the reasons behind decisions are on paper, and one named person is responsible for keeping it current."
+          "html": "The person who knew how everything worked has left, and now every question stops at an empty chair. We write the knowledge down, decisions and reasons included, with one named owner keeping it current."
         }
       ]
     },
@@ -122,19 +122,19 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Problem"
+          "html": "The empty chair problem"
         },
         {
           "t": "p",
-          "html": "When technical knowledge and the reasons behind important decisions live only in one person's head, that person leaving means the work stops. And documentation that exists but has no owner for updates stops being trustworthy after a few changes."
+          "html": "When what your team knows, and why big decisions were made, lives in one person's head, that person's last day is where the work stalls. Docs that exist but belong to nobody quietly stop being true after a few changes."
         },
         {
           "t": "p",
-          "html": "And when there is no document and something breaks, everyone blames someone else. We have seen a client stuck between several contractors where nobody would take responsibility, because nothing had been written down at the start."
+          "html": "Then something breaks and the blame starts circling, because nothing was written down at the start. We've seen a client caught between several contractors, each pointing at the next, for exactly that reason."
         },
         {
           "t": "p",
-          "html": "We build documentation like a product: first we audit what exists, what is missing, and what is wrong, then we assign each document an audience, a format, an update rule, and an owner, and we hand it over reviewed by your own team. We also do not write documentation without a source, because documentation without a source is a guess. We have also published the scope template we sign before every project, so you can see what a good document looks like: <a href=\"/en/articles/project-scope/\">dadmor’s real project scope template</a>."
+          "html": "We're Roxana Negaresh and Arshia Amani, and we treat documentation like a product. First an audit: what exists, what's missing, what's plain wrong. Then each document gets an audience, a format, an update rule and an owner, and your own team reviews it before handover. We don't write from thin air, either: documentation without a source is just a guess. The scope template we sign before every project is public, if you'd like to see what we count as a good document: <a href=\"/en/articles/project-scope/\">dadmor’s real project scope template</a>."
         }
       ]
     },
@@ -145,15 +145,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Who it is for"
+          "html": "Who needs this most"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "Teams with a product or API that customers or outside developers must use without asking you.",
-            "Businesses moving a project from one team or contractor to another.",
-            "Teams that want to know why a technical decision was made, not only what was decided."
+            "Your product or API has to be usable by customers or outside developers without them asking you.",
+            "You're handing a project from one team or contractor to another.",
+            "You want the why behind technical decisions on record, not only the what."
           ]
         }
       ]
@@ -165,15 +165,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Who it is not for"
+          "html": "Where we'd stop you"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "If you want a document that sits in a folder and nobody reads.",
-            "If access to the system, the code, or the people who know it is not possible. Documentation without a source is guesswork.",
-            "If you need legal text (contracts, terms of use, a formal privacy policy); that is a lawyer's job."
+            "The document would sit in a folder and nobody would ever open it.",
+            "We can't get access to the system, the code, or the people who know it. Without a source, documentation is guesswork.",
+            "You need legal writing: contracts, terms of use, a formal privacy policy. That's a lawyer's work, not ours."
           ]
         }
       ]
@@ -185,7 +185,7 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Artefacts we write"
+          "html": "What we actually write"
         }
       ]
     },
@@ -196,16 +196,16 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Approach"
+          "html": "How the writing runs"
         },
         {
           "t": "list",
           "ordered": true,
           "items": [
-            "Audit. Input: existing documents, system access, and conversations with key people. Output: a list of what exists, what is missing, and what is wrong. Owner: dadmor.",
-            "Structure. Input: the audit. Output: a document list with audience, format, update rule and owner for each. Owner: dadmor; approval: you.",
-            "Write. Input: approved structure and access to sources. Output: the documents, reviewed by one person on your team. Owner: dadmor; technical review: you.",
-            "Handover. Input: approved documents. Output: documents in their final location, with a session showing how to keep them updated. Owner: dadmor."
+            "Audit. Input: your existing documents, access to the system, and time with the key people. Output: an honest list of what exists, what's missing and what's wrong. Owner: dadmor.",
+            "Structure. Input: the audit. Output: a document list, each item with its audience, format, update rule and owner. Owner: dadmor; approval: you.",
+            "Write. Input: the structure you approved, and access to the sources. Output: the documents themselves, reviewed by one person from your team. Owner: dadmor; technical review: you.",
+            "Handover. Input: the approved documents. Output: everything in its final home, plus a session on how to keep it updated. Owner: dadmor."
           ]
         }
       ]
@@ -217,15 +217,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Scope and timeline factors"
+          "html": "What changes the workload"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "What changes the size of the work: number of documents, number of API endpoints, bilingual output, and how available the sources (code, people) are.",
-            "What you supply: system and code access, key people's time, and one technical reviewer.",
-            "What delays projects: a key person with no time to talk, and a system that changes while it is being documented."
+            "What sets the size: how many documents, how many API endpoints, whether you need both languages, and how reachable the sources are, code and people alike.",
+            "From you: access to the system and code, time from the key people, and one technical reviewer.",
+            "What delays it: a key person who never has time to talk, and a system that keeps changing while it's being documented."
           ]
         }
       ]
@@ -237,18 +237,18 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Effort band"
+          "html": "Rough size"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "A separate fixed proposal for each phase. The audit can be ordered on its own."
+            "Every phase is proposed separately, at a fixed price. You can order just the audit."
           ]
         },
         {
           "t": "p",
-          "html": "This band is a starting estimate and depends on the current state of your documents; it is settled after the scoping conversation, once we have seen them."
+          "html": "This band is a starting estimate, and it depends on the state your documents are in now. We settle it after the scoping conversation, once we've seen them."
         }
       ]
     },
@@ -259,15 +259,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Limits and risks"
+          "html": "What paper can't do"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "A document stays correct only while its update rule is followed. After handover, that is the job of the owner named in the structure.",
-            "We do not write legal text.",
-            "We publish a sample of your documents only with your permission, and redacted."
+            "A document stays right only while somebody follows its update rule. After handover, that's the owner named in the structure.",
+            "Legal text isn't ours to write.",
+            "We only publish samples of your documents with your permission, and redacted."
           ]
         }
       ]
@@ -304,7 +304,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "Where your team already works: the code repository, a wiki, or Notion. The choice is recorded in the Structure phase."
+                          "html": "Where your team already works: the code repository, a wiki, or Notion. We record the choice during the Structure phase."
                         }
                       ]
                     }
@@ -331,7 +331,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "If your API has, or can have, an OpenAPI specification, we build the reference from it so it stays in step with the code."
+                          "html": "If your API has an OpenAPI specification, or can have one, we build the reference from it, so the docs stay in step with the code."
                         }
                       ]
                     }
@@ -358,7 +358,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "Minutes record what was said. A decision log records what was decided, why, and which options were rejected."
+                          "html": "Minutes record who said what. A decision log records what was decided, why, and which options were turned down."
                         }
                       ]
                     }
@@ -389,13 +389,13 @@
           "blocks": [
             {
               "t": "cta",
-              "text": "Scope a documentation project",
+              "text": "Scope your documentation",
               "href": "/en/tools/estimator/?service=documentation",
               "class": "btn btn-primary"
             },
             {
               "t": "cta",
-              "text": "Contact us for a scoping conversation",
+              "text": "Talk to us about your docs",
               "href": "/en/contact/",
               "class": "btn btn-ghost"
             }
@@ -414,7 +414,7 @@
         },
         {
           "t": "p",
-          "html": "We do not publish a client's internal documents. You can see a redacted sample, with the owner's permission, in the scoping conversation."
+          "html": "We don't publish clients' internal documents. A redacted sample, with the owner's permission, is something you can see when we talk scope."
         }
       ]
     }

@@ -648,14 +648,21 @@ main li a:not(.btn):not(.service-link):not(.channel-pill):hover {
 .service-row:has(> .row-icon) > .row-icon {
   position: absolute;
   inset-inline-start: 0;
-  top: var(--space-5);
+  /* Icon alignment pass 2026-11-26: the 44px chip was top-anchored to
+     the row's content top, which left its centre (and the mark's ink
+     centre) 5.5px (FA) / 6.5px (EN) BELOW the heading's first line
+     centre on every row — measured on the built site, home + services
+     index. Lifting the chip 6px puts the mark on the heading line.
+     The glyphs keep >= 3px clearance from the row's top edge (their
+     ink starts 9-13px inside the chip), so nothing crosses a border. */
+  top: calc(var(--space-5) - 6px);
 }
 .service-row:first-child:has(> .row-icon) > .row-icon {
-  top: 0;
+  top: -6px;
 }
 @media (min-width: 900px) {
   .home-services .service-row:nth-child(-n+2) .row-icon {
-    top: 0;
+    top: -6px;
   }
 }
 /* Tool rows are flex: the chip is a flex item, vertically centred. */
@@ -1280,34 +1287,49 @@ html, body {
 .site-footer {
   margin-block-start: var(--space-6);
   border-top: 1px solid var(--glass-border);
-  padding-block: 32px 16px;
+  padding-block: 22px 14px;
   background: var(--glass-bg);
 }
+/* Compact footer (owner order 2026-11-26): narrower than the page
+   container, tighter gaps, and the brand moved out of the columns row
+   into the bottom bar, so the whole footer reads shorter. */
 .site-footer > .container {
+  max-width: 1000px;
   display: grid;
-  grid-template-columns: minmax(180px, 0.9fr) minmax(0, 2.45fr) minmax(195px, 1.1fr);
+  grid-template-columns: minmax(0, 2.6fr) minmax(195px, 1fr);
   column-gap: clamp(24px, 3vw, 40px);
-  row-gap: 24px;
+  row-gap: 18px;
   align-items: start;
 }
-.footer-brand {
-  grid-column: 1;
-  grid-row: 1;
-  padding-block-start: 2px;
+/* Bottom bar: logo + tagline on one side, © on the other. */
+.footer-bottom {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 20px;
+  border-block-start: 1px solid var(--glass-border);
+  padding-block-start: 12px;
 }
-/* Match the brand lockup's physical scale in the header. */
+.footer-brandline {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
 .footer-lockup { gap: var(--space-2); }
-.footer-lockup img:first-child { height: 34px; width: auto; }
-.footer-lockup img:last-child { height: 31px; width: auto; min-width: 120px; }
-.footer-brand .tagline {
-  max-width: 24ch;
-  margin-block-start: 8px;
+.footer-bottom .lion-icon { width: 24px; }
+.footer-bottom .lion-word { width: 96px; }
+.footer-bottom .tagline {
   color: var(--color-muted-foreground);
   font-size: var(--text-small);
   line-height: 1.6;
+  white-space: nowrap;
 }
 .footer-cols {
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 1;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1335,7 +1357,7 @@ html, body {
   text-decoration: underline;
 }
 .footer-contact {
-  grid-column: 3;
+  grid-column: 2;
   grid-row: 1;
   min-width: 0;
 }
@@ -1385,11 +1407,7 @@ html, body {
 .footer-contact .channel-pill[aria-label]:hover { text-decoration: none; }
 :root[data-theme="light"] .footer-contact .channel-pill:hover { color: var(--color-primary); }
 .footer-note {
-  grid-column: 1 / -1;
-  grid-row: 2;
   margin: 0;
-  border-block-start: 1px solid var(--glass-border);
-  padding-block-start: 9px;
   color: var(--color-muted-foreground);
   font-size: var(--text-caption);
   line-height: 1.5;
@@ -1398,17 +1416,16 @@ html, body {
 }
 @media (max-width: 959.98px) {
   .site-footer > .container {
-    grid-template-columns: minmax(155px, 0.8fr) minmax(0, 2.2fr);
+    grid-template-columns: minmax(0, 1fr);
     column-gap: 24px;
-    row-gap: 20px;
+    row-gap: 16px;
   }
-  .footer-brand { grid-column: 1; grid-row: 1; }
-  .footer-cols { grid-column: 2; grid-row: 1; }
+  .footer-cols { grid-column: 1; grid-row: 1; }
   .footer-contact {
-    grid-column: 1 / -1;
+    grid-column: 1;
     grid-row: 2;
     display: grid;
-    grid-template-columns: minmax(155px, 0.8fr) minmax(0, 2.2fr);
+    grid-template-columns: minmax(120px, 0.5fr) minmax(0, 2.2fr);
     column-gap: 24px;
     align-items: center;
     border-block-start: 1px solid var(--glass-border);
@@ -1421,22 +1438,20 @@ html, body {
     justify-content: flex-start;
     gap: 6px 18px;
   }
-  .footer-note { grid-column: 1 / -1; grid-row: 3; }
+  .footer-bottom { grid-row: 3; }
 }
 @media (max-width: 767.98px) {
-  .site-footer { padding-block: 24px 14px; }
+  .site-footer { padding-block: 18px 12px; }
   .site-footer > .container {
     grid-template-columns: minmax(0, 1fr);
-    row-gap: 16px;
+    row-gap: 14px;
   }
-  .footer-brand,
   .footer-cols,
   .footer-contact,
-  .footer-note {
+  .footer-bottom {
     grid-column: 1;
     grid-row: auto;
   }
-  .footer-brand { padding-block-end: 2px; }
   .footer-cols {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 16px 20px;
@@ -1456,6 +1471,18 @@ html, body {
   .footer-contact .channel-row { gap: 6px 14px; }
 }
 
+/* Footer contact column alignment (owner order 2026-11-26): the
+   .footer-contact .channel-row rule above sets align-items: center,
+   which beat .channel-column's flex-start and left the stacked pills
+   floating in the middle of their column. The pills belong at the
+   start edge under the «ارتباط» heading — right in the RTL footer,
+   left in EN — never centered. The values inside each pill stay
+   dir="ltr" as before. Placed after the media queries so it holds
+   at every width. */
+.footer-contact .channel-column {
+  align-items: flex-start;
+  text-align: right;
+}
 
 /* Distinctive service marks replace the old numbered ordinals. */
 .service-list > .service-row > .row-icon {
@@ -1517,6 +1544,13 @@ html, body {
     width: 48px;
     height: 48px;
     margin: 0;
+    /* Icon alignment pass 2026-11-26: in this grid the 48px icon box
+       is start-anchored while the heading line centre sits ~16px from
+       the row top, leaving the mark 8px (FA) / 9px (EN) low against
+       its heading — measured on the built homepages. -8px puts it on
+       the heading line; the wrapper's 16px block padding absorbs the
+       lift, so the mark never reaches the card border. */
+    margin-top: -8px;
   }
   .home-tools .tool-row > div {
     grid-column: 2;

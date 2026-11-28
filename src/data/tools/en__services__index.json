@@ -9,27 +9,27 @@
       "options": [
         [
           "سایت جدید",
-          "A new website"
+          "A website, from scratch"
         ],
         [
           "بهتر کردن سایت یا محصول فعلی",
-          "A better existing site or product"
+          "To make our site or product better"
         ],
         [
           "مدل کسب وکار روشن تر",
-          "A clearer business model"
+          "To get our business model clear"
         ],
         [
           "مستند بهتر",
-          "Better documentation"
+          "Better guides and documents"
         ],
         [
           "بررسی امنیت",
-          "A security check"
+          "Someone to check our security"
         ],
         [
           "مشتری یا محتوای بیشتر",
-          "More customers or content"
+          "More customers, or more content"
         ]
       ],
       "multi": false
@@ -42,15 +42,15 @@
       "options": [
         [
           "نه، هنوز نه",
-          "Not yet"
+          "No, not yet"
         ],
         [
           "بله، در حال کار",
-          "Yes, it is live"
+          "Yes, and it's live"
         ],
         [
           "بله، ولی قدیمی یا ناقص است",
-          "Yes, but it is outdated or unfinished"
+          "Yes, but it's old or half finished"
         ]
       ],
       "multi": false
@@ -63,7 +63,7 @@
       "options": [
         [
           "مشتری های نهایی",
-          "End customers"
+          "Our customers"
         ],
         [
           "کسب وکارهای دیگر",
@@ -71,7 +71,7 @@
         ],
         [
           "تیم داخلی",
-          "An internal team"
+          "Our own team"
         ],
         [
           "سرمایه گذار یا شریک",
@@ -83,32 +83,32 @@
     {
       "q": [
         "مشکل اصلی امروز چیست؟",
-        "What is the main problem today?"
+        "What's the biggest problem right now?"
       ],
       "options": [
         [
           "کسی نمی فهمد چه کار می کنیم",
-          "People do not understand what we do"
+          "People don't get what we do"
         ],
         [
           "سایت کند، خراب یا سخت به روزرسانی است",
-          "The site is slow, broken or hard to update"
+          "Our site is slow, broken, or a pain to update"
         ],
         [
           "نمی دانیم مدل درآمد جواب می دهد یا نه",
-          "We do not know if the revenue model works"
+          "We're not sure the money side actually works"
         ],
         [
           "دانش فقط در ذهن یک نفر است",
-          "Knowledge lives in one person's head"
+          "Everything's in one person's head"
         ],
         [
           "نگران نفوذ یا نشت داده هستیم",
-          "We worry about a breach or data leak"
+          "We worry someone could get in, or data could leak"
         ],
         [
           "کسی ما را پیدا نمی کند",
-          "Nobody finds us"
+          "Nobody can find us"
         ]
       ],
       "multi": false
@@ -116,12 +116,12 @@
     {
       "q": [
         "چه چیزی باید روز لانچ آماده باشد و چه چیزی بعداً؟ (چند انتخاب)",
-        "What must exist at launch, and what can wait? (choose any)"
+        "What must be there at launch, and what can wait? (pick any that apply)"
       ],
       "options": [
         [
           "صفحه های اصلی",
-          "Core pages"
+          "The main pages"
         ],
         [
           "پرداخت یا رزرو",
@@ -129,11 +129,11 @@
         ],
         [
           "مستند تحویل",
-          "Handover documents"
+          "Documents for the handover"
         ],
         [
           "گزارش امنیت",
-          "A security report"
+          "A report on security"
         ],
         [
           "برنامه محتوا",
@@ -149,20 +149,20 @@
     {
       "q": [
         "شکل زمان و بودجه تان کدام است؟ (باند، نه عدد)",
-        "What is the shape of your timeline and budget? (a band, not a number)"
+        "How do your time and budget look? (Roughly is fine, no numbers needed.)"
       ],
       "options": [
         [
           "زمان منعطف، بودجه محدود",
-          "Flexible time, tight budget"
+          "Plenty of time, not much budget"
         ],
         [
           "تاریخ مشخص، بودجه منعطف",
-          "Fixed date, flexible budget"
+          "A fixed date, but budget can stretch"
         ],
         [
           "هر دو محدود",
-          "Both tight"
+          "Both are tight"
         ],
         [
           "هنوز نمی دانم",
@@ -190,29 +190,29 @@
   },
   "estimatorUrl": "/en/tools/estimator/",
   "securityUrl": "/en/tools/security-check/",
-  "aboutCta": "About {service}",
-  "scopeCta": "Scope this service in the estimator",
-  "securityCta": "Start the security self-check",
+  "aboutCta": "More about {service}",
+  "scopeCta": "See what this involves in the estimator",
+  "securityCta": "Try our free security self-check",
   "securityName": "Security self-check",
   "back": "Back",
   "nextLabel": "Next",
   "why": "Why",
   "result": {
     "h3": [
-      "Primary suggestion",
-      "Secondary suggestion"
+      "Our best guess for you",
+      "Also worth a look"
     ],
-    "contradiction": "Your answers point to two different paths, so we show both with equal weight. The scoping conversation settles which comes first.",
-    "footer": "This suggestion comes from a simple decision tree, not an analysis of your project. A final decision needs a scoping conversation.",
-    "restart": "Start again"
+    "contradiction": "Your answers point two different ways, so we're showing both, and neither wins. A quick chat with us will settle which one comes first.",
+    "footer": "This is only a simple set of questions, not a real look at your project. We'll only know for sure once we've talked it through with you.",
+    "restart": "Start over"
   },
   "reasons": {
-    "need": "You said you most need {need}.",
-    "security": "For a security worry we suggest the free self-check first; if the system is sensitive, a penetration test with a signed scope is the next step.",
-    "docs": "When knowledge lives in one person's head, the first useful output is a handover document with an update rule.",
-    "found": "You named not being found as the main problem; content and SEO built on the product's structure target exactly that.",
-    "noProduct": "You have no product yet and doubt the revenue model; testing the model first means you do not build something the model cannot support.",
-    "payment": "Payment or booking at launch means integration and testing, which is part of website building.",
-    "fixedDate": "You have a fixed date; the scoping conversation first sets what is achievable by then."
+    "need": "You told us you most need {need}.",
+    "security": "Since security is the worry, start with our free self-check. If what you run is sensitive, the next step is a penetration test, with exactly what's covered agreed and signed first.",
+    "docs": "When everything sits in one person's head, the first useful thing is a handover document, plus a simple rule for keeping it up to date.",
+    "found": "You said nobody finds you. Content and search work built around how your product is put together is aimed at exactly that.",
+    "noProduct": "You don't have a product yet, and you're unsure the money side works. Testing that first means you don't build something the model can't pay for.",
+    "payment": "Payment or booking from day one means hooking up outside services and testing them properly, and that's part of building a website.",
+    "fixedDate": "You've got a fixed date, so the first thing we'll do together is work out what's realistic by then."
   }
 }

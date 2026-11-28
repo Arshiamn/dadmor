@@ -11,7 +11,7 @@
    and no ZWNJ — «پروژت رو بگو، بقیش با ما». The tagline and the
    other three slogans stay spaced.
    EXCEPTION 2 (owner order 2026-11-06 07:25): the hero primary CTA is
-   ALSO joined — «اسکوپ پروژت رو بساز», not «اسکوپ پروژه ت رو بساز»
+   ALSO joined — «پیمان پروژت رو بساز», not «پیمان پروژه ت رو بساز»
    (spaced «پروژه ت» is wrong). So TWO slogans are joined now: the
    contact heading and the hero primary CTA. The eyebrow and the
    secondary CTA stay spaced.
@@ -35,8 +35,8 @@ export const SLOGAN_CHANGES: SloganChange[] = [
   },
   {
     where: 'hero primary CTA',
-    faBefore: 'برآورد اسکوپ بگیرید',
-    faAfter: 'اسکوپ پروژت رو بساز',
+    faBefore: 'برآورد پیمان بگیرید',
+    faAfter: 'پیمان پروژت رو بساز',
     enBefore: 'Scope your project',
     enAfter: 'Scope your project',
   },

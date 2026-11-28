@@ -1,8 +1,8 @@
 {
   "path": "contact/index.html",
   "lang": "fa",
-  "title": "تماس: پروژه تان را در چند خط بنویسید | dadmor",
-  "description": "فرم کوتاه، ایمیل، واتس اپ یا تلگرام. پیش از هر پیشنهاد قیمت، یک گفت وگوی اسکوپ داریم.",
+  "title": "تماس با ما: در چند خط بنویسید چه می خواهید | dadmor",
+  "description": "فرم کوتاه، ایمیل، واتس اپ یا تلگرام. قبل از هر قیمتی، اول با هم حرف می زنیم تا معلوم شود دقیقاً چه می خواهید.",
   "canonical": "https://dadmor.netlify.app/contact/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/contact/",
@@ -12,8 +12,8 @@
   "og": {
     "site_name": "dadmor",
     "type": "website",
-    "title": "تماس: پروژه تان را در چند خط بنویسید | dadmor",
-    "description": "فرم کوتاه، ایمیل، واتس اپ یا تلگرام. پیش از هر پیشنهاد قیمت، یک گفت وگوی اسکوپ داریم.",
+    "title": "تماس با ما: در چند خط بنویسید چه می خواهید | dadmor",
+    "description": "فرم کوتاه، ایمیل، واتس اپ یا تلگرام. قبل از هر قیمتی، اول با هم حرف می زنیم تا معلوم شود دقیقاً چه می خواهید.",
     "url": "https://dadmor.netlify.app/contact/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -42,7 +42,7 @@
         },
         {
           "t": "p",
-          "html": "بگویید چه چیزی لازم دارید و تا کی. اگر بریف برآوردگر را دارید، متنش را در پیام بگذارید."
+          "html": "بگویید چه لازم دارید و اگر عجله یا مهلتی دارید، تا کی. اگر برگه برآوردگر را پر کرده اید، متنش را همین جا توی پیام بگذارید."
         }
       ]
     },
@@ -60,7 +60,7 @@
               "blocks": [
                 {
                   "t": "p",
-                  "html": "فرم اینجا وصل نیست؛ متن شما هنوز در فرم است. از ایمیل یا واتس اپ استفاده کنید یا متن را کپی کنید."
+                  "html": "فرم فعلاً وصل نیست، ولی متنتان توی فرم مانده و پاک نشده است. آن را کپی کنید و با ایمیل یا واتس اپ برایمان بفرستید."
                 },
                 {
                   "t": "p",
@@ -76,7 +76,7 @@
             },
             {
               "t": "raw",
-              "html": "<form name=\"contact\" method=\"POST\" action=\"/contact/\" data-netlify=\"true\" netlify-honeypot=\"bot-field\" data-contact-form=\"None\" data-error-service=\"یک خدمت را انتخاب کنید، یا «هنوز مطمئن نیستم».\" data-copy-label=\"کپی متن\" novalidate=\"None\"> <input type=\"hidden\" name=\"form-name\" value=\"contact\"> <p hidden=\"None\" aria-hidden=\"true\"><label>برای ربات ها: <input name=\"bot-field\" tabindex=\"-1\" autocomplete=\"off\"></label></p> <div class=\"form-errors\" data-form-summary=\"None\" role=\"alert\" hidden=\"None\"><p>لطفاً این موارد را اصلاح کنید:</p><ul></ul></div> <div class=\"field\"> <label for=\"cf-name\">نام (الزامی)</label> <input id=\"cf-name\" name=\"name\" type=\"text\" autocomplete=\"name\" required=\"None\" data-error-name=\"لطفاً نام تان را بنویسید.\"> <p class=\"field-error\" data-error-for=\"name\" hidden=\"None\"></p> </div> <div class=\"field\"> <label for=\"cf-email\">ایمیل (الزامی)</label> <input id=\"cf-email\" name=\"email\" type=\"email\" dir=\"ltr\" autocomplete=\"email\" required=\"None\" data-error-email=\"ایمیل معتبر وارد کنید، مثل name@example.com\"> <p class=\"field-hint\">پاسخ را به همین نشانی می فرستیم.</p> <p class=\"field-error\" data-error-for=\"email\" hidden=\"None\"></p> </div> <div class=\"field\"> <label for=\"cf-service\">خدمت (الزامی)</label> <select id=\"cf-service\" name=\"service\" required=\"None\"> <option value=\"\"> </option> <option value=\"ساخت وب سایت\">ساخت وب سایت</option><option value=\"طراحی رابط و تجربه کاربری\">طراحی رابط و تجربه کاربری</option><option value=\"طراحی مدل کسب وکار\">طراحی مدل کسب وکار</option><option value=\"مستندسازی\">مستندسازی</option><option value=\"تست نفوذ\">تست نفوذ</option><option value=\"بازاریابی و تولید محتوا\">بازاریابی و تولید محتوا</option><option value=\"هنوز مطمئن نیستم\">هنوز مطمئن نیستم</option> </select> <p class=\"field-error\" data-error-for=\"service\" hidden=\"None\"></p> </div> <div class=\"field\"> <label for=\"cf-message\">پیام (الزامی)</label> <textarea id=\"cf-message\" name=\"message\" rows=\"6\" required=\"None\" data-error-message=\"لطفاً پیام تان را بنویسید.\"></textarea> <p class=\"field-hint\">چه چیزی لازم دارید، برای چه کسی، و تا کی. رمز عبور یا اطلاعات ورود ننویسید.</p> <p class=\"field-error\" data-error-for=\"message\" hidden=\"None\"></p> </div> <fieldset class=\"field\"> <legend>راه ترجیحی برای پاسخ (اختیاری)</legend> <label class=\"radio\"><input type=\"radio\" name=\"channel\" value=\"ایمیل\"> <span>ایمیل</span></label> <label class=\"radio\"><input type=\"radio\" name=\"channel\" value=\"واتس اپ\"> <span>واتس اپ</span></label> <label class=\"radio\"><input type=\"radio\" name=\"channel\" value=\"تلگرام\"> <span>تلگرام</span></label> </fieldset> <button class=\"btn btn-primary\" type=\"submit\" data-submit=\"None\">فرستادن پیام</button> <p class=\"field-hint\"><a href=\"/privacy/\">فقط همین چند فیلد را می فرستیم و برای پاسخ به شما استفاده می کنیم. جزئیات در صفحه حریم خصوصی.</a></p> </form>",
+              "html": "<form name=\"contact\" method=\"POST\" action=\"/contact/\" data-netlify=\"true\" netlify-honeypot=\"bot-field\" data-contact-form=\"None\" data-error-service=\"لطفاً یک خدمت را انتخاب کنید. اگر نمی دانید، «هنوز مطمئن نیستم» هم هست.\" data-copy-label=\"کپی متن\" novalidate=\"None\"> <input type=\"hidden\" name=\"form-name\" value=\"contact\"> <p hidden=\"None\" aria-hidden=\"true\"><label>برای ربات ها: <input name=\"bot-field\" tabindex=\"-1\" autocomplete=\"off\"></label></p> <div class=\"form-errors\" data-form-summary=\"None\" role=\"alert\" hidden=\"None\"><p>این جاها ناقص مانده است:</p><ul></ul></div> <div class=\"field\"> <label for=\"cf-name\">اسمتان (الزامی)</label> <input id=\"cf-name\" name=\"name\" type=\"text\" autocomplete=\"name\" required=\"None\" data-error-name=\"اسمتان را ننوشته اید.\"> <p class=\"field-error\" data-error-for=\"name\" hidden=\"None\"></p> </div> <div class=\"field\"> <label for=\"cf-email\">ایمیل (الزامی)</label> <input id=\"cf-email\" name=\"email\" type=\"email\" dir=\"ltr\" autocomplete=\"email\" required=\"None\" data-error-email=\"این ایمیل درست به نظر نمی رسد. چیزی شبیه name@example.com بنویسید\"> <p class=\"field-hint\">جواب را به همین ایمیل می فرستیم.</p> <p class=\"field-error\" data-error-for=\"email\" hidden=\"None\"></p> </div> <div class=\"field\"> <label for=\"cf-service\">خدمت (الزامی)</label> <select id=\"cf-service\" name=\"service\" required=\"None\"> <option value=\"\"> </option> <option value=\"ساخت وب سایت\">ساخت وب سایت</option><option value=\"طراحی رابط و تجربه کاربری\">طراحی رابط و تجربه کاربری</option><option value=\"طراحی مدل کسب وکار\">طراحی مدل کسب وکار</option><option value=\"مستندسازی\">مستندسازی</option><option value=\"تست نفوذ\">تست نفوذ</option><option value=\"بازاریابی و تولید محتوا\">بازاریابی و تولید محتوا</option><option value=\"هنوز مطمئن نیستم\">هنوز مطمئن نیستم</option> </select> <p class=\"field-error\" data-error-for=\"service\" hidden=\"None\"></p> </div> <div class=\"field\"> <label for=\"cf-message\">پیام (الزامی)</label> <textarea id=\"cf-message\" name=\"message\" rows=\"6\" required=\"None\" data-error-message=\"هنوز چیزی ننوشته اید.\"></textarea> <p class=\"field-hint\">در چند خط: چه می خواهید، برای چه کسب وکاری، و تا کی. لطفاً رمز عبور و اطلاعات ورودتان را اینجا ننویسید.</p> <p class=\"field-error\" data-error-for=\"message\" hidden=\"None\"></p> </div> <fieldset class=\"field\"> <legend>جواب را کجا بدهیم؟ (اختیاری)</legend> <label class=\"radio\"><input type=\"radio\" name=\"channel\" value=\"ایمیل\"> <span>ایمیل</span></label> <label class=\"radio\"><input type=\"radio\" name=\"channel\" value=\"واتس اپ\"> <span>واتس اپ</span></label> <label class=\"radio\"><input type=\"radio\" name=\"channel\" value=\"تلگرام\"> <span>تلگرام</span></label> </fieldset> <button class=\"btn btn-primary\" type=\"submit\" data-submit=\"None\">فرستادن پیام</button> <p class=\"field-hint\"><a href=\"/privacy/\">فقط همین ها فرستاده می شود و فقط برای جواب دادن به شما ازشان استفاده می کنیم. جزئیاتش در صفحه حریم خصوصی است.</a></p> </form>",
               "class": "",
               "tag": "form"
             },
@@ -87,11 +87,11 @@
                 {
                   "t": "heading",
                   "level": 2,
-                  "html": "درخواست تان رسید."
+                  "html": "پیامتان رسید. دستتان درد نکند."
                 },
                 {
                   "t": "p",
-                  "html": "در یک روز کاری پاسخ می دهیم."
+                  "html": "در یک روز کاری جواب می دهیم."
                 }
               ]
             }
@@ -108,24 +108,24 @@
             },
             {
               "t": "p",
-              "html": "برای تست نفوذ، جزئیات فنی سیستم یا اطلاعات ورود را در هیچ کدام از این راه ها نفرستید. اول اسکوپ را با هم می نویسیم."
+              "html": "یک خواهش: برای تست نفوذ، جزئیات فنی سیستم یا اطلاعات ورودتان را از هیچ کدام از این راه ها نفرستید. اول با هم توافق می نویسیم، بعد درباره اش حرف می زنیم."
             },
             {
               "t": "heading",
               "level": 2,
-              "html": "چه اتفاقی بعد می افتد"
+              "html": "بعد از پیامتان چه می شود"
             },
             {
               "t": "p",
-              "html": "در یک روز کاری پاسخ می دهیم."
+              "html": "در یک روز کاری جواب می دهیم."
             },
             {
               "t": "list",
               "ordered": true,
               "items": [
-                "پیام تان را می خوانیم.",
-                "برای گفت وگوی اسکوپ وقت می گذاریم.",
-                "پیشنهاد کتبی با اسکوپ، خروجی ها و قیمت ثابت می فرستیم."
+                "پیامتان را خودمان می خوانیم.",
+                "برای یک گفت وگو وقت می گذاریم تا کار دقیق شود.",
+                "یک پیشنهاد کتبی می فرستیم: چه چیزی ساخته می شود، چه چیزی نه، و قیمت ثابت همان کار."
               ]
             }
           ]

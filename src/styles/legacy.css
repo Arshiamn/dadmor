@@ -528,6 +528,13 @@ html.theme-anim::view-transition-new(root) {
   border-radius: 50%;
   background: var(--color-dot);
 }
+/* Lit dots are the site's live green, not violet (owner order
+   2026-11-26). --color-live is the theme-aware green token (#00e676
+   dark, #006b43 light). Size, spacing and the dim violet unlit look
+   are unchanged; scroll-story.ts toggles .lit with the opacity. */
+.scroll-progress .prog-dot.lit {
+  background: var(--color-live);
+}
 
 /* ---------------------------------------------------------------- page head + sections */
 .page-head { padding-block: var(--space-7) var(--space-6); }

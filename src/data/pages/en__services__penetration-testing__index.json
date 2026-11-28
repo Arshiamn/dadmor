@@ -1,8 +1,8 @@
 {
   "path": "en/services/penetration-testing/index.html",
   "lang": "en",
-  "title": "Manual penetration testing with a signed scope and retest",
-  "description": "Manual web and API penetration testing (PTES, OWASP WSTG), a CVSS-scored report and one retest. Only with a written scope, signed authorisation and an NDA.",
+  "title": "Manual penetration testing, scoped and signed first",
+  "description": "Manual web and API penetration testing (PTES, OWASP WSTG), a report scored with CVSS, and one retest. Nothing starts without a written scope, signed authorisation and an NDA.",
   "canonical": "https://dadmor.netlify.app/en/services/penetration-testing/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/services/penetration-testing/",
@@ -12,8 +12,8 @@
   "og": {
     "site_name": "dadmor",
     "type": "website",
-    "title": "Manual penetration testing with a signed scope and retest",
-    "description": "Manual web and API penetration testing (PTES, OWASP WSTG), a CVSS-scored report and one retest. Only with a written scope, signed authorisation and an NDA.",
+    "title": "Manual penetration testing, scoped and signed first",
+    "description": "Manual web and API penetration testing (PTES, OWASP WSTG), a report scored with CVSS, and one retest. Nothing starts without a written scope, signed authorisation and an NDA.",
     "url": "https://dadmor.netlify.app/en/services/penetration-testing/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -27,7 +27,7 @@
         "@context": "https://schema.org",
         "@type": "Service",
         "name": "Penetration testing",
-        "description": "Manual web and API penetration testing (PTES, OWASP WSTG), a CVSS-scored report and one retest. Only with a written scope, signed authorisation and an NDA.",
+        "description": "Manual web and API penetration testing (PTES, OWASP WSTG), a report scored with CVSS, and one retest. Nothing starts without a written scope, signed authorisation and an NDA.",
         "provider": {
           "@type": "Organization",
           "name": "dadmor",
@@ -44,7 +44,7 @@
             "name": "How is a penetration test different from a security scan?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "An automated scan looks for known patterns. A manual penetration test checks which findings are actually exploitable and also tests the app's own logic (such as permissions and payments). We use automated tools during testing too, but we do not hand over their raw output."
+              "text": "A scan looks for known patterns, automatically. A manual test asks which findings someone can actually use, and probes the logic that's specific to your app, permissions, payments and the rest. We use automated tools during a test too. We just don't hand you their raw output and call it a report."
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "What is CVSS?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "A public standard for scoring vulnerability severity, from 0 to 10. It helps your team decide what to fix first."
+              "text": "It's the public standard for scoring how severe a vulnerability is, from 0 to 10. It helps your team decide what gets fixed first."
             }
           },
           {
@@ -60,7 +60,7 @@
             "name": "What does the retest cover?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Once, we test the findings we reported again to see whether they are fixed. New parts or other changes to the system need a new test."
+              "text": "Once. We go back over the findings we reported and check whether they're actually fixed. Anything new, or changed since, needs a new test."
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "Can we share the report with our customer?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "The executive report is written for that. The technical report contains exploit details and should stay within your team."
+              "text": "The executive report, yes, that's what it's written for. Keep the technical one inside your team. It contains the details of how each exploit works."
             }
           }
         ]
@@ -118,20 +118,20 @@
             {
               "t": "heading",
               "level": 2,
-              "html": "Before any testing, three documents are signed"
+              "html": "Nothing gets tested before three documents are signed"
             },
             {
               "t": "list",
               "ordered": false,
               "items": [
-                "Written scope: exactly which domains, apps, APIs and accounts are tested and which are not, in what time window and with which methods.",
-                "Letter of Authorisation: the legal owner of the system grants permission to test, in writing.",
-                "Non-disclosure agreement (NDA): findings and any data seen during testing stay confidential."
+                "Written scope: exactly which domains, apps, APIs and accounts are in, and which are out, in what time window, and with which methods.",
+                "Letter of Authorisation: the system's legal owner gives written permission to test.",
+                "Non-disclosure agreement (NDA): whatever we find, and any data we see along the way, stays confidential."
               ]
             },
             {
               "t": "p",
-              "html": "Without all three, we do not test anything, not even a short trial."
+              "html": "Missing even one of the three? Then we don't test. Not even a quick trial."
             }
           ]
         }
@@ -149,7 +149,7 @@
         },
         {
           "t": "p",
-          "html": "Know where your system is open before an attacker finds it: manual testing under a signed scope, a scored report, and a retest after the fixes. And if by security you mean your shop’s Instagram page, start here: <a href=\"/en/articles/instagram-hacked/\">your shop page got hacked? Do these things first</a>."
+          "html": "Better you hear it from us than from a stranger. We test your web app or API by hand, under a signed scope, score what we find, and retest after your fixes. And if by security you mean your shop's Instagram page, start here: <a href=\"/en/articles/instagram-hacked/\">your shop page got hacked? Do these things first</a>."
         }
       ]
     },
@@ -160,19 +160,19 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Problem"
+          "html": "A scanner won't tell you this"
         },
         {
           "t": "p",
-          "html": "If you run a web app or an API that processes user data or payments, the question is not whether you have vulnerabilities. The question is which ones are actually exploitable, and what someone reaches if they get through."
+          "html": "If your web app or API handles people's data or their payments, the question isn't whether you have weak spots. It's which of them can actually be used, and what someone reaches once they're through."
         },
         {
           "t": "p",
-          "html": "An automated scan does not answer that: it produces a long list of warnings, half of which do not matter. And on the other side, a report that never says what was out of scope gives false comfort. Teams usually end up either buried under unprioritised warnings, or holding a report that says secure without it being clear what was ever tested."
+          "html": "An automated scan can't answer that. It hands you a long list of warnings, half of them noise. The opposite failure is just as common: a report that says \"secure\" without ever saying what was tested, which is comfort you can't rely on. So teams end up either buried in warnings nobody prioritised, or reassured by a piece of paper that proves very little."
         },
         {
           "t": "p",
-          "html": "We test manually, under a scope signed before we start, with an authorisation letter and an NDA alongside it. Every finding is reported with a CVSS score, evidence, impact, and a fix, and retesting the findings is included in the price. And we say it plainly from the start: no test proves complete security, and we do not write such certificates."
+          "html": "We're Roxana Negaresh and Arshia Amani. We test by hand, and only under a scope signed before anything starts, with the authorisation letter and NDA beside it. Every finding comes with a CVSS score, the evidence, what it lets someone do, and how to fix it, and retesting those findings is included in the price. One thing we'll say plainly now: no test proves complete security, and we don't write certificates claiming it does."
         }
       ]
     },
@@ -183,15 +183,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Who it is for"
+          "html": "This is for teams who"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "Teams with a web app or API that handles user data, payments or sensitive information.",
-            "Startups whose customers or partners ask for a security test report before signing.",
-            "Teams that want a sensitive feature (login, payments, admin panel) tested before launch."
+            "You run a web app or API that handles user data, payments or anything sensitive.",
+            "A customer or partner wants to see a security test report before they'll sign with you.",
+            "You want one sensitive feature, login, payments, the admin panel, tested properly before launch."
           ]
         }
       ]
@@ -203,16 +203,16 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Who it is not for"
+          "html": "We will turn you down if"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "If you do not own the system and do not have the owner's written authorisation.",
-            "If you want a \"fully secure\" or \"zero vulnerabilities\" certificate. No test proves that, and we do not write it.",
-            "If you only want an automated scanner run and its raw output handed over.",
-            "If you need social engineering, physical, or internal network infrastructure testing."
+            "The system isn't yours and you don't hold the owner's written authorisation.",
+            "You want a certificate saying \"fully secure\" or \"zero vulnerabilities\". No test proves that. We won't write it.",
+            "All you want is an automated scanner run and its raw output handed over.",
+            "You need social engineering, physical testing, or internal network infrastructure testing."
           ]
         }
       ]
@@ -224,17 +224,17 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Approach"
+          "html": "From signature to retest"
         },
         {
           "t": "list",
           "ordered": true,
           "items": [
-            "Scope. Input: a conversation about the system and its risks. Output: signed written scope, Letter of Authorisation and NDA. Owner: you and dadmor.",
-            "Test. Input: the signed scope and test accounts. Output: findings with evidence. Method: PTES for structure, OWASP WSTG for web testing, and the OWASP Top 10 and API Security Top 10 where relevant. Owner: dadmor.",
-            "Report. Input: the findings. Output: an executive report and a technical report; each finding with a CVSS score, evidence, impact and remediation. Owner: dadmor.",
-            "Fix. Input: the report. Output: fixes in your system. Owner: your team.",
-            "Retest. Input: the fixes you report. Output: one retest of the reported findings and an updated status report. Owner: dadmor, within the window written in the scope."
+            "Scope. Input: a conversation about your system and its risks. Output: the signed written scope, Letter of Authorisation and NDA. Owner: you and dadmor.",
+            "Test. Input: the signed scope and test accounts. Output: findings, with evidence. Method: PTES for structure, OWASP WSTG for the web work, and the OWASP Top 10 and API Security Top 10 where they apply. Owner: dadmor.",
+            "Report. Input: the findings. Output: two reports, one for executives and one technical, every finding carrying its CVSS score, evidence, impact and fix. Owner: dadmor.",
+            "Fix. Input: the report. Output: the fixes, in your system. Owner: your team.",
+            "Retest. Input: the fixes you tell us are done. Output: one retest of the findings we reported, and an updated status report. Owner: dadmor, inside the window the scope sets."
           ]
         }
       ]
@@ -257,15 +257,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Scope and timeline factors"
+          "html": "What makes a test bigger"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "What changes the size of the work: number of apps, APIs and endpoints, number of user roles (guest, user, admin), and business logic that must be tested (payments, permissions).",
-            "What you supply: a test environment or permission to test production, test accounts for each role, one technical contact, and the three signed documents.",
-            "What delays projects: authorisation signed late, test accounts that do not work, and an environment that changes mid-test."
+            "What sets the size: how many apps, APIs and endpoints, how many user roles (guest, user, admin), and how much business logic needs testing, payments and permissions especially.",
+            "From you: a test environment, or written permission to test production, test accounts for every role, one technical contact, and the three signed documents.",
+            "What delays a test: authorisation signed late, test accounts that don't work, and an environment that changes mid-test."
           ]
         }
       ]
@@ -277,13 +277,13 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Effort band"
+          "html": "How it's priced"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "A fixed-scope proposal after the scoping conversation only. One retest of the reported findings is included."
+            "There's no band to pick from here. You get a fixed-scope proposal after we talk, and one retest of the reported findings is included."
           ]
         }
       ]
@@ -295,16 +295,16 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Limits and risks"
+          "html": "Read this part twice"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "A penetration test checks what was in scope, at a point in time. Anything outside the scope, and any change after the test, was not checked, and the report says so.",
-            "Not finding a vulnerability means this test did not find it, not that none exists.",
-            "Testing production can risk downtime or data changes; high-risk techniques run only with written approval and at an agreed time.",
-            "Fixing the vulnerabilities is your team's work unless it is scoped separately."
+            "A test covers what was in scope, at the moment it ran. Anything outside the scope, and anything changed afterwards, wasn't checked, and the report says so openly.",
+            "Finding nothing means this test found nothing. It doesn't mean nothing exists.",
+            "Testing production carries risk, downtime or changed data. High-risk techniques run only with written approval, at a time we agree on.",
+            "Fixing what we find is your team's job, unless we scope the fixing separately."
           ]
         }
       ]
@@ -341,7 +341,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "An automated scan looks for known patterns. A manual penetration test checks which findings are actually exploitable and also tests the app's own logic (such as permissions and payments). We use automated tools during testing too, but we do not hand over their raw output."
+                          "html": "A scan looks for known patterns, automatically. A manual test asks which findings someone can actually use, and probes the logic that's specific to your app, permissions, payments and the rest. We use automated tools during a test too. We just don't hand you their raw output and call it a report."
                         }
                       ]
                     }
@@ -368,7 +368,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "A public standard for scoring vulnerability severity, from 0 to 10. It helps your team decide what to fix first."
+                          "html": "It's the public standard for scoring how severe a vulnerability is, from 0 to 10. It helps your team decide what gets fixed first."
                         }
                       ]
                     }
@@ -395,7 +395,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "Once, we test the findings we reported again to see whether they are fixed. New parts or other changes to the system need a new test."
+                          "html": "Once. We go back over the findings we reported and check whether they're actually fixed. Anything new, or changed since, needs a new test."
                         }
                       ]
                     }
@@ -422,7 +422,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "The executive report is written for that. The technical report contains exploit details and should stay within your team."
+                          "html": "The executive report, yes, that's what it's written for. Keep the technical one inside your team. It contains the details of how each exploit works."
                         }
                       ]
                     }
@@ -453,7 +453,7 @@
           "blocks": [
             {
               "t": "cta",
-              "text": "Scope a penetration test",
+              "text": "Scope your test",
               "href": "/en/tools/estimator/?service=penetration-testing",
               "class": "btn btn-primary"
             },
@@ -465,7 +465,7 @@
             },
             {
               "t": "cta",
-              "text": "Contact us for a scoping conversation",
+              "text": "Talk to us about testing",
               "href": "/en/contact/",
               "class": "btn btn-ghost"
             }
@@ -484,7 +484,7 @@
         },
         {
           "t": "p",
-          "html": "A penetration test report is confidential and has no public sample. In the scoping conversation you can see the structure of a redacted report, with the owner's permission."
+          "html": "Test reports are confidential, so there's no public sample, full stop. When we talk scope, you can see the structure of a redacted one, with its owner's permission."
         }
       ]
     }

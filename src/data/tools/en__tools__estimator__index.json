@@ -4,16 +4,16 @@
     "website-building": {
       "name": "Website building",
       "features": [
-        "Home page",
-        "Service or product pages (each counts as one)",
-        "About",
-        "Contact with form",
-        "Blog or journal",
-        "Portfolio",
-        "FAQ",
-        "Bilingual Persian and English",
-        "Site search",
-        "User login"
+        "A home page",
+        "Pages for each service or product (each one counts)",
+        "An about page",
+        "A contact page with a form",
+        "A blog or journal",
+        "A portfolio",
+        "An FAQ page",
+        "In Persian and English",
+        "Search on the site",
+        "Sign-in for users"
       ],
       "integrations": true,
       "content": true,
@@ -30,13 +30,13 @@
     "ui-ux-design": {
       "name": "UI/UX design",
       "features": [
-        "User flow map",
-        "Wireframes of key flows",
-        "Design system",
-        "Clickable prototype",
-        "User testing",
-        "Developer handover spec",
-        "Redesign of an existing flow"
+        "A map of how people move through it",
+        "Rough layouts of the main screens",
+        "A shared set of design rules",
+        "A prototype you can click through",
+        "Testing with real users",
+        "A handover pack for the developers",
+        "Redoing a flow you already have"
       ],
       "integrations": true,
       "content": true,
@@ -53,11 +53,11 @@
     "business-model": {
       "name": "Business model design",
       "features": [
-        "Assumption map",
-        "Revenue model",
-        "Pricing",
-        "Test plan",
-        "Review after a test"
+        "A map of what you're assuming",
+        "How the money comes in",
+        "Pricing, worked through",
+        "A plan to test it",
+        "A review once you've tested it"
       ],
       "integrations": false,
       "content": true,
@@ -74,12 +74,12 @@
     "documentation": {
       "name": "Documentation",
       "features": [
-        "User product docs",
-        "Technical or API docs",
-        "Internal team guide",
-        "Project handover docs",
-        "Rewrite of existing docs",
-        "Bilingual version"
+        "Guides for the people using it",
+        "Technical and API guides",
+        "A guide for your own team",
+        "Handover notes for the project",
+        "A fresh rewrite of your docs",
+        "A version in both languages"
       ],
       "integrations": false,
       "content": true,
@@ -96,11 +96,11 @@
     "penetration-testing": {
       "name": "Penetration testing",
       "features": [
-        "Web application",
+        "A web app",
         "API",
-        "Admin panel",
-        "Forms and login",
-        "Mobile app backend"
+        "The admin panel",
+        "Forms and sign-in",
+        "A mobile app's backend"
       ],
       "integrations": false,
       "content": false,
@@ -111,13 +111,13 @@
     "marketing-content": {
       "name": "Marketing and content",
       "features": [
-        "Monthly content plan",
-        "Website copy",
-        "Articles",
-        "Video",
-        "Search intent map",
-        "Technical SEO fix list",
-        "Monthly report"
+        "A content plan, month by month",
+        "Words for your website",
+        "Articles for your site",
+        "Video content",
+        "What people search for",
+        "A list of technical SEO fixes",
+        "A report each month"
       ],
       "integrations": false,
       "content": true,
@@ -134,12 +134,12 @@
     "not-sure": {
       "name": "Not sure yet",
       "features": [
-        "Website",
-        "Interface design",
-        "Business model",
+        "A website",
+        "How it looks and works",
+        "The business model",
         "Documentation",
-        "Security review",
-        "Content"
+        "A look at security",
+        "Help with content"
       ],
       "integrations": true,
       "content": true,
@@ -155,25 +155,25 @@
     }
   },
   "integrations": [
-    "Payment gateway",
-    "Online booking",
-    "Content management system",
-    "Analytics"
+    "Taking payments online",
+    "Booking online",
+    "A way to edit the site yourself",
+    "Visitor stats (analytics)"
   ],
   "content": [
-    "Ready",
+    "All ready",
     "Partly ready",
-    "Not ready"
+    "Not ready yet"
   ],
   "types": [
-    "New project",
-    "Redesign or rebuild of something existing",
-    "Add a feature to something existing"
+    "Something brand new",
+    "Redoing something you already have",
+    "Adding to something you already have"
   ],
   "security": [
-    "Basic hardening",
-    "Interested in a penetration test",
-    "Not sure"
+    "The basic safety fixes",
+    "We're interested in a penetration test",
+    "Not sure yet"
   ],
   "deliverables": {
     "website-building": [],
@@ -184,69 +184,69 @@
     "marketing-content": []
   },
   "inputs": {
-    "website-building": "text and image content, logo and brand identity, domain and hosting access, and one named decision-maker for approvals.",
-    "ui-ux-design": "access to the current product, any user data you have, and test users.",
-    "business-model": "access to sales and cost data (whatever exists), founders' time for conversations, and running the tests.",
-    "documentation": "system and code access, key people's time, and one technical reviewer.",
-    "penetration-testing": "a test environment or permission to test production, test accounts for each role, one technical contact, and the three signed documents.",
-    "marketing-content": "access to the product and the people who know it, quick approval of drafts, and analytics access if you have it."
+    "website-building": "The words and photos for the site, your logo and brand look, access to your domain and hosting, and one person who can approve things.",
+    "ui-ux-design": "Access to what you have now, any user info you've gathered, and people willing to try it out.",
+    "business-model": "Whatever sales and cost numbers you have, time with the founders to talk, and help running the tests.",
+    "documentation": "Access to the system and code, time with the key people, and one technical person to check it.",
+    "penetration-testing": "A test setup, or your written OK to test the live one, test accounts for each role, one technical contact, and the three signed documents.",
+    "marketing-content": "Access to the product and the people who know it best, quick sign-off on drafts, and analytics access if you have it."
   },
   "strings": {
-    "empty": "You have not selected anything yet. Choose a service to build the brief.",
-    "title": "Scoped brief",
+    "empty": "Nothing picked yet. Choose a service and we'll build your brief from there.",
+    "title": "Your project brief",
     "service": "Service",
-    "scope": "What you selected",
-    "band": "Effort band",
+    "scope": "What you picked",
+    "band": "Size of the work",
     "why": "Why",
-    "features": "features",
+    "features": "features you picked",
     "integrations": "integrations",
-    "content": "content",
-    "type": "project type",
+    "content": "your content",
+    "type": "kind of project",
     "total": "Total",
-    "deliverables": "Usual deliverables for this service",
+    "deliverables": "What you'd normally get from this",
     "inputs": "What we need from you",
-    "risks": "Risks",
-    "noRisk": "No specific risk shows in your answers.",
-    "next": "Next step",
-    "nextText": "a scoping conversation, then a written fixed-scope proposal.",
-    "disclaimer": "This is a scoped brief, not a quote and not a delivery-date promise.",
+    "risks": "Things to watch",
+    "noRisk": "Nothing in your answers raises a flag for us.",
+    "next": "What happens next",
+    "nextText": "we talk it through, then send a written proposal with a fixed list of what's included.",
+    "disclaimer": "This brief is a starting point. It isn't a quote, and it doesn't promise a delivery date.",
     "notAnswered": "Not answered",
     "other": "Other",
-    "otherInWords": "other items in your words",
+    "otherInWords": "other things, in your own words",
     "pages": "How many?",
-    "fixedScope": "No S/M/L band: penetration testing gets a fixed-scope proposal after the scoping conversation only; one retest of the reported findings is included.",
-    "serviceTbd": "Service: to be decided in the scoping conversation.",
-    "riskContent": "Content is not ready; this is the most common cause of delay. Set a date for it, or add writing to the scope.",
-    "riskPartly": "Part of the content is not ready; the scope will say which part and by when.",
-    "riskDate": "You have a fixed date ({date}). If the scope and the date do not fit together, the scoping conversation will say what can move to after launch.",
-    "riskIntegrations": "Three or more integrations; each third-party service has its own rules and setup time.",
-    "riskPentest": "Penetration testing gets its own fixed-scope proposal, and a written scope, signed authorisation and an NDA are required before any testing.",
-    "riskSecurity": "Security needs are not clear yet; the security self-check can be a starting point.",
-    "d1": "Scoped brief",
-    "d2": "In build",
-    "d0": "Idea",
-    "briefOf": "Scoped brief: {service}, {type}",
+    "fixedScope": "No size band here: for penetration testing we only quote once we've talked and agreed exactly what's covered. One retest of what we report is included.",
+    "serviceTbd": "Service: we'll settle this together when we talk.",
+    "riskContent": "Your content isn't ready, and that's the delay we see most often. Give it a date, or let us add the writing to the work.",
+    "riskPartly": "Some of your content isn't ready yet. The plan will say which part, and by when.",
+    "riskDate": "You've got a fixed date ({date}). If everything you want can't fit before it, we'll tell you honestly what could wait until after launch.",
+    "riskIntegrations": "Three or more outside services to connect. Each one has its own rules and its own setup time.",
+    "riskPentest": "Penetration testing needs its own written plan, plus your signed permission and an NDA, before we test anything.",
+    "riskSecurity": "It's not clear yet what you need on security. Our free self-check is a good place to start.",
+    "d1": "Your project brief",
+    "d2": "Being built",
+    "d0": "Just an idea",
+    "briefOf": "Your brief: {service}, {type}",
     "legendFeatures": "What do you need?",
-    "legendIntegrations": "Integrations",
-    "legendContent": "Content readiness",
-    "legendType": "Project type",
-    "legendTimeline": "Timeline",
-    "legendSecurity": "Security needs",
-    "flexible": "Flexible",
-    "fixedDate": "I have a fixed date",
-    "targetDate": "Target date",
-    "serviceFinderHint": "The service finder on the Services page can help you choose.",
-    "clearAll": "Clear all answers",
-    "cleared": "All answers cleared.",
-    "copyBtn": "Copy text",
+    "legendIntegrations": "Connecting other services",
+    "legendContent": "Is your content ready?",
+    "legendType": "What kind of project is it?",
+    "legendTimeline": "When does it need to be done?",
+    "legendSecurity": "What about security?",
+    "flexible": "We're flexible",
+    "fixedDate": "We've got a fixed date",
+    "targetDate": "The date we're aiming for",
+    "serviceFinderHint": "Not sure? The service finder on our Services page can help you pick.",
+    "clearAll": "Start over, clear everything",
+    "cleared": "Done, everything's cleared.",
+    "copyBtn": "Copy this",
     "copied": "Copied.",
-    "copyFailed": "Copy did not work. Select the text and copy it manually.",
+    "copyFailed": "That didn't work. Please select the text and copy it yourself.",
     "printBtn": "Print",
-    "sendBrief": "Send this brief from the contact page",
+    "sendBrief": "Send us this brief via the contact page",
     "contactUrl": "/en/contact/",
     "securityUrl": "/en/tools/security-check/"
   },
-  "bandNote": "The band is a starting estimate; the scoping conversation may move it.",
-  "roughNote": "A band is the rough size of the work, not a price and not a duration. A fixed price is set only after a scoping conversation, in a written proposal.",
-  "responseLine": "We reply within one working day."
+  "bandNote": "This size is only a starting guess. It may change once we've talked it through.",
+  "roughNote": "The band just shows roughly how big the job is. It isn't a price or a timeline. We only set a fixed price after we've talked, in a written proposal.",
+  "responseLine": "We'll get back to you within one working day."
 }

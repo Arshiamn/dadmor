@@ -1,8 +1,8 @@
 {
   "path": "en/services/ui-ux-design/index.html",
   "lang": "en",
-  "title": "UI/UX design based on user tasks | dadmor",
-  "description": "Interface design decided by user tasks and evidence, delivered as a design system and a build-ready spec for developers.",
+  "title": "UI/UX design built around the user's task | dadmor",
+  "description": "Your customer reaches checkout and gives up. We design around the task people came to do, delivered as a design system and a spec developers can build from.",
   "canonical": "https://dadmor.netlify.app/en/services/ui-ux-design/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/services/ui-ux-design/",
@@ -12,8 +12,8 @@
   "og": {
     "site_name": "dadmor",
     "type": "website",
-    "title": "UI/UX design based on user tasks | dadmor",
-    "description": "Interface design decided by user tasks and evidence, delivered as a design system and a build-ready spec for developers.",
+    "title": "UI/UX design built around the user's task | dadmor",
+    "description": "Your customer reaches checkout and gives up. We design around the task people came to do, delivered as a design system and a spec developers can build from.",
     "url": "https://dadmor.netlify.app/en/services/ui-ux-design/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -27,7 +27,7 @@
         "@context": "https://schema.org",
         "@type": "Service",
         "name": "UI/UX design",
-        "description": "Interface design decided by user tasks and evidence, delivered as a design system and a build-ready spec for developers.",
+        "description": "Your customer reaches checkout and gives up. We design around the task people came to do, delivered as a design system and a spec developers can build from.",
         "provider": {
           "@type": "Organization",
           "name": "dadmor",
@@ -44,7 +44,7 @@
             "name": "Who owns the design files?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You do. Files and tokens are handed over at the end of the project."
+              "text": "You do. The files and tokens are handed over when the project ends."
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Can you design on top of our existing brand?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. The design system starts from your current colours and fonts, and we only change what fails readability or accessibility, with the reason written down."
+              "text": "Yes. We start from the colours and fonts you already have, and only touch what hurts readability or accessibility, with the reason written down for you."
             }
           },
           {
@@ -60,7 +60,7 @@
             "name": "How do you check accessibility?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We check colour contrast, keyboard path, focus states and form labels against WCAG 2.2 level AA, and record the result in the handover spec."
+              "text": "We check contrast, the keyboard path, focus states and form labels against WCAG 2.2 level AA, and the result goes into the handover spec."
             }
           }
         ]
@@ -111,7 +111,7 @@
         },
         {
           "t": "p",
-          "html": "An interface users do not get lost in, and that a developer can actually build: decisions come from the user's task and from evidence, not from guesses and taste."
+          "html": "She reaches checkout and stops: the button isn't where her eyes go, and the error won't say what's wrong. We design from that moment backwards, around the task, in a form developers can build."
         }
       ]
     },
@@ -122,19 +122,19 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Problem"
+          "html": "Where people quietly give up"
         },
         {
           "t": "p",
-          "html": "If your users abandon a specific task halfway, such as signup or checkout, the problem is usually not the product itself. The problem is that the flow was never seen through the user's eyes: the button is not where they look for it, the error and empty states were never designed, and every screen was decided in isolation. If users arrive but never finish buying, this checklist helps too: <a href=\"/en/articles/traffic-but-no-sales/\">traffic but no sales? Check these seven places</a>."
+          "html": "It usually isn't the product. The flow was just never looked at through the user's eyes: screens decided one at a time, error and empty states never designed at all, the next step never quite where people look for it. If visitors arrive but don't finish buying, this checklist is worth a look too: <a href=\"/en/articles/traffic-but-no-sales/\">traffic but no sales? Check these seven places</a>."
         },
         {
           "t": "p",
-          "html": "You see the result during the build: a design that looks beautiful in the design file but has no answer for mobile, errors, or empty states gets changed mid-build, the developer guesses, and you pay for those guesses."
+          "html": "You pay for it later, during the build. A design that looks lovely in the file but has no answer for mobile, for errors, for the empty screen, gets improvised by the developer mid-build. Those improvisations land on your invoice."
         },
         {
           "t": "p",
-          "html": "We do not start design with guesses. First we map the user's main tasks in order of importance, then we build the flows and the design system with every state covered, and test them with real users. And where there is no evidence, the deliverable states which decision rests on which assumption, so you know exactly where you are betting on a guess."
+          "html": "We're Roxana Negaresh and Arshia Amani, and we start somewhere unfashionable: the task. First we rank what people actually come to do, then we build the flows and the design system with every state covered, then real users try them. Where there's no evidence, we say so in the deliverable. You'll know exactly which decisions are bets."
         }
       ]
     },
@@ -145,15 +145,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Who it is for"
+          "html": "This fits if"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "Teams with a product or web app whose users get stuck on a specific task (sign-up, checkout, reporting).",
-            "Startups that want to test core flows with real users before building.",
-            "Development teams that need a buildable design system, not a set of separate pictures."
+            "Your users keep getting stuck on one thing: signing up, paying, filing a report.",
+            "You want core flows tried by real users before you spend money building them.",
+            "Your developers need a design system they can build from, not a folder of pretty pictures."
           ]
         }
       ]
@@ -165,15 +165,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Who it is not for"
+          "html": "Probably not if"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "If you only need a few screens to show investors.",
-            "If you want design done with no access to users or data and the result declared \"final\". We can work without evidence, but the output states which decision rests on which assumption.",
-            "If you need native iOS or Android app design to platform guidelines."
+            "All you need is a handful of screens for investors.",
+            "You want the design called \"final\" without us ever seeing users or data. We can work without evidence, but then the output names the assumption under each decision.",
+            "You need a native iOS or Android app designed to platform guidelines."
           ]
         }
       ]
@@ -185,17 +185,17 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Approach"
+          "html": "How we get there"
         },
         {
           "t": "list",
           "ordered": true,
           "items": [
-            "Tasks. Input: a conversation with you and any existing data (support tickets, analytics). Output: the main user tasks, ranked. Owner: dadmor with you.",
-            "Flows. Input: the task list. Output: flow map and wireframes of key flows. Owner: dadmor; approval: you.",
-            "System. Input: approved wireframes. Output: design system (tokens and components with every state) and key screens. Owner: dadmor.",
-            "Test. Input: a clickable prototype. Output: user test notes and a list of fixes. Owner: dadmor; recruiting test users: you.",
-            "Handover. Input: the revised design. Output: a developer handover spec. Owner: dadmor."
+            "Tasks. Input: a conversation with you, and whatever data exists, support tickets, analytics. Output: your users' main tasks, ranked. Owner: dadmor with you.",
+            "Flows. Input: that task list. Output: a flow map and wireframes for the key journeys. Owner: dadmor; approval: you.",
+            "System. Input: wireframes you approved. Output: the design system, tokens and components in every state, plus the key screens. Owner: dadmor.",
+            "Test. Input: a clickable prototype. Output: notes from user tests and a list of what needs fixing. Owner: dadmor; finding the test users: you.",
+            "Handover. Input: the revised design. Output: a spec your developers can build from. Owner: dadmor."
           ]
         }
       ]
@@ -218,15 +218,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Scope and timeline factors"
+          "html": "What makes it bigger"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "What moves the work from S to M to L: number of flows and key screens, number of user roles, bilingual layouts, and whether user testing is in scope.",
-            "What you supply: access to the current product, any user data you have, and test users.",
-            "What delays projects: test users who cannot be found, and feature priorities that change mid-design."
+            "What moves the work from S to M to L: how many flows and key screens, how many kinds of user, bilingual layouts, and whether user testing is in the scope.",
+            "From you: access to the current product, any user data you have, and people to test with.",
+            "What slows design down: test users who can't be found, and priorities that change halfway through."
           ]
         }
       ]
@@ -238,18 +238,18 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Effort band"
+          "html": "Rough size"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "Band S, M or L by number of flows and key screens. We give a fixed price after the scoping conversation, in a written proposal."
+            "Band S, M or L, set by the number of flows and key screens. A fixed price comes after the scoping conversation, in a written proposal."
           ]
         },
         {
           "t": "p",
-          "html": "This band is a starting estimate, not a price and not a duration; the firm figure comes after the scoping conversation, in the written proposal."
+          "html": "Treat the band as a first estimate. It isn't a price and it isn't a deadline; the firm number arrives after we talk, in writing."
         }
       ]
     },
@@ -260,15 +260,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Limits and risks"
+          "html": "What design can't promise"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "Testing with a few users reveals major problems, but the result is not statistical and we do not present it that way.",
-            "Building the design is not part of this service; if you want it built, we scope Website building alongside it.",
-            "If you cannot provide test users, we test with people similar to your audience and say so in the test notes."
+            "A handful of test users will surface the big problems. That isn't statistics, and we won't dress it up as statistics.",
+            "Building the design isn't included here. If you'd like us to build it too, we scope Website building alongside.",
+            "No test users available? Then we test with people close to your audience, and the notes say exactly that."
           ]
         }
       ]
@@ -305,7 +305,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "You do. Files and tokens are handed over at the end of the project."
+                          "html": "You do. The files and tokens are handed over when the project ends."
                         }
                       ]
                     }
@@ -332,7 +332,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "Yes. The design system starts from your current colours and fonts, and we only change what fails readability or accessibility, with the reason written down."
+                          "html": "Yes. We start from the colours and fonts you already have, and only touch what hurts readability or accessibility, with the reason written down for you."
                         }
                       ]
                     }
@@ -359,7 +359,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "We check colour contrast, keyboard path, focus states and form labels against WCAG 2.2 level AA, and record the result in the handover spec."
+                          "html": "We check contrast, the keyboard path, focus states and form labels against WCAG 2.2 level AA, and the result goes into the handover spec."
                         }
                       ]
                     }
@@ -390,13 +390,13 @@
           "blocks": [
             {
               "t": "cta",
-              "text": "Scope a UI/UX project",
+              "text": "Scope your design project",
               "href": "/en/tools/estimator/?service=ui-ux-design",
               "class": "btn btn-primary"
             },
             {
               "t": "cta",
-              "text": "Contact us for a scoping conversation",
+              "text": "Talk it through with us",
               "href": "/en/contact/",
               "class": "btn btn-ghost"
             }
@@ -415,7 +415,7 @@
         },
         {
           "t": "p",
-          "html": "Our published design sample is ghazalalidoost.art, on the work page. Other work is shown redacted, with the owner's permission, in the scoping conversation."
+          "html": "Our published sample is ghazalalidoost.art, over on the work page. Everything else is shown redacted, with the owner's permission, when we talk scope."
         }
       ]
     }

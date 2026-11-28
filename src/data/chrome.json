@@ -2,7 +2,7 @@
   "en": {
     "columns": [
       {
-        "heading": "Services",
+        "heading": "What we do",
         "links": [
           {
             "text": "Website building",
@@ -31,7 +31,7 @@
         ]
       },
       {
-        "heading": "Tools",
+        "heading": "Free tools",
         "links": [
           {
             "text": "Project estimator",
@@ -44,18 +44,18 @@
         ]
       },
       {
-        "heading": "Studio",
+        "heading": "The studio",
         "links": [
           {
             "text": "Process",
             "href": "/en/process/"
           },
           {
-            "text": "Work",
+            "text": "Our work",
             "href": "/en/work/"
           },
           {
-            "text": "About",
+            "text": "About us",
             "href": "/en/about/"
           },
           {
@@ -67,7 +67,7 @@
             "href": "/en/articles/"
           },
           {
-            "text": "FAQ",
+            "text": "Common questions",
             "href": "/en/faq/"
           },
           {
@@ -96,7 +96,7 @@
   "fa": {
     "columns": [
       {
-        "heading": "خدمت ها",
+        "heading": "چه کار می کنیم",
         "links": [
           {
             "text": "ساخت وب سایت",
@@ -125,7 +125,7 @@
         ]
       },
       {
-        "heading": "ابزارها",
+        "heading": "ابزارهای رایگان",
         "links": [
           {
             "text": "برآوردگر پروژه",
@@ -138,14 +138,14 @@
         ]
       },
       {
-        "heading": "استودیو",
+        "heading": "دادمور",
         "links": [
           {
             "text": "فرایند کار",
             "href": "/process/"
           },
           {
-            "text": "نمونه کار",
+            "text": "نمونه کارها",
             "href": "/work/"
           },
           {
@@ -161,7 +161,7 @@
             "href": "/articles/"
           },
           {
-            "text": "پرسش ها",
+            "text": "سؤال های رایج",
             "href": "/faq/"
           },
           {
@@ -177,11 +177,11 @@
         "href": "mailto:hello@dadmor.com"
       },
       {
-        "text": "Telegram @dadmor_ai",
+        "text": "@dadmor_ai",
         "href": "https://t.me/dadmor_ai"
       },
       {
-        "text": "WhatsApp +98 939 140 0826",
+        "text": "+98 939 140 0826",
         "href": "https://wa.me/989391400826"
       }
     ],

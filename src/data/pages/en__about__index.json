@@ -1,188 +1,188 @@
 {
-  "path": "en/about/index.html",
-  "lang": "en",
-  "title": "About dadmor: an independent, technical studio | dadmor",
-  "description": "dadmor is an independent, technical studio for founders who want their work scoped clearly, built precisely and maintained honestly.",
-  "canonical": "https://dadmor.netlify.app/en/about/",
-  "hreflang": {
-    "fa": "https://dadmor.netlify.app/about/",
-    "en": "https://dadmor.netlify.app/en/about/",
-    "x-default": "https://dadmor.netlify.app/about/"
+ "path": "en/about/index.html",
+ "lang": "en",
+ "title": "About dadmor: who we are and how we work | dadmor",
+ "description": "dadmor is a small studio run by Roxana Negaresh and Arshia Amani. We write the scope first, build carefully, and hand over work you can maintain.",
+ "canonical": "https://dadmor.netlify.app/en/about/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/about/",
+  "en": "https://dadmor.netlify.app/en/about/",
+  "x-default": "https://dadmor.netlify.app/about/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "About dadmor: who we are and how we work | dadmor",
+  "description": "dadmor is a small studio run by Roxana Negaresh and Arshia Amani. We write the scope first, build carefully, and hand over work you can maintain.",
+  "url": "https://dadmor.netlify.app/en/about/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "en_US",
+  "locale:alternate": "fa_IR"
+ },
+ "jsonld": [],
+ "hero": null,
+ "blocks": [
+  {
+   "t": "raw",
+   "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li aria-current=\"page\">About</li></ol></nav>",
+   "class": "breadcrumb container",
+   "tag": "nav"
   },
-  "og": {
-    "site_name": "dadmor",
-    "type": "website",
-    "title": "About dadmor: an independent, technical studio | dadmor",
-    "description": "dadmor is an independent, technical studio for founders who want their work scoped clearly, built precisely and maintained honestly.",
-    "url": "https://dadmor.netlify.app/en/about/",
-    "image": "https://dadmor.netlify.app/og.png",
-    "image:width": "1200",
-    "image:height": "630",
-    "locale": "en_US",
-    "locale:alternate": "fa_IR"
-  },
-  "jsonld": [],
-  "hero": null,
-  "blocks": [
+  {
+   "t": "group",
+   "class": "page-head container",
+   "blocks": [
     {
-      "t": "raw",
-      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li aria-current=\"page\">About</li></ol></nav>",
-      "class": "breadcrumb container",
-      "tag": "nav"
+     "t": "raw",
+     "html": "<h1>About</h1>",
+     "class": "",
+     "tag": "h1"
     },
     {
-      "t": "group",
-      "class": "page-head container",
-      "blocks": [
-        {
-          "t": "raw",
-          "html": "<h1>About</h1>",
-          "class": "",
-          "tag": "h1"
-        },
-        {
-          "t": "p",
-          "html": "dadmor is an independent, technical studio for founders who need a website, product, business model, document, security test, or content system that is scoped clearly, built precisely, and maintained honestly, not just delivered beautifully."
-        }
-      ]
-    },
-    {
-      "t": "group",
-      "class": "service-section container",
-      "blocks": [
-        {
-          "t": "heading",
-          "level": 2,
-          "html": "Three principles every project is built on"
-        },
-        {
-          "t": "list",
-          "ordered": true,
-          "items": [
-            "<strong>Clarity before build</strong>: scope, deliverables, exclusions, what we need from you and ownership are written down before design.",
-            "<strong>Technical precision to handover</strong>: accessible, fast, secure by default, documented and maintainable.",
-            "<strong>Honesty after launch</strong>: limits are stated, work samples carry a role label, and retest or revision rules are in writing."
-          ]
-        }
-      ]
-    },
-    {
-      "t": "group",
-      "class": "service-section container",
-      "blocks": [
-        {
-          "t": "heading",
-          "level": 2,
-          "html": "Team"
-        },
-        {
-          "t": "p",
-          "html": "dadmor works as one studio: the people who scope your project stay with it to handover. We take a limited number of projects at a time, so scope, build and handover stay with the same people."
-        },
-        {
-          "t": "p",
-          "html": "Design and build (websites, UI, documentation) · Strategy and security (business model, penetration testing) · Content (marketing, copy, SEO)"
-        },
-        {
-          "t": "group",
-          "class": "team-visual",
-          "blocks": [
-            {
-              "t": "raw",
-              "html": "<span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>Idea</span>",
-              "class": "dot-tag",
-              "tag": "span"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "t": "group",
-      "class": "service-section container",
-      "blocks": [
-        {
-          "t": "heading",
-          "level": 2,
-          "html": "The name"
-        },
-        {
-          "t": "p",
-          "html": "dadmor plays on mordad. Dad means both justice and gift, and we read those two meanings this way: be fair to the client, and hand over work that stays useful after we leave."
-        }
-      ]
-    },
-    {
-      "t": "group",
-      "class": "service-section container",
-      "blocks": [
-        {
-          "t": "heading",
-          "level": 2,
-          "html": "How we work"
-        },
-        {
-          "t": "list",
-          "ordered": false,
-          "items": [
-            "<a href=\"/en/process/\">Process: five steps with inputs and outputs</a>",
-            "<a href=\"/en/work/\">Work you can check</a>",
-            "<a href=\"/en/tools/estimator/\">Project estimator</a>",
-            "<a href=\"/en/tools/security-check/\">Security self-check</a>"
-          ]
-        }
-      ]
-    },
-    {
-      "t": "group",
-      "class": "service-section container",
-      "blocks": [
-        {
-          "t": "heading",
-          "level": 2,
-          "html": "Why we started dadmor"
-        },
-        {
-          "t": "p",
-          "html": "Every business that wanted to go online had to deal with several different parties. One would write the business model, another would build the website, a third would produce the content, and when something broke, none of them would take responsibility. Everyone pointed at someone else, and in the middle of it all stood the business owner, left with the bill."
-        },
-        {
-          "t": "p",
-          "html": "We could not find a studio that did all of it in one place, with one accountable owner and one consistent standard of quality. The ones that claimed to be complete did work we would not have accepted for our own project. So we decided to build the studio we had been looking for."
-        },
-        {
-          "t": "p",
-          "html": "Before dadmor, both of us were already doing this work: Roxana was a programmer at several companies, Arshia took on projects of his own and delivered them, and together we took on projects too and delivered them. In both places, the same scene kept repeating. A project would start with excitement, opinions would change halfway through, a request to just add one more small thing would arrive every week, and at the end, when the result differed from what was first imagined, there was no document showing what had actually been agreed. The argument was never about quality. It was about the fact that nobody had written down their expectations at the start."
-        },
-        {
-          "t": "p",
-          "html": "dadmor grew out of those scenes. That is why every project here starts with a written scope document, before a single line of code or a single design. It states what will be delivered, what will not, and what you need to provide. When everything is on paper from day one, there is no room left for misunderstandings halfway through."
-        },
-        {
-          "t": "p",
-          "html": "We also have a few red lines that no project gets us to cross. We do not start without a written scope. We do not promise Google rankings. And we do not talk about complete security, because rankings are not ours to give and complete security does not exist for anyone to promise. We would rather say these things plainly on the first day than make excuses on the last."
-        },
-        {
-          "t": "p",
-          "html": "dadmor is small, and it is not meant to grow faceless. When you work with us, you know from the first day who you are dealing with and what you are going to receive."
-        },
-        {
-          "t": "p",
-          "html": "Roxana Negaresh and Arshia Amani"
-        }
-      ]
-    },
-    {
-      "t": "group",
-      "class": "service-cta container",
-      "blocks": [
-        {
-          "t": "cta",
-          "text": "Contact us for a scoping conversation",
-          "href": "/en/contact/",
-          "class": "btn btn-primary"
-        }
-      ]
+     "t": "p",
+     "html": "We're a small, technical studio. If you need a website, a product, a business model, documents, a security test or content, we'll agree it in writing, build it properly, and hand it over in a state you can look after. Looking pretty is only part of it."
     }
-  ]
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Three things we won't bend on"
+    },
+    {
+     "t": "list",
+     "ordered": true,
+     "items": [
+      "<strong>Clear before we build</strong>: what you'll get, what you won't, what we need from you, and who owns what. All written down before design starts.",
+      "<strong>Done properly, right to handover</strong>: accessible, fast, built with security in mind, documented, and easy to maintain.",
+      "<strong>Honest after launch too</strong>: we say what the limits are, we label what our role was on every sample, and revision or retest rules are in writing."
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "The team"
+    },
+    {
+     "t": "p",
+     "html": "We're one small team, not a chain of handovers. The people who talk through your project with you are the people who build it and hand it over. We only take a few projects at a time, so that stays true."
+    },
+    {
+     "t": "p",
+     "html": "Design and build: websites, interfaces, documentation. Thinking and security: business models, penetration testing. Content: marketing, writing, SEO."
+    },
+    {
+     "t": "group",
+     "class": "team-visual",
+     "blocks": [
+      {
+       "t": "raw",
+       "html": "<span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>Idea</span>",
+       "class": "dot-tag",
+       "tag": "span"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Why dadmor?"
+    },
+    {
+     "t": "p",
+     "html": "dadmor is a play on mordad. Dad means both justice and gift, and we take the two meanings like this: be fair with the people who hire us, and leave them work that's still useful after we've gone."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "See how we work"
+    },
+    {
+     "t": "list",
+     "ordered": false,
+     "items": [
+      "<a href=\"/en/process/\">Our process, step by step</a>",
+      "<a href=\"/en/work/\">Work you can click and check</a>",
+      "<a href=\"/en/tools/estimator/\">Project estimator</a>",
+      "<a href=\"/en/tools/security-check/\">Security self-check</a>"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-section container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Why we started this studio"
+    },
+    {
+     "t": "p",
+     "html": "Getting online used to mean dealing with a crowd. One person wrote the business model, another built the website, a third made the content. Then something broke, and every one of them pointed at someone else. In the middle stood the shop owner, holding the bill."
+    },
+    {
+     "t": "p",
+     "html": "We couldn't find a studio that did the whole thing in one place, with one team answerable for it and one standard of quality. The ones that claimed to do everything made work we wouldn't have accepted for ourselves. So we built the studio we'd been looking for."
+    },
+    {
+     "t": "p",
+     "html": "Both of us were doing this work before dadmor. Roxana was a programmer at several companies. Arshia took on his own projects and delivered them, and we took on projects together too. And the same scene kept repeating. A project starts full of excitement. Halfway through, opinions change. Every week brings a request to just add one more small thing. At the end, the result isn't what was first imagined, and there's no document showing what anyone actually agreed to. The argument was never really about quality. It was about nobody writing their expectations down at the start."
+    },
+    {
+     "t": "p",
+     "html": "dadmor grew out of those scenes. That's why every project here starts with a written scope, before a single line of code or a single design. It says what you'll get, what you won't, and what we need from you. When it's all on paper from day one, there's much less to argue about halfway through."
+    },
+    {
+     "t": "p",
+     "html": "We have a few red lines, and no project talks us across them. We don't start without a written scope. We don't promise Google rankings. And we don't promise complete security, because rankings aren't ours to give and complete security doesn't exist. We'd rather say all that plainly on day one than make excuses on the last day."
+    },
+    {
+     "t": "p",
+     "html": "dadmor is small, and we don't want it to grow faceless. Work with us and you know from the first day who you're dealing with and what you're going to get."
+    },
+    {
+     "t": "p",
+     "html": "Roxana Negaresh and Arshia Amani"
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-cta container",
+   "blocks": [
+    {
+     "t": "cta",
+     "text": "Talk to us about your project",
+     "href": "/en/contact/",
+     "class": "btn btn-primary"
+    }
+   ]
+  }
+ ]
 }

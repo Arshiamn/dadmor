@@ -75,7 +75,12 @@ export function useScrollStory(dep: string) {
           document.documentElement.scrollHeight - Math.max(48, fh)
         const lit = nearBottom || ratio >= 0.97 ? DOTS : Math.round(ratio * DOTS)
         dots.forEach((d, idx) => {
-          d.style.opacity = idx < lit ? '1' : '0.25'
+          const on = idx < lit
+          d.style.opacity = on ? '1' : '0.25'
+          /* Lit dots burn green, not violet (owner order 2026-11-26):
+             .lit switches the background to --color-live in legacy.css.
+             Unlit dots keep the violet --color-dot at 0.25 as before. */
+          d.classList.toggle('lit', on)
         })
       }
       const onScrollProgress = () => {

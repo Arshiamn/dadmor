@@ -100,7 +100,7 @@ function MenuIcon({ open }: { open: boolean }) {
    vertical layout), so the wording stays identical in both places. */
 export const CHANNEL_CAPTIONS: Record<Lang, { email: string; telegram: string; whatsapp: string }> = {
   fa: {
-    email: 'برای بریف، فایل و هر چیزی که باید مکتوب بماند.',
+    email: 'برای پیش‌پیمان، فایل و هر چیزی که باید مکتوب بماند.',
     telegram: 'برای پرسش کوتاه.',
     whatsapp: 'برای پرسش کوتاه و هماهنگی زمان گفت وگو.',
   },
@@ -125,11 +125,20 @@ export function ChannelLinks({
   captions,
   layout = 'horizontal',
   iconOnly = false,
+  lang = 'en',
 }: {
   captions?: { email: string; telegram: string; whatsapp: string }
   layout?: 'horizontal' | 'vertical'
   iconOnly?: boolean
+  /* Footer contact items (owner order 2026-11-26): in the FA footer
+     the channel pills carry NO label word at all, only the icon and
+     the value itself (address/handle/number) in a dir="ltr" span;
+     the Persian labels tried earlier («ایمیل»، «تلگرام»، «واتساپ»)
+     made the mixed-direction lines look messier. The EN footer keeps
+     its English labels. Other call sites keep the default. */
+  lang?: Lang
 }) {
+  const fa = lang === 'fa'
   const email = (
     <a className="channel-pill" href={`mailto:${CONTACT.email}`} aria-label={iconOnly ? (CONTACT.email) : undefined}>
       <EmailIcon />
@@ -139,7 +148,9 @@ export function ChannelLinks({
   const telegram = (
     <a className="channel-pill" href={CONTACT.telegram} target="_blank" rel="noreferrer" aria-label={iconOnly ? (CONTACT.telegramHandle) : 'Telegram'}>
       <TelegramIcon />
-      {!iconOnly && <span dir="ltr">Telegram {CONTACT.telegramHandle}</span>}
+      {!iconOnly && (fa
+        ? <span dir="ltr">{CONTACT.telegramHandle}</span>
+        : <span dir="ltr">Telegram {CONTACT.telegramHandle}</span>)}
     </a>
   )
   const whatsapp = (
@@ -149,7 +160,9 @@ export function ChannelLinks({
           the bidi algorithm in an RTL page ("0826 140 939 98+");
           forcing LTR keeps "+98 939 140 0826" in order. Owner
           report 2026-11-06 01:10. */}
-      {!iconOnly && <span dir="ltr">WhatsApp {CONTACT.whatsappLabel}</span>}
+      {!iconOnly && (fa
+        ? <span dir="ltr">{CONTACT.whatsappLabel}</span>
+        : <span dir="ltr">WhatsApp {CONTACT.whatsappLabel}</span>)}
     </a>
   )
   const rowClass = layout === 'vertical' ? 'channel-row channel-column' : 'channel-row'
@@ -315,13 +328,6 @@ export function Footer({ lang }: { lang: Lang }) {
   return (
     <footer className="site-footer">
       <div className="container">
-        <div className="footer-brand">
-          <span className="footer-lockup">
-            <LionIcon breathing={false} />
-            <LionWordmark />
-          </span>
-          <p className="tagline">{chrome.tagline}</p>
-        </div>
         <div className="footer-cols">
           {chrome.columns.map((col) => (
             <div key={col.heading}>
@@ -348,11 +354,24 @@ export function Footer({ lang }: { lang: Lang }) {
           {/* Aesthetic fix 2026-11-16: was iconOnly — three bare icons with
               no visible address/handle/number, so visitors had to click
               blind. Show the text labels, stacked vertically. */}
-          <ChannelLinks layout="vertical" />
+          <ChannelLinks layout="vertical" lang={lang} />
         </div>
-        <p className="footer-note">
-          © dadmor {new Date().getFullYear()}
-        </p>
+        {/* Brand placement (owner order 2026-11-26, after checking
+            comparable studios): the logo + tagline no longer sit as a
+            block in the columns row; they live in the bottom bar next
+            to the © line, the pattern Work & Co and Websima use. */}
+        <div className="footer-bottom">
+          <span className="footer-brandline">
+            <span className="footer-lockup">
+              <LionIcon breathing={false} />
+              <LionWordmark />
+            </span>
+            <span className="tagline">{chrome.tagline}</span>
+          </span>
+          <p className="footer-note">
+            © dadmor {new Date().getFullYear()}
+          </p>
+        </div>
       </div>
     </footer>
   )

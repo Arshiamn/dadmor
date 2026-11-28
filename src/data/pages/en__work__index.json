@@ -1,109 +1,109 @@
 {
-  "path": "en/work/index.html",
-  "lang": "en",
-  "title": "Work you can check | dadmor",
-  "description": "We only show work whose link opens and where our role is stated. Empty slots stay empty until permission to publish arrives.",
-  "canonical": "https://dadmor.netlify.app/en/work/",
-  "hreflang": {
-    "fa": "https://dadmor.netlify.app/work/",
-    "en": "https://dadmor.netlify.app/en/work/",
-    "x-default": "https://dadmor.netlify.app/work/"
+ "path": "en/work/index.html",
+ "lang": "en",
+ "title": "Work you can click and check | dadmor",
+ "description": "We only show work you can open and check, and we always say what our part was. Empty slots stay empty until a client says we can publish.",
+ "canonical": "https://dadmor.netlify.app/en/work/",
+ "hreflang": {
+  "fa": "https://dadmor.netlify.app/work/",
+  "en": "https://dadmor.netlify.app/en/work/",
+  "x-default": "https://dadmor.netlify.app/work/"
+ },
+ "og": {
+  "site_name": "dadmor",
+  "type": "website",
+  "title": "Work you can click and check | dadmor",
+  "description": "We only show work you can open and check, and we always say what our part was. Empty slots stay empty until a client says we can publish.",
+  "url": "https://dadmor.netlify.app/en/work/",
+  "image": "https://dadmor.netlify.app/og.png",
+  "image:width": "1200",
+  "image:height": "630",
+  "locale": "en_US",
+  "locale:alternate": "fa_IR"
+ },
+ "jsonld": [],
+ "hero": null,
+ "blocks": [
+  {
+   "t": "raw",
+   "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li aria-current=\"page\">Work</li></ol></nav>",
+   "class": "breadcrumb container",
+   "tag": "nav"
   },
-  "og": {
-    "site_name": "dadmor",
-    "type": "website",
-    "title": "Work you can check | dadmor",
-    "description": "We only show work whose link opens and where our role is stated. Empty slots stay empty until permission to publish arrives.",
-    "url": "https://dadmor.netlify.app/en/work/",
-    "image": "https://dadmor.netlify.app/og.png",
-    "image:width": "1200",
-    "image:height": "630",
-    "locale": "en_US",
-    "locale:alternate": "fa_IR"
-  },
-  "jsonld": [],
-  "hero": null,
-  "blocks": [
+  {
+   "t": "group",
+   "class": "page-head container",
+   "blocks": [
     {
-      "t": "raw",
-      "html": "<nav class=\"breadcrumb container\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/en/\">Home</a></li><li aria-current=\"page\">Work</li></ol></nav>",
-      "class": "breadcrumb container",
-      "tag": "nav"
+     "t": "raw",
+     "html": "<h1>Work you can click and check</h1>",
+     "class": "",
+     "tag": "h1"
     },
     {
-      "t": "group",
-      "class": "page-head container",
-      "blocks": [
-        {
-          "t": "raw",
-          "html": "<h1>Work you can check</h1>",
-          "class": "",
-          "tag": "h1"
-        },
-        {
-          "t": "p",
-          "html": "For each example we state what we did and what we did not do. We do not show clients, testimonials or numbers that do not exist."
-        }
-      ]
-    },
-    {
-      "t": "group",
-      "class": "container",
-      "blocks": [
-        {
-          "t": "p",
-          "html": "The dot marker next to each item shows its status and always has a text label: \"Verified and handed over\" for published work, \"Idea\" for an empty slot."
-        },
-        {
-          "t": "raw",
-          "html": "<article class=\"work-item work-item-featured work-item-media\"> <div class=\"work-item-text\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>Verified and handed over</span> <h2><a href=\"https://ghazalalidoost.art\" target=\"_blank\" rel=\"noopener\">ghazalalidoost.art</a></h2> <p class=\"work-label\">Client work · Ghazal Alidoust's portfolio website</p> <p class=\"work-label\">Our role: Design and build</p> <a class=\"service-link\" href=\"https://ghazalalidoost.art\" target=\"_blank\" rel=\"noopener\">Visit ghazalalidoost.art (opens a new tab)</a> </div> <figure class=\"work-item-shot\"><picture><source srcset=\"/img/ghazal-home-dark-en.webp\" type=\"image/webp\"><img src=\"/img/ghazal-home-dark-en.jpg\" alt=\"Ghazal Alidoust's website home page — dark mode, English\" loading=\"lazy\" width=\"1280\" height=\"800\"></picture></figure> </article>",
-          "class": "work-item work-item-featured",
-          "tag": "article"
-        },
-        {
-          "t": "raw",
-          "html": "<article class=\"work-item work-placeholder\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>Idea</span> <h2>More work</h2> <p class=\"work-label\">To be added here.</p> </article>",
-          "class": "work-item work-placeholder",
-          "tag": "article"
-        },
-        {
-          "t": "p",
-          "html": "Some work, such as penetration tests and internal documentation, is confidential by default. We publish it only in redacted form and with the owner's written permission."
-        }
-      ]
-    },
-    {
-      "t": "group",
-      "class": "service-cta container",
-      "blocks": [
-        {
-          "t": "heading",
-          "level": 2,
-          "html": "Your project could be the next one here"
-        },
-        {
-          "t": "p",
-          "html": "Let us make the scope clear first."
-        },
-        {
-          "t": "group",
-          "class": "btn-row",
-          "blocks": [
-            {
-              "t": "cta",
-              "text": "Project estimator",
-              "href": "/en/tools/estimator/",
-              "class": "btn btn-primary"
-            },
-            {
-              "t": "cta",
-              "text": "Contact",
-              "href": "/en/contact/",
-              "class": "btn btn-ghost"
-            }
-          ]
-        }
-      ]
+     "t": "p",
+     "html": "For every example we say what we did, and what we didn't do. We don't invent clients, testimonials or numbers to fill the page."
     }
-  ]
+   ]
+  },
+  {
+   "t": "group",
+   "class": "container",
+   "blocks": [
+    {
+     "t": "p",
+     "html": "The dot next to each item shows where it stands, and it always has a word next to it: \"Finished and handed over\" for published work, \"Idea\" for a slot that's still empty."
+    },
+    {
+     "t": "raw",
+     "html": "<article class=\"work-item work-item-featured work-item-media\"> <div class=\"work-item-text\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>Finished and handed over</span> <h2><a href=\"https://ghazalalidoost.art\" target=\"_blank\" rel=\"noopener\">ghazalalidoost.art</a></h2> <p class=\"work-label\">Client work · Ghazal Alidoust's portfolio website</p> <p class=\"work-label\">What we did: design and build</p> <a class=\"service-link\" href=\"https://ghazalalidoost.art\" target=\"_blank\" rel=\"noopener\">Go and look at ghazalalidoost.art (opens a new tab)</a> </div> <figure class=\"work-item-shot\"><picture><source srcset=\"/img/ghazal-home-dark-en.webp\" type=\"image/webp\"><img src=\"/img/ghazal-home-dark-en.jpg\" alt=\"Ghazal Alidoust's website home page, dark mode, English\" loading=\"lazy\" width=\"1280\" height=\"800\"></picture></figure> </article>",
+     "class": "work-item work-item-featured",
+     "tag": "article"
+    },
+    {
+     "t": "raw",
+     "html": "<article class=\"work-item work-placeholder\"> <span class=\"dot-tag\"><span class=\"dot-ring dot-d0\" aria-hidden=\"true\"></span>Idea</span> <h2>More to come</h2> <p class=\"work-label\">Nothing here yet, on purpose.</p> </article>",
+     "class": "work-item work-placeholder",
+     "tag": "article"
+    },
+    {
+     "t": "p",
+     "html": "Some work is private by nature, like penetration tests and internal documents. If we ever show it, it's with names and details removed, and only with the owner's written permission."
+    }
+   ]
+  },
+  {
+   "t": "group",
+   "class": "service-cta container",
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "html": "Your project could sit here next"
+    },
+    {
+     "t": "p",
+     "html": "First, let's get your scope clear."
+    },
+    {
+     "t": "group",
+     "class": "btn-row",
+     "blocks": [
+      {
+       "t": "cta",
+       "text": "Project estimator",
+       "href": "/en/tools/estimator/",
+       "class": "btn btn-primary"
+      },
+      {
+       "t": "cta",
+       "text": "Contact",
+       "href": "/en/contact/",
+       "class": "btn btn-ghost"
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }

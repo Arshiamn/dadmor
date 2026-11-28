@@ -1,8 +1,8 @@
 {
   "path": "en/services/marketing-content/index.html",
   "lang": "en",
-  "title": "Content, video and SEO built from your product's structure",
-  "description": "Persian and English video, text and SEO built from your product's structure, with a monthly plan and a report of what was published and measured.",
+  "title": "Content and SEO that starts from your product, not trends",
+  "description": "Likes roll in, orders don't. Persian and English video, text and SEO built from your product's structure, with a monthly plan and a report of what was published and measured.",
   "canonical": "https://dadmor.netlify.app/en/services/marketing-content/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/services/marketing-content/",
@@ -12,8 +12,8 @@
   "og": {
     "site_name": "dadmor",
     "type": "website",
-    "title": "Content, video and SEO built from your product's structure",
-    "description": "Persian and English video, text and SEO built from your product's structure, with a monthly plan and a report of what was published and measured.",
+    "title": "Content and SEO that starts from your product, not trends",
+    "description": "Likes roll in, orders don't. Persian and English video, text and SEO built from your product's structure, with a monthly plan and a report of what was published and measured.",
     "url": "https://dadmor.netlify.app/en/services/marketing-content/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -27,7 +27,7 @@
         "@context": "https://schema.org",
         "@type": "Service",
         "name": "Marketing and content",
-        "description": "Persian and English video, text and SEO built from your product's structure, with a monthly plan and a report of what was published and measured.",
+        "description": "Likes roll in, orders don't. Persian and English video, text and SEO built from your product's structure, with a monthly plan and a report of what was published and measured.",
         "provider": {
           "@type": "Organization",
           "name": "dadmor",
@@ -44,7 +44,7 @@
             "name": "What is different about Persian SEO?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Half-spaces, digit forms and variant spellings of the same word affect search. We write with consistent spelling, based on the phrase your audience actually searches for."
+              "text": "Half-spaces, digit forms, and the different spellings of the same word all change what search finds. We write with one consistent spelling, based on the phrase your audience actually types."
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Do you produce content with AI?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every published text is written, or rewritten and checked, by one of us, who takes responsibility for it. We do not produce filler articles. Every published text is written, or rewritten and checked, by dadmor, who takes responsibility for it. AI tools may help drafting; they never publish unchecked. No filler articles."
+              "text": "Every published text is written, or rewritten and checked, by one of us, and that person answers for it. AI tools can help with a draft. They never publish anything unchecked, and we don't produce filler articles. That is slower than mass production, and it is the only way we work."
             }
           },
           {
@@ -60,7 +60,7 @@
             "name": "Can the monthly agreement be stopped?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Stopping terms are in the written proposal. To stop a monthly agreement, 30 days written notice before the end of the month. Full terms are in the written proposal."
+              "text": "Yes, and the terms are in the written proposal: 30 days written notice before the end of the month. That's the whole mechanism, no surprises buried elsewhere."
             }
           }
         ]
@@ -111,7 +111,7 @@
         },
         {
           "t": "p",
-          "html": "Content that answers the customer's real question, so people find you in search: writing, video, and technical SEO built from the structure of your own product."
+          "html": "The likes roll in. The orders don't. Content that only looks good isn't doing its job, so we build yours around the questions customers ask before they buy, and around how they search."
         }
       ]
     },
@@ -122,19 +122,19 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Problem"
+          "html": "Liked by everyone, bought by no one"
         },
         {
           "t": "p",
-          "html": "Most businesses that come to us have a clear product, but nobody finds them in search. Content gets produced and posts get published, yet nobody knows which piece answered a real customer's question and which was published just so something was published."
+          "html": "Most businesses who come to us don't have a bad product. They have an audience that can't find them in search, and content that gets published without anyone knowing which piece answered a real question and which one just filled the calendar."
         },
         {
           "t": "p",
-          "html": "The reason is usually that the content was made apart from the product: it talks about everything except what the customer needs to know. And when there is no map of which question gets answered by which piece of content, every month starts from zero."
+          "html": "It happens when content is made away from the product: posts about everything except what the customer needs to know before buying. With no map of which question each piece answers, every month starts again from zero."
         },
         {
           "t": "p",
-          "html": "We start from a search-intent map: your customers' real questions, and which content answers each one, on which page. Then the monthly plan, production, and technical SEO all sit on that same map. We do not promise Google rankings either; nobody can promise that honestly. What we deliver is relevant content and the right structure. See the pattern in <a href=\"/en/articles/instagram-vs-website/\">Instagram page or website</a>: why a page is necessary for reach but not enough for a shop."
+          "html": "We're Roxana Negaresh and Arshia Amani, and we start with a search-intent map: your customers' real questions, and which piece of content answers each one, on which page. The monthly plan, the production and the technical SEO all sit on that one map. We don't promise Google rankings either; nobody can promise that honestly. What we hand over is content that belongs to your product, in a structure search can read. See the pattern in <a href=\"/en/articles/instagram-vs-website/\">Instagram page or website</a>: why a page is necessary for reach but not enough for a shop."
         }
       ]
     },
@@ -145,15 +145,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Who it is for"
+          "html": "This works if"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "Businesses with a clear product that nobody finds in search.",
-            "Teams that want correctly written Persian content: half-spaces, digits and search intent.",
-            "Founders who need video or short text that explains the product, not general advertising."
+            "You have a clear product, and people still can't find you in search.",
+            "You need Persian content written properly: half-spaces, digits, and the words people actually search.",
+            "You need video or short writing that explains your product, not generic advertising noise."
           ]
         }
       ]
@@ -165,15 +165,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Who it is not for"
+          "html": "Save your money if"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "If you want a promised Google ranking. Nobody can honestly promise that.",
-            "If you want bought followers, fake engagement, or mass-produced filler articles.",
-            "If the product itself is not clear yet; in that case start with Business model design or UI/UX design."
+            "You want a Google ranking promised to you. Nobody can honestly promise one.",
+            "You want bought followers, fake engagement, or articles mass-produced to fill pages.",
+            "Your product itself isn't clear yet. Then start with Business model design or UI/UX design, and come back."
           ]
         }
       ]
@@ -185,17 +185,17 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Approach"
+          "html": "Month by month"
         },
         {
           "t": "list",
           "ordered": true,
           "items": [
-            "Structure. Input: the product, its customers and their real questions. Output: a search intent map (which question is answered by which content, on which page). Owner: dadmor with you.",
-            "Plan. Input: the intent map. Output: a monthly content plan with channels. Owner: dadmor; approval: you.",
-            "Produce. Input: the approved plan and access to the product or people. Output: content pieces (text, video), each approved before publishing. Owner: dadmor; approval: you.",
-            "Technical SEO. Input: your site. Output: a list of technical fixes (page titles and descriptions, structured data, speed, half-spaces and digits in Persian content). Owner: dadmor.",
-            "Report. Input: what was published and your analytics data. Output: a monthly report of what was published and what was measured. Owner: dadmor."
+            "Structure. Input: your product, its customers and their real questions. Output: a search intent map, which question is answered by which content, on which page. Owner: dadmor with you.",
+            "Plan. Input: the intent map. Output: the month's content plan, channels included. Owner: dadmor; approval: you.",
+            "Produce. Input: the plan you approved, and access to the product or the people behind it. Output: the pieces themselves, text and video, each one approved by you before it goes out. Owner: dadmor; approval: you.",
+            "Technical SEO. Input: your site. Output: a list of technical fixes: page titles and descriptions, structured data, speed, and half-spaces and digits in Persian content. Owner: dadmor.",
+            "Report. Input: what went out, and your analytics. Output: a monthly report of what was published and what we could measure. Owner: dadmor."
           ]
         }
       ]
@@ -218,15 +218,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Scope and timeline factors"
+          "html": "What changes the month"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "What changes the monthly band: pieces per month, type of piece (video takes the most work), number of channels, number of languages, and the amount of technical SEO work.",
-            "What you supply: access to the product and the people who know it, quick approval of drafts, and analytics access if you have it.",
-            "What delays the work: approvals that arrive late, and the product message changing mid-month."
+            "What sets the monthly band: pieces per month, the kind of piece (video is the heaviest work), channels, languages, and how much technical SEO is needed.",
+            "From you: access to the product and the people who know it, fast approval of drafts, and analytics access if you have it.",
+            "What slows a month down: approvals arriving late, and the product message changing mid-month."
           ]
         }
       ]
@@ -238,18 +238,18 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Effort band"
+          "html": "The monthly band"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "A monthly S, M or L band by pieces, channels and SEO work. We give a fixed monthly price after the scoping conversation, in a written proposal."
+            "A monthly S, M or L band, set by pieces, channels and SEO work. The fixed monthly price comes after the scoping conversation, in a written proposal."
           ]
         },
         {
           "t": "p",
-          "html": "The monthly band is a starting estimate and moves with your real content calendar; the fixed monthly price comes after the scoping conversation, in writing."
+          "html": "The band is a starting estimate, and it moves with your real content calendar. The fixed monthly price is settled after we talk, in writing."
         }
       ]
     },
@@ -260,15 +260,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Limits and risks"
+          "html": "What we won't claim"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "We do not promise Google rankings. We deliver relevant content, correct structure and technical readiness; search results also depend on factors outside our control.",
-            "If you have no analytics, the monthly report can only say what was published, not what effect it had. We recommend privacy-friendly analytics.",
-            "Every piece needs your approval before publishing; we do not publish without it."
+            "We don't promise Google rankings. We deliver content that fits your product, the right structure and technical readiness. Where you land in search also depends on things outside our control.",
+            "No analytics? Then the monthly report can only say what was published, not what it achieved. We recommend privacy-friendly analytics.",
+            "Nothing goes out without your approval. We don't publish first and tell you later."
           ]
         }
       ]
@@ -305,7 +305,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "Half-spaces, digit forms and variant spellings of the same word affect search. We write with consistent spelling, based on the phrase your audience actually searches for."
+                          "html": "Half-spaces, digit forms, and the different spellings of the same word all change what search finds. We write with one consistent spelling, based on the phrase your audience actually types."
                         }
                       ]
                     }
@@ -332,7 +332,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "Every published text is written, or rewritten and checked, by one of us, who takes responsibility for it. We do not produce filler articles. Every published text is written, or rewritten and checked, by dadmor, who takes responsibility for it. AI tools may help drafting; they never publish unchecked. No filler articles."
+                          "html": "Every published text is written, or rewritten and checked, by one of us, and that person answers for it. AI tools can help with a draft. They never publish anything unchecked, and we don't produce filler articles. That is slower than mass production, and it is the only way we work."
                         }
                       ]
                     }
@@ -359,7 +359,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "Stopping terms are in the written proposal. To stop a monthly agreement, 30 days written notice before the end of the month. Full terms are in the written proposal."
+                          "html": "Yes, and the terms are in the written proposal: 30 days written notice before the end of the month. That's the whole mechanism, no surprises buried elsewhere."
                         }
                       ]
                     }
@@ -390,13 +390,13 @@
           "blocks": [
             {
               "t": "cta",
-              "text": "Scope a content and SEO plan",
+              "text": "Scope your content plan",
               "href": "/en/tools/estimator/?service=marketing-content",
               "class": "btn btn-primary"
             },
             {
               "t": "cta",
-              "text": "Contact us for a scoping conversation",
+              "text": "Talk to us about content",
               "href": "/en/contact/",
               "class": "btn btn-ghost"
             }
@@ -415,7 +415,7 @@
         },
         {
           "t": "p",
-          "html": "Copy we write for clients is published under their name, not ours. Samples are shown with the owner's permission in the scoping conversation."
+          "html": "What we write for clients goes out under their name, not ours. Samples are shown, with the owner's permission, when we talk scope."
         }
       ]
     }

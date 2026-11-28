@@ -5,84 +5,84 @@
       "n": 1,
       "q": [
         "آیا نرم افزار، قالب و افزونه ها به روز نگه داشته می شوند؟",
-        "Are software, themes and plugins kept up to date?"
+        "Do you keep your software, themes and plugins up to date?"
       ]
     },
     {
       "n": 2,
       "q": [
         "آیا وقتی کسی از تیم یا همکاری جدا می شود، دسترسی اش قطع می شود؟",
-        "Is access removed when someone leaves the team or a partnership ends?"
+        "When someone leaves your team, or a partnership ends, is their access taken away?"
       ]
     },
     {
       "n": 3,
       "q": [
         "آیا سایت تان HTTPS دارد و گواهی اش معتبر است؟",
-        "Does your site use HTTPS with a valid certificate?"
+        "Does your site run on HTTPS, with a certificate that's still valid?"
       ]
     },
     {
       "n": 4,
       "q": [
         "آیا به طور منظم بک آپ گرفته می شود و بازگرداندن آن آزمایش شده است؟",
-        "Are backups taken regularly, and has restoring one been tested?"
+        "Do you back up regularly, and have you ever tested bringing a backup back?"
       ]
     },
     {
       "n": 5,
       "q": [
         "آیا ورود دو مرحله ای برای حساب های مهم فعال است؟",
-        "Is two-factor sign-in on for important accounts?"
+        "Is two-step sign-in turned on for your important accounts?"
       ]
     },
     {
       "n": 6,
       "q": [
         "آیا برای پنل مدیریت، رمزهای عبور قوی و یکتا استفاده می شود؟ (رمز را ننویسید؛ فقط بله یا نه.)",
-        "Are admin passwords strong and unique? (Do not write the password; just answer.)"
+        "Are your admin passwords strong, and different for each account? (Never type a password here, just answer.)"
       ]
     },
     {
       "n": 7,
       "q": [
         "آیا افزونه یا کد شخص ثالث پیش از نصب بررسی می شود؟",
-        "Are third-party plugins or code checked before they are installed?"
+        "Do you check third-party plugins or code before you install them?"
       ]
     },
     {
       "n": 8,
       "q": [
         "آیا فرم ها فقط داده لازم را می گیرند و پیام های خطا اطلاعات حساس نشان نمی دهند؟",
-        "Do forms collect only the data they need, and do error messages avoid showing sensitive details?"
+        "Do your forms only ask for what they really need, and do your error messages keep private details out?"
       ]
     },
     {
       "n": 9,
       "q": [
         "آیا بک آپ ها و داده حساس جدا از سایت عمومی نگه داشته می شوند؟",
-        "Are backups and sensitive data kept separate from the public site?"
+        "Are backups and private data kept away from the public parts of your site?"
       ]
     },
     {
       "n": 10,
       "q": [
         "آیا لاگ ها و هشدارهای امنیتی بررسی می شوند؟",
-        "Are security logs and alerts reviewed?"
+        "Does anyone actually look at your security logs and alerts?"
       ]
     },
     {
       "n": 11,
       "q": [
         "آیا می دانید اگر نفوذ یا خرابی پیش بیاید، چه کسی چه کاری باید بکند؟",
-        "Do you know who does what if there is a breach or an outage?"
+        "If something got hacked or went down, would everyone know who does what?"
       ]
     },
     {
       "n": 12,
       "q": [
         "آیا تا حالا تست امنیتی دستی انجام شده است؟",
-        "Has a manual security test ever been done?"
+        "Has anyone ever tested your security by hand?"
       ]
     }
   ],
@@ -92,7 +92,7 @@
       "from_q": 1,
       "action": [
         "نرم افزار، قالب و افزونه ها را به روز کنید و یک روز ثابت در ماه برای این کار بگذارید.",
-        "Update software, themes and plugins, and set a fixed day each month for it."
+        "Keep your software, themes and plugins updated, and pick one fixed day each month to do it."
       ]
     },
     {
@@ -100,7 +100,7 @@
       "from_q": 2,
       "action": [
         "فهرست کسانی را که دسترسی دارند ببینید و دسترسی هر کسی را که دیگر با شما کار نمی کند قطع کنید.",
-        "Review who has access, and remove access for anyone who no longer works with you."
+        "Make a list of everyone who has access, and take it away from anyone who no longer works with you."
       ]
     },
     {
@@ -108,7 +108,7 @@
       "from_q": 3,
       "action": [
         "از میزبان سایت بخواهید HTTPS را با گواهی معتبر فعال کند. بیشتر میزبان ها این را رایگان می دهند.",
-        "Ask your host to turn on HTTPS with a valid certificate. Most hosts offer this at no cost."
+        "Ask your host to switch on HTTPS with a valid certificate. Most hosts give you this for free."
       ]
     },
     {
@@ -116,7 +116,7 @@
       "from_q": 4,
       "action": [
         "بک آپ منظم را روشن کنید و یک بار بازگرداندنش را آزمایش کنید.",
-        "Turn on regular backups, and test restoring one once."
+        "Switch on regular backups, and try restoring one, just once, so you know it works."
       ]
     },
     {
@@ -124,7 +124,7 @@
       "from_q": 5,
       "action": [
         "ورود دو مرحله ای را برای ایمیل، هاست، دامنه و پنل مدیریت فعال کنید.",
-        "Turn on two-factor sign-in for email, hosting, domain and the admin panel."
+        "Turn on two-step sign-in for your email, hosting, domain and admin panel."
       ]
     },
     {
@@ -132,7 +132,7 @@
       "from_q": 6,
       "action": [
         "برای هر حساب مدیریت، رمز یکتا و طولانی بگذارید و از یک مدیر رمز عبور استفاده کنید.",
-        "Give every admin account a long, unique password, and use a password manager."
+        "Give each admin account its own long password, and keep them in a password manager."
       ]
     },
     {
@@ -140,7 +140,7 @@
       "from_q": 7,
       "action": [
         "پیش از نصب هر افزونه یا کد، ببینید چه کسی آن را نگه می دارد و آخرین به روزرسانی اش کی بوده است.",
-        "Before installing a plugin or code, check who maintains it and when it was last updated."
+        "Before you install any plugin or code, check who looks after it and when it was last updated."
       ]
     },
     {
@@ -148,7 +148,7 @@
       "from_q": 8,
       "action": [
         "فیلدهای غیرضروری فرم ها را حذف کنید و پیام های خطا را طوری بنویسید که جزئیات فنی نشان ندهند.",
-        "Remove form fields you do not need, and write error messages that do not show technical details."
+        "Take out any form fields you don't need, and write error messages that don't give away technical details."
       ]
     },
     {
@@ -156,7 +156,7 @@
       "from_q": 9,
       "action": [
         "بک آپ ها و داده حساس را از پوشه های عمومی سایت بیرون ببرید.",
-        "Move backups and sensitive data out of the site's public folders."
+        "Move backups and private data out of your site's public folders."
       ]
     },
     {
@@ -164,7 +164,7 @@
       "from_q": 10,
       "action": [
         "یک نفر را مسئول دیدن هشدارهای امنیتی کنید و زمان مشخصی برای آن بگذارید.",
-        "Make one person responsible for security alerts, with a set time to check them."
+        "Put one person in charge of security alerts, with a set time to check them."
       ]
     },
     {
@@ -172,15 +172,15 @@
       "from_q": 11,
       "action": [
         "یک برنامه یک صفحه ای بنویسید: در صورت نفوذ یا خرابی، چه کسی به چه کسی خبر می دهد و اولین قدم چیست.",
-        "Write a one-page plan: if there is a breach or outage, who tells whom, and what the first step is."
+        "Write a one-page plan: if there's a breach or an outage, who tells whom, and what's the very first step?"
       ]
     },
     {
       "priority": 12,
       "from_q": 12,
       "action": [
-        "وقتی کارهای بالا انجام شد، یک تست دستی با اسکوپ مشخص برای مهم ترین بخش ها در نظر بگیرید.",
-        "Once the steps above are done, consider a manual test with a defined scope for the most important parts."
+        "وقتی کارهای بالا انجام شد، یک تست دستی با پیمان مشخص برای مهم ترین بخش ها در نظر بگیرید.",
+        "Once you've done the steps above, think about a manual test, with exactly what's covered agreed in writing, for the parts that matter most."
       ]
     }
   ],
@@ -191,31 +191,31 @@
     "Not sure"
   ],
   "warnings": [
-    "This tool does not test your system, collects and sends no data, and is not a penetration test.",
-    "Do not enter any password, server address, IP or login details anywhere, not here and not in the contact form. This tool never asks for them."
+    "This tool doesn't test your system, it collects and sends nothing, and it isn't a penetration test.",
+    "Never type a password, server address, IP or login details anywhere, not here and not in our contact form. We'll never ask you for them."
   ],
   "strings": {
-    "progress": "{n} of 12 answered",
-    "howScore": "How the score is worked out",
-    "scoreText": "Yes 2 points, Partly 1, No 0, Not sure 0. \"Not sure\" is not a penalty: that question appears in the result with a \"Check this\" label. The maximum is 24.",
-    "needAll": "Answer all twelve questions to see the result. {n} left.",
-    "result": "Your result: {score} of 24",
+    "progress": "{n} of 12 done so far",
+    "howScore": "How we work out your score",
+    "scoreText": "Yes scores 2 points, Partly 1, No 0, Not sure 0. Not sure doesn't count against you, it just flags that question in your result with a \"Worth checking\" label. The most you can score is 24.",
+    "needAll": "Answer all twelve and you'll see your result. {n} to go.",
+    "result": "You scored {score} out of 24",
     "band1": [
-      "Good foundations. Keep the routine going. For critical flows, such as payment or user sign-in, consider a scoped test."
+      "You've got good basics in place, based on what you've told us. Keep the routine up. For the parts that matter most, like payments or sign-in, a proper test with an agreed list of what's covered is worth thinking about."
     ],
     "band2": [
-      "There are gaps you can close in order. The list below starts with the simplest, lowest-cost step."
+      "There are some gaps, and you can close them one by one. The list below starts with the easiest, cheapest step."
     ],
     "band3": [
-      "Start with the first three actions below, in this order. Each one you finish makes things better."
+      "Start with the first three below, in that order. Every one you finish genuinely helps."
     ],
-    "after3": "After these three",
-    "checkThis": "Check this",
-    "checkText": "You did not have a clear answer for these. Finding out is the first step:",
-    "finishPrefix": "Finish this: ",
-    "allYes": "No urgent action is left for any question. Keep your current routine.",
-    "footer": "If you want, see manual penetration testing with a signed scope on the Penetration testing page.",
+    "after3": "Once those three are done",
+    "checkThis": "Worth checking",
+    "checkText": "You weren't sure about these. Finding out is the first step:",
+    "finishPrefix": "Still to finish: ",
+    "allYes": "Based on your answers, nothing here looks urgent. Keep doing what you're doing, and check again now and then.",
+    "footer": "Want a person to test it properly? See manual penetration testing, with what's covered agreed in writing first, on our Penetration testing page.",
     "serviceUrl": "/en/services/penetration-testing/",
-    "actions": "Next actions, in order"
+    "actions": "What to do next, in order"
   }
 }

@@ -1,8 +1,8 @@
 {
   "path": "en/services/website-building/index.html",
   "lang": "en",
-  "title": "Website building with a written scope and handover | dadmor",
-  "description": "A website that is modeled, built and handed over with documentation. Deliverables, scope factors, effort band and limits are clear before work starts.",
+  "title": "Website building, scoped in writing before we start | dadmor",
+  "description": "An order lands in your DMs at midnight and it's buried by morning. A website takes the order properly. We scope it in writing first, build it, and hand it over with documentation.",
   "canonical": "https://dadmor.netlify.app/en/services/website-building/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/services/website-building/",
@@ -12,8 +12,8 @@
   "og": {
     "site_name": "dadmor",
     "type": "website",
-    "title": "Website building with a written scope and handover | dadmor",
-    "description": "A website that is modeled, built and handed over with documentation. Deliverables, scope factors, effort band and limits are clear before work starts.",
+    "title": "Website building, scoped in writing before we start | dadmor",
+    "description": "An order lands in your DMs at midnight and it's buried by morning. A website takes the order properly. We scope it in writing first, build it, and hand it over with documentation.",
     "url": "https://dadmor.netlify.app/en/services/website-building/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -27,7 +27,7 @@
         "@context": "https://schema.org",
         "@type": "Service",
         "name": "Website building",
-        "description": "A website that is modeled, built and handed over with documentation. Deliverables, scope factors, effort band and limits are clear before work starts.",
+        "description": "An order lands in your DMs at midnight and it's buried by morning. A website takes the order properly. We scope it in writing first, build it, and hand it over with documentation.",
         "provider": {
           "@type": "Organization",
           "name": "dadmor",
@@ -44,7 +44,7 @@
             "name": "Can I change the content myself after handover?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. That is what the content model and handover document are for: every section you are expected to update is listed with exactly where to change it."
+              "text": "Yes, that's the point. The content model and handover document list every section you're meant to update, and exactly where you change it."
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Who owns the code and domain?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You do. The source code, domain and hosting account are handed over in your name."
+              "text": "You do. Source code, domain and hosting account, all handed over in your name."
             }
           },
           {
@@ -60,7 +60,7 @@
             "name": "Do you redesign our current site or start from scratch?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Either. In Discover we check which parts of the current site are worth keeping and write the result into the scope."
+              "text": "Either works. During Discover we look at what's worth keeping from the current site, and the scope says what we decided."
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "Which content management system do you use?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "It depends on who changes content and how often. The choice and the reason go into the scope."
+              "text": "It depends on who'll be changing content, and how often. Whatever we pick, the choice and the reason go into the scope."
             }
           }
         ]
@@ -119,7 +119,7 @@
         },
         {
           "t": "p",
-          "html": "A website whose price and deliverables are settled on paper before work starts, and that stays in your hands after handover, not the builder's: you update the content yourself and never wait on anyone for a small change."
+          "html": "Someone messages your shop at midnight, ready to buy. By morning that message sits under fifty newer ones, and the sale's gone. A website doesn't bury orders and doesn't need you online. We build you one, with price and deliverables settled on paper before work starts."
         }
       ]
     },
@@ -130,19 +130,19 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Problem"
+          "html": "Why orders get lost"
         },
         {
           "t": "p",
-          "html": "Most people who come to us are in one of two situations: either they have a site that only its builder can touch, where every small change means waiting and paying again, or they want a site built and hear a different price from every direction, with no clear picture of what they will actually get."
+          "html": "Most people who come to us are stuck in one of two spots. Either their site can only be touched by whoever built it, so a one-line change means waiting, and paying again. Or they're getting a different price from everyone they ask, with no clear picture of what they'd actually receive."
         },
         {
           "t": "p",
-          "html": "The outcome is usually the same: a project meant to take a month takes three, a new \"just add this one thing\" arrives every week, and at the end neither the price nor the person responsible is clear."
+          "html": "It plays out the same way. A month becomes three. Every week brings one more \"just add this.\" At the end, nobody can say what the final price is, or who's responsible for what."
         },
         {
           "t": "p",
-          "html": "We have seen this scene up close, which is why we never start a site without a written scope: what will be built, at what price, and on what timeline, all on paper before work begins. You know the fixed price before we start, the code and the domain are yours, and handover documentation comes with it, so the site stays in your hands after launch. We have also opened up <a href=\"/en/articles/website-cost/\">what a website price is actually made of</a>, and if you sell on Instagram, <a href=\"/en/articles/instagram-vs-website/\">why an Instagram shop needs a website of its own</a>."
+          "html": "We're Roxana Negaresh and Arshia Amani, and we've watched that film too many times. So we don't start without a written scope: what's being built, what it costs, when it lands, all on paper first. The code and domain are yours, the handover document comes with the site, and after launch you change content yourself. We've also written up <a href=\"/en/articles/website-cost/\">what a website price is actually made of</a>, and if you sell on Instagram, <a href=\"/en/articles/instagram-vs-website/\">why an Instagram shop needs a website of its own</a>."
         }
       ]
     },
@@ -153,15 +153,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Who it is for"
+          "html": "This is for you if"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "Founders building their first serious site who want to update content themselves later.",
-            "Teams whose current site is slow, or that nobody but the previous builder can change.",
-            "Businesses that need a bilingual Persian and English site where both versions actually work."
+            "You're building your first serious site and want to update it yourself afterwards, without calling anyone.",
+            "Your current site is slow, or only its previous builder dares touch it.",
+            "You need Persian and English versions that both work properly, not one good one and one afterthought."
           ]
         }
       ]
@@ -173,15 +173,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Who it is not for"
+          "html": "Honestly, skip us if"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "If a ready-made template in your colours is enough; a site builder does that for less.",
-            "If you need to be online within days and there is no time to define a scope.",
-            "If you want building to start before any content exists, with content arriving \"later\", without accepting that risk in the scope."
+            "A ready-made template in your colours would do the job. A site builder does that for less money.",
+            "You need to be online within days. There isn't time to scope it properly, and we won't skip that step.",
+            "You want building to start before any content exists, with the words arriving \"later\", and you don't want that risk written into the scope."
           ]
         }
       ]
@@ -193,17 +193,17 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Approach"
+          "html": "How a build runs"
         },
         {
           "t": "list",
           "ordered": true,
           "items": [
-            "Discover. Input: a conversation with you and any existing content. Output: brief and draft scope. Owner: dadmor, with your answers.",
-            "Model. Input: the brief. Output: site map and content model (which sections each page has, and who updates them). Owner: dadmor; approval: you.",
-            "Design. Input: approved site map. Output: design system and key pages. Owner: dadmor; feedback: you.",
-            "Build. Input: approved design and final content. Output: a working site on a staging environment and a draft handover document. Owner: dadmor.",
-            "Launch and handover. Input: approved site. Output: live site, handover walkthrough, final handover document. Owner: dadmor; domain and hosting access: you."
+            "Discover. Input: talking with you, plus any content that already exists. Output: a brief and a draft scope. Owner: dadmor, with your answers.",
+            "Model. Input: the brief. Output: the site map and a content model, meaning which sections each page has and who updates them. Owner: dadmor; approval: you.",
+            "Design. Input: the site map you approved. Output: a design system and the key pages. Owner: dadmor; feedback: you.",
+            "Build. Input: the approved design and your final content. Output: a working site on staging, and a draft handover document. Owner: dadmor.",
+            "Launch and handover. Input: the site you approved. Output: the live site, a walkthrough, and the final handover document. Owner: dadmor; domain and hosting access: you."
           ]
         }
       ]
@@ -226,16 +226,16 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Scope and timeline factors"
+          "html": "What makes it bigger or smaller"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "What moves the work from S to M to L: number of pages, features (forms, search, multiple languages), integrations (payment, booking, a content management system), and content readiness.",
-            "Bilingual means two sets of content and an RTL and LTR check on every page; we scope it separately.",
-            "What you supply: text and image content, logo and brand identity, domain and hosting access, and one named decision-maker for approvals.",
-            "What usually delays projects: content that is not ready (first), feedback that arrives late, and access that cannot be found on launch day."
+            "What pushes the work from S to M to L: how many pages, which features (forms, search, more than one language), which integrations (payment, booking, a content management system), and whether your content is ready.",
+            "Bilingual isn't just translation. It's two sets of content and an RTL and LTR check on every page, so we scope it separately.",
+            "From you we need: text and images, logo and brand identity, domain and hosting access, and one named person who can approve things.",
+            "What usually slows a build down: content that isn't ready (the classic), feedback that arrives late, and access nobody can find on launch day."
           ]
         }
       ]
@@ -247,18 +247,18 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Effort band"
+          "html": "Rough size, honestly"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "Band S, M or L, using the estimator's rule table. We give a fixed price after the scoping conversation, in a written proposal."
+            "Band S, M or L, worked out with the estimator's rule table. The fixed price comes after we talk, in a written proposal."
           ]
         },
         {
           "t": "p",
-          "html": "Content readiness and a clear page list move this band more than anything else. A band is not a price or a duration; both come after the scoping conversation, in the written proposal."
+          "html": "Honestly, content readiness and a clear page list move this band more than anything technical. And a band isn't a price or a deadline. Both of those come after the scoping conversation, in writing."
         }
       ]
     },
@@ -269,17 +269,17 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Limits and risks"
+          "html": "The fine print"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "We do not promise a specific Google ranking. We deliver structure, speed and technical readiness for search.",
-            "Writing the content is not part of this service unless it is in the scope; see Marketing and content for that.",
-            "Domain, hosting and third-party service costs are yours, and the accounts stay in your name.",
-            "Third-party services (payment gateways, booking) can change after launch; support after the handover period is by written agreement only.",
-            "We work as one studio and take a limited number of projects at once; the start date depends on capacity at that time."
+            "We don't promise a particular Google ranking. What we hand over is structure, speed and a site technically ready for search.",
+            "Writing your content isn't part of this service unless the scope says so. For that, look at Marketing and content.",
+            "Domain, hosting and third-party costs are yours, and every account stays in your name.",
+            "Third-party services, payment gateways and booking tools, can change after launch. Support beyond the handover period needs its own written agreement.",
+            "We're one small studio and we take on a limited number of projects at a time, so your start date depends on the room we have when you come to us."
           ]
         }
       ]
@@ -316,7 +316,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "Yes. That is what the content model and handover document are for: every section you are expected to update is listed with exactly where to change it."
+                          "html": "Yes, that's the point. The content model and handover document list every section you're meant to update, and exactly where you change it."
                         }
                       ]
                     }
@@ -343,7 +343,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "You do. The source code, domain and hosting account are handed over in your name."
+                          "html": "You do. Source code, domain and hosting account, all handed over in your name."
                         }
                       ]
                     }
@@ -370,7 +370,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "Either. In Discover we check which parts of the current site are worth keeping and write the result into the scope."
+                          "html": "Either works. During Discover we look at what's worth keeping from the current site, and the scope says what we decided."
                         }
                       ]
                     }
@@ -397,7 +397,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "It depends on who changes content and how often. The choice and the reason go into the scope."
+                          "html": "It depends on who'll be changing content, and how often. Whatever we pick, the choice and the reason go into the scope."
                         }
                       ]
                     }
@@ -416,11 +416,11 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Size your site's scope"
+          "html": "Find out what yours would take"
         },
         {
           "t": "p",
-          "html": "The estimator opens with this service selected and gives you a printable brief."
+          "html": "The estimator starts with this service already selected and gives you a brief you can print."
         },
         {
           "t": "group",
@@ -428,13 +428,13 @@
           "blocks": [
             {
               "t": "cta",
-              "text": "Scope a website project",
+              "text": "Start scoping your site",
               "href": "/en/tools/estimator/?service=website-building",
               "class": "btn btn-primary"
             },
             {
               "t": "cta",
-              "text": "Contact us for a scoping conversation",
+              "text": "Talk to us about the scope",
               "href": "/en/contact/",
               "class": "btn btn-ghost"
             }
@@ -453,7 +453,7 @@
         },
         {
           "t": "raw",
-          "html": "<article class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>Verified and handed over</span> <p><a href=\"https://ghazalalidoost.art\" rel=\"noopener\">ghazalalidoost.art</a> · Client work · Design and build</p> </article>",
+          "html": "<article class=\"work-item\"><span class=\"dot-tag\"><span class=\"dot-ring dot-d3\" aria-hidden=\"true\"></span>Built, checked and handed over</span> <p><a href=\"https://ghazalalidoost.art\" rel=\"noopener\">ghazalalidoost.art</a> · Client work · Design and build</p> </article>",
           "class": "work-item",
           "tag": "article"
         }

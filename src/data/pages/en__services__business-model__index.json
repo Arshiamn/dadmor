@@ -1,8 +1,8 @@
 {
   "path": "en/services/business-model/index.html",
   "lang": "en",
-  "title": "Business model design you can test | dadmor",
-  "description": "Three phases, Diagnosis, Redesign and Validation, each with a named output: assumptions, revenue logic and kill/continue criteria. Not a forecast.",
+  "title": "Business model design you can actually test | dadmor",
+  "description": "Busy all month, nothing left at the end of it. Diagnosis, Redesign, Validation: assumptions, revenue logic and kill/continue criteria, each with a named output. Not a forecast.",
   "canonical": "https://dadmor.netlify.app/en/services/business-model/",
   "hreflang": {
     "fa": "https://dadmor.netlify.app/services/business-model/",
@@ -12,8 +12,8 @@
   "og": {
     "site_name": "dadmor",
     "type": "website",
-    "title": "Business model design you can test | dadmor",
-    "description": "Three phases, Diagnosis, Redesign and Validation, each with a named output: assumptions, revenue logic and kill/continue criteria. Not a forecast.",
+    "title": "Business model design you can actually test | dadmor",
+    "description": "Busy all month, nothing left at the end of it. Diagnosis, Redesign, Validation: assumptions, revenue logic and kill/continue criteria, each with a named output. Not a forecast.",
     "url": "https://dadmor.netlify.app/en/services/business-model/",
     "image": "https://dadmor.netlify.app/og.png",
     "image:width": "1200",
@@ -27,7 +27,7 @@
         "@context": "https://schema.org",
         "@type": "Service",
         "name": "Business model design",
-        "description": "Three phases, Diagnosis, Redesign and Validation, each with a named output: assumptions, revenue logic and kill/continue criteria. Not a forecast.",
+        "description": "Busy all month, nothing left at the end of it. Diagnosis, Redesign, Validation: assumptions, revenue logic and kill/continue criteria, each with a named output. Not a forecast.",
         "provider": {
           "@type": "Organization",
           "name": "dadmor",
@@ -44,15 +44,15 @@
             "name": "Is this the Business Model Canvas?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We can use the canvas to present it, but the main output is the assumption map and the kill/continue criteria, because a canvas alone does not tell you what to test."
+              "text": "We can lay it out on the canvas if that's useful, but the real output is the assumption map and the kill/continue criteria. A canvas on its own doesn't tell you what to test first."
             }
           },
           {
             "@type": "Question",
-            "name": "We have little data; is it still possible?",
+            "name": "We barely have any data. Can this still work?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Missing data is a finding in itself: assumptions without data go to the top of the risk map and are tested first."
+              "text": "Yes. Missing data is itself a finding: the assumptions with nothing behind them go to the top of the risk map and get tested first."
             }
           },
           {
@@ -60,7 +60,7 @@
             "name": "Can we show the output to investors?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, it is yours. Just do not present it as a forecast; the assumptions are written next to the numbers."
+              "text": "Yes, it's yours to show. Just don't present it as a forecast. The assumptions sit right next to the numbers, deliberately."
             }
           }
         ]
@@ -111,7 +111,7 @@
         },
         {
           "t": "p",
-          "html": "Before you spend on building the product, find out which assumptions your revenue model stands on, and which one, if wrong, brings the whole thing down."
+          "html": "Busy all month, nothing left at the end of it. Before you build anything, find out which assumptions your revenue stands on, and which one, if wrong, brings the whole thing down."
         }
       ]
     },
@@ -122,19 +122,19 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Problem"
+          "html": "Busy is not the same as earning"
         },
         {
           "t": "p",
-          "html": "Most founders who come to us start by talking about the website and the product, but after a few questions it becomes clear that it is not yet settled exactly what will be sold, to whom, and at what price."
+          "html": "Founders usually open with the website, or the product. A few questions in, the real gap shows: it isn't settled yet what's being sold, to whom, or at what price."
         },
         {
           "t": "p",
-          "html": "A model without those answers can look convincing on slides, yet in practice nobody knows which assumption, if wrong, collapses the whole model. And because the assumptions are written down nowhere, they are never tested either, and decisions get made by feel."
+          "html": "A model can look great on slides while nobody knows which wrong assumption would sink it. And because those assumptions live nowhere on paper, nobody tests them either. Decisions run on feel."
         },
         {
           "t": "p",
-          "html": "We start by mapping the assumptions and ranking them by risk, then redesign the model around its revenue logic and design tests for the riskiest assumptions, with continue-or-stop criteria written before the test runs. The numbers are calculations, not prophecies: every number is tied to a written assumption. That writing-it-down-first habit is what a scope is on a website project, and we have published our real template: <a href=\"/en/articles/project-scope/\">what is a project scope?</a>"
+          "html": "We're Roxana Negaresh and Arshia Amani. We start by writing the assumptions down and ranking them by how much damage each does if it's wrong. Then we rebuild the model around how the money actually flows, and design small tests for the riskiest ones, with continue-or-stop criteria fixed before a test starts. The numbers are calculations, not prophecies: every one sits next to the assumption behind it. It's the same habit as a written scope on a website project, and our real template is public: <a href=\"/en/articles/project-scope/\">what is a project scope?</a>"
         }
       ]
     },
@@ -145,15 +145,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Who it is for"
+          "html": "Who this helps"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "Founders who want to know, before building, which assumptions their revenue model stands on.",
-            "Businesses with revenue that do not know which part makes money and which does not.",
-            "Teams considering a big change (new pricing, a new market) who want to test it small first."
+            "You want to know, before building, exactly which assumptions your revenue is standing on.",
+            "Money comes in, but you can't say which part of the business earns it and which part eats it.",
+            "You're weighing a big change, new pricing, a new market, and you'd rather test it small first."
           ]
         }
       ]
@@ -165,15 +165,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Who it is not for"
+          "html": "Not what this is"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "If you want a pitch deck to raise money. This service's output can feed a pitch deck, but it is not one.",
-            "If you want a financial forecast presented as a prediction. We build the calculation from your inputs and written assumptions, not a number that promises the future.",
-            "If you need investment, legal or tax advice. This service is none of those."
+            "You want a pitch deck to raise money. What we make can feed one, but it isn't one, and we won't pretend otherwise.",
+            "You want a forecast dressed up as a prediction. We build the calculation from your inputs and written assumptions, not a number that promises the future.",
+            "You need investment, legal or tax advice. This is none of those, honestly."
           ]
         }
       ]
@@ -185,15 +185,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Approach"
+          "html": "Three phases, in order"
         },
         {
           "t": "list",
           "ordered": true,
           "items": [
-            "Diagnosis. Input: conversations with the founders and any sales and cost data you have. Output: an assumption map ranked by risk (which assumption does most damage if wrong). Owner: dadmor with you.",
-            "Redesign. Input: the approved assumption map. Output: a redesigned model with revenue logic and a spreadsheet where every number links to a written assumption. Owner: dadmor; approval: you.",
-            "Validation. Input: the redesigned model. Output: a test plan for the three riskiest assumptions, with kill/continue criteria written before each test, and a results log. Running the tests: you; design and analysis: dadmor."
+            "Diagnosis. Input: conversations with the founders and whatever sales and cost data exists. Output: an assumption map ranked by risk, meaning which assumption hurts most if it's wrong. Owner: dadmor with you.",
+            "Redesign. Input: the assumption map you approved. Output: the model rebuilt around its revenue logic, in a spreadsheet where every number links back to a written assumption. Owner: dadmor; approval: you.",
+            "Validation. Input: the redesigned model. Output: tests for the three riskiest assumptions, kill/continue criteria written before each one runs, and a log of results. Running the tests: you; designing and reading them: dadmor."
           ]
         }
       ]
@@ -216,15 +216,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Scope and timeline factors"
+          "html": "What changes the size"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "What changes the size of each phase: number of products or revenue streams, number of markets, and how much real data exists.",
-            "What you supply: access to sales and cost data (whatever exists), founders' time for conversations, and running the tests.",
-            "What delays projects: data that cannot be found, and a test started without criteria written in advance."
+            "What sets the size of each phase: how many products or revenue streams, how many markets, and how much real data there is to work with.",
+            "From you: access to sales and cost data, whatever exists, your time for conversations, and running the tests.",
+            "What holds things up: data nobody can find, and tests launched before the criteria were written down."
           ]
         }
       ]
@@ -236,18 +236,18 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Effort band"
+          "html": "How it's priced"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "A separate fixed proposal for each phase. You can start with Diagnosis only and decide afterwards."
+            "Each phase gets its own fixed proposal. Start with Diagnosis alone if you like, and decide the rest afterwards."
           ]
         },
         {
           "t": "p",
-          "html": "The band is a starting estimate, not a price. Each phase gets its own fixed price after the scoping conversation, in a written proposal."
+          "html": "The band is only a starting estimate, not a price. Each phase is priced on its own after the scoping conversation, in a written proposal."
         }
       ]
     },
@@ -258,15 +258,15 @@
         {
           "t": "heading",
           "level": 2,
-          "html": "Limits and risks"
+          "html": "The honest limits"
         },
         {
           "t": "list",
           "ordered": false,
           "items": [
-            "Testing reduces risk but does not guarantee success. The result may say the current model does not work; that is a useful output too.",
-            "Spreadsheet numbers are calculations, not predictions. Each is as reliable as the assumption behind it.",
-            "Running the tests is on you; if they are not run, Validation remains a plan."
+            "Testing shrinks risk. It doesn't guarantee success, and sometimes the honest result is that the current model doesn't work. That's useful too.",
+            "Spreadsheet numbers are calculations, not predictions. Each one is only as solid as the assumption underneath it.",
+            "Running the tests is your job. If they never run, Validation stays a plan on paper."
           ]
         }
       ]
@@ -303,7 +303,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "We can use the canvas to present it, but the main output is the assumption map and the kill/continue criteria, because a canvas alone does not tell you what to test."
+                          "html": "We can lay it out on the canvas if that's useful, but the real output is the assumption map and the kill/continue criteria. A canvas on its own doesn't tell you what to test first."
                         }
                       ]
                     }
@@ -318,7 +318,7 @@
                 {
                   "t": "heading",
                   "level": 3,
-                  "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-2-en\" data-faq-btn=\"None\">We have little data; is it still possible?</button>"
+                  "html": "<button type=\"button\" aria-expanded=\"false\" aria-controls=\"faq-2-en\" data-faq-btn=\"None\">We barely have any data. Can this still work?</button>"
                 },
                 {
                   "t": "group",
@@ -330,7 +330,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "Yes. Missing data is a finding in itself: assumptions without data go to the top of the risk map and are tested first."
+                          "html": "Yes. Missing data is itself a finding: the assumptions with nothing behind them go to the top of the risk map and get tested first."
                         }
                       ]
                     }
@@ -357,7 +357,7 @@
                       "blocks": [
                         {
                           "t": "p",
-                          "html": "Yes, it is yours. Just do not present it as a forecast; the assumptions are written next to the numbers."
+                          "html": "Yes, it's yours to show. Just don't present it as a forecast. The assumptions sit right next to the numbers, deliberately."
                         }
                       ]
                     }
@@ -388,13 +388,13 @@
           "blocks": [
             {
               "t": "cta",
-              "text": "Scope a business model project",
+              "text": "Scope this with us",
               "href": "/en/tools/estimator/?service=business-model",
               "class": "btn btn-primary"
             },
             {
               "t": "cta",
-              "text": "Contact us for a scoping conversation",
+              "text": "Talk to us first",
               "href": "/en/contact/",
               "class": "btn btn-ghost"
             }
@@ -413,7 +413,7 @@
         },
         {
           "t": "p",
-          "html": "A business model is the client's confidential document and is not published. In the scoping conversation you can see the structure of a redacted sample."
+          "html": "A business model is confidential, so we don't publish anyone's. When we talk, you can look at the structure of a redacted sample."
         }
       ]
     }
